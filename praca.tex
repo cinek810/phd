@@ -1,0 +1,119 @@
+\documentclass[pdflatex,11pt]{aghdpl}
+% \documentclass{aghdpl}               % przy kompilacji programem latex
+% \documentclass[pdflatex,en]{aghdpl}  % praca w języku angielskim
+\usepackage[polish]{babel}
+\usepackage[utf8]{inputenc}
+
+% dodatkowe pakiety
+\usepackage{enumerate}
+\usepackage{listings}
+\lstloadlanguages{TeX}
+
+\lstset{
+  literate={ą}{{\k{a}}}1
+           {ć}{{\'c}}1
+           {ę}{{\k{e}}}1
+           {ó}{{\'o}}1
+           {ń}{{\'n}}1
+           {ł}{{\l{}}}1
+           {ś}{{\'s}}1
+           {ź}{{\'z}}1
+           {ż}{{\.z}}1
+           {Ą}{{\k{A}}}1
+           {Ć}{{\'C}}1
+           {Ę}{{\k{E}}}1
+           {Ó}{{\'O}}1
+           {Ń}{{\'N}}1
+           {Ł}{{\L{}}}1
+           {Ś}{{\'S}}1
+           {Ź}{{\'Z}}1
+           {Ż}{{\.Z}}1
+}
+
+%---------------------------------------------------------------------------
+
+\author{Marcin Stolarek}
+\shortauthor{M. Stolarek}
+
+\titlePL{Fotnonika, plazmonika meep}
+\titleEN{Fotonics, plasmonics meep}
+
+\shorttitlePL{Krótko} % skrócona wersja tytułu jeśli jest bardzo długi
+\shorttitleEN{Short}
+
+\thesistypePL{Praca doktorska}
+\thesistypeEN{Phd in phisics}
+
+\supervisorPL{dr hab. Rafał Kotyński}
+\supervisorEN{Rafał Kotyński Ph.D}
+
+\date{2014}
+
+\departmentPL{Zakład Optyki Informacyjnej}
+\departmentEN{Information Optics Department}
+
+\facultyPL{Wydział Fizyki}
+\facultyEN{Faculty of Physics}
+
+\acknowledgements{Serdecznie dziękuję \dots }
+
+
+
+\setlength{\cftsecnumwidth}{10mm}
+
+%---------------------------------------------------------------------------
+
+\begin{document}
+
+\titlepages
+
+\tableofcontents
+\clearpage
+
+\chapter{Wstęp}
+\include{wstep}
+\chapter{Modelowanie własności podfalowych struktur fotonicznych}
+\include{rozdzial1}
+\chapter{Siatki metalowe do kształtowania fali elektromagnetycznej w THz }
+\include{rozdzial2}
+\chapter{PML}
+\include{rozdzial3}
+\chapter{Bezdyfrakcyjna propagacja światła w wielowarstwach metaliczno-dielektrycznych}
+\include{rozdzial4}
+
+
+
+
+
+
+% itd.
+% \appendix
+% \include{dodatekA}
+% \include{dodatekB}
+% itd.
+
+\cite{Lam92}
+
+\bibliographystyle{plain}
+\bibliography{bibliografia}
+%\begin{thebibliography}{1}
+%
+%\bibitem{Dil00}
+%A.~Diller.
+%\newblock {\em LaTeX wiersz po wierszu}.
+%\newblock Wydawnictwo Helion, Gliwice, 2000.
+%
+%\bibitem{Lam92}
+%L.~Lamport.
+%\newblock {\em LaTeX system przygotowywania dokumentów}.
+%\newblock Wydawnictwo Ariel, Krakow, 1992.
+%
+%\bibitem{Alvis2011}
+%M.~Szpyrka.
+%\newblock {\em {On Line Alvis Manual}}.
+%\newblock AGH University of Science and Technology, 2011.cccccc
+%\newblock \\\texttt{http://fm.ia.agh.edu.pl/alvis:manual}.
+%
+%\end{thebibliography}
+
+\end{document}
