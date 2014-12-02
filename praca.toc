@@ -1,26 +1,27 @@
 \select@language {polish}
-\contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{6}
-\contentsline {section}{\numberline {1.1}State of the art}{7}
-\contentsline {section}{\numberline {1.2}Cele i tezy pracy}{7}
-\contentsline {section}{\numberline {1.3}Podzia\IeC {\l } pracy}{7}
-\contentsline {chapter}{\numberline {2}Modelowanie w\IeC {\l }asno\IeC {\'s}ci podfalowych struktur fotonicznych}{8}
-\contentsline {section}{\numberline {2.1}Metody numeryczne}{9}
-\contentsline {subsection}{\numberline {2.1.1}Metody macierzowe}{9}
-\contentsline {subsection}{\numberline {2.1.2}FDTD}{9}
-\contentsline {section}{\numberline {2.2}Modele materia\IeC {\l }owe}{9}
-\contentsline {section}{\numberline {2.3}Model efektywny}{9}
-\contentsline {chapter}{\numberline {3}Siatki metalowe do kszta\IeC {\l }towania fali elektromagnetycznej w THz }{10}
-\contentsline {section}{\numberline {3.1}Wprowadzenie}{11}
-\contentsline {section}{\numberline {3.2}Antena THz - siatka dyfrakcyjna + podk\IeC {\l }ad}{11}
-\contentsline {section}{\numberline {3.3}Transmisja jedno kierunkowa}{13}
-\contentsline {section}{\numberline {3.4}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{13}
-\contentsline {chapter}{\numberline {4}PML}{14}
-\contentsline {section}{\numberline {4.1}Wprowadzenie}{15}
-\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej}{15}
-\contentsline {section}{\numberline {4.3}core shell pml?}{15}
-\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{16}
-\contentsline {section}{\numberline {5.1}W\IeC {\l }asno\IeC {\'s}ci materia\IeC {\l }owe w zakresie widzialnym}{17}
-\contentsline {section}{\numberline {5.2}wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja swiatla}{17}
-\contentsline {section}{\numberline {5.3}nadrozdzielczy pryzmat}{17}
-\contentsline {section}{\numberline {5.4}analiza chropowatosci}{17}
-\contentsline {section}{\numberline {5.5}bardziej zlozone struktury skladane wielowarstw}{17}
+\contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{7}
+\contentsline {section}{\numberline {1.1}State of the art}{8}
+\contentsline {section}{\numberline {1.2}Cele i tezy pracy}{8}
+\contentsline {section}{\numberline {1.3}Podzia\IeC {\l } pracy}{8}
+\contentsline {chapter}{\numberline {2}Modelowanie w\IeC {\l }asno\IeC {\'s}ci podfalowych struktur fotonicznych}{9}
+\contentsline {section}{\numberline {2.1}Metody numeryczne}{10}
+\contentsline {subsection}{\numberline {2.1.1}Metody macierzowe}{10}
+\contentsline {subsection}{\numberline {2.1.2}FDTD}{10}
+\contentsline {section}{\numberline {2.2}Modele materia\IeC {\l }owe}{10}
+\contentsline {section}{\numberline {2.3}Model efektywny}{10}
+\contentsline {chapter}{\numberline {3}Siatki metalowe do kszta\IeC {\l }towania fali elektromagnetycznej w THz }{12}
+\contentsline {section}{\numberline {3.1}Wprowadzenie}{13}
+\contentsline {section}{\numberline {3.2}Antena THz - siatka dyfrakcyjna + podk\IeC {\l }ad}{13}
+\contentsline {section}{\numberline {3.3}Transmisja jedno kierunkowa}{16}
+\contentsline {section}{\numberline {3.4}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{16}
+\contentsline {chapter}{\numberline {4}PML}{18}
+\contentsline {section}{\numberline {4.1}Wprowadzenie}{19}
+\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej}{19}
+\contentsline {section}{\numberline {4.3}core shell pml?}{19}
+\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{21}
+\contentsline {section}{\numberline {5.1}Wlasnosci materialowe w zakresie widzialnym}{23}
+\contentsline {subsection}{\numberline {5.1.1}Model Lorenza}{23}
+\contentsline {section}{\numberline {5.2}wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja swiatla}{23}
+\contentsline {section}{\numberline {5.3}nadrozdzielczy pryzmat}{23}
+\contentsline {section}{\numberline {5.4}analiza chropowatosci}{23}
+\contentsline {section}{\numberline {5.5}bardziej zlozone struktury skladane wielowarstw}{23}

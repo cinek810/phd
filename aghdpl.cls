@@ -15,7 +15,7 @@
 \ProvidesClass{aghdpl} 
 \DeclareOption{pdflatex}{\pdflatextrue}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}} 
-\ProcessOptions\LoadClass[a4paper,oneside]{report} 
+\ProcessOptions\LoadClass[b5paper,oneside]{report} 
 
 \RequirePackage{times}
 \RequirePackage[T1]{fontenc}

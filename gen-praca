@@ -1,0 +1,11 @@
+#!/bin/bash
+
+pdflatex praca.tex
+
+for file in $(ls *aux)
+do
+	bibtex $file
+done
+
+pdflatex praca.tex && pdflatex praca.tex
+

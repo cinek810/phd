@@ -1,48 +1,76 @@
 This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: praca.aux
+A level-1 auxiliary file: wstep.aux
 A level-1 auxiliary file: rozdzial1.aux
+The style file: plainnat.bst
 A level-1 auxiliary file: rozdzial2.aux
-The style file: plain.bst
+Illegal, another \bibstyle command---line 4 of file rozdzial2.aux
+ : \bibstyle
+ :          {plainnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 5 of file rozdzial2.aux
+ : \bibdata
+ :         {bibliografia}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: rozdzial3.aux
+Illegal, another \bibstyle command---line 2 of file rozdzial3.aux
+ : \bibstyle
+ :          {plainnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 3 of file rozdzial3.aux
+ : \bibdata
+ :         {bibliografia}
+I'm skipping whatever remains of this command
+A level-1 auxiliary file: rozdzial4.aux
+Illegal, another \bibstyle command---line 4 of file rozdzial4.aux
+ : \bibstyle
+ :          {plainnat}
+I'm skipping whatever remains of this command
+Illegal, another \bibdata command---line 5 of file rozdzial4.aux
+ : \bibdata
+ :         {bibliografia}
+I'm skipping whatever remains of this command
 Database file #1: bibliografia.bib
-You've used 1 entry,
-            2118 wiz_defined-function locations,
-            506 strings with 4109 characters,
-and the built_in function-call counts, 239 in all, are:
-= -- 20
-> -- 7
-< -- 0
-+ -- 3
-- -- 2
-* -- 11
-:= -- 48
-add.period$ -- 3
-call.type$ -- 1
-change.case$ -- 3
-chr.to.int$ -- 0
-cite$ -- 1
-duplicate$ -- 12
-empty$ -- 23
-format.name$ -- 2
-if$ -- 48
-int.to.chr$ -- 0
+You've used 2 entries,
+            2773 wiz_defined-function locations,
+            616 strings with 5418 characters,
+and the built_in function-call counts, 1073 in all, are:
+= -- 98
+> -- 58
+< -- 1
++ -- 20
+- -- 18
+* -- 96
+:= -- 172
+add.period$ -- 8
+call.type$ -- 2
+change.case$ -- 12
+chr.to.int$ -- 2
+cite$ -- 4
+duplicate$ -- 41
+empty$ -- 83
+format.name$ -- 20
+if$ -- 214
+int.to.chr$ -- 1
 int.to.str$ -- 1
 missing$ -- 2
-newline$ -- 8
-num.names$ -- 2
-pop$ -- 7
+newline$ -- 20
+num.names$ -- 8
+pop$ -- 19
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 10
 quote$ -- 0
-skip$ -- 6
+skip$ -- 30
 stack$ -- 0
-substring$ -- 5
-swap$ -- 1
+substring$ -- 60
+swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 2
+type$ -- 22
 warning$ -- 0
-while$ -- 2
-width$ -- 2
-write$ -- 13
+while$ -- 10
+width$ -- 0
+write$ -- 37
+(There were 6 error messages)
