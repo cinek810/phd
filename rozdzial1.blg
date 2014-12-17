@@ -2,47 +2,49 @@ This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: rozdzial1.aux
 The style file: plainnat.bst
-I found no \citation commands---while reading file rozdzial1.aux
 Database file #1: bibliografia.bib
-You've used 0 entries,
+Warning--empty journal in citeulike:2926459
+Warning--empty year in citeulike:2926459
+Warning--empty year in citeulike:2926459
+You've used 1 entry,
             2773 wiz_defined-function locations,
-            592 strings with 4842 characters,
-and the built_in function-call counts, 33 in all, are:
-= -- 0
-> -- 0
-< -- 0
-+ -- 0
-- -- 0
-* -- 2
-:= -- 10
-add.period$ -- 0
-call.type$ -- 0
-change.case$ -- 0
-chr.to.int$ -- 0
-cite$ -- 0
-duplicate$ -- 0
-empty$ -- 1
-format.name$ -- 0
-if$ -- 1
+            596 strings with 4911 characters,
+and the built_in function-call counts, 329 in all, are:
+= -- 23
+> -- 10
+< -- 1
++ -- 4
+- -- 3
+* -- 21
+:= -- 56
+add.period$ -- 2
+call.type$ -- 1
+change.case$ -- 4
+chr.to.int$ -- 1
+cite$ -- 5
+duplicate$ -- 19
+empty$ -- 31
+format.name$ -- 4
+if$ -- 60
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 0
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 0
+missing$ -- 1
+newline$ -- 12
+num.names$ -- 4
+pop$ -- 15
 preamble$ -- 1
-purify$ -- 0
+purify$ -- 3
 quote$ -- 0
-skip$ -- 1
+skip$ -- 11
 stack$ -- 0
-substring$ -- 0
+substring$ -- 2
 swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
-warning$ -- 0
-while$ -- 0
+type$ -- 11
+warning$ -- 3
+while$ -- 3
 width$ -- 0
-write$ -- 7
-(There was 1 error message)
+write$ -- 16
+(There were 3 warnings)

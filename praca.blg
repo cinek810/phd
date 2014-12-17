@@ -23,54 +23,57 @@ Illegal, another \bibdata command---line 3 of file rozdzial3.aux
  :         {bibliografia}
 I'm skipping whatever remains of this command
 A level-1 auxiliary file: rozdzial4.aux
-Illegal, another \bibstyle command---line 6 of file rozdzial4.aux
+Illegal, another \bibstyle command---line 12 of file rozdzial4.aux
  : \bibstyle
  :          {plain}
 I'm skipping whatever remains of this command
-Illegal, another \bibdata command---line 7 of file rozdzial4.aux
+Illegal, another \bibdata command---line 13 of file rozdzial4.aux
  : \bibdata
  :         {bibliografia}
 I'm skipping whatever remains of this command
 Database file #1: bibliografia.bib
-You've used 2 entries,
+Warning--empty journal in citeulike:2926459
+Warning--empty year in citeulike:2926459
+Warning--empty year in citeulike:2926459
+You've used 3 entries,
             2773 wiz_defined-function locations,
-            616 strings with 5418 characters,
-and the built_in function-call counts, 1073 in all, are:
-= -- 98
-> -- 58
-< -- 1
-+ -- 20
-- -- 18
-* -- 96
-:= -- 172
-add.period$ -- 8
-call.type$ -- 2
-change.case$ -- 12
-chr.to.int$ -- 2
-cite$ -- 4
-duplicate$ -- 41
-empty$ -- 83
-format.name$ -- 20
-if$ -- 214
+            620 strings with 5487 characters,
+and the built_in function-call counts, 1369 in all, are:
+= -- 121
+> -- 68
+< -- 2
++ -- 24
+- -- 21
+* -- 115
+:= -- 218
+add.period$ -- 10
+call.type$ -- 3
+change.case$ -- 16
+chr.to.int$ -- 3
+cite$ -- 9
+duplicate$ -- 60
+empty$ -- 113
+format.name$ -- 24
+if$ -- 273
 int.to.chr$ -- 1
 int.to.str$ -- 1
-missing$ -- 2
-newline$ -- 20
-num.names$ -- 8
-pop$ -- 19
+missing$ -- 3
+newline$ -- 24
+num.names$ -- 12
+pop$ -- 34
 preamble$ -- 1
-purify$ -- 10
+purify$ -- 13
 quote$ -- 0
-skip$ -- 30
+skip$ -- 40
 stack$ -- 0
-substring$ -- 60
+substring$ -- 62
 swap$ -- 3
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 22
-warning$ -- 0
-while$ -- 10
+type$ -- 33
+warning$ -- 3
+while$ -- 13
 width$ -- 0
-write$ -- 37
+write$ -- 46
 (There were 6 error messages)
