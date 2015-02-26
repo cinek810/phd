@@ -1,23 +1,23 @@
 Celem obecnego podrozdziału jest zdefiniowanie pojęcia systemów liniowych, które w niniejszej pracy znajduje zastosowanie w analizie zjawisk obrazowania. W ogólności przez systemem rozumiemy odpowiedniość pomiędzy zestawem funkcji wejściowych, a zestawem funkcji wyjściowych. W przypadku sieci elektrycznych funkcjami wejściowymi jak i wyjściowymi mogą być zależności napięcia i natężenia prądu elektrycznego od czasu. Jeżeli ograniczymy opis do systemów deterministycznych, określonemu zestawowi funkcji wejściowych musi odpowiadać dokładnie jeden układ funkcji wyjściowych. Wyjście układu nie musi jednak pozwalać na jednznaczną identyfikację wejścia, w szczególności dla wielu stanów wejścia system może nie odpowiadać żadnym wyjściem.
 
-Matematyczną reprezentacją opisanego systemu, jest operator $S{}$, który działając na zestaw fukncji wejściowych $g_i$ tworzy fukncje wyjściowe $f_i$:
+Matematyczną reprezentacją opisanego systemu, jest operator $S\{\}$, który działając na zestaw fukncji wejściowych $g_i$ tworzy fukncje wyjściowe $f_i$:
 \begin{equation}
 f_i(\vec{x})=S\{g_i(\vec{x})\}.
 \label{eq:system}
 \end{equation} 
-Nie wprowadzając dodatkowych założeń dotyczących operatora $S{}$, nie można podać innych matematycznych własności systemu, niż definicja wyrażona równaniem \ref{eq:system}. Szczególne znaczenie nie tylko dla niniejszej pracy, ale również wielu zastosowań inżynierskich mają tzw. systemy liniowe. Warunkiem liniowości systemu jest spełnianie zasady superpozycji, którą wyraża poniższe równanie:
+Nie wprowadzając dodatkowych założeń dotyczących operatora $S\{\}$, nie można podać innych matematycznych własności systemu, niż definicja wyrażona równaniem \ref{eq:system}. Szczególne znaczenie nie tylko dla niniejszej pracy, ale również wielu zastosowań inżynierskich mają tzw. systemy liniowe. Warunkiem liniowości systemu jest spełnianie zasady superpozycji, którą wyraża poniższe równanie:
 \begin{equation}
 S\{\alpha p(\vec{x}) + \beta q(\vec{x})\} = \alpha S\{p(\vec{x})\} + \beta S\{q(\vec{x})\}
 \label{eq:lin-system}
 \end{equation}
-Zgodnie z powyższym równaniem, odpowiedź systemu możemy przedstawić jako sumę odpowiedzi na fukncje składowe na które rozłożyliśmy wejście układu. W przypadku zjawisk elektromagnetycznych zasada superpozycji spełniona jest dla amplitud pól elektromagnetycznych \footnote{Mozna tak? teoria skalarna...?} - w przypadku promieniowania koherentnego lub dla natężeń tych pół w przypadku światła całkowicie niespójnego.  Do rozkładu funkcji wejściowej na elementarne składowe posłużymy się własnością filtracji delty Diraca:
+Zgodnie z powyższym równaniem, odpowiedź systemu możemy przedstawić jako sumę odpowiedzi na fukncje składowe na które rozłożyliśmy wejście układu. W przypadku zjawisk elektromagnetycznych zasada superpozycji spełniona jest dla amplitud pól elektromagnetycznych \footnote{Mozna tak? teoria skalarna...?} - w przypadku promieniowania koherentnego lub dla natężeń tych pół w przypadku światła całkowicie niespójnego.  Do rozkładu funkcji wejściowej na elementarne składowe posłużymy się własnością filtracji delty Diraca
 \begin{equation}
-g(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta}) \delta(x-\eta) d \vec{\eta}
+g(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta}) \delta(x-\eta) d \vec{\eta}.
 \label{eq:dirac-shifting}
 \end{equation}
-Poszukując funkcji wyjściowej dla układu $S{}$ odpowiadającej funkcji wejściowej $g(x)$, wykonujemy podstawienie równania \ref{eq:dirac-shifting} do równania \ref{eq:system}:
+Poszukując funkcji wyjściowej dla układu $S\{\}$ odpowiadającej funkcji wejściowej $g(x)$, wykonujemy podstawienie równania \ref{eq:dirac-shifting} do równania \ref{eq:system} 
 \begin{equation}
-f(\vec{x})=S\ {\int_{-\infty}^{+\infty} g(\vec{\eta}) \delta(\vec{x}-\vec{\eta}) d \vec{\eta} \}.
+f(\vec{x})=S \{\int_{-\infty}^{+\infty} g(\vec{\eta}) \delta(\vec{x}-\vec{\eta}) d \vec{\eta} \}.
 \label{eq:dirac-shift2}
 \end{equation}
 Ponieważ funkcja $g(\vec{\eta})$ nie zależy od zmiennych $\vec{x}$, możemy traktować ją jako wagę i korzystając z własności superpozycji \ref{eq:lin-system} włączyć operator $S{}$ pod znak całki
@@ -53,11 +53,11 @@ f(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta})  h(\vec{x}-\vec{\eta}) d \vec{
 \end{equation}
 w powyższym równaniu $\ast$ oznacza operację splotu. Ze względu na to znaczące uproszczenie całki superpozycji dla układów liniowych niezmienniczych ze względu na przesunięcia (ang. LSI - linear shift-invariant) matematyczny opis tej klasy systemów posiada znacznie bardziej rozbudowaną strukturę matematyczną. Prostota systemów LSI, będąca źródłem rozbudowanej teorii związanej z ich analizą przejawia się gdy z twierdzenia o splocie, będącego jedną z podstawowych własności transformaty Fouriera zapiszemy powyższe równanie jako
 \begin{equation}
-F{f}(\vec{\f}) = F{g}(\vec{f}) \cdot F{h}(\vec{f}),
+F{f}(\vec{f}) = F{g}(\vec{f}) \cdot F{h}(\vec{f}),
 \label{eq:transfer-mult}
 \end{equation}
 gdzie przez $F$ oznaczona została transformata Fouriera, a $\cdot$ oznacza zwykłe mnożenie. W ten sposób znalezienie funkcji wyjściowych układu typu LSI z obliczania splotu\footnote{Będącego zazwyczaj skomplikowaną operacją analityczną lub wysokiej złożoności operacją numeryczną.} zastąpiliśmy obliczaniem transformaty Fouriera, mnożeniem i obliczeniem odwrotnej transformaty Fouriera. Transformata Fouriera funkcji odpowiedzi impulsowej ze względu na swoje szczególne znaczenie nazywana jest funkcją przenoszenia $H=F{h}$.
 
-W równaniu \ref{eq:transfer-mult} można zauważyć formę zagadnienia własnego opisującego układ typu LSI, w którym wartości funkcji $H$ dla różnych częstości przestrzennych $f$ można interpretować jako wartości własne układu. Funkcjami własnymi są natomiast fale płaskie, ponieważ przeprowadzenie matematycznej operacji transformacji Fouriera jest w przypadku analizy zjawisk falowych równoważne rozłożeniu funkcji w bazie fal płaskich.  Kolejnymi wnioskami jakie możemy uzyskać wprost z wzoru \ref{transfer-mult} jest sposób w jaki układy LSI modyfikują funkcje wejściowe w postaci fal płaskich. W takim przypadku $G=|A|e^{\Phi}$ jest po prostu liczbą zespoloną, a układ wprowadza jedynie tłumienie $|A|$ i stałą modyfikację fazy $\Phi$ padającej nań fali płaskiej.\cite{citeulike:2926459}
+W równaniu \ref{eq:transfer-mult} można zauważyć formę zagadnienia własnego opisującego układ typu LSI, w którym wartości funkcji $H$ dla różnych częstości przestrzennych $f$ można interpretować jako wartości własne układu. Funkcjami własnymi są natomiast fale płaskie, ponieważ przeprowadzenie matematycznej operacji transformacji Fouriera jest w przypadku analizy zjawisk falowych równoważne rozłożeniu funkcji w bazie fal płaskich.  Kolejnymi wnioskami jakie możemy uzyskać wprost z wzoru \ref{transfer-mult} jest sposób w jaki układy LSI modyfikują funkcje wejściowe w postaci fal płaskich. W takim przypadku $G=|A|e^{\Phi}$ jest po prostu liczbą zespoloną, a układ wprowadza jedynie tłumienie $|A|$ i stałą modyfikację fazy $\Phi$ padającej nań fali płaskiej\cite{citeulike:2926459}.
 
 W całej pracy posługując się terminem częstości przestrzennych odnosimy się do podanej powyżej formuły w której transformacja Fouriera została zastosowana w stosunku do funkcji położenia, dlatego ze szczególną uwagę należy odróżniać częstości przestrzenne (rozkład w bazie fal płaskich), od częstotliwości odpowiadającej rozkładowi promieniowania w bazie fal monochromatycznych.
