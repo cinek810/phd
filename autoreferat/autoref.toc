@@ -1,0 +1,6 @@
+\beamer@endinputifotherversion {3.24pt}
+\beamer@sectionintoc {1}{Wielowarstwy metaliczno-dielektryczne}{3}{0}{1}
+\beamer@subsectionintoc {1}{1}{Pryzmat do obrazowania podfalowego}{3}{0}{1}
+\beamer@subsectionintoc {1}{2}{Projektownie uk\IeC {\l }ad\IeC {\'o}w przez ray tracing}{5}{0}{1}
+\beamer@sectionintoc {2}{Podw\IeC {\'o}jne metalowe siatki dyfrakcyjne}{7}{0}{2}
+\beamer@sectionintoc {3}{Realizacja PML przy pomocy wielowarstw}{7}{0}{3}
