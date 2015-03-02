@@ -2,5 +2,8 @@
 \beamer@sectionintoc {1}{Wielowarstwy metaliczno-dielektryczne}{3}{0}{1}
 \beamer@subsectionintoc {1}{1}{Pryzmat do obrazowania podfalowego}{3}{0}{1}
 \beamer@subsectionintoc {1}{2}{Projektownie uk\IeC {\l }ad\IeC {\'o}w przez ray tracing}{5}{0}{1}
-\beamer@sectionintoc {2}{Podw\IeC {\'o}jne metalowe siatki dyfrakcyjne}{7}{0}{2}
-\beamer@sectionintoc {3}{Realizacja PML przy pomocy wielowarstw}{7}{0}{3}
+\beamer@subsectionintoc {1}{3}{Wp\IeC {\l }yw g\IeC {\l }adko\IeC {\'s}ci warstw}{7}{0}{1}
+\beamer@sectionintoc {2}{Siatki metalowe do kszta\IeC {\l }towania fali w THz}{7}{0}{2}
+\beamer@subsectionintoc {2}{1}{Antena dla detektora THz}{7}{0}{2}
+\beamer@subsectionintoc {2}{2}{Podw\IeC {\'o}jne metalowe siatki dyfrakcyjne}{8}{0}{2}
+\beamer@sectionintoc {3}{Realizacja PML przy pomocy wielowarstw}{13}{0}{3}

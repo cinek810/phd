@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.28)  28 FEB 2015 13:11
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.28)  2 MAR 2015 14:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1141,7 +1141,7 @@ Overfull \hbox (45.51773pt too wide) has occurred while \output is active
 
 [2
 
-] <../images/multilayer/prism.png, id=119, 577.15625pt x 434.62375pt>
+] <../images/multilayer/prism.png, id=137, 577.15625pt x 434.62375pt>
 File: ../images/multilayer/prism.png Graphic file (type png)
 
 <use ../images/multilayer/prism.png>
@@ -1194,7 +1194,7 @@ Overfull \hbox (45.51773pt too wide) has occurred while \output is active
 [3
 
  <../images/multilayer/prism.png (PNG copy)>]
-<../images/multilayer/prism04.png, id=153, 840.13875pt x 466.74374pt>
+<../images/multilayer/prism04.png, id=171, 840.13875pt x 466.74374pt>
 File: ../images/multilayer/prism04.png Graphic file (type png)
 
 <use ../images/multilayer/prism04.png>
@@ -1202,7 +1202,7 @@ Package pdftex.def Info: ../images/multilayer/prism04.png used on input line 47
 .
 (pdftex.def)             Requested size: 153.64493pt x 85.3563pt.
 
-<../images/multilayer/prism08.png, id=154, 842.14626pt x 471.7625pt>
+<../images/multilayer/prism08.png, id=172, 842.14626pt x 471.7625pt>
 File: ../images/multilayer/prism08.png Graphic file (type png)
 
 <use ../images/multilayer/prism08.png>
@@ -1210,7 +1210,7 @@ Package pdftex.def Info: ../images/multilayer/prism08.png used on input line 47
 .
 (pdftex.def)             Requested size: 153.64493pt x 86.06534pt.
 
-<../images/multilayer/prism12.png, id=155, 843.15pt x 472.76625pt>
+<../images/multilayer/prism12.png, id=173, 843.15pt x 472.76625pt>
 File: ../images/multilayer/prism12.png Graphic file (type png)
 
 <use ../images/multilayer/prism12.png>
@@ -1226,7 +1226,7 @@ Overfull \hbox (45.51773pt too wide) has occurred while \output is active
 
  <../images/multilayer/prism04.png> <../images/multilayer/prism08.png> <../imag
 es/multilayer/prism12.png>]
-<../images/multilayer/konc_eps_mgr.png, id=186, 147.55125pt x 364.36125pt>
+<../images/multilayer/konc_eps_mgr.png, id=204, 147.55125pt x 364.36125pt>
 File: ../images/multilayer/konc_eps_mgr.png Graphic file (type png)
 
 <use ../images/multilayer/konc_eps_mgr.png>
@@ -1234,7 +1234,7 @@ Package pdftex.def Info: ../images/multilayer/konc_eps_mgr.png used on input li
 ne 69.
 (pdftex.def)             Requested size: 147.55087pt x 364.36035pt.
 
-<../images/multilayer/konc_ene_mgr.png, id=187, 251.94125pt x 347.2975pt>
+<../images/multilayer/konc_ene_mgr.png, id=205, 251.94125pt x 347.2975pt>
 File: ../images/multilayer/konc_ene_mgr.png Graphic file (type png)
 
 <use ../images/multilayer/konc_ene_mgr.png>
@@ -1250,7 +1250,7 @@ Overfull \hbox (45.51773pt too wide) has occurred while \output is active
 
  <../images/multilayer/konc_eps_mgr.png (PNG copy)> <../images/multilayer/konc_
 ene_mgr.png (PNG copy)>]
-<../images/multilayer/konc_polk_poynt.png, id=218, 274.02374pt x 276.03125pt>
+<../images/multilayer/konc_polk_poynt.png, id=236, 274.02374pt x 276.03125pt>
 File: ../images/multilayer/konc_polk_poynt.png Graphic file (type png)
 
 <use ../images/multilayer/konc_polk_poynt.png>
@@ -1258,7 +1258,7 @@ Package pdftex.def Info: ../images/multilayer/konc_polk_poynt.png used on input
  line 83.
 (pdftex.def)             Requested size: 153.64493pt x 154.7744pt.
 
-<../images/multilayer/konc_coreshell_energy.png, id=219, 284.06125pt x 279.0425
+<../images/multilayer/konc_coreshell_energy.png, id=237, 284.06125pt x 279.0425
 pt>
 File: ../images/multilayer/konc_coreshell_energy.png Graphic file (type png)
  <use ../images/multilayer/konc_coreshell_energy.png>
@@ -1274,11 +1274,279 @@ Overfull \hbox (45.51773pt too wide) has occurred while \output is active
 
  <../images/multilayer/konc_polk_poynt.png> <../images/multilayer/konc_coreshel
 l_energy.png>]
+<../images/antenaThz/schemat.png, id=269, 795.97375pt x 315.1775pt>
+File: ../images/antenaThz/schemat.png Graphic file (type png)
+
+<use ../images/antenaThz/schemat.png>
+Package pdftex.def Info: ../images/antenaThz/schemat.png used on input line 107
+.
+(pdftex.def)             Requested size: 153.64493pt x 60.83656pt.
+
+<../images/antenaThz/rezonant_trans_f001.png, id=270, 728.7225pt x 499.8675pt>
+File: ../images/antenaThz/rezonant_trans_f001.png Graphic file (type png)
+
+<use ../images/antenaThz/rezonant_trans_f001.png>
+Package pdftex.def Info: ../images/antenaThz/rezonant_trans_f001.png used on in
+put line 107.
+(pdftex.def)             Requested size: 153.64493pt x 105.38715pt.
+
+<../images/antenaThz/rezonant_trans_f01.png, id=271, 737.75626pt x 491.8375pt>
+File: ../images/antenaThz/rezonant_trans_f01.png Graphic file (type png)
+
+<use ../images/antenaThz/rezonant_trans_f01.png>
+Package pdftex.def Info: ../images/antenaThz/rezonant_trans_f01.png used on inp
+ut line 107.
+(pdftex.def)             Requested size: 153.64493pt x 102.42586pt.
+
+<../images/antenaThz/rezonant_trans_f05.png, id=272, 717.68124pt x 483.8075pt>
+File: ../images/antenaThz/rezonant_trans_f05.png Graphic file (type png)
+
+<use ../images/antenaThz/rezonant_trans_f05.png>
+Package pdftex.def Info: ../images/antenaThz/rezonant_trans_f05.png used on inp
+ut line 107.
+(pdftex.def)             Requested size: 153.64493pt x 103.57364pt.
+
 Overfull \hbox (45.51773pt too wide) has occurred while \output is active
  [][][][]  
  []
 
 [7
+
+ <../images/antenaThz/schemat.png> <../images/antenaThz/rezonant_trans_f001.png
+> <../images/antenaThz/rezonant_trans_f01.png> <../images/antenaThz/rezonant_tr
+ans_f05.png>]
+<../images/dmg/letters_eneden.png, id=305, 508.90125pt x 542.025pt>
+File: ../images/dmg/letters_eneden.png Graphic file (type png)
+
+<use ../images/dmg/letters_eneden.png>
+Package pdftex.def Info: ../images/dmg/letters_eneden.png used on input line 12
+4.
+(pdftex.def)             Requested size: 153.64493pt x 163.64258pt.
+
+<../images/dmg/letters_schemat.png, id=306, 557.08125pt x 201.75375pt>
+File: ../images/dmg/letters_schemat.png Graphic file (type png)
+
+<use ../images/dmg/letters_schemat.png>
+Package pdftex.def Info: ../images/dmg/letters_schemat.png used on input line 1
+24.
+(pdftex.def)             Requested size: 153.64493pt x 55.64406pt.
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[8
+
+ <../images/dmg/letters_eneden.png> <../images/dmg/letters_schemat.png>]
+<../images/dmg/letters_exp_setup.png, id=338, 567.11874pt x 261.97874pt>
+File: ../images/dmg/letters_exp_setup.png Graphic file (type png)
+
+<use ../images/dmg/letters_exp_setup.png>
+Package pdftex.def Info: ../images/dmg/letters_exp_setup.png used on input line
+ 139.
+(pdftex.def)             Requested size: 153.64493pt x 70.97505pt.
+
+<../images/dmg/letters_spect.png, id=339, 518.93875pt x 395.4775pt>
+File: ../images/dmg/letters_spect.png Graphic file (type png)
+
+<use ../images/dmg/letters_spect.png>
+Package pdftex.def Info: ../images/dmg/letters_spect.png used on input line 139
+.
+(pdftex.def)             Requested size: 153.64493pt x 117.09329pt.
+
+<../images/dmg/letters_exp.png, id=340, 521.95pt x 396.48125pt>
+File: ../images/dmg/letters_exp.png Graphic file (type png)
+
+<use ../images/dmg/letters_exp.png>
+Package pdftex.def Info: ../images/dmg/letters_exp.png used on input line 139.
+(pdftex.def)             Requested size: 153.64493pt x 116.7129pt.
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
+
+ <../images/dmg/letters_exp_setup.png> <../images/dmg/letters_spect.png> <../im
+ages/dmg/letters_exp.png>]
+<../images/dmg/kontrast_schemat.png, id=373, 677.53125pt x 282.05376pt>
+File: ../images/dmg/kontrast_schemat.png Graphic file (type png)
+
+<use ../images/dmg/kontrast_schemat.png>
+Package pdftex.def Info: ../images/dmg/kontrast_schemat.png used on input line 
+157.
+(pdftex.def)             Requested size: 153.64493pt x 63.96289pt.
+
+<../images/dmg/kontrast_maps.png, id=374, 1131.22626pt x 765.86125pt>
+File: ../images/dmg/kontrast_maps.png Graphic file (type png)
+
+<use ../images/dmg/kontrast_maps.png>
+Package pdftex.def Info: ../images/dmg/kontrast_maps.png used on input line 157
+.
+(pdftex.def)             Requested size: 153.64493pt x 104.01785pt.
+
+<../images/dmg/kontrast_energy.png, id=375, 1048.91875pt x 500.87125pt>
+File: ../images/dmg/kontrast_energy.png Graphic file (type png)
+
+<use ../images/dmg/kontrast_energy.png>
+Package pdftex.def Info: ../images/dmg/kontrast_energy.png used on input line 1
+57.
+(pdftex.def)             Requested size: 153.64493pt x 73.36198pt.
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[10
+
+ <../images/dmg/kontrast_schemat.png> <../images/dmg/kontrast_maps.png> <../ima
+ges/dmg/kontrast_energy.png>]
+<../images/dmg/express_exp_setu.png, id=409, 420.57124pt x 278.03876pt>
+File: ../images/dmg/express_exp_setu.png Graphic file (type png)
+
+<use ../images/dmg/express_exp_setu.png>
+Package pdftex.def Info: ../images/dmg/express_exp_setu.png used on input line 
+174.
+(pdftex.def)             Requested size: 153.64493pt x 101.57451pt.
+
+<../images/dmg/express_siatki.png, id=410, 418.56375pt x 270.00874pt>
+File: ../images/dmg/express_siatki.png Graphic file (type png)
+
+<use ../images/dmg/express_siatki.png>
+Package pdftex.def Info: ../images/dmg/express_siatki.png used on input line 17
+4.
+(pdftex.def)             Requested size: 153.64493pt x 99.11063pt.
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+ <../images/dmg/express_exp_setu.png> <../images/dmg/express_siatki.png>]
+<../images/dmg/express_high_contrast.png, id=441, 952.55875pt x 166.6225pt>
+File: ../images/dmg/express_high_contrast.png Graphic file (type png)
+
+<use ../images/dmg/express_high_contrast.png>
+Package pdftex.def Info: ../images/dmg/express_high_contrast.png used on input 
+line 186.
+(pdftex.def)             Requested size: 307.28987pt x 53.7525pt.
+
+<../images/dmg/express_zarmata.png, id=442, 956.57375pt x 158.5925pt>
+File: ../images/dmg/express_zarmata.png Graphic file (type png)
+
+<use ../images/dmg/express_zarmata.png>
+Package pdftex.def Info: ../images/dmg/express_zarmata.png used on input line 1
+86.
+(pdftex.def)             Requested size: 307.28987pt x 50.94664pt.
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
+
+ <../images/dmg/express_high_contrast.png> <../images/dmg/express_zarmata.png>]
+ <../images/pml/oqe_schemat.png, id=473, 1069.9975pt x 461.725pt>
+File: ../images/pml/oqe_schemat.png Graphic file (type png)
+
+<use ../images/pml/oqe_schemat.png>
+Package pdftex.def Info: ../images/pml/oqe_schemat.png used on input line 206.
+(pdftex.def)             Requested size: 307.28987pt x 132.60048pt.
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+ <../images/pml/oqe_schemat.png>]
+<../images/pml/oqe_materials.png, id=505, 1210.5225pt x 882.29625pt>
+File: ../images/pml/oqe_materials.png Graphic file (type png)
+
+<use ../images/pml/oqe_materials.png>
+Package pdftex.def Info: ../images/pml/oqe_materials.png used on input line 213
+.
+(pdftex.def)             Requested size: 307.28987pt x 223.96613pt.
+
+Overfull \vbox (3.65268pt too high) detected at line 213
+ []
+
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
+
+ <../images/pml/oqe_materials.png>]
+File: ../images/pml/oqe_materials.png Graphic file (type png)
+ <use ../images/pml/oqe_materials.png>
+Package pdftex.def Info: ../images/pml/oqe_materials.png used on input line 239
+.
+(pdftex.def)             Requested size: 153.64493pt x 111.98306pt.
+
+<../images/pml/oqe_reflection_kat.png, id=535, 1200.485pt x 455.7025pt>
+File: ../images/pml/oqe_reflection_kat.png Graphic file (type png)
+
+<use ../images/pml/oqe_reflection_kat.png>
+Package pdftex.def Info: ../images/pml/oqe_reflection_kat.png used on input lin
+e 239.
+(pdftex.def)             Requested size: 165.93709pt x 62.98436pt.
+LaTeX Font Info:    External font `plex10' loaded for size
+(Font)              <5> on input line 239.
+LaTeX Font Info:    Font shape `OT4/cmss/m/it' in size <5> not available
+(Font)              Font shape `OT4/cmss/m/sl' tried instead on input line 239.
+
+
+<../images/pml/oqe_reflection_kat_simp.png, id=536, 1184.425pt x 448.67625pt>
+File: ../images/pml/oqe_reflection_kat_simp.png Graphic file (type png)
+
+<use ../images/pml/oqe_reflection_kat_simp.png>
+Package pdftex.def Info: ../images/pml/oqe_reflection_kat_simp.png used on inpu
+t line 239.
+(pdftex.def)             Requested size: 165.93709pt x 62.85532pt.
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
+
+ <../images/pml/oqe_reflection_kat.png> <../images/pml/oqe_reflection_kat_simp.
+png>] <../images/pml/oqe_trans_refl.png, id=570, 727.71875pt x 515.9275pt>
+File: ../images/pml/oqe_trans_refl.png Graphic file (type png)
+
+<use ../images/pml/oqe_trans_refl.png>
+Package pdftex.def Info: ../images/pml/oqe_trans_refl.png used on input line 25
+7.
+(pdftex.def)             Requested size: 153.64493pt x 108.93053pt.
+
+<../images/pml/oqe_coreshell.png, id=571, 1023.825pt x 697.60625pt>
+File: ../images/pml/oqe_coreshell.png Graphic file (type png)
+
+<use ../images/pml/oqe_coreshell.png>
+Package pdftex.def Info: ../images/pml/oqe_coreshell.png used on input line 257
+.
+(pdftex.def)             Requested size: 169.01035pt x 115.15327pt.
+
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 257--257
+ [] 
+ []
+
+
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[16
+
+ <../images/pml/oqe_trans_refl.png> <../images/pml/oqe_coreshell.png>]
+Overfull \hbox (45.51773pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[17
 
 ]
 \tf@nav=\write6
@@ -1290,31 +1558,36 @@ Overfull \hbox (45.51773pt too wide) has occurred while \output is active
 \tf@snm=\write8
 \openout8 = `autoref.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 96.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 96.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 268.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 268.
  (./autoref.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 96.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 96.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 268.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 268.
 Package rerunfilecheck Info: File `autoref.out' has not changed.
-(rerunfilecheck)             Checksum: 4A0C78A563E09D431B4950B71B15CF01;395.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 96.
+(rerunfilecheck)             Checksum: 7EF75A02EAB9CC699384DA317EABFC14;640.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 268.
  ) 
 Here is how much of TeX's memory you used:
- 16223 strings out of 494993
- 300838 string characters out of 6180621
- 371214 words of memory out of 5000000
- 18986 multiletter control sequences out of 15000+600000
- 12315 words of font info for 39 fonts, out of 8000000 for 9000
+ 16410 strings out of 494993
+ 305608 string characters out of 6180621
+ 372214 words of memory out of 5000000
+ 19121 multiletter control sequences out of 15000+600000
+ 14704 words of font info for 46 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
  49i,19n,62p,413b,601s stack positions out of 5000i,500n,10000p,200000b,80000s
-{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plrm.enc}</usr/share/texliv
-e/texmf-dist/fonts/type1/public/pl/plss10.pfb></usr/share/texlive/texmf-dist/fo
-nts/type1/public/pl/plss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/publi
-c/pl/plss8.pfb>
-Output written on autoref.pdf (7 pages, 2057117 bytes).
+{/usr/share/texlive/texmf-dist/fonts/enc/dvips/pl/plmi.enc}{/usr/share/texliv
+e/texmf-dist/fonts/enc/dvips/pl/plms.enc}{/usr/share/texlive/texmf-dist/fonts/e
+nc/dvips/pl/plrm.enc}</usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts
+/cm/cmss10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi10.pfb>
+</usr/share/texlive/texmf-dist/fonts/type1/public/pl/plmi6.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/pl/plss10.pfb></usr/share/texlive/texmf-dist/
+fonts/type1/public/pl/plss12.pfb></usr/share/texlive/texmf-dist/fonts/type1/pub
+lic/pl/plss8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/pl/plsy10.pf
+b>
+Output written on autoref.pdf (17 pages, 5497637 bytes).
 PDF statistics:
- 302 PDF objects out of 1000 (max. 8388607)
- 262 compressed objects within 3 object streams
- 20 named destinations out of 1000 (max. 500000)
- 165 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 669 PDF objects out of 1000 (max. 8388607)
+ 590 compressed objects within 6 object streams
+ 43 named destinations out of 1000 (max. 500000)
+ 299 words of extra memory for PDF output out of 10000 (max. 10000000)
 
