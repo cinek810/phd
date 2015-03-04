@@ -2,6 +2,9 @@
 \usetheme{Warsaw}
 \usepackage{polski}
 \usepackage[utf8]{inputenc}
+\usepackage[style=authortitle]{biblatex}
+\addbibresource{bibliografia.bib}
+\renewcommand{\footnotesize}{\tiny}
 
 \title{Kształtowanie pola elektromagnetycznzego za pomocą elementów podfalowych}
 \subtitle{Autoreferat}
@@ -9,7 +12,9 @@
 \institute{Zakład Optyki Informacyjnej, Wydział Fizyki UW}
 \date{\today}
 
+
 \begin{document}
+
 
 \frame{\titlepage}
 
@@ -38,21 +43,24 @@
 			\end{figure}
 		\end{column}
 	\end{columns}
-		
+	\cite{PhysRevLett.85.3966}		
 \end{frame}
 
 
 \begin{frame}
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
+			Wykorzystanie pryzmatu miało umożliwić operację rzutowania również dla wiązek o rozmiarach podfalowych.
 			\begin{figure}
 				\includegraphics[width=\textwidth]{../images/multilayer/prism.png}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-			Wykorzystanie pryzmatu miało umożliwić operację rzutowania również dla wiązek o rozmiarach podfalowych.
+			Wysoki współczynnik transmisji może być osiągnięty przez dopasowanie impedancyjne współczynników efektywnych do powietrza, w przypadku rezonansowego tunelowania wysoka transmisja moze byc uzyskana przez odpowiednie dobranie grubosci calej struktury do dlugosci fali.
+
 		\end{column}
 	\end{columns}
+			\cite{scalora2001transparent}
 		
 \end{frame}
 
@@ -67,6 +75,7 @@
 		\begin{column}{0.5\textwidth}
 				\includegraphics[width=\textwidth]{../images/multilayer/prism12.png}\\
 				Wydajność i FWHM wiązki wychodzącej zależą nie tylko od kąta łamiącego pryzmatu, ale i od przesunięcia wiązki wchodzącej, wskazując na brak możliwości stosowania modelu ośrodka efektywnego we wszystkich tego typu układach.
+	
 		\end{column}
 	\end{columns}
 		
@@ -121,6 +130,7 @@
 			Powierzchnie chropowate generowane były na podstawie danych z AFM, z zachowaniem widmowej gestosci mocy szumu.\\
 		\end{column}
 	\end{columns}
+	\cite{Stolarek_2013}
 		
 \end{frame}
 
@@ -160,6 +170,8 @@
 		\end{column}
 	
 	\end{columns}
+
+	\cite{pastuszczak2013engineering}
 		
 \end{frame}
 
@@ -175,6 +187,7 @@
 				\includegraphics[width=\textwidth]{../images/antenaThz/schemat.png}\\
 				\includegraphics[width=\textwidth]{../images/antenaThz/rezonant_trans_f001.png}\\
 			\end{figure}
+			\cite{martin2001theory}	
 		\end{column}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}
@@ -183,8 +196,49 @@
 			\end{figure}
 		\end{column}
 	\end{columns}
+	
+\end{frame}
+
+
+\begin{frame}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{../images/antenaThz/con_src_l500.png}\\
+				\includegraphics[width=\textwidth]{../images/antenaThz/con_src_l525.png}\\
+				\includegraphics[width=\textwidth]{../images/antenaThz/con_src_l550.png}\\
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+				\includegraphics[width=\textwidth]{../images/antenaThz/rez_trans_L.png}\\
+			Symulacje prowadzone byly z roznymi modelami materialowymi, zostalo potwierdzone, że w prowadzonych pracach metale mogą być przybliżane przy pomocy PEC.
+		\end{column}
+	\end{columns}
 		
 \end{frame}
+
+
+
+
+\begin{frame}
+	\begin{columns}
+
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{../images/antenaThz/gaas_mod_structure.png}\\
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			Ze względu na brak możliwości wykonania grubych siatek na podkładach GaAs zawierających detektory THz, zdecydowaliśmy się na wzbudzenie modu falowodowego w podkładzie. Symulacje pozytywnie zweryfikowały możliwości tak zaprojektowanej anteny.
+		\end{column}
+	\end{columns}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{../images/antenaThz/final_stru.png}\\
+	\end{figure}
+		
+\end{frame}
+
+
 
 \subsection{Podwójne metalowe siatki dyfrakcyjne}
 \begin{frame}
@@ -198,8 +252,11 @@
 			\begin{figure}
 				\includegraphics[width=\textwidth]{../images/dmg/letters_schemat.png}
 			\end{figure}
+			Nie jest mozliwe uzyskanie transmisji asymetrycznej przez podwójne siatki metalowe w zerowym rzędzie ugięcia.
+			
 		\end{column}
 	\end{columns}
+	\cite{Stolarek:13}
 		
 \end{frame}
 
@@ -213,7 +270,9 @@
 		\end{column}
 		\begin{column}{0.5\textwidth}
 				\includegraphics[width=\textwidth]{../images/dmg/letters_exp.png}\\
+		W porównaniu do poprzednich prac na temat DMG zakres długości fali charakteryzujący się transmisją asymetryczną został znacząco powiększony.
 		\end{column}
+
 	\end{columns}
 		
 \end{frame}
@@ -231,6 +290,7 @@
 			\begin{figure}
 				\includegraphics[width=\textwidth]{../images/dmg/kontrast_energy.png}\\
 			\end{figure}
+			Modifikacja rozmiarów otworów, oparta na zrozumieniu ich funkcji w procesie transmisji asymetrycznej pozwoliła na osiągnięcie wyższych współczynników transmisji i kontrastu dla propagacji w przeciwnych kierunkach.
 		\end{column}
 	\end{columns}
 		
@@ -250,6 +310,7 @@
 			\end{figure}
 		\end{column}
 	\end{columns}
+	\cite{Yavorskiy:14}
 		
 \end{frame}
 
@@ -292,7 +353,7 @@
 
 		\end{column}
 	\end{columns}
-		
+	\cite{ania2015}	
 \end{frame}
 
 \begin{frame}
