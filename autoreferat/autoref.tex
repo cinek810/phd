@@ -21,10 +21,36 @@
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}
+				\includegraphics[width=\textwidth]{../images/multilayer/multilayer-3d.png}\\
+		 	{\tiny Do projekotwania własności wielowarstwy wykorzystywaliśmy model efektywny, do badania własności symulacje metodami macierzowymi i FDTD.}
+
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			{\tiny Analiza własności wielowarstwy na podstawie wyników symulacji SMM i TMM prowadzona w języku optyki Fourierowskiej.}
+			\begin{figure}
+				\includegraphics[width=0.5\textwidth]{images/MTF-example.png}
+				\includegraphics[width=0.6\textwidth]{images/MTF-perfect.png}
+			\end{figure}
+			\begin{figure}
+				\includegraphics[width=0.5\textwidth]{images/Spoke.png}
+				\includegraphics[width=0.5\textwidth]{images/Spoke-perfect.png}
+			\end{figure}
+		\end{column}
+	\end{columns}
+		
+\end{frame}
+
+
+\begin{frame}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
 				\includegraphics[width=\textwidth]{../images/multilayer/prism.png}
 			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
+			Wykorzystanie pryzmatu miało umożliwić operację rzutowania również dla wiązek o rozmiarach podfalowych.
 		\end{column}
 	\end{columns}
 		
@@ -82,6 +108,60 @@
 		
 \end{frame}
 
+\begin{frame}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{../images/multilayer/plp-afm-chropo-1d.png}\\
+				\includegraphics[width=\textwidth]{../images/multilayer/plp-afm-chropo.png}\\
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			Dla prowadzenia symulacji niezbędne było oddanie struktury wyspowej chropowatości powierzchni. \\ 
+			Powierzchnie chropowate generowane były na podstawie danych z AFM, z zachowaniem widmowej gestosci mocy szumu.\\
+		\end{column}
+	\end{columns}
+		
+\end{frame}
+
+\begin{frame}
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+				W symulacjach struktury w pelni gladkiej widoczna byla stojaca fala powierzchniowa na granicy metal-dielektryk, która zanika przy wprowadzeniu nawet minimalnej chropowatości -poprawa współczynnika transmisji.\\
+				Chropowatość może poprawiać PSF.\\
+
+		\end{column}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{../images/multilayer/plp-chropo.png}\\
+				\caption{ a,b - 430nm , c,d -490 nm}
+			\end{figure}
+		\end{column}
+	\end{columns}
+		
+\end{frame}
+
+
+
+
+
+\begin{frame}[t]
+	\begin{columns}
+		\begin{column}{0.5\textwidth}
+			\begin{figure}
+				\includegraphics[width=\textwidth]{../images/multilayer/oer-rms0.png}\\
+				\includegraphics[width=\textwidth]{../images/multilayer/oer-rms01.png}\\
+			\end{figure}
+		\end{column}
+		\begin{column}{0.5\textwidth}
+				\includegraphics[width=\textwidth]{../images/multilayer/oer-rms05.png}\\
+				Generalnie: nawet chropowatości na poziomie RMS ~ 1nm mogą znacząco zmniejszyć współczynnik transmisji przez wielowarstwę. \\
+				 Szczególnie w przypadku dużej liczby warstw.
+		\end{column}
+	
+	\end{columns}
+		
+\end{frame}
 
 \subsection{Wpływ gładkości warstw}
 
@@ -185,6 +265,16 @@
 		
 \end{frame}
 
+\begin{frame}
+	\begin{figure}
+		\includegraphics[width=\textwidth]{../images/dmg/express_exp.png}\\
+	\end{figure}
+	Pomiary w eksperymencie wykazuję dobrą zgodność z modelowaniem. Oceniając wyniki eksperymentalne należy mieć na uwadze dużą wrażliwość układu na warunki zewnętrzne.
+		
+\end{frame}
+
+
+
 
 
 
@@ -259,11 +349,6 @@
 
 
 
-
-\begin{frame}
-\frametitle{Title}
-Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-\end{frame}
 
 \end{document}
 
