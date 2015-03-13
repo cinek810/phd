@@ -1,5 +1,7 @@
 Celem obecnego podrozdziału jest zdefiniowanie pojęcia systemów liniowych, które w niniejszej pracy znajduje zastosowanie w analizie zjawisk obrazowania. W ogólności przez systemem rozumiemy odpowiedniość pomiędzy zestawem funkcji wejściowych, a zestawem funkcji wyjściowych. W przypadku sieci elektrycznych funkcjami wejściowymi jak i wyjściowymi mogą być zależności napięcia i natężenia prądu elektrycznego od czasu. Jeżeli ograniczymy opis do systemów deterministycznych, określonemu zestawowi funkcji wejściowych musi odpowiadać dokładnie jeden układ funkcji wyjściowych. Wyjście układu nie musi jednak pozwalać na jednznaczną identyfikację wejścia, w szczególności dla wielu stanów wejścia system może nie odpowiadać żadnym wyjściem.
 
+\label{art:lsi}
+
 Matematyczną reprezentacją opisanego systemu, jest operator $S\{\}$, który działając na zestaw fukncji wejściowych $g_i$ tworzy fukncje wyjściowe $f_i$:
 \begin{equation}
 f_i(\vec{x})=S\{g_i(\vec{x})\}.
@@ -61,3 +63,4 @@ gdzie przez $F$ oznaczona została transformata Fouriera, a $\cdot$ oznacza zwyk
 W równaniu \ref{eq:transfer-mult} można zauważyć formę zagadnienia własnego opisującego układ typu LSI, w którym wartości funkcji $H$ dla różnych częstości przestrzennych $f$ można interpretować jako wartości własne układu. Funkcjami własnymi są natomiast fale płaskie, ponieważ przeprowadzenie matematycznej operacji transformacji Fouriera jest w przypadku analizy zjawisk falowych równoważne rozłożeniu funkcji w bazie fal płaskich.  Kolejnymi wnioskami jakie możemy uzyskać wprost z wzoru \ref{transfer-mult} jest sposób w jaki układy LSI modyfikują funkcje wejściowe w postaci fal płaskich. W takim przypadku $G=|A|e^{\Phi}$ jest po prostu liczbą zespoloną, a układ wprowadza jedynie tłumienie $|A|$ i stałą modyfikację fazy $\Phi$ padającej nań fali płaskiej\cite{citeulike:2926459}.
 
 W całej pracy posługując się terminem częstości przestrzennych odnosimy się do podanej powyżej formuły w której transformacja Fouriera została zastosowana w stosunku do funkcji położenia, dlatego ze szczególną uwagę należy odróżniać częstości przestrzenne (rozkład w bazie fal płaskich), od częstotliwości odpowiadającej rozkładowi promieniowania w bazie fal monochromatycznych.
+
