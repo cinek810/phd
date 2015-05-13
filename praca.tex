@@ -1,8 +1,13 @@
 \documentclass[pdflatex,11pt]{aghdpl}
 % \documentclass{aghdpl}               % przy kompilacji programem latex
 % \documentclass[pdflatex,en]{aghdpl}  % praca w języku angielskim
+\usepackage{natbib}
 \usepackage[polish]{babel}
 \usepackage[utf8]{inputenc}
+\usepackage{wrapfig}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{float}
 
 % dodatkowe pakiety
 \usepackage{enumerate}
@@ -91,32 +96,6 @@
 
 
 
-
-% itd.
-% \appendix
-% \include{dodatekA}
-% \include{dodatekB}
-% itd.
-
-
-%\begin{thebibliography}{1}
-%
-%\bibitem{Dil00}
-%A.~Diller.
-%\newblock {\em LaTeX wiersz po wierszu}.
-%\newblock Wydawnictwo Helion, Gliwice, 2000.
-%
-%\bibitem{Lam92}
-%L.~Lamport.
-%\newblock {\em LaTeX system przygotowywania dokumentów}.
-%\newblock Wydawnictwo Ariel, Krakow, 1992.
-%
-%\bibitem{Alvis2011}
-%M.~Szpyrka.
-%\newblock {\em {On Line Alvis Manual}}.
-%\newblock AGH University of Science and Technology, 2011.cccccc
-%\newblock \\\texttt{http://fm.ia.agh.edu.pl/alvis:manual}.
-%
-%\end{thebibliography}
-
+\bibliographystyle{plain}
+\bibliography{bibliografia}
 \end{document}

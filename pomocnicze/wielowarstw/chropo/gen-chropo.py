@@ -499,6 +499,13 @@ SiO240nm["data"]=array([[4,-28,-19,7,5,-35,-47,-16,20,-16,-61,-51,36,25,16,-4,-4
 import pylab as py
 from scipy import signal,fftpack,stats,interpolate
 import sys
+#import matplotlib
+
+
+
+#matplotlib.rcParams.update({'font.size': 22})
+
+
 
 def verbose_show(image,tytul,debug=0):
 	return 0
@@ -549,9 +556,10 @@ def szum2d(microscopeData,prefix,sigma=0.4,debug=0):
 
 	x=linspace(0,XScale*(XSize-1),XSize);
 	y=linspace(0,YScale*(YSize-1),YSize);
-	py.imshow(oldZ,extent=[0,x.max(),0,y.max() ])
+	py.imshow(oldZ,extent=[0,x.max(),0,y.max() ],cmap="Spectral")
 	py.xlabel(u'Położenie ['+str(microscopeData["XUnits"])+"]")
 	py.ylabel(u'Położenie ['+str(microscopeData["XUnits"])+"]")
+	py.colorbar()
 	py.savefig("../../../images/multilayer/"+prefix+"-afm-measure.png")
 	
 	wzorzec=oldZ
@@ -579,7 +587,6 @@ def szum2d(microscopeData,prefix,sigma=0.4,debug=0):
 		py.savefig("../../../images/multilayer/"+prefix+"-afm-measure-hist.png")
 	
 
-	py.show()
 	
 	FT=fftpack.fft2(wzorzec);
 	verbose_show(abs(FT),"Orginalna FT",debug);
@@ -608,6 +615,7 @@ def szum2d(microscopeData,prefix,sigma=0.4,debug=0):
 
 
 	NFT=fftpack.fft2(new);
+	
 	NFT=NFT*FT;
 	new=fftpack.ifft2(NFT);
 	
@@ -623,8 +631,20 @@ def szum2d(microscopeData,prefix,sigma=0.4,debug=0):
 
 	if debug==1:
 		py.figure()
-		py.title("Histogram wygenerowanego szumu, pd autokorelacji")
-		py.hist(reshape(new,new.shape[0]*new.shape[1]));
+		py.title("Histogram wygenerowanego szumu, po autokorelacji, dla sigma="+str(sigma)+"nm")
+		py.hist(reshape(new,new.shape[0]*new.shape[1]),normed=1,bins=20);
+		py.xlabel(u'Różnica z zamierzoną grubością ['+str(microscopeData["ZUnits"])+']');
+		py.savefig("../../../images/multilayer/"+prefix+"-afm-generated-hist.png")
+
+	py.figure()
+	py.imshow(real(new),extent=[0,x.max(),0,y.max() ],cmap="Spectral")
+	py.xlabel(u'Położenie ['+str(microscopeData["XUnits"])+"]")
+	py.ylabel(u'Położenie ['+str(microscopeData["XUnits"])+"]")
+	py.colorbar()
+	py.savefig("../../../images/multilayer/"+prefix+"-afm-generated.png")
+
+	py.show()
+	
 
 
 	return real(new)
@@ -693,7 +713,7 @@ print("Arguments:")
 
 
 #SiO22d=szum2d(SiO240nm,sigma=1,debug=1);
-Ag2d=szum2d(Ag30nm,"ag30nm",sigma=1,debug=1);
+Ag2d=szum2d(Ag30nm,"ag30nm",sigma=20,debug=1);
 ####Wlaczajac DEBUG do ponizszych wywolan, trzeba odkomentowac #py.show
 
 
