@@ -1,5 +1,42 @@
 \label{subart:effmedium}
+Przybliżenie ośrodka efektywnego (ang.~EMA effective medium approximations lub ang.~EMT effective medium theory) to określenie używane w odniesieniu do analitycznych modeli opisujących makroskopowe własności elektromagnetyczne przestrzeni złożonej z różnych materiałów. EMA pozwala opisywać niejednorodny obszar w przestrzeni złożony z wielu materiałów jako jeden homogeniczny obszar o innych właściwościach - jako metamateriał. Kluczowym w wyprowadzeniu przybliżenia EMT jest zdefiniowanie geometrii w jakiej układane są materiały składowe, na jej podstawie w zależności od rozmiarów wyprowadzane są ostateczne formuły.
+
+Dla niniejszej pracy szczególne znaczenia mają jednowymiarowe układy, w których periodycznie umieszczone są kolejne warstwy ośrodków materialnych. W sytuacji gdy możemy zakładać, że pojedyncza warstwa jest tak cienka w porównaniu z długością fali, że wartości pól $E$ i $D$ wewnątrz warstwy w określonej chwili czasu są stałe. Możemy wyprowadzić przybliżone wartości tensora przenikalności elektrycznej:
+\[ \varepsilon= \left[ \begin{array}{ccc}
+	\varepsilon_{\parallel} & 0 & 0 \\
+	0 & \varepsilon_{\parallel} & 0 \\
+	0 & 0 &  \varepsilon_{\perp} \end{array} \right] 
+\\
+\]
+\begin{equation}
+	\begin{gathered}
+		\varepsilon_{\parallel}=f\cdot{\varepsilon_1}+{1-f}\cdot \varepsilon_2 \\ 
+		\varepsilon_{\perp}=\left(f\cdot{\varepsilon_1^{-1}}+(1-f)\cdot \varepsilon_2^{-1}\right)^{-1},
+	\end{gathered}
+\label{eq:effmedium}
+\end{equation}
+
+
+oraz magnetycznej:
+\[ \mu= \left[ \begin{array}{ccc}
+					\mu_{\parallel} & 0 & 0 \\
+					0 & \mu_{\parallel} & 0 \\
+					0 & 0 &  \mu_{\perp} \end{array} \right]
+\]
 
 \begin{equation}
-	\label{eq:effmedium}
+	\begin{gathered}
+		\mu_{\parallel}=f\cdot{\mu_1}+{1-f}\cdot \mu_2 \\
+		\mu_{\perp}=\left(f\cdot{\mu_1^{-1}}+(1-f)\cdot \mu_2^{-1}\right)^{-1}.
+	\end{gathered}
+\label{eq:effmedium-mu}
 \end{equation}
+
+Oznacza to, że w ośrodku wypełnionym naprzemiennie dwoma materiałami, fala elektromagnetyczna propaguje się tak jak w jednoosiowym materiale dwójłomnym. Osią takiego metamateriału jest dowolna prosta prostopadła do granic warstw dwu tworzących go materiałów.
+
+
+
+
+
+
+
