@@ -11,6 +11,20 @@ J.-P. {Berenger}.
   Waves}.
 \newblock {\em Journal of Computational Physics}, 114:185--200, October 1994.
 
+\bibitem{cheng2008physical}
+Chen Cheng, Jing Chen, Da-Jian Shi, Qi-Yang Wu, Fang-Fang Ren, Ji~Xu, Ya-Xian
+  Fan, Jianping Ding, and Hui-Tian Wang.
+\newblock Physical mechanism of extraordinary electromagnetic transmission in
+  dual-metallic grating structures.
+\newblock {\em Physical Review B}, 78(7):075406, 2008.
+
+\bibitem{cheng2007controllable}
+Chen Cheng, Jing Chen, Qi-Yang Wu, Fang-Fang Ren, Ji~Xu, Ya-Xian Fan, and
+  Hui-Tian Wang.
+\newblock Controllable electromagnetic transmission based on dual-metallic
+  grating structures composed of subwavelength slits.
+\newblock {\em Applied Physics Letters}, 91(11):111111--111111, 2007.
+
 \bibitem{DEVORE:51}
 J.~R. DEVORE.
 \newblock Refractive indices of rutile and sphalerite.
@@ -62,6 +76,13 @@ Alon Ludwig, Kevin~J Webb, et~al.
 I.~H. MALITSON.
 \newblock Interspecimen comparison of the refractive index of fused silica.
 \newblock {\em J. Opt. Soc. Am.}, 55(10):1205--1208, Oct 1965.
+
+\bibitem{marcet2008controlling}
+Z~Marcet, JW~Paster, DW~Carr, JE~Bower, RA~Cirelli, F~Klemens, WM~Mansfield,
+  JF~Miner, CS~Pai, and HB~Chan.
+\newblock Controlling the phase delay of light transmitted through double-layer
+  metallic subwavelength slit arrays.
+\newblock {\em Optics letters}, 33(13):1410--1412, 2008.
 
 \bibitem{martin2001theory}
 L~Martin-Moreno, FJ~Garcia-Vidal, HJ~Lezec, KM~Pellerin, T~Thio, JB~Pendry, and
@@ -160,6 +181,13 @@ Victor~Georgievich Veselago.
 \newblock The electrodynamics of substances with simultaneously negative values
   of $\varepsilon$ and $\mu$.
 \newblock {\em Physics-Uspekhi}, 10(4):509--514, 1968.
+
+\bibitem{xu2011unidirectional}
+Ji~Xu, Chen Cheng, Ming Kang, Jing Chen, Zhu Zheng, Ya-Xian Fan, and Hui-Tian
+  Wang.
+\newblock Unidirectional optical transmission in dual-metal gratings in the
+  absence of anisotropic and nonlinear materials.
+\newblock {\em Optics letters}, 36(10):1905--1907, 2011.
 
 \bibitem{1966ITAP14302Y}
 K.~{Yee}.

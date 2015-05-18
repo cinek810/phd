@@ -18,17 +18,17 @@
 \contentsline {section}{\numberline {2.4}Przybli\IeC {\.z}enie o\IeC {\'s}rodka efektywnego}{22}
 \contentsline {chapter}{\numberline {3}Kszta\IeC {\l }towanie fali elektromagnetycznej w zakresie THz }{23}
 \contentsline {subsection}{\numberline {3.0.1}W\IeC {\l }asno\IeC {\'s}ci wykorzystywanych materia\IeC {\l }\IeC {\'o}w}{24}
-\contentsline {section}{\numberline {3.1}Antena THz - siatka dyfrakcyjna + podk\IeC {\l }ad}{26}
+\contentsline {section}{\numberline {3.1}Antena THz - siatka dyfrakcyjna wraz z falowodem}{26}
 \contentsline {subsection}{\numberline {3.1.1}Rezonansowa transmisja przez grube siatki}{26}
-\contentsline {subsection}{\numberline {3.1.2}Antena dla promieniowania THz, oparta na wzbudzeniu modu falowodowego}{29}
-\contentsline {section}{\numberline {3.2}Transmisja jedno kierunkowa}{32}
-\contentsline {section}{\numberline {3.3}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{32}
-\contentsline {chapter}{\numberline {4}PML}{33}
-\contentsline {section}{\numberline {4.1}Wprowadzenie}{34}
-\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej}{34}
-\contentsline {section}{\numberline {4.3}core shell pml?}{34}
-\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{35}
-\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{37}
-\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{40}
-\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{42}
-\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{45}
+\contentsline {subsection}{\numberline {3.1.2}Antena dla promieniowania THz, o dzia\IeC {\l }aniu opartym na wzbudzeniu modu falowodowego}{29}
+\contentsline {section}{\numberline {3.2}Transmisja jednokierunkowa}{32}
+\contentsline {section}{\numberline {3.3}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{34}
+\contentsline {chapter}{\numberline {4}PML}{37}
+\contentsline {section}{\numberline {4.1}Wprowadzenie}{38}
+\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej}{38}
+\contentsline {section}{\numberline {4.3}core shell pml?}{38}
+\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{39}
+\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{41}
+\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{44}
+\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{46}
+\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{49}

@@ -16,45 +16,45 @@ Repeated entry---line 448 of file bibliografia.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
-You've used 30 entries,
+You've used 34 entries,
             2118 wiz_defined-function locations,
-            709 strings with 10012 characters,
-and the built_in function-call counts, 11611 in all, are:
-= -- 1120
-> -- 650
+            735 strings with 11115 characters,
+and the built_in function-call counts, 13786 in all, are:
+= -- 1315
+> -- 827
 < -- 3
-+ -- 258
-- -- 228
-* -- 953
-:= -- 1962
-add.period$ -- 92
-call.type$ -- 30
-change.case$ -- 199
++ -- 328
+- -- 294
+* -- 1169
+:= -- 2340
+add.period$ -- 104
+call.type$ -- 34
+change.case$ -- 244
 chr.to.int$ -- 0
-cite$ -- 32
-duplicate$ -- 353
-empty$ -- 826
-format.name$ -- 228
-if$ -- 2340
+cite$ -- 36
+duplicate$ -- 397
+empty$ -- 943
+format.name$ -- 294
+if$ -- 2753
 int.to.chr$ -- 0
-int.to.str$ -- 30
-missing$ -- 32
-newline$ -- 153
-num.names$ -- 60
-pop$ -- 182
+int.to.str$ -- 34
+missing$ -- 36
+newline$ -- 173
+num.names$ -- 68
+pop$ -- 219
 preamble$ -- 1
-purify$ -- 172
+purify$ -- 213
 quote$ -- 0
-skip$ -- 236
+skip$ -- 264
 stack$ -- 0
-substring$ -- 837
-swap$ -- 52
+substring$ -- 980
+swap$ -- 56
 text.length$ -- 3
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 114
+type$ -- 130
 warning$ -- 2
-while$ -- 103
-width$ -- 32
-write$ -- 328
+while$ -- 118
+width$ -- 36
+write$ -- 372
 (There was 1 error message)
