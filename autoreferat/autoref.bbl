@@ -1,0 +1,661 @@
+% $ biblatex auxiliary file $
+% $ biblatex version 2.3 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated as
+% required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+\entry{pastuszczak2013engineering}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {A.Pastuszczak}{A.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {M.Stolarek}{M.}%
+     {}{}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koty{\'n}ski}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{AMKR1}
+  \strng{fullhash}{AMKR1}
+  \field{sortinit}{A}
+  \field{number}{4}
+  \field{pages}{355\bibrangedash 366}
+  \field{title}{Engineering the point spread function of layered metamaterials}
+  \field{volume}{21}
+  \field{journaltitle}{Opto-Electronics Review}
+  \field{year}{2013}
+\endentry
+
+\entry{4171512}{article}{}
+  \name{author}{13}{}{%
+    {{}%
+     {Jalas}{J.}%
+     {Dirk}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Petrov}{P.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Eich}{E.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Freude}{F.}%
+     {W}{W}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Fan}{F.}%
+     {SH}{S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yu}{Y.}%
+     {ZF}{Z.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Baets}{B.}%
+     {Roel}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Popovic}{P.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Melloni}{M.}%
+     {A}{A}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Joannopoulos}{J.}%
+     {JD}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Vanwolleghem}{V.}%
+     {M}{M}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Doerr}{D.}%
+     {CR}{C.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Renner}{R.}%
+     {H}{H}%
+     {}{}%
+     {}{}}%
+  }
+  \list{language}{1}{%
+    {eng}%
+  }
+  \list{publisher}{1}{%
+    {NATURE PUBLISHING GROUP}%
+  }
+  \strng{namehash}{JDPAEMFWFSYZBRPMMAJJVMDCRH1}
+  \strng{fullhash}{JDPAEMFWFSYZBRPMMAJJVMDCRH1}
+  \field{sortinit}{J}
+  \field{issn}{1749-4885}
+  \field{number}{8}
+  \field{pages}{579\bibrangedash 582}
+  \field{series}{NATURE PHOTONICS}
+  \field{title}{What is: and what is not: an optical isolator}
+  \verb{url}
+  \verb http://dx.doi.org/10.1038/nphoton.2013.185
+  \endverb
+  \field{volume}{7}
+  \field{year}{2013}
+\endentry
+
+\entry{martin2001theory}{article}{}
+  \name{author}{7}{}{%
+    {{}%
+     {Martin-Moreno}{M.-M.}%
+     {L}{L}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Garcia-Vidal}{G.-V.}%
+     {FJ}{F.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Lezec}{L.}%
+     {HJ}{H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pellerin}{P.}%
+     {KM}{K.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Thio}{T.}%
+     {T}{T}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pendry}{P.}%
+     {JB}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Ebbesen}{E.}%
+     {TW}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {APS}%
+  }
+  \strng{namehash}{MMLGVFLHPKTTPJET1}
+  \strng{fullhash}{MMLGVFLHPKTTPJET1}
+  \field{sortinit}{M}
+  \field{number}{6}
+  \field{pages}{1114}
+  \field{title}{Theory of extraordinary optical transmission through
+  subwavelength hole arrays}
+  \field{volume}{86}
+  \field{journaltitle}{Physical review letters}
+  \field{year}{2001}
+\endentry
+
+\entry{ania2015}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Pastuszczak}{P.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Antosiewicz}{A.}%
+     {T.J.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kotyński}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer US}%
+  }
+  \keyw{Electromagnetic absorber; Metamaterial; Electromagnetic modeling;
+  Perfectly matched layer; UPML}
+  \strng{namehash}{PASMATKR1}
+  \strng{fullhash}{PASMATKR1}
+  \field{sortinit}{P}
+  \verb{doi}
+  \verb 10.1007/s11082-014-9986-z
+  \endverb
+  \field{issn}{0306-8919}
+  \field{number}{1}
+  \field{pages}{89\bibrangedash 97}
+  \field{title}{Multilayer metamaterial absorbers inspired by perfectly matched
+  layers}
+  \verb{url}
+  \verb http://dx.doi.org/10.1007/s11082-014-9986-z
+  \endverb
+  \field{volume}{47}
+  \field{journaltitle}{Optical and Quantum Electronics}
+  \field{year}{2015}
+\endentry
+
+\entry{PhysRevLett.85.3966}{article}{}
+  \name{author}{1}{}{%
+    {{}%
+     {Pendry}{P.}%
+     {J.~B.}{J.~B.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {American Physical Society}%
+  }
+  \strng{namehash}{PJB1}
+  \strng{fullhash}{PJB1}
+  \field{sortinit}{P}
+  \verb{doi}
+  \verb 10.1103/PhysRevLett.85.3966
+  \endverb
+  \field{issue}{18}
+  \field{pages}{3966\bibrangedash 3969}
+  \field{title}{Negative Refraction Makes a Perfect Lens}
+  \verb{url}
+  \verb http://link.aps.org/doi/10.1103/PhysRevLett.85.3966
+  \endverb
+  \field{volume}{85}
+  \field{journaltitle}{Phys. Rev. Lett.}
+  \field{year}{2000}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{scalora-transparentmetal}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Scalora}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bloemer}{B.}%
+     {M.~J.}{M.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pethel}{P.}%
+     {A.~S.}{A.~S.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Dowling}{D.}%
+     {J.~P.}{J.~P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Bowden}{B.}%
+     {C.~M.}{C.~M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Manka}{M.}%
+     {A.~S.}{A.~S.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SMBMJPASDJPBCMMAS1}
+  \strng{fullhash}{SMBMJPASDJPBCMMAS1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb http://dx.doi.org/10.1063/1.366996
+  \endverb
+  \field{number}{5}
+  \field{pages}{2377\bibrangedash 2383}
+  \field{title}{Transparent, metallo-dielectric, one-dimensional, photonic
+  band-gap structures}
+  \verb{url}
+  \verb http://scitation.aip.org/content/aip/journal/jap/83/5/10.1063/1.366996
+  \endverb
+  \field{volume}{83}
+  \field{journaltitle}{Journal of Applied Physics}
+  \field{year}{1998}
+\endentry
+
+\entry{Stolarek2011}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pastuszczak}{P.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kotyński}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SMPAKR1}
+  \strng{fullhash}{SMPAKR1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1109/ICTON.2011.5971166
+  \endverb
+  \field{note}{cited By 0}
+  \field{title}{Numerical analysis of transmission through a sub-wavelength
+  metallic aperture or grating at visible and Terahertz wavelengths}
+  \verb{url}
+  \verb http://www.scopus.com/inward/record.url?eid=2-s2.0-80155146333&partnerI
+  \verb D=40&md5=d1e264a029afe87b9ca131e0fc9d34fa
+  \endverb
+  \field{journaltitle}{International Conference on Transparent Optical
+  Networks}
+  \field{year}{2011}
+\endentry
+
+\entry{prism2010}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pastuszczak}{P.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pniewski}{P.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kotyński}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SMPAPJKR1}
+  \strng{fullhash}{SMPAPJKR1}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  In this paper we study the propagation of light through silver-dielectric
+  metamaterial layered prism which operates in the canalization regime. The
+  prism is illuminated with TM-polarized light and is designed using the
+  effective medium theory as strongly anisotropic and impedance matched to air.
+  The structure has an infinite value of the effective permittivity in the
+  direction perpendicular to layer surfaces. Therefore it is able to couple a
+  broad spectrum of incident spatial frequencies, including evanescent waves,
+  into propagating modes. As a result, subwavelength resolution at the output
+  interface of the structure is observed. Further the device is characterised
+  with the transfer matrix method (TMM), and investigated with Finite
+  Difference Time Domain method (FDTD). Two parameters of the prism are
+  studied, namely the angle of incidence and the apex angle, to obtain the best
+  resolution.%
+  }
+  \verb{doi}
+  \verb 10.1117/12.883603
+  \endverb
+  \field{pages}{774613\bibrangedash 774613\bibrangedash 8}
+  \field{title}{Sub-wavelength imaging using silver-dielectric metamaterial
+  layered prism}
+  \verb{url}
+  \verb http://dx.doi.org/10.1117/12.883603
+  \endverb
+  \field{volume}{7746}
+  \field{journaltitle}{Proc. SPIE}
+  \field{year}{2010}
+\endentry
+
+\entry{Stolarek_2013}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wróbel}{W.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stefaniuk}{S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wlazło}{W.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pastuszczak}{P.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Kotyński}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SMWPSTWMPAKR1}
+  \strng{fullhash}{SMWPSTWMPAKR1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.4302/plp.2013.2.09
+  \endverb
+  \field{number}{2}
+  \field{pages}{60–62}
+  \field{title}{Spatial filtering with rough metal-dielectric layered
+  metamaterials}
+  \field{volume}{5}
+  \field{journaltitle}{Photonics Letters of Poland}
+  \field{year}{2013}
+\endentry
+
+\entry{Stolarek:13}{article}{}
+  \name{author}{6}{}{%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Yavorskiy}{Y.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koty\'{n}ski}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zapata-Rodr\'{i}guez}{Z.-R.}%
+     {C.~J.}{C.~J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\L}usakowski}{{\L}.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Szoplik}{S.}%
+     {T.}{T.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {OSA}%
+  }
+  \keyw{Diffraction gratings; Subwavelength structures}
+  \strng{namehash}{SMYDKRZRCJLJST1}
+  \strng{fullhash}{SMYDKRZRCJLJST1}
+  \field{sortinit}{S}
+  \field{abstract}{%
+  We report on experimental evidence of unidirectional transmission of
+  terahertz waves through a pair of metallic gratings with different periods.
+  The gratings are optimized for a broadband transmission in one direction,
+  accompanied with a high extinction rate in the opposite direction. In
+  contrast to previous studies, we show that the zero-order nonreciprocity
+  cannot be achieved. Nonetheless, we confirm that the structure can be used
+  successfully as an asymmetric filter.%
+  }
+  \verb{doi}
+  \verb 10.1364/OL.38.000839
+  \endverb
+  \field{number}{6}
+  \field{pages}{839\bibrangedash 841}
+  \field{title}{Asymmetric transmission of terahertz radiation through a double
+  grating}
+  \verb{url}
+  \verb http://ol.osa.org/abstract.cfm?URI=ol-38-6-839
+  \endverb
+  \field{volume}{38}
+  \field{journaltitle}{Opt. Lett.}
+  \field{year}{2013}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\entry{Szczytko2012271}{article}{}
+  \name{author}{11}{}{%
+    {{}%
+     {Szczytko}{S.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pietka}{P.}%
+     {B.}{B.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Łusakowski}{�.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Wawro}{W.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Barańska}{B.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Papis}{P.}%
+     {E.}{E.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Adomavisius}{A.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Krotkus}{K.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Pałka}{P.}%
+     {N.}{N.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Zagrajek}{Z.}%
+     {P.}{P.}%
+     {}{}%
+     {}{}}%
+  }
+  \strng{namehash}{SJSMPB�JWABAPEARKAPNZP1}
+  \strng{fullhash}{SJSMPB�JWABAPEARKAPNZP1}
+  \field{sortinit}{S}
+  \verb{doi}
+  \verb 10.1109/MIKON.2012.6233514
+  \endverb
+  \field{note}{cited By 0}
+  \field{pages}{271\bibrangedash 275}
+  \field{title}{Terahertz properties of metallic layers and grids}
+  \verb{url}
+  \verb http://www.scopus.com/inward/record.url?eid=2-s2.0-84864722637&partnerI
+  \verb D=40&md5=f55c490b2fb9d5a5c186a4c6ff27ef4a
+  \endverb
+  \field{volume}{1}
+  \field{journaltitle}{2012 19th International Conference on Microwaves, Radar
+  and Wireless Communications, MIKON 2012}
+  \field{year}{2012}
+\endentry
+
+\entry{Yavorskiy:14}{article}{}
+  \name{author}{4}{}{%
+    {{}%
+     {Yavorskiy}{Y.}%
+     {D.}{D.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {{\L}usakowski}{{\L}.}%
+     {J.}{J.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koty\'{n}ski}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {OSA}%
+  }
+  \keyw{Diffraction gratings; Subwavelength structures}
+  \strng{namehash}{YDSMLJKR1}
+  \strng{fullhash}{YDSMLJKR1}
+  \field{sortinit}{Y}
+  \field{abstract}{%
+  We report on unidirectional and asymmetric transmission of radially polarized
+  THz radiation through a dual circular metallic grating with sub-wavelength
+  slits. Unidirectional transmission is shown theoretically for a
+  super-Gaussian incident beam, and an asymmetric transmission is demonstrated
+  experimentally, when the radially polarized beam of 0.1 THz is obtained by
+  converting a linearly polarized beam with a discontinuous phase retarder and
+  a tapered waveguide. The dual grating does not include nonlinear materials,
+  its operation is reciprocal, and analogous to that of some planar metallic
+  gratings.%
+  }
+  \verb{doi}
+  \verb 10.1364/OE.22.030547
+  \endverb
+  \field{number}{25}
+  \field{pages}{30547\bibrangedash 30552}
+  \field{title}{Asymmetric transmission of radially polarized THz radiation
+  through a double circular grating}
+  \verb{url}
+  \verb http://www.opticsexpress.org/abstract.cfm?URI=oe-22-25-30547
+  \endverb
+  \field{volume}{22}
+  \field{journaltitle}{Opt. Express}
+  \field{year}{2014}
+  \warn{\item Invalid format of field 'month'}
+\endentry
+
+\lossort
+\endlossort
+
+\endinput

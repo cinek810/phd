@@ -1,0 +1,60 @@
+This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: praca.aux
+A level-1 auxiliary file: wstep.aux
+A level-1 auxiliary file: rozdzial1.aux
+A level-1 auxiliary file: rozdzial2.aux
+A level-1 auxiliary file: rozdzial3.aux
+A level-1 auxiliary file: rozdzial4.aux
+The style file: plain.bst
+Database file #1: bibliografia.bib
+Warning--entry type for "understanding-fdtd" isn't style-file defined
+--line 126 of file bibliografia.bib
+Repeated entry---line 448 of file bibliografia.bib
+ : @article{martin2001theory
+ :                          ,
+I'm skipping whatever remains of this entry
+Warning--empty journal in citeulike:2926459
+Warning--empty year in citeulike:2926459
+You've used 30 entries,
+            2118 wiz_defined-function locations,
+            709 strings with 10012 characters,
+and the built_in function-call counts, 11611 in all, are:
+= -- 1120
+> -- 650
+< -- 3
++ -- 258
+- -- 228
+* -- 953
+:= -- 1962
+add.period$ -- 92
+call.type$ -- 30
+change.case$ -- 199
+chr.to.int$ -- 0
+cite$ -- 32
+duplicate$ -- 353
+empty$ -- 826
+format.name$ -- 228
+if$ -- 2340
+int.to.chr$ -- 0
+int.to.str$ -- 30
+missing$ -- 32
+newline$ -- 153
+num.names$ -- 60
+pop$ -- 182
+preamble$ -- 1
+purify$ -- 172
+quote$ -- 0
+skip$ -- 236
+stack$ -- 0
+substring$ -- 837
+swap$ -- 52
+text.length$ -- 3
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 114
+warning$ -- 2
+while$ -- 103
+width$ -- 32
+write$ -- 328
+(There was 1 error message)
