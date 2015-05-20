@@ -11,6 +11,13 @@ J.-P. {Berenger}.
   Waves}.
 \newblock {\em Journal of Computational Physics}, 114:185--200, October 1994.
 
+\bibitem{chan2006optical}
+HB~Chan, Z~Marcet, Kwangje Woo, DB~Tanner, DW~Carr, JE~Bower, RA~Cirelli,
+  E~Ferry, F~Klemens, J~Miner, et~al.
+\newblock Optical transmission through double-layer metallic subwavelength slit
+  arrays.
+\newblock {\em Optics letters}, 31(4):516--518, 2006.
+
 \bibitem{cheng2008physical}
 Chen Cheng, Jing Chen, Da-Jian Shi, Qi-Yang Wu, Fang-Fang Ren, Ji~Xu, Ya-Xian
   Fan, Jianping Ding, and Hui-Tian Wang.
@@ -30,6 +37,12 @@ J.~R. DEVORE.
 \newblock Refractive indices of rutile and sphalerite.
 \newblock {\em J. Opt. Soc. Am.}, 41(6):416--417, Jun 1951.
 
+\bibitem{ebbesen1998extraordinary}
+Thomas~W Ebbesen, HJ~Lezec, HF~Ghaemi, Tineke Thio, and PA~Wolff.
+\newblock Extraordinary optical transmission through sub-wavelength hole
+  arrays.
+\newblock {\em Nature}, 391(6668):667--669, 1998.
+
 \bibitem{citeulike:2926459}
 J.~Goodman.
 \newblock Introduction to fourier optics.
@@ -47,10 +60,23 @@ Shaowu Huang, Haogang Wang, Kung-Hau Ding, and Leung Tsang.
   superlens with rough surface.
 \newblock {\em Optics letters}, 37(8):1295--1297, 2012.
 
+\bibitem{jalas2013and}
+Dirk Jalas, Alexander Petrov, Manfred Eich, Wolfgang Freude, Shanhui Fan,
+  Zongfu Yu, Roel Baets, Milos Popovic, Andrea Melloni, John~D Joannopoulos,
+  et~al.
+\newblock What is—and what is not—an optical isolator.
+\newblock {\em Nat. Photonics}, 7(8):579--582, 2013.
+
 \bibitem{PhysRevB.6.4370}
 P.~B. Johnson and R.~W. Christy.
 \newblock Optical constants of the noble metals.
 \newblock {\em Phys. Rev. B}, 6:4370--4379, Dec 1972.
+
+\bibitem{koerkamp2004strong}
+KJ~Klein Koerkamp, Stefan Enoch, FB~Segerink, NF~Van~Hulst, and L~Kuipers.
+\newblock Strong influence of hole shape on extraordinary transmission through
+  periodic arrays of subwavelength holes.
+\newblock {\em Physical Review Letters}, 92(18):183901, 2004.
 
 \bibitem{lee2009principles}
 Yun-Shik Lee.
@@ -76,13 +102,6 @@ Alon Ludwig, Kevin~J Webb, et~al.
 I.~H. MALITSON.
 \newblock Interspecimen comparison of the refractive index of fused silica.
 \newblock {\em J. Opt. Soc. Am.}, 55(10):1205--1208, Oct 1965.
-
-\bibitem{marcet2008controlling}
-Z~Marcet, JW~Paster, DW~Carr, JE~Bower, RA~Cirelli, F~Klemens, WM~Mansfield,
-  JF~Miner, CS~Pai, and HB~Chan.
-\newblock Controlling the phase delay of light transmitted through double-layer
-  metallic subwavelength slit arrays.
-\newblock {\em Optics letters}, 33(13):1410--1412, 2008.
 
 \bibitem{martin2001theory}
 L~Martin-Moreno, FJ~Garcia-Vidal, HJ~Lezec, KM~Pellerin, T~Thio, JB~Pendry, and
@@ -118,6 +137,13 @@ S~Anantha Ramakrishna, JB~Pendry, MCK Wiltshire, and WJ~Stewart.
 \newblock Imaging the near field.
 \newblock {\em Journal of Modern Optics}, 50(9):1419--1430, 2003.
 
+\bibitem{roux2002grating}
+Jean-Fran{\c{c}}ois Roux, Fabien Aquistapace, Fr{\'e}d{\'e}ric Garet, Lionel
+  Duvillaret, and Jean-Louis Coutaz.
+\newblock Grating-assisted coupling of terahertz waves into a dielectric
+  waveguide studied by terahertz time-domain spectroscopy.
+\newblock {\em Applied optics}, 41(30):6507--6513, 2002.
+
 \bibitem{scalora-transparentmetal}
 M.~Scalora, M.~J. Bloemer, A.~S. Pethel, J.~P. Dowling, C.~M. Bowden, and A.~S.
   Manka.
@@ -128,6 +154,12 @@ M.~Scalora, M.~J. Bloemer, A.~S. Pethel, J.~P. Dowling, C.~M. Bowden, and A.~S.
 \bibitem{understanding-fdtd}
 B.~Schneider.
 \newblock Understanding the finite-difference time-domain method, 2010.
+
+\bibitem{shen2005mechanism}
+Jung-Tsung Shen, Peter~B Catrysse, and Shanhui Fan.
+\newblock Mechanism for designing metallic metamaterials with a high index of
+  refraction.
+\newblock {\em Physical review letters}, 94(19):197401, 2005.
 
 \bibitem{skauli2003improved}
 T~Skauli, PS~Kuo, KL~Vodopyanov, TJ~Pinguet, O~Levi, LA~Eyres, JS~Harris,
@@ -168,6 +200,21 @@ M.~Stolarek, P.~Wróbel, T.~Stefaniuk, M.~Wlazło, A.~Pastuszczak, and
 \newblock Spatial filtering with rough metal-dielectric layered metamaterials.
 \newblock {\em Photonics Letters of Poland}, 5(2):60–62, 2013.
 
+\bibitem{Stolarek:13}
+M.~Stolarek, D.~Yavorskiy, R.~Koty\'{n}ski, C.~J. Zapata-Rodr\'{i}guez,
+  J.~{\L}usakowski, and T.~Szoplik.
+\newblock Asymmetric transmission of terahertz radiation through a double
+  grating.
+\newblock {\em Opt. Lett.}, 38(6):839--841, Mar 2013.
+
+\bibitem{stolarek2013broadband}
+Marcin Stolarek, Dmitriy Yavorskiy, R~Kotynski, CJ~Zapata~Rodriguez,
+  J~Lusakowski, and Tomasz Szoplik.
+\newblock Broadband asymmetric transmission of thz radiation through double
+  metallic gratings.
+\newblock In {\em Transparent Optical Networks (ICTON), 2013 15th International
+  Conference on}, pages 1--4. IEEE, 2013.
+
 \bibitem{Szczytko2012271}
 J.~Szczytko, M.~Stolarek, B.~Pietka, J.~Łusakowski, A.~Wawro, A.~Barańska,
   E.~Papis, R.~Adomavisius, A.~Krotkus, N.~Pałka, and P.~Zagrajek.
@@ -188,6 +235,12 @@ Ji~Xu, Chen Cheng, Ming Kang, Jing Chen, Zhu Zheng, Ya-Xian Fan, and Hui-Tian
 \newblock Unidirectional optical transmission in dual-metal gratings in the
   absence of anisotropic and nonlinear materials.
 \newblock {\em Optics letters}, 36(10):1905--1907, 2011.
+
+\bibitem{Yavorskiy:14}
+D.~Yavorskiy, M.~Stolarek, J.~{\L}usakowski, and R.~Koty\'{n}ski.
+\newblock Asymmetric transmission of radially polarized thz radiation through a
+  double circular grating.
+\newblock {\em Opt. Express}, 22(25):30547--30552, Dec 2014.
 
 \bibitem{1966ITAP14302Y}
 K.~{Yee}.

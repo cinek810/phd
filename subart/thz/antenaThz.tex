@@ -1,5 +1,6 @@
 \subsection{Antena dla promieniowania THz, o działaniu opartym na wzbudzeniu modu falowodowego}
-Projektowana antena promieniowania THz powinna nie tylko zapewniać selektywność reakcji na promieniowanie E-M z wąskiego zakresu długości fali, co można uzyskać przy użyciu mechanizmów opisanych w podrozdziale \ref{subart:rezo-grating}. Jej podstawowym zadniem jest umożliwiać wzbudzenie detektora zlokalizowanego w małym obszarze za pomocą promieniowania padającego na dowolną część anteny. Kompletny schemat układu anteny wraz z podkładem w którym umieszczony jest detektor promieniowania THz w postaci tranzystora polowego przedstawia rysunek \ref{fig:schem-podklad-falo}.
+\label{subart:antenaThz}
+Projektowana antena promieniowania THz powinna nie tylko zapewniać selektywność reakcji na promieniowanie E-M z wąskiego zakresu długości fali, co można uzyskać przy użyciu mechanizmów opisanych w podrozdziale \ref{subart:rezo-grating}. Jej podstawowym zadaniem jest umożliwiać wzbudzenie detektora zlokalizowanego w małym obszarze za pomocą promieniowania padającego na dowolną część anteny. Zastosowanie siatki dyfrakcyjnej jest  najwydajniejszą metodą sprzężenie fali E-M z zakresu THz do podkładu z półprzewodnika, możliwe jest wydajność sprzężenia sięgająca nawet 80\%\cite{roux2002grating}.  Kompletny schemat układu anteny wraz z podkładem w którym umieszczony jest detektor promieniowania THz w postaci tranzystora polowego przedstawia rysunek \ref{fig:schem-podklad-falo}.
 \begin{figure}
 	\centering
 	\includegraphics[width=\textwidth]{images/thz/schemat-podklad-falo.png}
@@ -14,7 +15,16 @@ Rozkład pola na rysunku \ref{fig:consrcl525} nie zapewnia transportu promieniow
 	\textrm{gdzie }\delta=\sqrt{\beta^2-\omega^2\mu_0\varepsilon_0},\textrm{ a }\kappa=\sqrt{\omega^2\mu_0 \varepsilon_0 \varepsilon_{\textrm{GaAs}}-\beta^2}.
 	\end{gathered}
 \end{equation}
-Wszystkie wartości $\beta$ spełniające powyższą równość są dopuszczalnymi wartościami składowej wektora falowego w kierunku propagacji. W ten sposób efektywne współczynniki załamania modów TM w falowodzie planarnym można obliczyć jako $n_{\textrm{eff}}=\frac{\beta}{k_0}$. Rozwiązanie powyższego równania możliwe jest jedynie na drodze numerycznej~(lub graficznie). W przypadku rozważanych podkładów z $GaAs$, $h=400$~$\mu m$, możliwe wartości efektywnego współczynnika załamania przedstawia wykres \ref{fig:gaas-effn}. Różne współczynniki $n_{\textrm{eff}}$ odpowiadjące tej samej długości fali wynikają z wielomodowego charakteru falowodu tworzonego przez podkład $GaAs$. Na podstawie tych wyników przygotowano wykres zależności okresu siatki $d$ potrzebnej do wzbudzenia kolejnych modów falowodowych w zależności od długości fali dla której pracować ma antena. Założono prostopadłe oświetlenie struktury. Wyniki tych obliczeń przedstawia wykres \ref{fig:d-lusok}.
+Wszystkie wartości $\beta$ spełniające powyższą równość są dopuszczalnymi wartościami składowej wektora falowego w kierunku propagacji. W ten sposób efektywne współczynniki załamania modów TM w falowodzie planarnym można obliczyć jako $n_{\textrm{eff}}=\frac{\beta}{k_0}$. Rozwiązanie powyższego równania możliwe jest jedynie na drodze numerycznej~(lub graficznie). W przypadku rozważanych podkładów z $GaAs$, $h=400$~$\mu m$, możliwe wartości efektywnego współczynnika załamania przedstawia wykres \ref{fig:gaas-effn}. Różne współczynniki $n_{\textrm{eff}}$ odpowiadające tej samej długości fali wynikają z wielomodowego charakteru falowodu tworzonego przez podkład $GaAs$. Dopasowanie pędowe między modem prowadzonym w falowodzie, a falą padającą wymaga dodania odpowiedniego pędu do fali padającej przez siatkę dyfrakcyjną, co dla składowych wektora falowego możemy zapisać jako
+\[
+k_{i \parallel} + l \frac{2\pi}{d} = k_0 \cdot n_{\textrm{eff,m}}, 
+\]
+gdzie przez $k_{i \parallel}$ oznaczono składową wektora falowego równoległą do kierunku propagacji w falowodzie, $l$ jest liczbą naturalną odpowiadającą rzędowi ugięcia na siatce dyfrakcyjnej, a $n_{\textrm{eff,m}}$ jest efektywnym współczynnikiem m-tego modu falowodowego. W przypadku padania normalnego pęd fali padającej w kierunku propagacji w falowodzie wynosi zero. Szczególnie interesujący jest również przypadek wzbudzenia modu przy pomocy pierwszego rzędu dyfrakcyjnego siatki, ponieważ dla niego uzyskamy największą efektywność, dlatego po uproszczeniu z powyższego równania możemy wyprowadzić
+\begin{equation}
+d=\frac{2 \pi}{k_0 \cdot n_{\textrm{eff,m}}}.
+\label{eq:d-do-wzbudzenia}
+\end{equation}
+Na podstawie powyższego wzoru przygotowano wykres zależności okresu siatki $d$ potrzebnej do wzbudzenia kolejnych modów falowodowych w zależności od długości fali dla której pracować ma antena. . Wyniki tych obliczeń przedstawia wykres \ref{fig:d-lusok}.
 
 \begin{figure}
 \begin{subfigure}{0.5\textwidth}
@@ -32,7 +42,7 @@ Wszystkie wartości $\beta$ spełniające powyższą równość są dopuszczalny
 
 
 
-Na podstawie przeprowadzonych obliczeń zaproponowano siatkę dla źródła o częstotliwości $f=300$~GHz ($\lambda=1308$~$\mu$m) o grubości $H=1$~$\mu$m i okresie $d=729$~$\mu$m. W strukturach wytwarzanych eksperymentalnie pod podkładem $GaAs$ znajduje się warstwa $Au$ o grubości 1~$\mu$m, którą w symulacji metodą $FDTD$ traktujemy jako doskonały przewodnik. Na rysunku \ref{fig:consrc_1d_f300Ghz} przedstawiono rozkład gęstości energii wewnątrz zaproponowanej struktury. Wyniki symulacji komputerowych potwierdzają  możliwośc propagacji promieniowania E-M z zakresu subterahrecowego w kierunku detektora w zaprojektowanym układzie.
+Na podstawie przeprowadzonych obliczeń zaproponowano siatkę dla źródła o częstotliwości $f=300$~GHz ($\lambda=1308$~$\mu$m) o grubości $H=1$~$\mu$m i okresie $d=729$~$\mu$m. W strukturach wytwarzanych eksperymentalnie pod podkładem $GaAs$ znajduje się warstwa $Au$ o grubości 1~$\mu$m, którą w symulacji metodą $FDTD$ traktujemy jako doskonały przewodnik. Na rysunku \ref{fig:consrc_1d_f300Ghz} przedstawiono rozkład gęstości energii wewnątrz zaproponowanej struktury. Wyniki symulacji komputerowych potwierdzają  możliwość propagacji promieniowania E-M z zakresu subterahercowego w kierunku detektora w zaprojektowanym układzie. Niemal bezstratna propagacja promieniowania z tego zakresu w półprzewodnikach została również potwierdzona w pracach eksperymentalnych\cite{roux2002grating}.
 
 \begin{figure}[tb]
 	\includegraphics[width=\textwidth]{images/thz/consrc_siatka1d_300GHz_d729um.png}
@@ -40,16 +50,11 @@ Na podstawie przeprowadzonych obliczeń zaproponowano siatkę dla źródła o cz
 	\label{fig:consrc_1d_f300Ghz}
 \end{figure}
 
-\begin{figure}
-	\includegraphics[width=0.2\textwidth, angle=90]{images/antenaThz/ro_consrc_radial_antena.png}
-	%TODO: poprawcowac nad tym obrazkiem, ew. zrobic 3d
-	\caption{!!!!!!!!!!!!!!!!!!!!!!!!!!1TEN RYSUNEK JEST DO ZMIANY, RAZEM Z OBRAZKIEM Z PARAGRAFU O BORFDTD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!}	
+\begin{figure}[tb]
+	\includegraphics[width=\textwidth]{images/antenaThz/tort.png}
+	\caption{Rozkład energii pola E-M uzyskany w symulacji metodą BOR FDTD wewnątrz falowodu planarnego z siatką o geometrii cylindrycznej umieszczoną na podkładzie z $GaAs$. Wynik symulacji znajduje się w przekroju przedstawionym na rysunku, obrazowe przejście do geometrii cylindrycznej uzyskano przez wizualizację średniej wartości w danym punkcie falowodu}	
 	\label{fig:concent_modfalo}
-
 \end{figure}
 
-
-
-
-Bazując na pracach numerycznych dotyczących  jednowymiarowych siatek dyfrakcyjnych pozwalających na wzbudzenie modów falowodowych w podkładach z $GaAs$ przeanalizowane zostało działanie analogicznych falowodów opartych na cylindrycznych siatkach dyfrakcyjnych. Ze względu na wzbudzenie modów falowodowych o kierunku propagacji prostopadłym do pasków siatki dyfrakcyjnej uzyskujemy częściową koncentrację promieniowania w obszarze detektora. Odpowiedni eksperyment numeryczny został przeprowadzony przy użyciu metody FDTD we współrzędnych cylindrycznych, szerzej opisanej w podrozdziale \ref{subart:borfdtd}. Wyniki symulacji przedstawione na rysunku \ref{fig:concent_modfalo} odpowiada strukturze z $GaAs$ o rozmiarach 10x10mm pokrytej siatką dyfrakcyjną o okresie $d=538$~$\mu$m i otworach o szerokości $250$~$\mu$m (wspólczynnik wypelnienia ok. 0.53), która została oświetlona promieniowaniem o długosci fali $2.52$~mm.\footnote{Pozorny wzrost natężenia gęstości energii przy zbliżaniu się do środka struktury wynika ze zmniejszania elementu objetościowego wraz ze zbliżaniem do osi symetrii.} W ten sposób potwierdzono możliwośc wykorzystania tego typu struktur~\cite{Stolarek2011}.
+Bazując na pracach numerycznych dotyczących  jednowymiarowych siatek dyfrakcyjnych pozwalających na wzbudzenie modów falowodowych w podkładach z $GaAs$ przeanalizowane zostało działanie analogicznych falowodów opartych na cylindrycznych siatkach dyfrakcyjnych. Ze względu na wzbudzenie modów falowodowych o kierunku propagacji prostopadłym do pasków siatki dyfrakcyjnej uzyskujemy częściową koncentrację promieniowania w obszarze detektora. Odpowiedni eksperyment numeryczny został przeprowadzony przy użyciu metody FDTD we współrzędnych cylindrycznych, szerzej opisanej w podrozdziale \ref{subart:borfdtd}. Wyniki symulacji przedstawione na rysunku \ref{fig:concent_modfalo} odpowiada strukturze z $GaAs$ o rozmiarach 10x10mm pokrytej siatką dyfrakcyjną o okresie $d=538$~$\mu$m i otworach o szerokości $250$~$\mu$m (współczynnik wypełnienia ok. 0.53), która została oświetlona promieniowaniem o długości fali $2.52$~mm.\footnote{Pozorny wzrost natężenia gęstości energii przy zbliżaniu się do środka struktury wynika ze zmniejszania elementu objętościowego wraz ze zbliżaniem do osi symetrii. Symulacja prowadzona była w dwóch wymiarach, ze względu na przyjęcie symetrii cylindrycznej.} W ten sposób potwierdzono możliwość wykorzystania tego typu struktur~\cite{Stolarek2011}.
 

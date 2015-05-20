@@ -1,0 +1,29 @@
+Transmisja w~-1~i~1 rzędzie dyfrakcyjnym przez strukturę jednowymiarową opisywaną w poprzedniej części pracy może zostać wykorzystana do koncentracji wiązki. W omawianej wcześniej geometrii planarnej koncentracja następowała w postaci linii o konstruktywnej interferencji z kolejnych otworów siatki. W poniższym podrozdziale prezentowana jest podwójna siatka dyfrakcyjna, która do koncentracji promieniowania wykorzystuje mechanizm przypominający płytkę strefową Fresnela. Analogię między geometrią planarną, a cylindryczną możemy odnaleźć poprzez myślowe przedstawienie siatki jednowymiarowej jako fragmentu siatki o bardzo dużym promieniu $r$. Ze względu na konieczność oświetlenia DMG przy pomocy promieniowania E-M, którego natężenie pola magnetycznego $H$ jest w każdym punkcie równoległe do pasków siatki, niezbędne w geometrii cylindrycznej jest wykorzystanie źródła fali E-M o polaryzacji radialnej. 
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{images/dmg/express_siatki.png}
+	\caption{Schemat DMG w konfiguracji cylindrycznej uzyskiwanej przez złożenie wielu przesłon o grubości $\frac{\lambda}{30}$ \cite{Yavorskiy:14}}
+	\label{fig:schem-cyl}
+\end{figure}
+
+
+W celu eksperymentalnej realizacji jednokierunkowej soczewki dyfrakcyjnej dla promieniowania THz zaprojektowane zostały przesłony o grubości $\frac{\lambda}{30}=0.1$~mm, które układane w stos jak na rysunku \ref{fig:schem-cyl} zostały wykorzystane do budowy cylindrycznej wersji struktury typu DMG~\cite{Yavorskiy:14}. 
+\begin{figure}
+	\begin{subfigure}{\textwidth}
+		\includegraphics[width=\textwidth]{images/dmg/express-high-kontrast-trans.png}
+		\caption{}
+	\end{subfigure}
+
+	\begin{subfigure}{\textwidth}
+		\includegraphics[width=\textwidth]{images/dmg/express-high-kontrast-block.png}
+		\caption{}
+	\end{subfigure}
+	\caption{Rozkład gęstości energii pola E-M dla cylindrycznej DMG oświetlonej falą o płaskim froncie fazowym wykazujący (a) wysoką transmisję i koncentrację i (b) brak transmisji fali padającej~\cite{Yavorskiy:14}}. Wewnątrz wykresów przedstawione zostały powiększone obrazy rozkładu gęstości energii w pobliżu struktury.
+	\label{fig:cyl-gest-ene}
+\end{figure}
+
+Układ poddany ostatecznej weryfikacji doświadczalnej i obliczeniowej składał się z dwóch siatek dyfrakcyjnych zawierających odpowiednio 4 i 8 otworów. Okresy siatek wynosiły $\Lambda_1=\frac{4}{3} \lambda$ i $\Lambda_2=\frac{2}{3} \lambda$, rozmiary otworów to odpowiednio $a_1=\frac{1}{3}\lambda$ i $a_2=0.267 \lambda$. Odległość od osi symetrii układu do pierwszej szczeliny wynosiła $r_0=2.67\lambda$. Grubości obu siatek były sobie równe $h_1=h_2=\frac{1}{3}\lambda$ a odległość między nimi $a_4=0.233\lambda$. Dodatkowe rowki wzmacniające transmisję miały szerokość $a_3=0.133\lambda$ i głębokość $h_3=\frac{h_1}{2}$. 
+
+Taka struktura oświetlona została falą o polaryzacji radialnej o profilu amplitudy opisanym przy pomocy funkcji super gaussowskiej $A \propto \textrm{exp}\{\frac{-(r-R_0)}{2\sigma^2}\}^{10}$, będącej numerycznym odpowiednikiem fali płaskiej we współrzędnych cylindrycznych. Rozkład gęstości energii odpowiadający opisanej symulacji przedstawia rysunek \ref{fig:cyl-gest-ene}. Na podstawie symulacji z impulsem gaussowskim przy pomocy metody FDTD wyznaczono współczynnik kontrastu struktury jako $C=99.8\%$~\cite{Yavorskiy:14}. Ponieważ metal tworzący podwójną siatkę metalową opisywany jest w symulacji jako doskonały przewodnik, wykonane obliczenia są w pełni skalowalne z długością fali\footnote{Pod warunkiem stosowalności uwzględnionego przybliżenia dla wykorzystywanego materiału dla wybranej długości fali.}
+
+

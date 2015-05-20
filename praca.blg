@@ -9,52 +9,52 @@ A level-1 auxiliary file: rozdzial4.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
 Warning--entry type for "understanding-fdtd" isn't style-file defined
---line 126 of file bibliografia.bib
-Repeated entry---line 448 of file bibliografia.bib
+--line 160 of file bibliografia.bib
+Repeated entry---line 494 of file bibliografia.bib
  : @article{martin2001theory
  :                          ,
 I'm skipping whatever remains of this entry
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
-You've used 34 entries,
+You've used 42 entries,
             2118 wiz_defined-function locations,
-            735 strings with 11115 characters,
-and the built_in function-call counts, 13786 in all, are:
-= -- 1315
-> -- 827
-< -- 3
-+ -- 328
-- -- 294
-* -- 1169
-:= -- 2340
-add.period$ -- 104
-call.type$ -- 34
-change.case$ -- 244
+            786 strings with 12991 characters,
+and the built_in function-call counts, 17426 in all, are:
+= -- 1656
+> -- 1081
+< -- 4
++ -- 428
+- -- 386
+* -- 1502
+:= -- 2963
+add.period$ -- 129
+call.type$ -- 42
+change.case$ -- 312
 chr.to.int$ -- 0
-cite$ -- 36
-duplicate$ -- 397
-empty$ -- 943
-format.name$ -- 294
-if$ -- 2753
+cite$ -- 44
+duplicate$ -- 493
+empty$ -- 1169
+format.name$ -- 386
+if$ -- 3470
 int.to.chr$ -- 0
-int.to.str$ -- 34
-missing$ -- 36
-newline$ -- 173
-num.names$ -- 68
-pop$ -- 219
+int.to.str$ -- 42
+missing$ -- 44
+newline$ -- 213
+num.names$ -- 84
+pop$ -- 276
 preamble$ -- 1
-purify$ -- 213
+purify$ -- 273
 quote$ -- 0
-skip$ -- 264
+skip$ -- 327
 stack$ -- 0
-substring$ -- 980
-swap$ -- 56
-text.length$ -- 3
+substring$ -- 1209
+swap$ -- 70
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 130
+type$ -- 162
 warning$ -- 2
-while$ -- 118
-width$ -- 36
-write$ -- 372
+while$ -- 149
+width$ -- 44
+write$ -- 461
 (There was 1 error message)

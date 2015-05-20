@@ -1,10 +1,10 @@
 \subsection{Własności wykorzystywanych materiałów}
-W układach omawianych w poniższym rozdziale wykorzystywane są złoto i arsenek galu, dlatego ich własności omówione zostaną bardziej szczegółowo. Wszystkie przewodniki, w tym złoto, ze względu na czasy relaksacji rzędu $10^{-14}$s charakteryzują się niemal bezdyspersyją przewodnością. W związku z tym równanie (\ref{eq:lorenz-drude}) możemy zapisać w prostszej postaci
+W układach omawianych w poniższym rozdziale wykorzystywane są złoto i arsenek galu, dlatego ich własności omówione zostaną bardziej szczegółowo. Wszystkie przewodniki, w tym złoto, ze względu na czasy relaksacji rzędu $10^{-14}$s charakteryzują się niemal bezdyspersyjną przewodnością. W związku z tym równanie (\ref{eq:lorenz-drude}) możemy zapisać w prostszej postaci
 \begin{equation}
 	\varepsilon(\omega)=\varepsilon_{\infty}+i \frac{\sigma_0}{\varepsilon_0 \omega},
 	\label{eq:eps-met-thz}
 \end{equation}
-gdzie przez $\sigma_0$ oznaczona została przewodność. Dla złota w warunkach normalnych $\sigma_0=45.2 \frac{S}{\mu m}$.   Ze względu na znacznie większą wartość bezwzględną części urojonej od rzeczywistej dla obszaru subterahretzowego powyższe równanie (\ref{eq:eps-met-thz}) możemy dalej uprościć do postaci
+gdzie przez $\sigma_0$ oznaczona została przewodność. Dla złota w warunkach normalnych $\sigma_0=45.2 \frac{S}{\mu m}$.   Ze względu na znacznie większą wartość bezwzględną części urojonej od rzeczywistej dla obszaru subterahercowego powyższe równanie (\ref{eq:eps-met-thz}) możemy dalej uprościć do postaci
 \begin{equation}
 	\varepsilon(\omega) \approx i \frac{\sigma_0}{\varepsilon_0 \omega}.
 	\label{eq:eps-met-thz-app}
@@ -13,12 +13,12 @@ gdzie przez $\sigma_0$ oznaczona została przewodność. Dla złota w warunkach 
 \begin{figure}[tb]
 	\begin{subfigure}{.45\textwidth}
 		\includegraphics[width=\textwidth]{images/aueps.png}
-%		\caption{Zależność przenikalności elektrycznej od długości fali w zakresie od~$1$~do~$300$~THz, dla }
+		\caption{}
 		\label{fig:aueps}
 	\end{subfigure}
 	\begin{subfigure}{.45\textwidth}
 		\includegraphics[width=\textwidth]{images/gaaseps.png}
-%		\caption{Zależność przenikalności elektrycznej od długości fali w zakresie, od~$17$~do~$300$~THz dla  }
+		\caption{}
 		\label{fig:gaaseps}
 	\end{subfigure}
 	\caption{Zależność przenikalności elektrycznej od długości fali dla (a) $Au$~\cite{ordal1983optical}, (b) $GaAs$~\cite{skauli2003improved}}
@@ -26,8 +26,8 @@ gdzie przez $\sigma_0$ oznaczona została przewodność. Dla złota w warunkach 
 
 Różnica w wartości bezwzględnej części rzeczywistej i urojonej przenikalności elektrycznej złota zmniejszają się ze wzrostem częstotliwości, dla $f=2$~THz moduł części rzeczywistej jest ok. 5 razy mniejszy od modułu części urojonej. Część rzeczywista przenikalności elektrycznej w omawianym zakresie jest ujemna, a jej moduł zmienia się od $10^2$ do $10^4$. Ze względu na dominujący charakter części urojonej związanej z przewodnictwem, eksperymentalne wyznaczenie przenikalności elektrycznej jest bardzo trudne. W wyniku czego eksperymentalne wyznaczenie części rzeczywistej $\varepsilon_{\textrm{Au}}$ prowadzone jest jedynie dla częstotliwości powyżej $1$~THz~(długości fali powyżej $300$~$\mu$m)~\cite{ordal1983optical}\footnote{Powyższa analiza prawdziwa jest dla eksperymentów prowadzonych w temperaturze pokojowej, obniżenie temperatury do~$T=$80K powoduje wzrost przewodności złota do $\sigma_0=208\frac{S}{\mu m}$. W temperaturach kriogenicznych może w cienkich warstwach złota dominujący wpływ na przewodność może mieć rozpraszanie elektronów na defektach struktury.\cite{lide2009crc}}. Zależność $\varepsilon$ od długości fali została przedstawiona na wykresie \ref{fig:aueps}. 
 
-Symulacje opisywane w poniższym rozdziale prowadzon są z maksymalną rozdzielczością $0.5$~$\mu$m na punkt obliczeniowy, natomiast głębokość naskórkowa dla $1$~THz $\delta=74.9$~nm~\cite{lee2009principles}. Mała głębokość naskórkowa w porównaniu do długości fali oraz rozmiaru siatki przyjętej w obliczeniach uprawnia do przybliżenie złota przez doskonały przewodnik. 
+Symulacje opisywane w poniższym rozdziale prowadzone są z maksymalną rozdzielczością $0.5$~$\mu$m na punkt obliczeniowy, natomiast głębokość naskórkowa dla $1$~THz $\delta=74.9$~nm~\cite{lee2009principles}. Mała głębokość naskórkowa w porównaniu do długości fali oraz rozmiaru siatki przyjętej w obliczeniach uprawnia do przybliżenie złota przez doskonały przewodnik. 
 
-W przeciwieństwie do złota warstwy $GaAs$ w zakresie THz mogą być traktowane jako bezstratne, charakteryzują się one również słabą dyspersją, a w przypadku obliczeń prowadzonych dla wąskiego zakresu długości fali wartośc przenikalności elektrycznej może być traktowana jako stała. Warto jednak zwrócić uwagę, że warstwy $GaAs$ uzyskiwane w wyniku epitaksji z wiązki molekularnej poddawane są zazwyczaj procesowi wygrzewania w celu ich wygładzenia lub eliminacji zanieczyszczeń. Proces ten może mieć jednak znaczący wpływ na koncentrację elektronów w paśmie przewodnictwa, co może istotnie zmienić właściwości elektromagnetyczne tego materiału~\cite{zhang2009annealing}. Zależność przenikalności elektrycznej od długości fali dla $GaAs$ przedstawia wykres na rysunku \ref{fig:gaaseps}.
+W przeciwieństwie do złota warstwy $GaAs$ w zakresie THz mogą być traktowane jako bezstratne, charakteryzują się one również słabą dyspersją, a w przypadku obliczeń prowadzonych dla wąskiego zakresu długości fali wartość przenikalności elektrycznej może być traktowana jako stała. Warto jednak zwrócić uwagę, że warstwy $GaAs$ uzyskiwane w wyniku epitaksji z wiązki molekularnej poddawane są zazwyczaj procesowi wygrzewania w celu ich wygładzenia lub eliminacji zanieczyszczeń. Proces ten może mieć jednak znaczący wpływ na koncentrację elektronów w paśmie przewodnictwa, co może istotnie zmienić właściwości elektromagnetyczne tego materiału~\cite{zhang2009annealing}. Zależność przenikalności elektrycznej od długości fali dla $GaAs$ przedstawia wykres na rysunku \ref{fig:gaaseps}.
 
 

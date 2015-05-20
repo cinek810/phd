@@ -1,4 +1,43 @@
-Możliwośc zastosowania podwójnych siatek metalowych (ang. DMG - double metallic grating)\nomenclature{DMG}{ang. Double Metallic Grating - podwójna metalowa siatka dyfrkacyjna} w celu uzyskania różnej transmisji w przypadku propagacji światła w przeciwnych kierunkach przez strukturę zostało zaproponowane przez Chen Cheng i innych \cite{cheng2007controllable,cheng2008physical,xu2011unidirectional}. Budowa podwójnej siatki metalowej została przedstawiona na rysunku \ref{fig:1ddmg-schem}. Uzyskanie transmisji jednokierunkowej możliwe jest przy dobraniu parametrów układu tak, aby $\Lambda_1 = 2\Lambda_2$ oraz długość fali E-M padającej na DMG  $\lambda$ spełniała nierówność $\Lambda_2<\lambda<\Lambda_2$. Przywołując klasyczne prawo Braggów
+W dalszej części tego rozdziału omawiane są podwójne metalowe siatki dyfrakcyjne~(ang. DMG - double metallic grating),\nomenclature{DMG}{ang. Double Metallic Grating - podwójna metalowa siatka dyfrakcyjna}  które stanowią rozszerzenie koncepcji przedstawionych w podrozdziale \ref{subart:rezo-grating}. Dla ułatwienia w odniesieniu do wcześniej omawianych siatek wykorzystywany jest termin SMG~(ang. single metallic grating).
+
+\begin{figure}[tb]
+	\includegraphics[width=\textwidth]{images/dmg/dmg_general_schem.png}
+	\caption{Schematyczny obraz DMG analizowanych w pracy \cite{cheng2007controllable}}
+	\label{fig:cheng_dmg_schem}
+\end{figure}
+
+Przykład struktury typu DMG zbudowanej z dwu siatek dyfrakcyjnych o tym samym współczynniku wypełnienia i okresie przedstawia rysunek~\ref{fig:cheng_dmg_schem}. Propozycję tego typu struktury jako uogólnienia SMG podał Chen Cheng i inni\cite{cheng2007controllable}, prezentując możliwość regulacji położenia maksimum transmisji przy pomocy $G$ i $a_3$, jak również uzyskanie niskiej transmisji przez strukturę dla szerokiego zakresu widmowego przy odpowiednim doborze tychże parametrów. 
+
+Analizę fizycznych mechanizmów prowadzących do nadzwyczajnej transmisji przez DMG zaczniemy od przypadku $a_3=0$ i $G=0$, w takiej sytuacji uzyskujemy strukturę SMG o grubości dwóch siatek budujących DMG. Zgodnie z wykresami na rysunku\ref{fig:rezo-siat-H} dla tego typu siatki złożonej z dwóch SMG o grubości $h=300$~$\mu$m uzyskalibyśmy rezonanse w transmisji jak dla siatki o $h=600$~$\mu$m, czyli dla długości fali $\lambda \approx 400$~$\mu$m~i~$\lambda \approx 600$~$\mu$m. W wyniku stopniowego zwiększania $a_3$ obserwujemy zbliżanie obu maksimów transmisji, przesuwających się odpowiednio w kierunku fal dłuższych i krótszych. W do odległość $a_3 \approx \frac{h}{2}$ następuje degeneracja obu modów a maksimum transmisji występuje w okolicach maksimum obu SMG dla $\lambda \approx 560$~$\mu$m \cite{cheng2008physical}. Dalsze zwiększanie odległości powoduje znaczący spadek transmisji w szerokim spektrum długości fali, związane jest to ze słabym sprzężeniem stojącej fali powierzchniowej za pierwszą SMG z modami falowodów w drugiej SMG. Znaczne zwiększenie $a_3$, aż do odległości odpowiadającej warunkowi konstruktywnej interferencji w rezonatorze Fabry-Perot'a tworzonego przez powietrze i dwie warstwy o efektywnych współczynnikach i grubościach obliczonych z zgodnie z modelem efektywnym przedstawionym w pracy \cite{shen2005mechanism} prowadzi do kolejnych maksimów transmisji przez cały układ.
+
+Niezależnie od modyfikowania własności transmisyjnych przy pomocy odległości między SMG - $a_3$, przesunięcie maksimum transmisji jak i jej blokowanie, można uzyskać zmieniając boczne przesunięcie siatek - $G$. Maksimum transmisji przez DMG można uzyskać również dla układu w którym $G$ dobrano tak, aby wyeliminować bezpośredni prześwit przez strukturę. Dla DMG jak na rysunku~\ref{fig:cheng_dmg_schem} maksimum transmisji przez strukturę występuje dla $G$ równego zero lub połowie okresu SMG, minimum transmisji napotykamy natomiast dla $G$ równego ćwierć okresu SMG~\cite{chan2006optical}.
+
+\begin{figure}[tb]
+	\includegraphics[width=\textwidth]{images/thz/1D-DMG-schemat.png}
+	\caption{Schemat omawianej podwójnej siatki metalowej zaprojektowanej do uzyskania transmisji asymetrycznej}
+	\label{fig:1ddmg-schem}
+\end{figure}
+
+
+Możliwość zastosowania podwójnych siatek metalowych w celu uzyskania różnej transmisji w przypadku propagacji światła w przeciwnych kierunkach przez strukturę zostało zaproponowane przez Ji Xu i innych \cite{xu2011unidirectional}. W przeciwieństwie do wcześniejszych prac na temat DMG~\cite{cheng2007controllable,cheng2008physical,chan2006optical} w zaproponowanej strukturze jedna z siatek miała okres większy od długości fali dla której projektowano układ ($\Lambda>\lambda$). Autorzy błędnie interpretując wyniki symulacji FDTD twierdzili, że możliwe jest zastosowanie tego typu struktury jako elementu toru optycznego o jednokierunkowej transmisji światła. Późniejsza analiza numeryczna i eksperymentalna wykazała, że układ spełnia twierdzenie Lorenza o wzajemności - w związku z czym nie może być  traktowany jako izolator optyczny \cite{jalas2013and}. Zwiększenie okresu jednej z siatek umożliwiło zastosowanie rowków w siatce wejściowej dla kierunku charakteryzującego się wysokim współczynnikiem transmisji\cite{xu2011unidirectional}.
+
+Odpowiednio dobrane parametry siatki podwójnej mogą prowadzić jednak do transmisji asymetrycznej. Różnica w transmisji przejawia się niskim współczynnikiem transmisji przy oświetleniu prostopadłym jednej ze stron i wysokim przy oświetleniu z drugiej. Nie jest to jednak warunek wystarczający na realizację izolatora optycznego \cite{jalas2013and}, ponieważ w przypadku wysokiej transmisji promieniowanie E-M jest uginane przez siatkę dyfrakcyjną. 
+
+\begin{figure}[tb]
+	\includegraphics[width=\textwidth]{images/thz/opt_lett_gora.png}
+	\caption{Rozkład gęstości energii pola E-M w przypadku prostopadłego oświetlenia układu DMG zaprojektowanego do transmisji asymetrycznej od strony siatki z rowkami \cite{Stolarek:13}}
+	\label{fig:trans_gora}
+\end{figure}
+
+\begin{figure}[tb]
+	\includegraphics[width=\textwidth]{images/thz/opt_letters_dol.png}
+	\caption{}
+	\label{fig:trans_dol}
+	\caption{Rozkład gęstości energii pola E-M w przypadku prostopadłego oświetlenia układu DMG zaprojektowanego do transmisji asymetrycznej od strony siatki podfalowej \cite{Stolarek:13} }
+	\label{fig:tras_gora_dol}
+\end{figure}
+
+Fakt ten wynika z budowy podwójnej siatki metalowej służącej do uzyskania transmisji asymetrycznej, która została przedstawiona na rysunku \ref{fig:1ddmg-schem}. Uzyskanie transmisji jednokierunkowej możliwe jest przy dobraniu parametrów układu tak, aby $\Lambda_1 = 2\Lambda_2$ oraz długość fali E-M padającej na DMG  $\lambda$ spełniała nierówność $\Lambda_2<\lambda<\Lambda_2$. Przywołując klasyczne prawo Braggów
 \begin{equation}
 	\Lambda \cdot \textrm{sin}(\alpha_n) = n \lambda 
 \end{equation}
@@ -6,39 +45,18 @@ dla padania pod kątem $0^{\circ}$, zakładając otoczenie w postaci powietrza z
 \begin{equation}
 	 0 \le |n| \le \frac { \Lambda }{\lambda},
 \end{equation}
-z którego wynika, że omawiany układ może wykazywać się jednie -1,~0~i~1 rzędem ugięcia pochodzącymi od siatki o okresie $\Lambda_1$. Ze względu na podfalowy okres $\Lambda_2$ fala E-M będzie przez tę siatkę propagować się bez zmiany kierunku. Cała struktura może być traktowana jako układ sprzężający dwie siatki dyfrakcyjne, w których przesunięcie pomiędzy pomiędzy siatkami może posłużyć do regulacji zmiany fazy przed sprzężenie pola za jedną siatką do pola przed drugą\cite{marcet2008controlling}. Na skutek modyfikacji fazy, jeden z rzędów ugięcia może zostać wygaszony przez interferencję. 
-	
+z którego wynika, że omawiany układ może wykazywać jednie -1,~0~i~1 rząd ugięcia pochodzące od siatki o okresie $\Lambda_1$. Ze względu na podfalowy okres $\Lambda_2$ fala E-M padająca pod kątem $0^{\circ}$ będzie przez tę siatkę propagować się bez zmiany kierunku.  W wyniku interferencji za siatką dyfrakcyjną o okresie $\Lambda_1$ możliwe jest wyeliminowanie jednego z rzędów dyfrakcyjnych. Przedstawiona siatka projektowana jest dla długości fali ok $2.9$~mm dla którego charakteryzuje się ugięciem $-1$ i $1$ rzędu pod kątem $45^{\circ}$ oraz wygaszeniem rzędu zerowego. Wynik symulacji FDTD przedstawiający rozkład energii pola E-M w przypadku oświetlenie struktury od strony siatki o okresie $\Lambda_1$ przedstawia rysunek \ref{fig:trans_gora}.
+
 \begin{figure}[tb]
-	\includegraphics[width=\textwidth]{images/thz/1D-DMG-schemat.png}
-	\caption{Schemat omawianej podwójnej siatki metalowej wykorzystywanej }
-	\label{fig:1ddmg-schem}
-\end{figure}
-
-
- Z innej perspektywy strukturę typu DMG można analizować jako układ falowodów metal-dielektryk-metal, o rozmiarach podfalowych ( $a_1,a_2,a_3 < \lambda$), dlatego wzbudzany może być w nich jedynie mod podstawowy w polaryzacji TM\footnote{Podobnie jak w  podrozdziale \ref{subart:rezo-grating}}. 
-
-Przedstawiona struktura wykazuje asymetrię w transmisji -1~i~1 rzędu ugięcia. W przypadku oświetlenia od strony siatki o okresie $\Lambda_1$ wiązka światła zostaje transmitowana jedynie do -1~i~1 rzędu ugięcia, ze względu na interferencyjne wygaszenie rzędu 0. Następnie w sposób nie zmodyfikowany jest transmitowana przez siatkę o charakterze podfalowym $\Lambda_2$. Gęstość energii pola E-M odpowiadająca opisanej sytuacji została przedstawiona na rysunku \ref{fig:trans_gora}. 
-	Przy oświetleniu z przeciwnej strony różnica w fazie składowych dochodzących do szczelin w siatce wyjściowej wynosi $\pi$ na skutek czego wewnątrz falowodów struktury dochodzi do destruktywnej interferencji i fala E-M nie jest transmitowana. Odpowiedni rozkład gęstości energii pola E-M prezentuje rysunek \ref{fig:trans_dol}. W wyniku optymalizacji numerycznej parametrów struktury uzyskano znaczącą różnicę we współczynniku transmisji w przypadku oświetlenia z różnych stron DMG dla szerokiego spektrum długości fali. Zależność współczynnika transmisji przez DMG w przeciwnych kierunkach w zależności od długości fali przedstawia wykres na rysunku \ref{fig:tran_freq}.
-
-
-\begin{figure}
-	\begin{subfigure}{0.9\textwidth}
-		\includegraphics[width=\textwidth]{images/thz/opt_lett_gora.png}
-		\label{fig:trans_gora}
-	\end{subfigure}
-
-	\begin{subfigure}{0.9\textwidth}
-		\includegraphics[width=\textwidth]{images/thz/opt_letters_dol.png}
-		\label{fig:trans_dol}
-	\end{subfigure}
-	\caption{Rozkład gęstości energi pola E-M w przypadku prostopadłego oświetlenia układu DMG z różnych stron. }
-	\label{fig:tras_gora_dol}
-\end{figure}
-
-\begin{figure}	
 	\centering
 	\includegraphics[width=0.5\textwidth]{images/thz/opt_lett_spect.png}
-	\caption{Zależność współczynnika transmisji przez omawianą strukturę DMG od długości fali dla oświetlenia z różnych stron. Wykres odpowiada DMG o $\Lambda_1= 2 \Lambda_2 = 4.2$~mm, $a_1=a_2=a_3=0.7$~mm, $h_1=h_2=2 h_0=1$~mm.}
+	\caption{Zależność współczynnika transmisji przez omawianą strukturę DMG od długości fali dla oświetlenia z różnych stron. Wykres odpowiada DMG o $\Lambda_1= 2 \Lambda_2 = 4.2$~mm, $a_1=a_2=a_3=0.7$~mm, $h_1=h_2=2 h_0=1$~mm \cite{Stolarek:13}.}
 	\label{fig:trans_freq}
 
 \end{figure}
+
+ Z innej perspektywy strukturę typu DMG można analizować jako układ falowodów metal-dielektryk-metal, o rozmiarach podfalowych ( $a_1,a_2,a_3 < \lambda$), dlatego wzbudzany może być w nich jedynie mod podstawowy w polaryzacji TM.\footnote{Promieniowanie o polaryzacji TE jest w pełni odbijane przez omawiany układ} Dla $a_3 \to 0$ struktura przypomina omawianą w podrozdziale \ref{subart:rezo-grating}, w przypadku $a_3 \ne 0$ możliwa jest dodatkowe sprzęganie pomiędzy falowodami poprzez kanał pomiędzy siatkami dyfrakcyjnymi. Różnica w fazie składowych pola E-M dochodząca do otworów w siatce o okresie $\Lambda_1$ w przypadku oświetlenia prostopadłego od strony siatki o okresie $\Lambda_2$ w omawianym przypadku wynosi $\pi$ w wyniku czego współczynnik transmisji dla takiej sytuacji zbliża się do 0. Rozkład gęstości energii odpowiadający oświetleniu układu od strony siatki o okresie $\Lambda_2$ przedstawia rysunek \ref{fig:trans_dol}.
+
+W wyniku optymalizacji numerycznej parametrów struktury uzyskano znaczącą różnicę we współczynniku transmisji w przypadku oświetlenia z różnych stron DMG dla szerokiego spektrum długości fali\cite{Stolarek:13}. Zależność współczynnika transmisji przez DMG w przeciwnych kierunkach w zależności od długości fali przedstawia wykres na rysunku \ref{fig:trans_freq}. Dalsze symulacje numeryczne wykazały, że możliwa jest modyfikacja rozmiarów otworów w siatkach w celu poprawy kontrastu w transmisji w przeciwnych kierunkach $C=\frac{|T_1 - T_2|}{T_1+T_2}$ \cite{stolarek2013broadband}.
+
+
