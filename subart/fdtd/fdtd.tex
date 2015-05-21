@@ -27,7 +27,7 @@ Z powyższych równań możemy zapisać  skalarny układ równań różniczkowyc
 \varepsilon \frac{\partial E_z}{\partial t}=\frac{\partial H_y}{\partial x},
 \end{equation} w którym zmiana w czasie amplitudy jednego z pól wyrażona jest przez pochodną względem $x$ drugiego pola. Równanie wyprowadzone z \ref{eq:fdtd-faraday} posłuży nam do ewolucji w czasie natężenia pola magnetycznego, natomiast równanie \ref{eq:fdtd-amper} do obliczenia przyszłych (w czasie $t_0 + \Delta_t$) wartości pola $E$.
 
-\begin{figure}
+\begin{figure}[tb]
 \includegraphics[width=.9\textwidth]{subart/fdtd/leapfrog.png}
 \label{pic:leapfrog}
 \caption{Graficzna prezentacja dyskretyzacji w jednowymiarowej metodzie FDTD. Pozioma przerywana linia wskazuje przykładową granicę pomiędzy wartościami już obliczonymi i szukanymi w kolejnym kroku symulacji. }
@@ -55,13 +55,27 @@ S\le\frac{n_{min}}{\sqrt{DIM}},
 \end{equation}
 gdzie przez $DIM$ oznaczono liczbę wymiarów przestrzennych symulacji, a $n_{min}$ najniższy współczynnik załamania materiału znajdującego się w przestrzeni symulacji. Wyznaczenie odpowiedniego współczynnik Couranta dla symulacji z materiałami dyspersyjnymi \ref{subart:lorenz-drude)} jest zagadanieniem skomplikowanym, wymagającym każdorazowego rozpatrzenia parametrów symylacji.
 
-\subsection{BOR FDTD}
-\label{subart:borfdtd}
-
 \subsection{Warunki brzegowe}
 Równania \ref{eq:numhy-1dfdtd} i \ref{eq:numez-1dfdtd} mogą być oczywiście zastosowane jedynie do punktów nie będących granicznymi dla obszaru symulacji. Numeryczne rozwiązanie równania różniczkowego zawsze wiąże się z odpowiednim dobraniem warunków brzegowych, które nie powinny wprowadzać dodatkowych artefaktów do modelowanego zjawiska. Najprosztszym sposobem jest zastosowanie warunku Dirichleta przyjęcie skrajnych wartości pola elektrycznego lub magnetycznego jako równych 0, fizycznie wprowadzenie tego typu założenia jest równoważne z umieszczeniem na granicy symulowanego obszaru idealnego przewodnika,odpowiednio elektrycznego(PEC)\footnote{Od ang. Perfect Electric Conductor} lub magnetycznego(PMC)\footnote{Będącego tworem numerycznym (dla wygody numerycznej wprowadza się również przewodniość magnetyczną. W skrócie określanym jako PMC od ang. Perfect Magnetic Conductor} Wprowadzenie stałej, równej zero wartości na granicy obszaru symulacji powoduje odbicie obu pól, w stosunku do pola dla którego ustalono zerową wartość na granicy przy odbiciu następuje zmiana znaku. Ograniczenie obszaru symulacji przy pomocy idealnego przewodnika, de facto ogranicza możliwości metody do modelowania jedynie wnęk rezonansowych. Większość zjawisk elektromagnetycznych odbywa się w otwartej przestrzeni \footnote{Za którą z dobrym przybliżeniem możemy uważać nawet zamknięte laboratorium. Ponieważ analizowane zjawiska dyfrakcji, czy rozpraszania zachodzą w małym obszarze, położonym z dala od ograniczeń fizycznych takich jak ściany które słabo odbijają światło widzialne.}
 
-W celu umożliwienia symulacji zjawisk zachodzących w nieograniczonej przestrzeni, wprowadza się absorbcyjne warunki brzegowe (ABC od ang. absorbing boundary condition), których celem jest zasymulowanie zachowania nieskonczonej przestrzeni przy pomocy skonczonej liczby wierzchołków siatki obliczeniowej. W przypadku symulacji jednowymiarowej dla $n=1$, współczynniku Couranta $S=1$ i zastosowaniu standardowego założenia o braku źródeł poza obszarem symulacji, tego typu warunek brzegowy można łatwo zreazlizować. Wartości amplitudy pola w wierzchołku na brzegu w kroku $q+1$ musi wynosić dokładnie wartośc amplitudy tego pola w kroku $q$ w wierzchołku sąsiednim. W sytuacji wielowymiarowej, gdy w obszarze symulacji występują np. materiały stratne zagadnienie to staje się znacznie bardziej skomplikowane. Przykładowymi propozycjami rozwiązań omawianego problemu są warunki przegowe typu TFSF(ang total field scatter field) czy PML (ang. perfectly matched layer), które zostanie szerzej omówione w \ref{art:pml}.
+W przypadku niektórych struktur istnieje naturalne zakończenie obszaru symulacji. Przykładem mogą być periodyczne kryształy fotoniczne, dla których obszar symuaclji stanowi komuórka elementarna z periodycznie zadanymi warunkami brzegowymi. Rozwiązania niektórych problemów elektromagnetycznych szybko zanikają w przestrzeni, w związku z czym zastosowanie odpowiednio dużego obszaru symulacji może umożliwić przeprowadzenie obliczeń. Inne zagadnienia wymagają zamiany zmiennych  jak np. $\hat{x}=\textrm{tanh}(x)$, która prowadzi do zmiany dziedziny symulacji z $x\in(- \infty; + \infty)$ na $\hat{x}\in(-1;1)$ i rozwiązania zmienionego problemu. 
+
+Wygodniejszym rozwiązaniem pozwalającym na skończonej siatce modelować zjawiska zachodzące w nieograniczonej przestrzeni, wprowadza się absorbcyjne warunki brzegowe (ABC od ang. absorbing boundary condition). W przypadku symulacji jednowymiarowej dla $n=1$, współczynniku Couranta $S=1$ i zastosowaniu standardowego założenia o braku źródeł poza obszarem symulacji, tego typu warunek brzegowy można łatwo zreazlizować. Wartości amplitudy pola w wierzchołku na brzegu w kroku $q+1$ musi wynosić dokładnie wartośc amplitudy tego pola w kroku $q$ w wierzchołku sąsiednim. W sytuacji wielowymiarowej, gdy w obszarze symulacji występują np. materiały stratne zagadnienie to staje się znacznie bardziej skomplikowane. Przykładowymi propozycjami rozwiązań omawianego problemu są warunki przegowe typu TFSF(ang total field scatter field).
+
+\subsection{PML}
+\label{art:pml}
+Zmiane podejścia do realizacji symulacji numerycznych dotyczących zjawisk w nieograniczonej przestrzeni zaproponował Jean-Pierre B\'{e}renger. Zamiast konstruowania odpowiedniego warunku brzegowego zaproponował on wprowadzenie nieodbijającej warstwy absorbcyjnej, określanej jako PML~(ang.perfectly matched layer), przylegającej do granicy obszaru symulacji~\cite{1994JCoPh.114..185B}. Dzięki zastosowaniu takiej warstwy za nią możemy użyć np. sztywnych warunków Dirichleta, ponieważ po przejściu przez warstwę PML natężenie pola E-M będzie na tyle słabe, że fala odbita od brzegu nie będzie miała wpływu na wynik całości symulacji. Warstwa PML tworzona jest ze sztucznego materiału, którego własności zostały wyprowadzone przez podział rozwiązania równania falowego,  stąd stosowana angielska nazwia {\it split-field} PML.\footnote{Orginalne wyprowadzenie podane przez B\'{e}rengera dotyczyło rozwiązywania równań Maxwella, to samo podejście zostało jednak bezpośrednio przełożone na modelowanie innych zjawisk opisywanych równaniem falowym}.  Wyprowadzenie podane przez B\'{e}rengera  wymagało również wprowadzenia do równań Maxwella przewodnictwa magnetycznego, które było niezerowe jedynie w niefizycznym obszarze PML.
+
+Obecnie powszechnie wykorzystywana jest wersja PML nie wymagająca modyfikacji równania falowego, która wyraża PML przez obszar symulacji zajmowany przezjednoosiowy absorbujący materiał anizotropowy, stąd stosowana nazwa UPML (ang uniaxial PML). Pierwotne wyporwadzenie UPML oparte było na analitycznym obliczeniu własności materiału spełniających warunek absorbcyjności i zerowego współczynnika odbicia niezależnie od polaryzacji i kąta padającego promieniowania E-M  \cite{sacks1995perfectly}. Później przedstawione zostały bardziej elegancie formy wyprowadzenia PML oparte na optyce transformacyjnej~\cite{rappaport1995perfectly}, podobne wyprowadzenie UPML stosowane jest w rozdziale \ref{roz:pml} niniejszej pracy.
+
+Należy również nadmienić, że PML posiada pewne ograniczenia. Jedynm z nich jest zależność współczynnika absorbcji od kąta padania promieniowania E-M. Współczynnik tłumienia jest proporcjonalny do $k_0 \textrm{cos}(\theta)$, gdzie $\theta$ jest kątem padania. Dla kątów bliskich $\frac{\pi}{2}$ tłumienie fali padającej dąży do zera, w związu z czym takie fale będą w znacznym stopniu docierać do brzegu symulacji po odbiciu od którego znów znajdą się w interesującym nas obszarze. W praktyce, w symulacjach FDTD można uniknąć tego typu problemów zapewniając odpowiednią odległość symulowanego układu od obszaru PML.
+
+Zasadniczym problemem dotyczącym PML w symulacjach numerycznych jest odbicie na granicy PML wynikające z dyskretności siatki obliczeniowej. W celu uniknięcia problemów związanych z odbiciem numerycznym stosowany w oblczeniach PML nie jest jednolitym ośrodkiem, ale de facto składa się z wielu warstw ośrodków o coraz to większym współczynniku absorbcji.
+
+Niedoskonałością PML, której w żaden sposób nie można uniknąć jest założenie o niezmienności medium graniczącego z PML w kierunku prostopadłym do PML. W takiej sytuacji należy możliwe jest wykorzystanie jedynie absorberów opartych o twierdzenie adiabateyczne~\cite{oskooi2008failure}.
+
+
+
 
 \subsection{Źródła pola elektromagnetycznego}
 Ostatnim z omawianych podstawowych elementów metody FDTD jest wprowadzenie źródeł. Najbardziej podstawowym sposobem na realizację tego zadania jest umieszczenie tzw. źródła sztywnego. W takim przypadku w wybranym punkcie symulacji pole elektryczne nie jest obliczane zgodnie z równaniem \ref{eq:numez-1dfdtd}, zamiast tego zależność czasu stanu pola elektrycznego od czasu jest dla niego podana w sposób analityczny. Tego typu źródło, podobnie jak zadane w sposób stały warunki brzegowe wprowadza dodatkowe odbicia w obszarze symulacji.
@@ -74,9 +88,29 @@ Innym sposobem wprowadzenia źródła, jest wykorzystanie prawa ampera z gęsto�
 gdzie $\vec{J}$ może być rozumiany jako gęstość prądu elektrycznego związana z przepływem nośników swobodnych w materiale o określonej przewodności elektrycznej $\sigma$, ale może też być wykorzystany jako sposób wprowadzenia źródła pola elektrycznego do symujlacji. Wprowadzenie źródła addytywnego wymaga wykorzystania innego równania niż prezentowane wcześniej \ref{eq:numez-1dfdtd}, wyprowadzamy z \ref{eq:amper-j} przez zastąpienie pochodnych różnicami skończonymi podobnie jak w poprzednim wypadku. 
 
 
-\subsection{PML}
-\label{art:pml}
-Powszechnie wykorzystywanym obecnie wariantem warunków brzegowych w FDTD jest tzw. PML (ang. Perfectly Matched Layer). Metoda ta polega na umieszczeniu na granicy symulacji, przed brzegiem dla którego stosujemy np. warunek Dirichleta, sztucznego materiału absorbującego promieniowanie. Dopasowanie warstwy oznacza, że na granicy pomiędzy PML-em a innymi materiałami nie występuje zjawisko odbicia. Pierwsze wyprowadzenie PML zostało podane przez Berengera w 1994 \cite{1994JCoPh.114..185B} 
 
+\subsection{BOR FDTD}
+\label{subart:borfdtd}
+W przypadku symulacji dotyczącej struktury o symetrii cylindrycznej możliwe jest zredukowanie problemu trójwymiarowego do problemu dwuwymiarowego. Po zamianie współżędnych na cylindryczne w równaniach (\ref{eq:fdtd-faraday}) i (\ref{eq:fdtd-amper}) zależność od kąta $\phi$ separuje się od zmiennych przestrzennych $r$ i $z$ dając analityczne rozwiązanie w postaci szeregów zależnych od kąta
+\begin{equation}
+	\begin{gathered}
+	\vec{E}(\vec{r},t)=\sum_{m=0}^{\infty}(\vec{e_u}(r,z,t) \textrm{cos}(m\phi)+\vec{e_v}(r,z,t)\textrm{sin}(m\phi)) \\
+	\vec{H}(\vec{r},t)=\sum_{m=0}^{\infty}(\vec{h_u}(r,z,t) \textrm{cos}(m\phi)+\vec{h_v}(r,z,t)\textrm{sin}(m\phi)).
+	\end{gathered}
+	\label{eq:bor-fields}
+\end{equation}
+
+W powyższym wzorze $m$ jest liczbą numerującą azymutalne mody pola E-M, dla określonego modu prowadzenie symulacji wymaga jedynie aktualizowania wartości funkcji $e_u$,$e_v$,$h_u$~i~$h_v$, które to są funkcjami jedynie dwóch zmiennych. Jeżeli rozkład pola na początku symulacji, oraz pól generowanych przez źródła znajdujące się w obszarze symulacji można rozłożyć na skończoną liczbę elementów sum ze wzorów (\ref{eq:bor-fields}) to rozwiązując kilka problemów dwu wymiarowych, a następnie stosując zasadę superpozycji pól możemy znaleźć rozwiązanie problemu trójwymiarowego, metodą o dużo mniejszej złożoności obliczeniowej i pamięciowej\footnote{Liczba punktów w symulacji dwuwymiarowej jest kwadratową funkcją rozdzielczości, a w przypadku obliczeń w trzech wymiarach sześcienną}.
+
+\begin{figure}
+	\includegraphics[width=\textwidth]{subart/fdtd/R5_TFSF.png}
+	\caption{Przykład dyskretyzacji do rozwiązywania równań różniczkowych metody BOR FDTD \cite{antosiewicz2009wplyw}}
+	\label{fig:bor-dysk}
+\end{figure}
+W przypadku symulacji BOR FDTD stabilność numeryczna wyrażana przez współczynnik Couranta zależy od $m$. Dla $m=0$ największa dopuszczalna wartość przy symulacjach z najniższym współczynnikiem załamania spośród symulowanych materiałów wynosi $S=\sqrt{2}$, dla wyższych modów $S \propto m+1$.
+
+Ze względu na symetrię układu współrzędnych pola, których punkty dyskretyzacji znajdują się na osi są tożsamościowo równe zero, poza szczególnymi przypadkami jak $e_z$ dla modu $m=0$, oraz $e_{\phi} i h_r$ dla m=1 ( w przypadku dyskretyzacji jak na rysunku \ref{fig:bor-dysk}).
+
+Wynikowe rozkłady pola w symulacjach metodą BOR FDTD są dwu wymiarowymi mapami, na których jedna z osi odpowiada współrzędnej $z$ - konwencjonalnie równoległej do osi symetrii. Druga natomiast współrzędnej $r$ - odległości od osi. Ze względu na zasadniczą różnicę znaczeniu obu osi kluczowe dla interpretacji wyników jest zdefiniowanie położenia osi symetrii.
 
 

@@ -1,5 +1,11 @@
 \begin{thebibliography}{10}
 
+\bibitem{antosiewicz2009wplyw}
+Tomasz~J Antosiewicz.
+\newblock {\em Wp{\l}yw nanostruktury sondy metalizowanej na
+  rozdzielczo{\'s}{\'c} optycznego mikroskopu skaningowego bliskiego pola}.
+\newblock Uniwersytet Warszawski. Wydzia{\l} Fizyki, 2009.
+
 \bibitem{pastuszczak2013engineering}
 A.Pastuszczak, M.Stolarek, and R.~Koty{\'n}ski.
 \newblock Engineering the point spread function of layered metamaterials.
@@ -116,6 +122,12 @@ MA~Ordal, LL~Long, RJ~Bell, SE~Bell, RR~Bell, RW~Alexander, and CA~Ward.
   ag, ti, and w in the infrared and far infrared.
 \newblock {\em Applied Optics}, 22(7):1099--1119, 1983.
 
+\bibitem{oskooi2008failure}
+Ardavan~F Oskooi, Lei Zhang, Yehuda Avniel, and Steven~G Johnson.
+\newblock The failure of perfectly matched layers, and towards their redemption
+  by adiabatic absorbers.
+\newblock {\em Optics Express}, 16(15):11376--11392, 2008.
+
 \bibitem{pastuszczak2011slanted}
 Anna Pastuszczak, Marcin Stolarek, and R~Kotynski.
 \newblock Slanted layered superlenses for subwavelength light manipulation.
@@ -137,12 +149,25 @@ S~Anantha Ramakrishna, JB~Pendry, MCK Wiltshire, and WJ~Stewart.
 \newblock Imaging the near field.
 \newblock {\em Journal of Modern Optics}, 50(9):1419--1430, 2003.
 
+\bibitem{rappaport1995perfectly}
+Carey~M Rappaport.
+\newblock Perfectly matched absorbing boundary conditions based on anisotropic
+  lossy mapping of space.
+\newblock {\em Microwave and Guided Wave Letters, IEEE}, 5(3):90--92, 1995.
+
 \bibitem{roux2002grating}
 Jean-Fran{\c{c}}ois Roux, Fabien Aquistapace, Fr{\'e}d{\'e}ric Garet, Lionel
   Duvillaret, and Jean-Louis Coutaz.
 \newblock Grating-assisted coupling of terahertz waves into a dielectric
   waveguide studied by terahertz time-domain spectroscopy.
 \newblock {\em Applied optics}, 41(30):6507--6513, 2002.
+
+\bibitem{sacks1995perfectly}
+Zachary~S Sacks, David~M Kingsland, Robert Lee, and Jin-Fa Lee.
+\newblock A perfectly matched anisotropic absorber for use as an absorbing
+  boundary condition.
+\newblock {\em Antennas and Propagation, IEEE Transactions on},
+  43(12):1460--1463, 1995.
 
 \bibitem{scalora-transparentmetal}
 M.~Scalora, M.~J. Bloemer, A.~S. Pethel, J.~P. Dowling, C.~M. Bowden, and A.~S.
@@ -160,6 +185,11 @@ Jung-Tsung Shen, Peter~B Catrysse, and Shanhui Fan.
 \newblock Mechanism for designing metallic metamaterials with a high index of
   refraction.
 \newblock {\em Physical review letters}, 94(19):197401, 2005.
+
+\bibitem{sihvola1999electromagnetic}
+Ari~H Sihvola.
+\newblock {\em Electromagnetic mixing formulas and applications}.
+\newblock Number~47. Iet, 1999.
 
 \bibitem{skauli2003improved}
 T~Skauli, PS~Kuo, KL~Vodopyanov, TJ~Pinguet, O~Levi, LA~Eyres, JS~Harris,

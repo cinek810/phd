@@ -16,45 +16,46 @@ Repeated entry---line 494 of file bibliografia.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
-You've used 42 entries,
+Warning--there's a number but no series in sihvola1999electromagnetic
+You've used 47 entries,
             2118 wiz_defined-function locations,
-            786 strings with 12991 characters,
-and the built_in function-call counts, 17426 in all, are:
-= -- 1656
-> -- 1081
-< -- 4
-+ -- 428
-- -- 386
-* -- 1502
-:= -- 2963
-add.period$ -- 129
-call.type$ -- 42
-change.case$ -- 312
+            815 strings with 13909 characters,
+and the built_in function-call counts, 19005 in all, are:
+= -- 1813
+> -- 1148
+< -- 5
++ -- 457
+- -- 408
+* -- 1618
+:= -- 3229
+add.period$ -- 145
+call.type$ -- 47
+change.case$ -- 336
 chr.to.int$ -- 0
-cite$ -- 44
-duplicate$ -- 493
-empty$ -- 1169
-format.name$ -- 386
-if$ -- 3470
+cite$ -- 50
+duplicate$ -- 550
+empty$ -- 1298
+format.name$ -- 408
+if$ -- 3793
 int.to.chr$ -- 0
-int.to.str$ -- 42
-missing$ -- 44
-newline$ -- 213
-num.names$ -- 84
-pop$ -- 276
+int.to.str$ -- 47
+missing$ -- 51
+newline$ -- 238
+num.names$ -- 94
+pop$ -- 302
 preamble$ -- 1
-purify$ -- 273
+purify$ -- 294
 quote$ -- 0
-skip$ -- 327
+skip$ -- 359
 stack$ -- 0
-substring$ -- 1209
-swap$ -- 70
-text.length$ -- 4
+substring$ -- 1323
+swap$ -- 76
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 162
-warning$ -- 2
-while$ -- 149
-width$ -- 44
-write$ -- 461
+type$ -- 178
+warning$ -- 3
+while$ -- 165
+width$ -- 49
+write$ -- 515
 (There was 1 error message)
