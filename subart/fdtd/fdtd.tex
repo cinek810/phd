@@ -107,9 +107,9 @@ W powyższym wzorze $m$ jest liczbą numerującą azymutalne mody pola E-M, dla 
 	\caption{Przykład dyskretyzacji do rozwiązywania równań różniczkowych metody BOR FDTD \cite{antosiewicz2009wplyw}}
 	\label{fig:bor-dysk}
 \end{figure}
-W przypadku symulacji BOR FDTD stabilność numeryczna wyrażana przez współczynnik Couranta zależy od $m$. Dla $m=0$ największa dopuszczalna wartość przy symulacjach z najniższym współczynnikiem załamania spośród symulowanych materiałów wynosi $S=\sqrt{2}$, dla wyższych modów $S \propto m+1$.
+W przypadku symulacji BOR FDTD stabilność numeryczna wyrażana przez współczynnik Couranta zależy od $m$. Dla $m=0$ największa dopuszczalna wartość przy symulacjach z najniższym współczynnikiem załamania spośród symulowanych materiałów wynosi $S=\sqrt{2}$, dla wyższych modów $S \propto m+1$. 
 
-Ze względu na symetrię układu współrzędnych pola, których punkty dyskretyzacji znajdują się na osi są tożsamościowo równe zero, poza szczególnymi przypadkami jak $e_z$ dla modu $m=0$, oraz $e_{\phi} i h_r$ dla m=1 ( w przypadku dyskretyzacji jak na rysunku \ref{fig:bor-dysk}).
+Ze względu na symetrię układu współrzędnych pola, których punkty dyskretyzacji znajdują się na osi są tożsamościowo równe zero, poza szczególnymi przypadkami jak $e_z$ dla modu $m=0$, oraz $e_{\phi} i h_r$ dla m=1 ( w przypadku dyskretyzacji jak na rysunku \ref{fig:bor-dysk}). Ze względu na specjalne traktowanie osi symetrii podczas obliczeń jest to obszar symulacji najbardziej podatny na nietabilności numeryczne. W szczególności jeśli interesujące nas zjawiska zachodzą zdala od osi optycznej poprawę stabliności uzyskuje się poprzez wymaganie zerowych wartości na $m$ najbliższych osi rzędach wierzchołków dyskretyzacji~\cite{OskooiRo10}.
 
 Wynikowe rozkłady pola w symulacjach metodą BOR FDTD są dwu wymiarowymi mapami, na których jedna z osi odpowiada współrzędnej $z$ - konwencjonalnie równoległej do osi symetrii. Druga natomiast współrzędnej $r$ - odległości od osi. Ze względu na zasadniczą różnicę znaczeniu obu osi kluczowe dla interpretacji wyników jest zdefiniowanie położenia osi symetrii.
 

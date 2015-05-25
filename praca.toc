@@ -25,10 +25,10 @@
 \contentsline {section}{\numberline {3.3}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{42}
 \contentsline {chapter}{\numberline {4}PML}{45}
 \contentsline {section}{\numberline {4.1}Wyprowadznie UPML}{46}
-\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej}{46}
-\contentsline {section}{\numberline {4.3}core shell pml?}{46}
-\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{49}
-\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{51}
-\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{54}
-\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{56}
-\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{59}
+\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej~\cite {ania2015}}{50}
+\contentsline {section}{\numberline {4.3}core shell pml?}{53}
+\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{56}
+\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{58}
+\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{61}
+\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{63}
+\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{66}

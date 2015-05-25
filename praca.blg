@@ -17,45 +17,45 @@ I'm skipping whatever remains of this entry
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
 Warning--there's a number but no series in sihvola1999electromagnetic
-You've used 47 entries,
+You've used 53 entries,
             2118 wiz_defined-function locations,
-            815 strings with 13909 characters,
-and the built_in function-call counts, 19005 in all, are:
-= -- 1813
-> -- 1148
+            845 strings with 14921 characters,
+and the built_in function-call counts, 20900 in all, are:
+= -- 2000
+> -- 1244
 < -- 5
-+ -- 457
-- -- 408
-* -- 1618
-:= -- 3229
-add.period$ -- 145
-call.type$ -- 47
-change.case$ -- 336
++ -- 495
+- -- 440
+* -- 1760
+:= -- 3560
+add.period$ -- 163
+call.type$ -- 53
+change.case$ -- 370
 chr.to.int$ -- 0
-cite$ -- 50
-duplicate$ -- 550
-empty$ -- 1298
-format.name$ -- 408
-if$ -- 3793
+cite$ -- 56
+duplicate$ -- 614
+empty$ -- 1437
+format.name$ -- 440
+if$ -- 4172
 int.to.chr$ -- 0
-int.to.str$ -- 47
-missing$ -- 51
-newline$ -- 238
-num.names$ -- 94
-pop$ -- 302
+int.to.str$ -- 53
+missing$ -- 57
+newline$ -- 268
+num.names$ -- 106
+pop$ -- 328
 preamble$ -- 1
-purify$ -- 294
+purify$ -- 322
 quote$ -- 0
-skip$ -- 359
+skip$ -- 403
 stack$ -- 0
-substring$ -- 1323
-swap$ -- 76
+substring$ -- 1443
+swap$ -- 82
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 178
+type$ -- 202
 warning$ -- 3
-while$ -- 165
-width$ -- 49
-write$ -- 515
+while$ -- 184
+width$ -- 55
+write$ -- 579
 (There was 1 error message)

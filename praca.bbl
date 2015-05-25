@@ -78,6 +78,18 @@ P.~B. Johnson and R.~W. Christy.
 \newblock Optical constants of the noble metals.
 \newblock {\em Phys. Rev. B}, 6:4370--4379, Dec 1972.
 
+\bibitem{johnson2007notes}
+Steven~G Johnson.
+\newblock Notes on the algebraic structure of wave equations.
+\newblock {\em Online at http://math. mit. edu/\~{}
+  stevenj/18.369/wave-equations. pdf}, 2007.
+
+\bibitem{johnson2008notes}
+Steven~G Johnson.
+\newblock Notes on perfectly matched layers (pmls).
+\newblock {\em Lecture notes, Massachusetts Institute of Technology,
+  Massachusetts}, 2008.
+
 \bibitem{koerkamp2004strong}
 KJ~Klein Koerkamp, Stefan Enoch, FB~Segerink, NF~Van~Hulst, and L~Kuipers.
 \newblock Strong influence of hole shape on extraordinary transmission through
@@ -122,11 +134,24 @@ MA~Ordal, LL~Long, RJ~Bell, SE~Bell, RR~Bell, RW~Alexander, and CA~Ward.
   ag, ti, and w in the infrared and far infrared.
 \newblock {\em Applied Optics}, 22(7):1099--1119, 1983.
 
+\bibitem{OskooiRo10}
+Ardavan~F. Oskooi, David Roundy, Mihai Ibanescu, Peter Bermel, J.~D.
+  Joannopoulos, and Steven~G. Johnson.
+\newblock {MEEP}: A flexible free-software package for electromagnetic
+  simulations by the {FDTD} method.
+\newblock {\em Computer Physics Communications}, 181:687--702, January 2010.
+
 \bibitem{oskooi2008failure}
 Ardavan~F Oskooi, Lei Zhang, Yehuda Avniel, and Steven~G Johnson.
 \newblock The failure of perfectly matched layers, and towards their redemption
   by adiabatic absorbers.
 \newblock {\em Optics Express}, 16(15):11376--11392, 2008.
+
+\bibitem{ania2015}
+A.~Pastuszczak, M.~Stolarek, T.J. Antosiewicz, and R.~Kotyński.
+\newblock Multilayer metamaterial absorbers inspired by perfectly matched
+  layers.
+\newblock {\em Optical and Quantum Electronics}, 47(1):89--97, 2015.
 
 \bibitem{pastuszczak2011slanted}
 Anna Pastuszczak, Marcin Stolarek, and R~Kotynski.
@@ -253,11 +278,22 @@ J.~Szczytko, M.~Stolarek, B.~Pietka, J.~Łusakowski, A.~Wawro, A.~Barańska,
   Wireless Communications, MIKON 2012}, 1:271--275, 2012.
 \newblock cited By 0.
 
+\bibitem{teixeira1998general}
+Fernando~L Teixeira and Weng~C Chew.
+\newblock General closed-form pml constitutive tensors to match arbitrary
+  bianisotropic and dispersive linear media.
+\newblock {\em Microwave and Guided Wave Letters, IEEE}, 8(6):223--225, 1998.
+
 \bibitem{veselago1968electrodynamics}
 Victor~Georgievich Veselago.
 \newblock The electrodynamics of substances with simultaneously negative values
   of $\varepsilon$ and $\mu$.
 \newblock {\em Physics-Uspekhi}, 10(4):509--514, 1968.
+
+\bibitem{ward1996refraction}
+AJ~Ward and JB~Pendry.
+\newblock Refraction and geometry in maxwell's equations.
+\newblock {\em Journal of Modern Optics}, 43(4):773--793, 1996.
 
 \bibitem{xu2011unidirectional}
 Ji~Xu, Chen Cheng, Ming Kang, Jing Chen, Zhu Zheng, Ya-Xian Fan, and Hui-Tian
