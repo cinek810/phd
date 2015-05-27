@@ -5,8 +5,12 @@
 % Author:  Marcin Szpyrka     (mszpyrka@agh.edu.pl)
 %          Grzegorz J. Nalepa (gjn@agh.edu.pl)
 %          AGH University of Science and Technology, Krak�w, POLAND
+%
+%	Modyfikowany przez Marcin Stolarek (mstol@igf.fuw.edu.pl)
+%		Wydział Fizyki, Uniwersytet Warszawski
 % 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
 
 \message{*** [aghdpl.cls] ---  (MSz, GJN)  v0.22 <05.04.2011>  ***}       
 
@@ -14,8 +18,8 @@
 \NeedsTeXFormat{LaTeX2e} % 
 \ProvidesClass{aghdpl} 
 \DeclareOption{pdflatex}{\pdflatextrue}
-\DeclareOption*{\PassOptionsToClass{\CurrentOption}{report}} 
-\ProcessOptions\LoadClass[b5paper,oneside]{report} 
+\DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}} 
+\ProcessOptions\LoadClass[b5paper,twoside]{book} 
 
 \RequirePackage{times}
 \RequirePackage[T1]{fontenc}
@@ -186,9 +190,10 @@
 % Ustawienia parametr�w dla tytu��w rozdzia��w, podrozdzia��w, itd.
 %---------------------------------------------------------------------------
 
-
-\titleformat{\chapter}[block]
-{\bfseries\LARGE}{\filright \LARGE\thechapter. }{0ex}{}
+\titleclass{\chapter}{straight}
+\titleformat{\chapter}[display]
+ {\normalfont\huge\bfseries}{\chaptertitlename\ \thechapter}{20pt}{\Huge}
+%{\bfseries\LARGE}{\filright \LARGE\thechapter. }{20mm}{}
 %odst�py: lewy, g�ra, d��
 \titlespacing{\chapter}{0pt}{17mm}{19mm}
 \titleformat{\section}[block]
@@ -217,3 +222,14 @@
 \setlength{\cftparskip}{2pt}
 \setlength{\cftbeforechapskip}{0mm}
 \renewcommand{\cftchappagefont}{\normalsize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%Dodatki M.Stolarek
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\renewcommand\frontmatter{%
+    \cleardoublepage
+  \pagenumbering{roman}}
+\renewcommand\mainmatter{%
+    \cleardoublepage
+  \pagenumbering{arabic}}
+

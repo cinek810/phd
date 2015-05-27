@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.18)  22 MAY 2015 14:35
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.5.18)  27 MAY 2015 16:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -8,10 +8,10 @@ LaTeX2e <2011/06/27>
 Babel <3.9h> and hyphenation patterns for 3 languages loaded.
 (./aghdpl.cls *** [aghdpl.cls] --- (MSz, GJN) v0.22 <05.04.2011> ***
 Document Class: aghdpl 
-(/usr/share/texlive/texmf-dist/tex/latex/base/report.cls
-Document Class: report 2007/10/19 v1.4h Standard LaTeX document class
-(/usr/share/texlive/texmf-dist/tex/latex/base/size11.clo
-File: size11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+(/usr/share/texlive/texmf-dist/tex/latex/base/book.cls
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+(/usr/share/texlive/texmf-dist/tex/latex/base/bk11.clo
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
 )
 \c@part=\count79
 \c@chapter=\count80
@@ -172,6 +172,13 @@ Package tocloft Info: The document has chapter divisions on input line 44.
 )
 (/usr/share/texlive/texmf-dist/tex/latex/titlesec/block.tss
 File: block.tss 2011/12/15
+))
+(/usr/share/texlive/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/t1enc.def
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/natbib/natbib.sty
 Package: natbib 2010/09/13 8.31b (PWD, AO)
@@ -511,10 +518,23 @@ LaTeX Font Info:    Redeclaring font encoding OMS on input line 567.
 LaTeX Info: Redefining \[ on input line 2665.
 LaTeX Info: Redefining \] on input line 2666.
 )
+(/usr/share/texlive/texmf-dist/tex/latex/sidecap/sidecap.sty
+Package: sidecap 2003/06/06 v1.6f SideCap Package (RN/HjG)
+
+(/usr/share/texlive/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2001/05/26 v1.1c Standard LaTeX ifthen package (DPC)
+)
+\SC@BOXWD=\dimen141
+\SC@CAPWD=\dimen142
+\SC@tempdima=\dimen143
+\SC@tempdimb=\dimen144
+\c@SC@C=\count113
+\SC@BOX=\box32
+)
 (/usr/share/texlive/texmf-dist/tex/latex/nomencl/nomencl.sty
 Package: nomencl 2005/09/22 v4.2 Nomenclature package (LN)
-\nomlabelwidth=\dimen141
-\nom@tempdim=\dimen142
+\nomlabelwidth=\dimen145
+\nom@tempdim=\dimen146
 \nomitemsep=\skip93
 )
 \@nomenclaturefile=\write3
@@ -527,24 +547,24 @@ Package: enumerate 1999/03/05 v3.00 enumerate extensions (DPC)
 \@enLab=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count113
-\lst@gtempboxa=\box32
+\lst@mode=\count114
+\lst@gtempboxa=\box33
 \lst@token=\toks28
-\lst@length=\count114
-\lst@currlwidth=\dimen143
-\lst@column=\count115
-\lst@pos=\count116
-\lst@lostspace=\dimen144
-\lst@width=\dimen145
-\lst@newlines=\count117
-\lst@lineno=\count118
-\lst@maxwidth=\dimen146
+\lst@length=\count115
+\lst@currlwidth=\dimen147
+\lst@column=\count116
+\lst@pos=\count117
+\lst@lostspace=\dimen148
+\lst@width=\dimen149
+\lst@newlines=\count118
+\lst@lineno=\count119
+\lst@maxwidth=\dimen150
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2013/07/10 1.5 (Carsten Heinz)
-\c@lstnumber=\count119
-\lst@skipnumbers=\count120
-\lst@framebox=\box33
+\c@lstnumber=\count120
+\lst@skipnumbers=\count121
+\lst@framebox=\box34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2013/06/27 1.5pre1 listings configuration
@@ -571,35 +591,35 @@ LaTeX Warning: Label `fig:rezo-siat-H' multiply defined.
 ) (./rozdzial3.aux) (./rozdzial4.aux))
 \openout1 = `praca.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 76.
-LaTeX Font Info:    ... okay on input line 76.
-LaTeX Font Info:    Try loading font information for T1+ptm on input line 76.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 83.
+LaTeX Font Info:    ... okay on input line 83.
+LaTeX Font Info:    Try loading font information for T1+ptm on input line 83.
 
 (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1ptm.fd
 File: t1ptm.fd 2001/06/04 font definitions for T1/ptm.
 )
 (/usr/share/texlive/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count121
-\scratchdimen=\dimen147
-\scratchbox=\box34
-\nofMPsegments=\count122
-\nofMParguments=\count123
+\scratchcounter=\count122
+\scratchdimen=\dimen151
+\scratchbox=\box35
+\nofMPsegments=\count123
+\nofMParguments=\count124
 \everyMPshowfont=\toks29
-\MPscratchCnt=\count124
-\MPscratchDim=\dimen148
-\MPnumerator=\count125
-\makeMPintoPDFobject=\count126
+\MPscratchCnt=\count125
+\MPscratchDim=\dimen152
+\MPnumerator=\count126
+\makeMPintoPDFobject=\count127
 \everyMPtoPDFconversion=\toks30
 ) (/usr/share/texlive/texmf-dist/tex/generic/oberdiek/pdftexcmds.sty
 Package: pdftexcmds 2011/11/29 v0.20 Utility functions of pdfTeX for LuaTeX (HO
@@ -652,7 +672,7 @@ e
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
-* modes: 
+* modes: twoside 
 * h-part:(L,W,R)=(85.35826pt, 358.50473pt, 56.9055pt)
 * v-part:(T,H,B)=(71.13188pt, 569.05513pt, 71.13188pt)
 * \paperwidth=500.7685pt
@@ -660,80 +680,114 @@ e
 * \textwidth=358.50473pt
 * \textheight=569.05513pt
 * \oddsidemargin=13.08827pt
-* \evensidemargin=13.08827pt
-* \topmargin=-54.59085pt
+* \evensidemargin=-15.36449pt
+* \topmargin=-49.46465pt
 * \headheight=28.45274pt
-* \headsep=25.0pt
+* \headsep=19.8738pt
 * \topskip=11.0pt
 * \footskip=28.45274pt
-* \marginparwidth=4.0pt
-* \marginparsep=10.0pt
+* \marginparwidth=50.0pt
+* \marginparsep=7.0pt
 * \columnsep=10.0pt
 * \skip\footins=10.0pt plus 4.0pt minus 2.0pt
 * \hoffset=0.0pt
 * \voffset=0.0pt
 * \mag=1000
 * \@twocolumnfalse
-* \@twosidefalse
-* \@mparswitchfalse
+* \@twosidetrue
+* \@mparswitchtrue
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: listings package is loaded.
+Package caption Info: sidecap package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count127
-LaTeX Font Info:    Try loading font information for T1+phv on input line 78.
-(/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
+(/usr/share/texlive/texmf-dist/tex/latex/ms/ragged2e.sty
+Package: ragged2e 2009/05/21 v2.1 ragged2e Package (MS)
+
+(/usr/share/texlive/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+
+ABD: EverySelectfont initializing macros
+
+LaTeX Warning: Command \selectfont   has changed.
+               Check if current package is valid.
+
+LaTeX Info: Redefining \selectfont on input line 126.
+)
+\CenteringLeftskip=\skip94
+\RaggedLeftLeftskip=\skip95
+\RaggedRightLeftskip=\skip96
+\CenteringRightskip=\skip97
+\RaggedLeftRightskip=\skip98
+\RaggedRightRightskip=\skip99
+\CenteringParfillskip=\skip100
+\RaggedLeftParfillskip=\skip101
+\RaggedRightParfillskip=\skip102
+\JustifyingParfillskip=\skip103
+\CenteringParindent=\skip104
+\RaggedLeftParindent=\skip105
+\RaggedRightParindent=\skip106
+\JustifyingParindent=\skip107
+)
+\c@lstlisting=\count128
+LaTeX Font Info:    Try loading font information for T1+phv on input line 86.
+ (/usr/share/texlive/texmf-dist/tex/latex/psnfss/t1phv.fd
 File: t1phv.fd 2001/06/04 scalable font definitions for T1/phv.
 )
 LaTeX Font Info:    Font shape `T1/phv/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/phv/b/n' tried instead on input line 86.
 LaTeX Font Info:    Font shape `T1/phv/bx/sc' in size <14.4> not available
-(Font)              Font shape `T1/phv/b/sc' tried instead on input line 78.
+(Font)              Font shape `T1/phv/b/sc' tried instead on input line 86.
 
 <images/logo/logo-uw-pl.jpg, id=1, 223.83624pt x 223.83624pt>
 File: images/logo/logo-uw-pl.jpg Graphic file (type jpg)
 
 <use images/logo/logo-uw-pl.jpg>
-Package pdftex.def Info: images/logo/logo-uw-pl.jpg used on input line 78.
+Package pdftex.def Info: images/logo/logo-uw-pl.jpg used on input line 86.
 (pdftex.def)             Requested size: 67.15138pt x 67.15138pt.
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 78.
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
 LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <17.28> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 78.
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 86.
  [1
+
+
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <./images/logo/logo-uw-pl.j
 pg>]
-LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
-(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 78.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 86.
+ [2
 
-Underfull \hbox (badness 10000) in paragraph at lines 78--78
+
+]
+LaTeX Font Info:    Font shape `T1/ptm/bx/sc' in size <12> not available
+(Font)              Font shape `T1/ptm/b/sc' tried instead on input line 86.
+
+Underfull \hbox (badness 10000) in paragraph at lines 86--86
 
  []
 
-[1
-
-]
-LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <10.95> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 78.
- [2] <images/logo/logo-uw-en.jpg, id=18, 215.80624pt x 215.80624pt>
+[1] [2] <images/logo/logo-uw-en.jpg, id=21, 215.80624pt x 215.80624pt>
 File: images/logo/logo-uw-en.jpg Graphic file (type jpg)
 
 <use images/logo/logo-uw-en.jpg>
-Package pdftex.def Info: images/logo/logo-uw-en.jpg used on input line 78.
+Package pdftex.def Info: images/logo/logo-uw-en.jpg used on input line 86.
 (pdftex.def)             Requested size: 64.74237pt x 64.74237pt.
  [1
 
- <./images/logo/logo-uw-en.jpg>] [1
+
+ <./images/logo/logo-uw-en.jpg>] [2
+
 
 ]
+[1]
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/ptm/b/n' tried instead on input line 80.
-
-(./praca.toc
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 88.
+ (./praca.toc
 Underfull \vbox (badness 6032) has occurred while \output is active []
 
  [5
@@ -745,18 +799,21 @@ Underfull \vbox (badness 6032) has occurred while \output is active []
 
 [6]
 Rozdzia\l  1.
-[7
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <20.74> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 93.
+LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <24.88> not available
+(Font)              Font shape `T1/ptm/b/n' tried instead on input line 93.
+[1
 
 
 ]
 \openout2 = `wstep.aux'.
 
- (./wstep.tex) [8
+ (./wstep.tex) [2
 
 ]
 Rozdzia\l  2.
-[9
-
+[3
 
 ]
 \openout2 = `rozdzial1.aux'.
@@ -764,49 +821,67 @@ Rozdzia\l  2.
  (./rozdzial1.tex
 LaTeX Font Info:    Font shape `T1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `T1/ptm/b/n' tried instead on input line 2.
- (./subart/fdtd/fdtd.tex [10
+ (./subart/tmm.tex
+<images/tmm.png, id=48, 341.77687pt x 158.09062pt>
+File: images/tmm.png Graphic file (type png)
+ <use images/tmm.png>
+Package pdftex.def Info: images/tmm.png used on input line 19.
+(pdftex.def)             Requested size: 215.10503pt x 99.4987pt.
 
-]
-<subart/fdtd/leapfrog.png, id=50, 639.38875pt x 439.6425pt>
+Underfull \hbox (badness 1902) in paragraph at lines 22--22
+\T1/ptm/m/n/10.95 wo-wego elemntu w sy-mu-la-
+ []
+
+
+Underfull \hbox (badness 1205) in paragraph at lines 22--22
+\T1/ptm/m/n/10.95 cjach me-tod¡ TMM, wraz z
+ []
+
+[4
+
+ <./images/tmm.png>]) (./subart/fdtd/fdtd.tex [5] [6]
+<subart/fdtd/leapfrog.png, id=69, 639.38875pt x 439.6425pt>
 File: subart/fdtd/leapfrog.png Graphic file (type png)
 
 <use subart/fdtd/leapfrog.png>
 Package pdftex.def Info: subart/fdtd/leapfrog.png used on input line 31.
 (pdftex.def)             Requested size: 322.65205pt x 221.85335pt.
-
+ [7 <./subart/fdtd/leapfrog.png (PNG copy)>]
 
 Package caption Warning: \label without proper \caption on input line 32.
 See the caption package documentation for explanation.
 
 
-LaTeX Warning: Reference `pic:leapfrog' on page 11 undefined on input line 47.
+LaTeX Warning: Reference `pic:leapfrog' on page 8 undefined on input line 47.
 
-[11] [12 <./subart/fdtd/leapfrog.png (PNG copy)>]
+[8]
 
-LaTeX Warning: Reference `subart:lorenz-drude)' on page 13 undefined on input l
-ine 56.
+LaTeX Warning: Reference `subart:lorenz-drude)' on page 9 undefined on input li
+ne 56.
 
-[13] [14] [15] [16] <subart/fdtd/R5_TFSF.png, id=73, 522.0303pt x 234.1548pt>
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [10]
+[11] [12] <subart/fdtd/R5_TFSF.png, id=90, 522.0303pt x 234.1548pt>
 File: subart/fdtd/R5_TFSF.png Graphic file (type png)
 
 <use subart/fdtd/R5_TFSF.png>
 Package pdftex.def Info: subart/fdtd/R5_TFSF.png used on input line 106.
 (pdftex.def)             Requested size: 358.50473pt x 160.8131pt.
- [17 <./subart/fdtd/R5_TFSF.png (PNG copy)>])
-(./subart/linear-systems.tex
+ [13 <./subart/fdtd/R5_TFSF.png (PNG copy)>])
+(./subart/linear-systems.tex [14] [15]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [18]
-[19] [20]
+ [16]
 
-LaTeX Warning: Reference `transfer-mult' on page 21 undefined on input line 63.
+LaTeX Warning: Reference `transfer-mult' on page 17 undefined on input line 63.
 
 
-[21]) (./subart/materials/visible-materials.tex [22] [23])
-(./subart/effmedium.tex [24])) [25]
+) [17] (./subart/materials/visible-materials.tex [18] [19])
+(./subart/effmedium.tex [20])) [21]
 Rozdzia\l  3.
-[26
-
+[22
 
 ]
 \openout2 = `rozdzial2.aux'.
@@ -817,16 +892,16 @@ Underfull \hbox (badness 1087) in paragraph at lines 1--2
 rak-cyj-nych jako ele-
  []
 
-) (./subart/thz/thz-mat.tex [27
+) (./subart/thz/thz-mat.tex [23
 
 ]
-<images/aueps.png, id=110, 578.16pt x 433.62pt>
+<images/aueps.png, id=126, 578.16pt x 433.62pt>
 File: images/aueps.png Graphic file (type png)
  <use images/aueps.png>
 Package pdftex.def Info: images/aueps.png used on input line 17.
 (pdftex.def)             Requested size: 161.32602pt x 120.9893pt.
 
-<images/gaaseps.png, id=112, 578.16pt x 433.62pt>
+<images/gaaseps.png, id=127, 578.16pt x 433.62pt>
 File: images/gaaseps.png Graphic file (type png)
  <use images/gaaseps.png>
 Package pdftex.def Info: images/gaaseps.png used on input line 22.
@@ -834,9 +909,9 @@ Package pdftex.def Info: images/gaaseps.png used on input line 22.
 
 Underfull \vbox (badness 2020) has occurred while \output is active []
 
- [28 <./images/aueps.png> <./images/gaaseps.png>]) (./subart/thz/rezo-grating.t
+ [24 <./images/aueps.png> <./images/gaaseps.png>]) (./subart/thz/rezo-grating.t
 ex
-<images/thz/schemat-1szczelina.png, id=118, 472.76625pt x 112.92188pt>
+<images/thz/schemat-1szczelina.png, id=133, 472.76625pt x 112.92188pt>
 File: images/thz/schemat-1szczelina.png Graphic file (type png)
 
 <use images/thz/schemat-1szczelina.png>
@@ -844,15 +919,19 @@ Package pdftex.def Info: images/thz/schemat-1szczelina.png used on input line 6
 .
 (pdftex.def)             Requested size: 322.65205pt x 77.06842pt.
 
-<images/thz/schemat-siatka.png, id=119, 540.51938pt x 251.43938pt>
+<images/thz/schemat-siatka.png, id=134, 540.51938pt x 251.43938pt>
 File: images/thz/schemat-siatka.png Graphic file (type png)
 
 <use images/thz/schemat-siatka.png>
 Package pdftex.def Info: images/thz/schemat-siatka.png used on input line 12.
-(pdftex.def)             Requested size: 358.50473pt x 166.77153pt.
- [29] [30 <./images/thz/schemat-1szczelina.png> <./images/thz/schemat-siatka.pn
-g>]
-<images/antenaThz/rezonant_trans_f001.png, id=131, 728.7225pt x 499.8675pt>
+(pdftex.def)             Requested size: 250.95221pt x 116.73776pt.
+
+Underfull \hbox (badness 2941) in paragraph at lines 15--15
+\T1/ptm/m/n/10.95 ko-rzy-sty-wa-nej w sy-
+ []
+
+[25] [26 <./images/thz/schemat-1szczelina.png> <./images/thz/schemat-siatka.png
+>] <images/antenaThz/rezonant_trans_f001.png, id=145, 728.7225pt x 499.8675pt>
 File: images/antenaThz/rezonant_trans_f001.png Graphic file (type png)
 
 <use images/antenaThz/rezonant_trans_f001.png>
@@ -860,7 +939,7 @@ Package pdftex.def Info: images/antenaThz/rezonant_trans_f001.png used on input
  line 35.
 (pdftex.def)             Requested size: 161.32602pt x 110.65764pt.
 
-<images/antenaThz/rezonant_trans_f01.png, id=132, 737.75626pt x 491.8375pt>
+<images/antenaThz/rezonant_trans_f01.png, id=146, 737.75626pt x 491.8375pt>
 File: images/antenaThz/rezonant_trans_f01.png Graphic file (type png)
 
 <use images/antenaThz/rezonant_trans_f01.png>
@@ -868,7 +947,7 @@ Package pdftex.def Info: images/antenaThz/rezonant_trans_f01.png used on input
 line 40.
 (pdftex.def)             Requested size: 161.32602pt x 107.54416pt.
 
-<images/antenaThz/rezonant_trans_f05.png, id=133, 717.68124pt x 483.8075pt>
+<images/antenaThz/rezonant_trans_f05.png, id=147, 717.68124pt x 483.8075pt>
 File: images/antenaThz/rezonant_trans_f05.png Graphic file (type png)
 
 <use images/antenaThz/rezonant_trans_f05.png>
@@ -876,50 +955,56 @@ Package pdftex.def Info: images/antenaThz/rezonant_trans_f05.png used on input
 line 46.
 (pdftex.def)             Requested size: 161.32602pt x 108.74863pt.
 
-<images/antenaThz/rez_trans_L.png, id=134, 736.7525pt x 472.76625pt>
+<images/antenaThz/rez_trans_L.png, id=148, 736.7525pt x 472.76625pt>
 File: images/antenaThz/rez_trans_L.png Graphic file (type png)
 
 <use images/antenaThz/rez_trans_L.png>
 Package pdftex.def Info: images/antenaThz/rez_trans_L.png used on input line 51
 .
 (pdftex.def)             Requested size: 161.32602pt x 103.51836pt.
- [31]
-<images/thz/con_src_l525.png, id=138, 746.79pt x 271.0125pt>
+
+Underfull \vbox (badness 2035) has occurred while \output is active []
+
+ [27]
+<images/thz/con_src_l525.png, id=152, 746.79pt x 271.0125pt>
 File: images/thz/con_src_l525.png Graphic file (type png)
 
 <use images/thz/con_src_l525.png>
 Package pdftex.def Info: images/thz/con_src_l525.png used on input line 66.
 (pdftex.def)             Requested size: 161.32602pt x 58.54361pt.
 
-<images/thz/con_src_l500.png, id=139, 746.79pt x 276.03125pt>
+<images/thz/con_src_l500.png, id=153, 746.79pt x 276.03125pt>
 File: images/thz/con_src_l500.png Graphic file (type png)
 
 <use images/thz/con_src_l500.png>
 Package pdftex.def Info: images/thz/con_src_l500.png used on input line 71.
 (pdftex.def)             Requested size: 161.32602pt x 59.62775pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [32 <./images/antenaThz/rezonant_trans_f001.png> <./images/antenaThz/rezonant_
-trans_f01.png> <./images/antenaThz/rezonant_trans_f05.png> <./images/antenaThz/
-rez_trans_L.png>]) (./subart/thz/antenaThz.tex
-<images/thz/schemat-podklad-falo.png, id=143, 566.115pt x 156.585pt>
+) (./subart/thz/antenaThz.tex
+<images/thz/schemat-podklad-falo.png, id=154, 566.115pt x 156.585pt>
 File: images/thz/schemat-podklad-falo.png Graphic file (type png)
 
 <use images/thz/schemat-podklad-falo.png>
 Package pdftex.def Info: images/thz/schemat-podklad-falo.png used on input line
  6.
 (pdftex.def)             Requested size: 358.50473pt x 99.16277pt.
- [33 <./images/thz/con_src_l525.png (PNG copy)> <./images/thz/con_src_l500.png 
-(PNG copy)>] [34 <./images/thz/schemat-podklad-falo.png>]
-<images/thz/gaas-neffeps.png, id=151, 397.485pt x 299.1175pt>
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [28 <./images/antenaThz/rezonant_trans_f001.png> <./images/antenaThz/rezonant_
+trans_f01.png> <./images/antenaThz/rezonant_trans_f05.png> <./images/antenaThz/
+rez_trans_L.png>]
+Underfull \vbox (badness 1796) has occurred while \output is active []
+
+ [29 <./images/thz/con_src_l525.png (PNG copy)> <./images/thz/con_src_l500.png 
+(PNG copy)> <./images/thz/schemat-podklad-falo.png>]
+<images/thz/gaas-neffeps.png, id=163, 397.485pt x 299.1175pt>
 File: images/thz/gaas-neffeps.png Graphic file (type png)
 
 <use images/thz/gaas-neffeps.png>
 Package pdftex.def Info: images/thz/gaas-neffeps.png used on input line 31.
 (pdftex.def)             Requested size: 179.25237pt x 134.89372pt.
 
-<images/antenaThz/d_lambda.png, id=152, 359.3425pt x 338.26375pt>
+<images/antenaThz/d_lambda.png, id=164, 359.3425pt x 338.26375pt>
 File: images/antenaThz/d_lambda.png Graphic file (type png)
 
 <use images/antenaThz/d_lambda.png>
@@ -930,8 +1015,8 @@ Overfull \hbox (2.0805pt too wide) in paragraph at lines 30--40
 []$[]$ $[]$ 
  []
 
-
-<images/thz/consrc_siatka1d_300GHz_d729um.png, id=153, 1147.28625pt x 79.29625p
+[30]
+<images/thz/consrc_siatka1d_300GHz_d729um.png, id=168, 1147.28625pt x 79.29625p
 t>
 File: images/thz/consrc_siatka1d_300GHz_d729um.png Graphic file (type png)
  <use images/thz/consrc_siatka1d_300GHz_d729um.png>
@@ -939,15 +1024,15 @@ Package pdftex.def Info: images/thz/consrc_siatka1d_300GHz_d729um.png used on i
 nput line 48.
 (pdftex.def)             Requested size: 358.50473pt x 24.77759pt.
 
-<images/antenaThz/tort.png, id=154, 1096.095pt x 607.26875pt>
+<images/antenaThz/tort.png, id=169, 1096.095pt x 607.26875pt>
 File: images/antenaThz/tort.png Graphic file (type png)
 
 <use images/antenaThz/tort.png>
 Package pdftex.def Info: images/antenaThz/tort.png used on input line 54.
 (pdftex.def)             Requested size: 358.50473pt x 198.6202pt.
- [35 <./images/thz/gaas-neffeps.png> <./images/antenaThz/d_lambda.png>]) (./sub
+ [31 <./images/thz/gaas-neffeps.png> <./images/antenaThz/d_lambda.png>]) (./sub
 art/thz/1dDMG.tex
-<images/dmg/dmg_general_schem.png, id=158, 489.32813pt x 158.09062pt>
+<images/dmg/dmg_general_schem.png, id=173, 489.32813pt x 158.09062pt>
 File: images/dmg/dmg_general_schem.png Graphic file (type png)
 
 <use images/dmg/dmg_general_schem.png>
@@ -957,57 +1042,64 @@ Package pdftex.def Info: images/dmg/dmg_general_schem.png used on input line 4.
 
 Underfull \vbox (badness 7832) has occurred while \output is active []
 
- [36 <./images/thz/consrc_siatka1d_300GHz_d729um.png>]
-Underfull \vbox (badness 5189) has occurred while \output is active []
+ [32 <./images/thz/consrc_siatka1d_300GHz_d729um.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [37 <./images/antenaThz/tort.png>]
-<images/thz/1D-DMG-schemat.png, id=166, 455.7025pt x 169.63374pt>
+ [33 <./images/antenaThz/tort.png>]
+<images/thz/1D-DMG-schemat.png, id=180, 455.7025pt x 169.63374pt>
 File: images/thz/1D-DMG-schemat.png Graphic file (type png)
 
 <use images/thz/1D-DMG-schemat.png>
 Package pdftex.def Info: images/thz/1D-DMG-schemat.png used on input line 16.
 (pdftex.def)             Requested size: 358.50473pt x 133.45526pt.
- [38 <./images/dmg/dmg_general_schem.png>]
-<images/thz/opt_lett_gora.png, id=171, 480.79625pt x 246.9225pt>
+ [34 <./images/dmg/dmg_general_schem.png> <./images/thz/1D-DMG-schemat.png (PNG
+ copy)>]
+<images/thz/opt_lett_gora.png, id=186, 480.79625pt x 246.9225pt>
 File: images/thz/opt_lett_gora.png Graphic file (type png)
 
 <use images/thz/opt_lett_gora.png>
 Package pdftex.def Info: images/thz/opt_lett_gora.png used on input line 27.
 (pdftex.def)             Requested size: 358.50473pt x 184.12137pt.
 
-<images/thz/opt_letters_dol.png, id=172, 484.81125pt x 248.93pt>
+<images/thz/opt_letters_dol.png, id=187, 484.81125pt x 248.93pt>
 File: images/thz/opt_letters_dol.png Graphic file (type png)
 
 <use images/thz/opt_letters_dol.png>
 Package pdftex.def Info: images/thz/opt_letters_dol.png used on input line 33.
 (pdftex.def)             Requested size: 358.50473pt x 184.08755pt.
- [39 <./images/thz/1D-DMG-schemat.png (PNG copy)>] <images/thz/opt_lett_spect.p
-ng, id=176, 480.79625pt x 315.1775pt>
+ [35]
+<images/thz/opt_lett_spect.png, id=191, 480.79625pt x 315.1775pt>
 File: images/thz/opt_lett_spect.png Graphic file (type png)
 
 <use images/thz/opt_lett_spect.png>
 Package pdftex.def Info: images/thz/opt_lett_spect.png used on input line 50.
 (pdftex.def)             Requested size: 179.25237pt x 117.50836pt.
 
+Underfull \hbox (badness 7047) in paragraph at lines 53--53
+\T1/ptm/m/n/10.95 trans-mi-sji przez oma-wian¡ struk-tur¦
+ []
 
-LaTeX Warning: Reference `fig:trans_dol' on page 40 undefined on input line 55.
+
+LaTeX Warning: Reference `fig:trans_dol' on page 36 undefined on input line 55.
 
 
 
 Underfull \vbox (badness 1902) has occurred while \output is active []
 
- [40 <./images/thz/opt_lett_gora.png (PNG copy)>]) (./subart/thz/radial.tex
+ [36 <./images/thz/opt_lett_gora.png (PNG copy)>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [41 <./images/thz/opt_letters_dol.png (PNG copy)>]
-<images/dmg/express_siatki.png, id=183, 418.56375pt x 270.00874pt>
+ [37 <./images/thz/opt_letters_dol.png (PNG copy)> <./images/thz/opt_lett_spect
+.png>])
+(./subart/thz/radial.tex
+<images/dmg/express_siatki.png, id=198, 418.56375pt x 270.00874pt>
 File: images/dmg/express_siatki.png Graphic file (type png)
 
 <use images/dmg/express_siatki.png>
 Package pdftex.def Info: images/dmg/express_siatki.png used on input line 6.
 (pdftex.def)             Requested size: 358.50473pt x 231.26363pt.
 
-<images/dmg/express-high-kontrast-trans.png, id=184, 457.71pt x 151.56625pt>
+<images/dmg/express-high-kontrast-trans.png, id=199, 457.71pt x 151.56625pt>
 File: images/dmg/express-high-kontrast-trans.png Graphic file (type png)
 
 <use images/dmg/express-high-kontrast-trans.png>
@@ -1015,24 +1107,17 @@ Package pdftex.def Info: images/dmg/express-high-kontrast-trans.png used on inp
 ut line 15.
 (pdftex.def)             Requested size: 358.50473pt x 118.72073pt.
 
-<images/dmg/express-high-kontrast-block.png, id=185, 457.71pt x 151.56625pt>
+<images/dmg/express-high-kontrast-block.png, id=200, 457.71pt x 151.56625pt>
 File: images/dmg/express-high-kontrast-block.png Graphic file (type png)
 
 <use images/dmg/express-high-kontrast-block.png>
 Package pdftex.def Info: images/dmg/express-high-kontrast-block.png used on inp
 ut line 20.
 (pdftex.def)             Requested size: 358.50473pt x 118.72073pt.
-
-Underfull \vbox (badness 3780) has occurred while \output is active []
-
- [42 <./images/thz/opt_lett_spect.png>]))
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [43 <./images/dmg/express_siatki.png>] [44 <./images/dmg/express-high-kontrast
--trans.png> <./images/dmg/express-high-kontrast-block.png>]
+)) [38] [39 <./images/dmg/express_siatki.png>] [40 <./images/dmg/express-high-k
+ontrast-trans.png> <./images/dmg/express-high-kontrast-block.png>]
 Rozdzia\l  4.
-[45
-
+[41
 
 ]
 \openout2 = `rozdzial3.aux'.
@@ -1044,101 +1129,114 @@ Package amsmath Warning: Foreign command \atopwithdelims;
 (amsmath)                \frac or \genfrac should be used instead
 (amsmath)                 on input line 15.
 
-[46
+[42
 
-] [47] <images/pml/real-x.png, id=207, 578.16pt x 433.62pt>
+] [43] <images/pml/real-x.png, id=223, 578.16pt x 433.62pt>
 File: images/pml/real-x.png Graphic file (type png)
 
 <use images/pml/real-x.png>
 Package pdftex.def Info: images/pml/real-x.png used on input line 40.
 (pdftex.def)             Requested size: 161.32602pt x 120.9893pt.
 
-<images/pml/real-x-wave.png, id=208, 578.16pt x 433.62pt>
+<images/pml/real-x-wave.png, id=224, 578.16pt x 433.62pt>
 File: images/pml/real-x-wave.png Graphic file (type png)
 
 <use images/pml/real-x-wave.png>
 Package pdftex.def Info: images/pml/real-x-wave.png used on input line 44.
 (pdftex.def)             Requested size: 161.32602pt x 120.9893pt.
 
-<images/pml/complex-x.png, id=209, 578.16pt x 433.62pt>
+<images/pml/complex-x.png, id=225, 578.16pt x 433.62pt>
 File: images/pml/complex-x.png Graphic file (type png)
 
 <use images/pml/complex-x.png>
 Package pdftex.def Info: images/pml/complex-x.png used on input line 50.
 (pdftex.def)             Requested size: 161.32602pt x 120.9893pt.
 
-<images/pml/complex-x-wave.png, id=210, 578.16pt x 433.62pt>
+<images/pml/complex-x-wave.png, id=226, 578.16pt x 433.62pt>
 File: images/pml/complex-x-wave.png Graphic file (type png)
 
 <use images/pml/complex-x-wave.png>
 Package pdftex.def Info: images/pml/complex-x-wave.png used on input line 55.
 (pdftex.def)             Requested size: 161.32602pt x 120.9893pt.
- [48 <./images/pml/real-x.png> <./images/pml/real-x-wave.png> <./images/pml/com
-plex-x.png> <./images/pml/complex-x-wave.png>] [49]) (./subart/pml/pml-oqe.tex
-<images/pml/oqe_schemat.png, id=225, 1069.9975pt x 461.725pt>
+ [44 <./images/pml/real-x.png> <./images/pml/real-x-wave.png> <./images/pml/com
+plex-x.png> <./images/pml/complex-x-wave.png>] [45]) (./subart/pml/pml-oqe.tex
+<images/pml/oqe_schemat.png, id=239, 1069.9975pt x 461.725pt>
 File: images/pml/oqe_schemat.png Graphic file (type png)
 
 <use images/pml/oqe_schemat.png>
 Package pdftex.def Info: images/pml/oqe_schemat.png used on input line 2.
 (pdftex.def)             Requested size: 358.50473pt x 154.70172pt.
- [50] [51 <./images/pml/oqe_schemat.png>]
-<images/pml/oqe_materials.png, id=232, 1210.5225pt x 882.29625pt>
+ [46] [47 <./images/pml/oqe_schemat.png>]
+<images/pml/oqe_materials.png, id=247, 1210.5225pt x 882.29625pt>
 File: images/pml/oqe_materials.png Graphic file (type png)
 
 <use images/pml/oqe_materials.png>
-Package pdftex.def Info: images/pml/oqe_materials.png used on input line 41.
+Package pdftex.def Info: images/pml/oqe_materials.png used on input line 39.
 (pdftex.def)             Requested size: 358.50473pt x 261.29831pt.
 
-Underfull \hbox (badness 1789) in paragraph at lines 42--42
+Underfull \hbox (badness 1789) in paragraph at lines 40--40
 []\T1/ptm/m/n/10.95 Rysunek 4.3: |Za-le»-no±¢ prze-ni-kal-no-±ci elek-trycz-nej
  ma-te-ria-ªów two-rz¡-cych
  []
 
-<images/pml/fig3.png, id=233, 976.64874pt x 365.365pt>
+
+LaTeX Warning: Reference `oqe5' on page 48 undefined on input line 44.
+
+[48 <./images/pml/oqe_materials.png>]
+<images/pml/fig3.png, id=251, 976.64874pt x 365.365pt>
 File: images/pml/fig3.png Graphic file (type png)
 
 <use images/pml/fig3.png>
-Package pdftex.def Info: images/pml/fig3.png used on input line 47.
+Package pdftex.def Info: images/pml/fig3.png used on input line 49.
 (pdftex.def)             Requested size: 358.50473pt x 134.1181pt.
+ [49 <./images/pml/fig3.png>]
+<images/pml/fig4.png, id=255, 504.88625pt x 376.40625pt>
+File: images/pml/fig4.png Graphic file (type png)
 
-<images/pml/oqe_reflection_kat.png, id=234, 1200.485pt x 455.7025pt>
-File: images/pml/oqe_reflection_kat.png Graphic file (type png)
+<use images/pml/fig4.png>
+Package pdftex.def Info: images/pml/fig4.png used on input line 62.
+(pdftex.def)             Requested size: 215.10503pt x 160.3697pt.
 
-<use images/pml/oqe_reflection_kat.png>
-Package pdftex.def Info: images/pml/oqe_reflection_kat.png used on input line 5
-1.
-(pdftex.def)             Requested size: 358.50473pt x 136.08598pt.
+Underfull \hbox (badness 3271) in paragraph at lines 65--65
+[][]\T1/ptm/m/n/10.95 : |Za-le»-no±¢ cz¦-
+ []
 
-<images/pml/oqe_reflection_kat_simp.png, id=235, 1184.425pt x 448.67625pt>
-File: images/pml/oqe_reflection_kat_simp.png Graphic file (type png)
 
-<use images/pml/oqe_reflection_kat_simp.png>
-Package pdftex.def Info: images/pml/oqe_reflection_kat_simp.png used on input l
-ine 55.
-(pdftex.def)             Requested size: 358.50473pt x 135.802pt.
+Underfull \hbox (badness 1057) in paragraph at lines 65--65
+\T1/ptm/m/n/10.95 ªów $\OML/cmm/m/it/10.95 ^^V[]$\T1/ptm/m/n/10.95 , od cz¦-±ci
+ uro-jo-nej
+ []
 
-<images/pml/oqe_trans_refl.png, id=236, 727.71875pt x 515.9275pt>
+
+Underfull \hbox (badness 1314) in paragraph at lines 65--65
+\T1/ptm/m/n/10.95 nika wy-peª-nie-nia $\OML/cmm/m/it/10.95 f$ \T1/ptm/m/n/10.95
+ w przy-
+ []
+
+<images/pml/fig5.png, id=256, 987.69pt x 727.71875pt>
+File: images/pml/fig5.png Graphic file (type png)
+
+<use images/pml/fig5.png>
+Package pdftex.def Info: images/pml/fig5.png used on input line 70.
+(pdftex.def)             Requested size: 358.50473pt x 264.13274pt.
+
+<images/pml/oqe_trans_refl.png, id=257, 727.71875pt x 515.9275pt>
 File: images/pml/oqe_trans_refl.png Graphic file (type png)
 
 <use images/pml/oqe_trans_refl.png>
-Package pdftex.def Info: images/pml/oqe_trans_refl.png used on input line 59.
-(pdftex.def)             Requested size: 358.50473pt x 254.17648pt.
+Package pdftex.def Info: images/pml/oqe_trans_refl.png used on input line 77.
+(pdftex.def)             Requested size: 286.80487pt x 203.33646pt.
 
-<images/pml/oqe_coreshell.png, id=237, 1023.825pt x 697.60625pt>
+<images/pml/oqe_coreshell.png, id=258, 1023.825pt x 697.60625pt>
 File: images/pml/oqe_coreshell.png Graphic file (type png)
 
 <use images/pml/oqe_coreshell.png>
-Package pdftex.def Info: images/pml/oqe_coreshell.png used on input line 63.
+Package pdftex.def Info: images/pml/oqe_coreshell.png used on input line 83.
 (pdftex.def)             Requested size: 358.50473pt x 244.27228pt.
-))
-Underfull \vbox (badness 1342) has occurred while \output is active []
-
- [52 <./images/pml/oqe_materials.png>] [53 <./images/pml/fig3.png> <./images/pm
-l/oqe_reflection_kat.png>] [54 <./images/pml/oqe_reflection_kat_simp.png> <./im
-ages/pml/oqe_trans_refl.png>] [55 <./images/pml/oqe_coreshell.png>]
+)) [50] [51 <./images/pml/fig4.png> <./images/pml/fig5.png>] [52 <./images/pml/
+oqe_trans_refl.png> <./images/pml/oqe_coreshell.png>]
 Rozdzia\l  5.
-[56
-
+[53
 
 ]
 \openout2 = `rozdzial4.aux'.
@@ -1146,23 +1244,23 @@ Rozdzia\l  5.
  (./rozdzial4.tex (./subart/multilay/rozdzial4-start.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [57
+ [54
 
 ])
-(./subart/multilay/vismat.tex <images/agn.png, id=257, 578.16pt x 433.62pt>
+(./subart/multilay/vismat.tex <images/agn.png, id=275, 578.16pt x 433.62pt>
 File: images/agn.png Graphic file (type png)
 
 <use images/agn.png>
 Package pdftex.def Info: images/agn.png used on input line 4.
 (pdftex.def)             Requested size: 358.50473pt x 268.8747pt.
- <images/sio2n.png, id=258, 578.16pt x 433.62pt>
+ <images/sio2n.png, id=276, 578.16pt x 433.62pt>
 File: images/sio2n.png Graphic file (type png)
 
 <use images/sio2n.png>
 Package pdftex.def Info: images/sio2n.png used on input line 11.
 (pdftex.def)             Requested size: 358.50473pt x 268.8747pt.
- [58]
-<images/agtio2eps.png, id=262, 578.16pt x 433.62pt>
+ [55]
+<images/agtio2eps.png, id=280, 578.16pt x 433.62pt>
 File: images/agtio2eps.png Graphic file (type png)
  <use images/agtio2eps.png>
 Package pdftex.def Info: images/agtio2eps.png used on input line 20.
@@ -1170,24 +1268,24 @@ Package pdftex.def Info: images/agtio2eps.png used on input line 20.
 
 Underfull \vbox (badness 2469) has occurred while \output is active []
 
- [59 <./images/agn.png>]
+ [56 <./images/agn.png>]
 Underfull \vbox (badness 2469) has occurred while \output is active []
 
- [60 <./images/sio2n.png>])
+ [57 <./images/sio2n.png>])
 Underfull \hbox (badness 4048) in paragraph at lines 4--4
  |\T1/ptm/b/n/14.4 5.2. Wie-lo-war-stwy z bez-dy-fr-ka-cy-cyjn¡ pro-pa-ga-cja
  []
 
 (./subart/multilay/nondiff.tex
-<images/multilayer/multilayer-3d.png, id=272, 539.01375pt x 562.1pt>
+<images/multilayer/multilayer-3d.png, id=289, 539.01375pt x 562.1pt>
 File: images/multilayer/multilayer-3d.png Graphic file (type png)
 
 <use images/multilayer/multilayer-3d.png>
 Package pdftex.def Info: images/multilayer/multilayer-3d.png used on input line
  2.
 (pdftex.def)             Requested size: 179.25237pt x 186.92592pt.
- [61 <./images/agtio2eps.png>]
-<images/multilayer/agtio2-effective.png, id=277, 586.8324pt x 442.2924pt>
+ [58 <./images/agtio2eps.png>]
+<images/multilayer/agtio2-effective.png, id=295, 586.8324pt x 442.2924pt>
 File: images/multilayer/agtio2-effective.png Graphic file (type png)
 
 <use images/multilayer/agtio2-effective.png>
@@ -1195,18 +1293,18 @@ Package pdftex.def Info: images/multilayer/agtio2-effective.png used on input l
 ine 12.
 (pdftex.def)             Requested size: 358.50473pt x 270.20964pt.
 ) (./subart/multilay/prism.tex
-[62 <./images/multilayer/multilayer-3d.png (PNG copy)>]
+[59 <./images/multilayer/multilayer-3d.png (PNG copy)>]
 Underfull \vbox (badness 5260) has occurred while \output is active []
 
- [63 <./images/multilayer/agtio2-effective.png>]
-<images/multilayer/prism.png, id=285, 577.15625pt x 434.62375pt>
+ [60 <./images/multilayer/agtio2-effective.png>]
+<images/multilayer/prism.png, id=303, 577.15625pt x 434.62375pt>
 File: images/multilayer/prism.png Graphic file (type png)
 
 <use images/multilayer/prism.png>
 Package pdftex.def Info: images/multilayer/prism.png used on input line 4.
 (pdftex.def)             Requested size: 358.50473pt x 269.98122pt.
 
-<images/multilayer/prism04.png, id=286, 840.13875pt x 466.74374pt>
+<images/multilayer/prism04.png, id=304, 840.13875pt x 466.74374pt>
 File: images/multilayer/prism04.png Graphic file (type png)
 
 <use images/multilayer/prism04.png>
@@ -1217,7 +1315,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 13--14
 
  []
 
-<images/multilayer/prism12.png, id=287, 843.15pt x 472.76625pt>
+<images/multilayer/prism12.png, id=305, 843.15pt x 472.76625pt>
 File: images/multilayer/prism12.png Graphic file (type png)
 
 <use images/multilayer/prism12.png>
@@ -1231,8 +1329,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
 Underfull \vbox (badness 4341) has occurred while \output is active []
 
- [64 <./images/multilayer/prism.png>]
-<images/multilayer/prism-ray-tracing1.png, id=292, 294.09875pt x 277.035pt>
+ [61 <./images/multilayer/prism.png>]
+<images/multilayer/prism-ray-tracing1.png, id=310, 294.09875pt x 277.035pt>
 File: images/multilayer/prism-ray-tracing1.png Graphic file (type png)
 
 <use images/multilayer/prism-ray-tracing1.png>
@@ -1240,7 +1338,7 @@ Package pdftex.def Info: images/multilayer/prism-ray-tracing1.png used on input
  line 34.
 (pdftex.def)             Requested size: 161.32602pt x 151.9639pt.
 
-<images/multilayer/prism-ray-tracing2.png, id=293, 302.12875pt x 276.03125pt>
+<images/multilayer/prism-ray-tracing2.png, id=311, 302.12875pt x 276.03125pt>
 File: images/multilayer/prism-ray-tracing2.png Graphic file (type png)
 
 <use images/multilayer/prism-ray-tracing2.png>
@@ -1249,7 +1347,7 @@ Package pdftex.def Info: images/multilayer/prism-ray-tracing2.png used on input
 (pdftex.def)             Requested size: 161.32602pt x 147.39095pt.
 )
 (./subart/multilay/complexstru.tex
-<images/multilayer/konc_eps_mgr.png, id=294, 147.55125pt x 364.36125pt>
+<images/multilayer/konc_eps_mgr.png, id=312, 147.55125pt x 364.36125pt>
 File: images/multilayer/konc_eps_mgr.png Graphic file (type png)
 
 <use images/multilayer/konc_eps_mgr.png>
@@ -1257,7 +1355,7 @@ Package pdftex.def Info: images/multilayer/konc_eps_mgr.png used on input line
 5.
 (pdftex.def)             Requested size: 147.55087pt x 364.36035pt.
 
-<images/multilayer/konc_ene_mgr.png, id=295, 251.94125pt x 347.2975pt>
+<images/multilayer/konc_ene_mgr.png, id=313, 251.94125pt x 347.2975pt>
 File: images/multilayer/konc_ene_mgr.png Graphic file (type png)
 
 <use images/multilayer/konc_ene_mgr.png>
@@ -1265,7 +1363,7 @@ Package pdftex.def Info: images/multilayer/konc_ene_mgr.png used on input line
 10.
 (pdftex.def)             Requested size: 251.94063pt x 347.29665pt.
 
-<images/multilayer/konc_polk_poynt.png, id=296, 274.02374pt x 276.03125pt>
+<images/multilayer/konc_polk_poynt.png, id=314, 274.02374pt x 276.03125pt>
 File: images/multilayer/konc_polk_poynt.png Graphic file (type png)
 
 <use images/multilayer/konc_polk_poynt.png>
@@ -1273,7 +1371,7 @@ Package pdftex.def Info: images/multilayer/konc_polk_poynt.png used on input li
 ne 16.
 (pdftex.def)             Requested size: 161.32602pt x 162.51164pt.
 
-<images/multilayer/konc_coreshell_energy.png, id=297, 284.06125pt x 279.0425pt>
+<images/multilayer/konc_coreshell_energy.png, id=315, 284.06125pt x 279.0425pt>
 File: images/multilayer/konc_coreshell_energy.png Graphic file (type png)
 <use images/multilayer/konc_coreshell_energy.png>
 Package pdftex.def Info: images/multilayer/konc_coreshell_energy.png used on in
@@ -1288,13 +1386,13 @@ Underfull \hbox (badness 2547) in paragraph at lines 1--28
 ) (./subart/multilay/chropo.tex
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [65 <./images/multilayer/prism04.png> <./images/multilayer/prism12.png>]
+ [62 <./images/multilayer/prism04.png> <./images/multilayer/prism12.png>]
 Underfull \hbox (badness 5105) in paragraph at lines 3--4
 \T1/ptm/m/n/10.95 ±red-nia kwa-dra-towa ró»-nic fak-tycz-nej gru-bo-±ci war-stw
 y od za-mie-rzo-nej
  []
 
-<images/multilayer/ag30nm-afm-measure-hist.png, id=301, 578.16pt x 433.62pt>
+<images/multilayer/ag30nm-afm-measure-hist.png, id=319, 578.16pt x 433.62pt>
 File: images/multilayer/ag30nm-afm-measure-hist.png Graphic file (type png)
 
 <use images/multilayer/ag30nm-afm-measure-hist.png>
@@ -1304,8 +1402,8 @@ input line 6.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [66 <./images/multilayer/prism-ray-tracing1.png> <./images/multilayer/prism-ra
-y-tracing2.png>] <images/multilayer/ag30nm-afm-measure.png, id=306, 578.16pt x 
+ [63 <./images/multilayer/prism-ray-tracing1.png> <./images/multilayer/prism-ra
+y-tracing2.png>] <images/multilayer/ag30nm-afm-measure.png, id=323, 578.16pt x 
 433.62pt>
 File: images/multilayer/ag30nm-afm-measure.png Graphic file (type png)
 
@@ -1316,10 +1414,10 @@ Package pdftex.def Info: images/multilayer/ag30nm-afm-measure.png used on input
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [67 <./images/multilayer/konc_eps_mgr.png (PNG copy)> <./images/multilayer/kon
+ [64 <./images/multilayer/konc_eps_mgr.png (PNG copy)> <./images/multilayer/kon
 c_ene_mgr.png (PNG copy)> <./images/multilayer/konc_polk_poynt.png> <./images/m
 ultilayer/konc_coreshell_energy.png>]
-<images/multilayer/plp-chropo.png, id=310, 555.07375pt x 608.2725pt>
+<images/multilayer/plp-chropo.png, id=328, 555.07375pt x 608.2725pt>
 File: images/multilayer/plp-chropo.png Graphic file (type png)
 
 <use images/multilayer/plp-chropo.png>
@@ -1329,8 +1427,8 @@ Package pdftex.def Info: images/multilayer/plp-chropo.png used on input line 21
 
 Underfull \vbox (badness 5862) has occurred while \output is active []
 
- [68 <./images/multilayer/ag30nm-afm-measure-hist.png>]
-<images/multilayer/ag30nm-afm-generated.png, id=315, 578.16pt x 433.62pt>
+ [65 <./images/multilayer/ag30nm-afm-measure-hist.png>]
+<images/multilayer/ag30nm-afm-generated.png, id=333, 578.16pt x 433.62pt>
 File: images/multilayer/ag30nm-afm-generated.png Graphic file (type png)
 
 <use images/multilayer/ag30nm-afm-generated.png>
@@ -1340,8 +1438,8 @@ ut line 31.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [69 <./images/multilayer/ag30nm-afm-measure.png>] [70 <./images/multilayer/plp
--chropo.png>] <images/multilayer/oer-rms01.png, id=323, 1343.0175pt x 800.9925p
+ [66 <./images/multilayer/ag30nm-afm-measure.png>] [67 <./images/multilayer/plp
+-chropo.png>] <images/multilayer/oer-rms01.png, id=341, 1343.0175pt x 800.9925p
 t>
 File: images/multilayer/oer-rms01.png Graphic file (type png)
 
@@ -1350,7 +1448,7 @@ Package pdftex.def Info: images/multilayer/oer-rms01.png used on input line 46.
 
 (pdftex.def)             Requested size: 161.32602pt x 96.21272pt.
 
-<images/multilayer/oer-rms05.png, id=324, 1343.0175pt x 800.9925pt>
+<images/multilayer/oer-rms05.png, id=342, 1343.0175pt x 800.9925pt>
 File: images/multilayer/oer-rms05.png Graphic file (type png)
 
 <use images/multilayer/oer-rms05.png>
@@ -1360,17 +1458,16 @@ Package pdftex.def Info: images/multilayer/oer-rms05.png used on input line 50.
 
 Underfull \vbox (badness 5862) has occurred while \output is active []
 
- [71 <./images/multilayer/ag30nm-afm-generated.png>]
+ [68 <./images/multilayer/ag30nm-afm-generated.png>]
 
-LaTeX Warning: Reference `guo2014negative' on page 72 undefined on input line 5
+LaTeX Warning: Reference `guo2014negative' on page 69 undefined on input line 5
 8.
 
-)) [72 <./images/multilayer/oer-rms01.png (PNG copy)> <./images/multilayer/oer-
-rms05.png (PNG copy)>] (./praca.nls) (./praca.bbl [73
+)) [69 <./images/multilayer/oer-rms01.png (PNG copy)> <./images/multilayer/oer-
+rms05.png (PNG copy)>] (./praca.nls) (./praca.bbl [70
 
-
-] [74] [75] [76] [77]
-[78]) [79] (./praca.aux (./wstep.aux) (./rozdzial1.aux) (./rozdzial2.aux)
+] [71] [72] [73] [74]
+[75]) [76] (./praca.aux (./wstep.aux) (./rozdzial1.aux) (./rozdzial2.aux)
 (./rozdzial3.aux) (./rozdzial4.aux))
 
 LaTeX Warning: There were undefined references.
@@ -1380,13 +1477,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 8169 strings out of 494993
- 121152 string characters out of 6180621
- 201096 words of memory out of 5000000
- 11038 multiletter control sequences out of 15000+600000
- 100886 words of font info for 86 fonts, out of 8000000 for 9000
+ 8411 strings out of 494993
+ 124841 string characters out of 6180621
+ 203007 words of memory out of 5000000
+ 11257 multiletter control sequences out of 15000+600000
+ 106492 words of font info for 90 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 42i,13n,45p,1725b,638s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,13n,52p,1725b,614s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texlive/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/share/texliv
 e/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/share/texlive/texm
 f-dist/fonts/type1/public/amsfonts/cmextra/cmex8.pfb></usr/share/texlive/texmf-
@@ -1405,10 +1502,10 @@ type1/urw/helvetic/uhvr8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/ti
 mes/utmb8a.pfb></usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb>
 </usr/share/texlive/texmf-dist/fonts/type1/urw/times/utmr8a.pfb></usr/share/tex
 live/texmf-dist/fonts/type1/urw/times/utmri8a.pfb>
-Output written on praca.pdf (80 pages, 7516222 bytes).
+Output written on praca.pdf (85 pages, 7461606 bytes).
 PDF statistics:
- 420 PDF objects out of 1000 (max. 8388607)
- 238 compressed objects within 3 object streams
+ 438 PDF objects out of 1000 (max. 8388607)
+ 249 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 291 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 296 words of extra memory for PDF output out of 10000 (max. 10000000)
 

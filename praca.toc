@@ -1,34 +1,34 @@
 \select@language {polish}
-\contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{7}
-\contentsline {section}{\numberline {1.1}State of the art}{8}
-\contentsline {section}{\numberline {1.2}Cele i tezy pracy}{8}
-\contentsline {section}{\numberline {1.3}Podzia\IeC {\l } pracy}{8}
-\contentsline {chapter}{\numberline {2}Modelowanie w\IeC {\l }asno\IeC {\'s}ci podfalowych struktur fotonicznych}{9}
-\contentsline {section}{\numberline {2.1}Metody numeryczne}{10}
-\contentsline {subsection}{\numberline {2.1.1}Metody macierzowe}{10}
-\contentsline {subsection}{\numberline {2.1.2}FDTD}{10}
-\contentsline {subsection}{\numberline {2.1.3}FDTD w jednym wymiarze}{10}
-\contentsline {subsection}{\numberline {2.1.4}Warunki brzegowe}{13}
-\contentsline {subsection}{\numberline {2.1.5}PML}{14}
-\contentsline {subsection}{\numberline {2.1.6}\IeC {\'Z}r\IeC {\'o}d\IeC {\l }a pola elektromagnetycznego}{16}
-\contentsline {subsection}{\numberline {2.1.7}BOR FDTD}{16}
-\contentsline {section}{\numberline {2.2}Systemy liniowe niezmiennicze ze wzgl\IeC {\k e}du na przesuni\IeC {\k e}cia}{18}
-\contentsline {section}{\numberline {2.3}Modele dyspersji materia\IeC {\l }\IeC {\'o}w}{22}
-\contentsline {subsection}{\numberline {2.3.1}Model Lorenza-Drudego}{22}
-\contentsline {section}{\numberline {2.4}Przybli\IeC {\.z}enie o\IeC {\'s}rodka efektywnego}{24}
-\contentsline {chapter}{\numberline {3}Kszta\IeC {\l }towanie fali elektromagnetycznej w zakresie THz }{26}
-\contentsline {subsection}{\numberline {3.0.1}W\IeC {\l }asno\IeC {\'s}ci wykorzystywanych materia\IeC {\l }\IeC {\'o}w}{27}
-\contentsline {section}{\numberline {3.1}Antena THz - siatka dyfrakcyjna wraz z falowodem}{29}
-\contentsline {subsection}{\numberline {3.1.1}Rezonansowa transmisja przez grube siatki}{29}
-\contentsline {subsection}{\numberline {3.1.2}Antena dla promieniowania THz o dzia\IeC {\l }aniu opartym na wzbudzeniu modu falowodowego}{33}
-\contentsline {section}{\numberline {3.2}Transmisja jednokierunkowa}{36}
-\contentsline {section}{\numberline {3.3}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{42}
-\contentsline {chapter}{\numberline {4}PML}{45}
-\contentsline {section}{\numberline {4.1}Wyprowadznie UPML}{46}
-\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej~\cite {ania2015}}{50}
-\contentsline {section}{\numberline {4.3}core shell pml?}{53}
-\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{56}
-\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{58}
-\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{61}
-\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{63}
-\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{66}
+\contentsline {chapter}{\numberline {1}Wst\IeC {\k e}p}{1}
+\contentsline {section}{\numberline {1.1}State of the art}{2}
+\contentsline {section}{\numberline {1.2}Cele i tezy pracy}{2}
+\contentsline {section}{\numberline {1.3}Podzia\IeC {\l } pracy}{2}
+\contentsline {chapter}{\numberline {2}Modelowanie w\IeC {\l }asno\IeC {\'s}ci podfalowych struktur fotonicznych}{3}
+\contentsline {section}{\numberline {2.1}Metody numeryczne}{4}
+\contentsline {subsection}{\numberline {2.1.1}Metoda macierzy przej\IeC {\'s}cia}{4}
+\contentsline {subsection}{\numberline {2.1.2}FDTD}{5}
+\contentsline {subsection}{\numberline {2.1.3}FDTD w jednym wymiarze}{6}
+\contentsline {subsection}{\numberline {2.1.4}Warunki brzegowe}{9}
+\contentsline {subsection}{\numberline {2.1.5}PML}{10}
+\contentsline {subsection}{\numberline {2.1.6}\IeC {\'Z}r\IeC {\'o}d\IeC {\l }a pola elektromagnetycznego}{12}
+\contentsline {subsection}{\numberline {2.1.7}BOR FDTD}{12}
+\contentsline {section}{\numberline {2.2}Systemy liniowe niezmiennicze ze wzgl\IeC {\k e}du na przesuni\IeC {\k e}cia}{14}
+\contentsline {section}{\numberline {2.3}Modele dyspersji materia\IeC {\l }\IeC {\'o}w}{18}
+\contentsline {subsection}{\numberline {2.3.1}Model Lorenza-Drudego}{18}
+\contentsline {section}{\numberline {2.4}Przybli\IeC {\.z}enie o\IeC {\'s}rodka efektywnego}{20}
+\contentsline {chapter}{\numberline {3}Kszta\IeC {\l }towanie fali elektromagnetycznej w zakresie THz }{22}
+\contentsline {subsection}{\numberline {3.0.1}W\IeC {\l }asno\IeC {\'s}ci wykorzystywanych materia\IeC {\l }\IeC {\'o}w}{23}
+\contentsline {section}{\numberline {3.1}Antena THz - siatka dyfrakcyjna wraz z falowodem}{25}
+\contentsline {subsection}{\numberline {3.1.1}Rezonansowa transmisja przez grube siatki}{25}
+\contentsline {subsection}{\numberline {3.1.2}Antena dla promieniowania THz o dzia\IeC {\l }aniu opartym na wzbudzeniu modu falowodowego}{29}
+\contentsline {section}{\numberline {3.2}Transmisja jednokierunkowa}{32}
+\contentsline {section}{\numberline {3.3}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{38}
+\contentsline {chapter}{\numberline {4}PML}{41}
+\contentsline {section}{\numberline {4.1}Wyprowadznie UPML}{42}
+\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej~\cite {ania2015}}{46}
+\contentsline {section}{\numberline {4.3}core shell pml?}{50}
+\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{53}
+\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{55}
+\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{58}
+\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{60}
+\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{63}
