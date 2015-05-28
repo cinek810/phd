@@ -6,7 +6,7 @@ A level-1 auxiliary file: rozdzial1.aux
 A level-1 auxiliary file: rozdzial2.aux
 A level-1 auxiliary file: rozdzial3.aux
 A level-1 auxiliary file: rozdzial4.aux
-The style file: plain.bst
+The style file: abbrvnat.bst
 Database file #1: bibliografia.bib
 Warning--entry type for "understanding-fdtd" isn't style-file defined
 --line 160 of file bibliografia.bib
@@ -16,46 +16,47 @@ Repeated entry---line 494 of file bibliografia.bib
 I'm skipping whatever remains of this entry
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
+Warning--empty year in citeulike:2926459
 Warning--there's a number but no series in sihvola1999electromagnetic
-You've used 55 entries,
-            2118 wiz_defined-function locations,
-            854 strings with 15186 characters,
-and the built_in function-call counts, 21436 in all, are:
-= -- 2049
-> -- 1270
-< -- 6
-+ -- 505
-- -- 448
-* -- 1787
-:= -- 3653
-add.period$ -- 169
-call.type$ -- 55
-change.case$ -- 379
-chr.to.int$ -- 0
-cite$ -- 58
-duplicate$ -- 640
-empty$ -- 1480
-format.name$ -- 448
-if$ -- 4287
-int.to.chr$ -- 0
-int.to.str$ -- 55
-missing$ -- 60
-newline$ -- 278
-num.names$ -- 110
-pop$ -- 343
+You've used 58 entries,
+            2773 wiz_defined-function locations,
+            1004 strings with 17903 characters,
+and the built_in function-call counts, 32597 in all, are:
+= -- 2844
+> -- 2326
+< -- 29
++ -- 789
+- -- 729
+* -- 2994
+:= -- 5133
+add.period$ -- 212
+call.type$ -- 58
+change.case$ -- 408
+chr.to.int$ -- 56
+cite$ -- 120
+duplicate$ -- 1223
+empty$ -- 2328
+format.name$ -- 801
+if$ -- 6661
+int.to.chr$ -- 3
+int.to.str$ -- 1
+missing$ -- 63
+newline$ -- 332
+num.names$ -- 232
+pop$ -- 757
 preamble$ -- 1
-purify$ -- 330
+purify$ -- 356
 quote$ -- 0
-skip$ -- 420
+skip$ -- 962
 stack$ -- 0
-substring$ -- 1455
-swap$ -- 87
+substring$ -- 1375
+swap$ -- 105
 text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 208
-warning$ -- 3
-while$ -- 189
-width$ -- 57
-write$ -- 600
+type$ -- 608
+warning$ -- 4
+while$ -- 259
+width$ -- 0
+write$ -- 822
 (There was 1 error message)

@@ -19,7 +19,7 @@
 \ProvidesClass{aghdpl} 
 \DeclareOption{pdflatex}{\pdflatextrue}
 \DeclareOption*{\PassOptionsToClass{\CurrentOption}{book}} 
-\ProcessOptions\LoadClass[b5paper,twoside]{book} 
+\ProcessOptions\LoadClass[b5paper,twoside,openright]{book} 
 
 \RequirePackage{times}
 \RequirePackage[T1]{fontenc}

@@ -55,9 +55,6 @@ Przedstawione wyniki możliwe są do osiągnięcia przy pomocy materiałów wyka
 
 W przypadku oświetlenia wielowarstwy przy pomocy polaryzacji TM jeden ze współczynników przenikalności magnetycznej może zostać ustalony w sposób arbitralny. W szczególności możemy więc założyć $\mu_{w2}=1$, ponieważ większość materiałów spotykanych w przyrodzie charakteryzuje się taką wartością dla częstotliwości optycznych. Drugą przenikalność magentyczną możemy wyznaczyć przy pomocy wzoru \ref{eq:oqe6}. Część rzeczywista $\textrm{Re}(\mu_{w1})=1$, a zależność części urojonej $\textrm{Im}(\mu_{w1})$ od części urojonej współczynnika $s$, oraz współczynnika wypełnienia przedstawia wykres \ref{fig:im-mu1}. Na podstawie przywołanego wykresu możemy zauważyć, że wysoki współczynnik wypełnienia, oraz wykorzystanie małej części urojonej $s$ skutkują małymi wartościami $\textrm{Im}(\mu_{w1})$, jest to dla nas istotne ponieważ korzystając z realnych materiałów będziemy zmuszeni przybliżyć te wartość przez $0$.
 
-W przypadku zastosowania nie numerycznego należy zaniedbać własności magnetyczne materiałów $\mu=1$, oraz zysk optyczny $\textrm{Im}(\varepsilon)\ge0$. Wyniki dla obu polarizacji po zasotosowaniu się do wymienionych przybliżeń przedstawiają wykresy na rysunku \ref{fig:pml-real-ref}. Zaproponowany absorber skład się z materiału stratnego, oraz warstw charakteryzujących się przenikalnością elektryczną mniejszą od 1. Przedstawione wyniki obliczeń wskazują, że w wyniku poczynionych założeń efektywność pracy wielowarstwy jako struktury PML znacznie różni się w zależności od polaryzacji. Niższe wartości współczynnika odbicia uzyskujemy w tym przypadku dla polaryzacji TE. Wysokie współczynniki odbicia pojawiają się jednak jedynia dla kątów padania bliskich $90^{\circ}$, co jest charakterystyczne dla UPML.
-
-
 \begin{SCfigure}
 	\includegraphics[width=0.6\textwidth]{images/pml/fig4.png}
 	\caption{Zależność części urojonej przenikalności magnetycznej jednego z materiałów $\mu_{w1}$, od części urojonej współczynnika $s$ i współczynnika wypełnienia $f$ w przypadku gdy założono $\mu_{w2}=1$}
@@ -65,6 +62,7 @@ W przypadku zastosowania nie numerycznego należy zaniedbać własności magnety
 \end{SCfigure}
 
 
+W przypadku zastosowania nie numerycznego należy zaniedbać własności magnetyczne materiałów $\mu=1$, oraz zysk optyczny $\textrm{Im}(\varepsilon)\ge0$. Wyniki dla obu polarizacji po zasotosowaniu się do wymienionych przybliżeń przedstawiają wykresy na rysunku \ref{fig:pml-real-ref}. Zaproponowany absorber skład się z materiału stratnego, oraz warstw charakteryzujących się przenikalnością elektryczną mniejszą od 1. Przedstawione wyniki obliczeń wskazują, że w wyniku poczynionych założeń efektywność pracy wielowarstwy jako struktury PML znacznie różni się w zależności od polaryzacji. W przeciwieństwie do obliczeń dla wielowarstw odpowiadających PML, narzucone wartunki prowadzą do mniejszej wartości współczynnika odbicia dla polaryzacji TE. Wysokie współczynniki odbicia, uniemożliwiające zastosowanie wielowarstwy,  pojawiają się jednak jedynie dla kątów padania bliskich $90^{\circ}$, co jest charakterystyczne dla UPML.
 
 \begin{figure}[tb]
 	\includegraphics[width=\textwidth]{images/pml/fig5.png}
@@ -72,15 +70,44 @@ W przypadku zastosowania nie numerycznego należy zaniedbać własności magnety
 	\label{fig:pml-real-ref}
 \end{figure}
 
+
+Na podstawie przeprowadzonej dyskusji, można wysunąć prostą regułę jaką należy posługiwać się w celu doboru materiałów do budowy wielowarstwy efektywnie przypominającej UPML graniczący z powietrzem. Kluczowym elementem jest wykorzystanie materiału którego część rzeczywista przenikalności elektrycznej znajduje się w zakresie od 0 do 1. Przeprowadzone obliczenia wskazują również, że materiał ten powinien być możliwe bezstratny. Druga wykorzystywana substancja powinna posiadać część rzeczywistą przenikalności elektrycznej większą od 1, oraz wykazywać stratność. 
+
+W ogólności w szerokich zakresach spektralnych większość materiałów charakteryzuj się $\textrm{Re}(\varepsilon) > 1$, wyjątkami są zakresy długości fali w okolicach rezonansów dyspersyjnych (patrz. \ref{subart:lorenz-drude}). Możliwe jest również uzyskanie zaprojektowanych własności $\varepsilon$ w metamateriałach np. w strukturach typu fishnet~\cite{valentine2008three}. Przykładem pary materiałów, które możemy zastosować w realizacji UPML przy pomocy wielowarstwy są $SiO_2$ i $NaCl$ dla długości fali w okolicach 8~$\mu$m. Przenikalności elektryczne zaproponowanych materiałów przedstawiają wykresy na rysnuku \ref{fig:nacl-sio2-mat}. Rolę materiału o przenikalności elektrycznej $\varepsilon \in (0,1)$, spełnia w tym obszarze $SiO_2$, ponieważ dla długości fali $9.5$~$\mu$m występuje dla tego materiału rezonans również efektywna część urojona wielowarstwy wynika głównie z własności $SiO_2$. 
+
+\begin{figure}[tb]
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{images/pml/nacl.png}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}{0.45\textwidth}
+		\includegraphics[width=\textwidth]{images/pml/sio2.png}	
+		\caption{}
+	\end{subfigure}
+	\caption{Wartości przenikalności elektrycznej w zakresie od 7 do 10~$\mu$m dla (a) $NaCl$~\cite{li1976refractive}, (b) $SiO_2$~\cite{Kischkat:12}}
+	\label{fig:nacl-sio2-mat}
+\end{figure}
+
+Efektywne własności stosu złożonego z naprzemiennych warstw $NaCl$ i $SiO_2$ o współczynniku wypełnienia drugim materiałem $f=0.56$, dla których przyjęto zmierzone eksperymentalnie wartości $\varepsilon$ przedstawia wykres na rysunku \ref{fig:eff-pml-real}. Zgodnie z (\ref{eq:general-pml-form}) warstwa opisywana struktura przypominająca PML powinna charateryzować się $\frac{1}{\varepsilon_x}=\varepsilon_z$, dlatego na wykresie zaznaczono również $\frac{1}{\varepsilon_x}$. Na podstawie wykresu \ref{fig:eff-pml-real} wielowarstwa powinna więc charakteryzować się najniższym współczynnikiem odbicia dla długości fali z zakresu 8-8.2~$\mu$m. Wartości natężeniowych współczynników transmisji i odbicia w zależności od liczby par warstw $N$ oraz długości fali przedstawia wykres na rysunku \ref{fig:oqe-trans-refl}.
+
+\begin{SCfigure}
+	\includegraphics[width=0.6\textwidth]{images/pml/effepsilon-nacl-sio2.png}
+	\caption{Współczynniki efektywne wielowarstwy zbudowanej z $SiO_2$ i $NaCl$, o współczynniku wypełnienia przez $SiO_2$ równym $f=0.56$, dla eksperymentalnych wartości $\varepsilon$.}
+	\label{fig:eff-pml-real}
+\end{SCfigure}
+
+Bazując na zaprojektowanej wielowarstwie można zaproponować jej realizację w geometrii cylindrycznej. W tym przypadku jakość nieodbijającej warstwy absorbcyjnej możemy ocenić na podstawie symulacji, w których wewnątrz struktury typu core-shell zamknięty zostanie walec z idealnego przewodnika. Rozkład gęstości energii pola E-M dla struktury typu core-shell odpowiadającą rozważanej wielowarstwie, oświetlonoą falą monochromatyczną dla polaryzacji TM~i~TE przedstawia rysunek 
+
 \begin{figure}[tb]
 	\centering
-	\includegraphics[width=0.8\textwidth]{images/pml/oqe_trans_refl.png}
+	\includegraphics[width=0.6\textwidth]{images/pml/oqe_trans_refl.png}
 	\caption{Współczynnik transmisji (linia ciągła) i odbicia (linia przerywana) dla wielowarstwy złożonej z $SiO_2$/$NaCl$ zaprojekowanej dla oświetlenia długością fali 8~$\mu$m, dla której współczynniki załamania $n_{\textrm{SiO}_2}=0.41+0.32i$, $n_{\textrm{NaCl}}=1.51$. Współczynnik wypełnienia struktury przez $SiO_2$ wynosi $f=0.56$, $a=200nm$. Rozważone zostały stosy o $N=10,100,400$.}
 	\label{fig:oqe-trans-refl}
 \end{figure}
 
 \begin{figure}[tb]
 	\includegraphics[width=\textwidth]{images/pml/oqe_coreshell.png}
+	\caption{Wyniki symulacji we współrzędnych cylindrycznych dla polaryzacji (a) TE i (b) TM. Struktura typu core-shell oświetlona jest z dołu, na rysunku (a) zamieszczono wzorzec długości fali.}
 \end{figure}
 
 

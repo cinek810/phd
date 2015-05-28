@@ -32,7 +32,7 @@ Odpowiednio dobrane parametry siatki podwójnej mogą prowadzić jednak do trans
 \begin{figure}[tb]
 	\includegraphics[width=\textwidth]{images/thz/opt_letters_dol.png}
 	\caption{Rozkład gęstości energii pola E-M w przypadku prostopadłego oświetlenia układu DMG zaprojektowanego do transmisji asymetrycznej od strony siatki podfalowej \cite{Stolarek:13} }
-	\label{fig:tras_gora_dol}
+	\label{fig:tras_dol}
 \end{figure}
 
 Fakt ten wynika z budowy podwójnej siatki metalowej służącej do uzyskania transmisji asymetrycznej, która została przedstawiona na rysunku \ref{fig:1ddmg-schem}. Uzyskanie transmisji jednokierunkowej możliwe jest przy dobraniu parametrów układu tak, aby $\Lambda_1 = 2\Lambda_2$ oraz długość fali E-M padającej na DMG  $\lambda$ spełniała nierówność $\Lambda_2<\lambda<\Lambda_2$. Przywołując klasyczne prawo Braggów
@@ -54,10 +54,41 @@ z którego wynika, że omawiany układ może wykazywać jednie -1,~0~i~+1 rząd 
 
  Z innej perspektywy, strukturę typu DMG można analizować jako układ falowodów metal-dielektryk-metal, o rozmiarach podfalowych ( $a_1,a_2,a_3 < \lambda$), dlatego wzbudzany może być w nich jedynie mod podstawowy w polaryzacji TM. Promieniowanie o polaryzacji TE jest w pełni odbijane przez omawiany układ. Dla $a_3 \to 0$ struktura przypomina omawianą w podrozdziale \ref{subart:rezo-grating}. W przypadku $a_3 \ne 0$ możliwe jest dodatkowe sprzęganie pomiędzy falowodami poprzez kanał pomiędzy siatkami dyfrakcyjnymi. Różnica w fazie składowych pola E-M dochodzącego do otworów w siatce o okresie $\Lambda_1$ w przypadku oświetlenia prostopadłego od strony siatki o okresie $\Lambda_2$ w omawianym przypadku wynosi $\pi$ w wyniku czego współczynnik transmisji dla takiej sytuacji zbliża się do 0. Rozkład gęstości energii odpowiadający oświetleniu układu od strony siatki o okresie $\Lambda_2$ przedstawia rysunek \ref{fig:trans_dol}.
 
-W wyniku optymalizacji numerycznej parametrów struktury uzyskano znaczącą różnicę we współczynniku transmisji w przypadku oświetlenia z różnych stron DMG dla szerokiego zakresu długości fali~\cite{Stolarek:13}. Zależność współczynnika transmisji przez DMG w przeciwnych kierunkach od długości fali przedstawia wykres na rysunku \ref{fig:trans_freq}. Dalsze symulacje numeryczne wykazały, że możliwa jest modyfikacja rozmiarów otworów w siatkach w celu poprawy kontrastu wyrażonego wzorem
+W wyniku optymalizacji numerycznej parametrów struktury uzyskano znaczącą różnicę we współczynniku transmisji w przypadku oświetlenia z różnych stron DMG dla szerokiego zakresu długości fali~\cite{Stolarek:13}. Zależność współczynnika transmisji przez DMG w przeciwnych kierunkach od długości fali przedstawia wykres na rysunku \ref{fig:trans_freq}. Dalsze symulacje numeryczne wykazały, że możliwa jest niezależna zmiana otworów w obu siatkach bez utraty transmisji jednokierunkowej w celu poprawy kontrastu standardowo wyrażanego wzorem
 \begin{equation}
 C=\frac{|T_1 - T_2|}{T_1+T_2},
 \label{eq:contrast}
 \end{equation}
-gdzie przez $T_1$ i $T_2$ oznaczono natężeniowe współczynniki transmisji przy oświetleniu DMG odpowiednio od strony siatki o okresie $\Lambda_1$ i $\Lambda_2$~\cite{stolarek2013broadband}.
+gdzie przez $T_1$ i $T_2$ oznaczono natężeniowe współczynniki transmisji przy oświetleniu DMG odpowiednio od strony siatki o okresie $\Lambda_1$ i $\Lambda_2$.
 
+Dla pełnego zrozumienia znaczenia kontrastu wprowadźmy dodatkowe definicje:
+\begin{equation}
+	\begin{gathered}
+	R=T_1-T_2 \\
+	Q=\frac{T_1}{T_2}.
+	\end{gathered}
+	\label{eq:rq-def}
+\end{equation}
+Zakładając, że $T_1>T_2$ (z czego wynika, że $Q>1$), możemy zapisać wyrażenie z mianownika wzoru \ref{eq:contrast} przy pomocy wprowadzonych zmiennych $R$ i $Q$:
+\begin{equation}
+	T_1+T_2=\frac{Q+1}{Q-1} \cdot R,
+\end{equation}
+co po podstawieniu do wzoru (\ref{eq:contrast}) wskazuje, że pomimo tego, że różnica transmisji $R$  znajduje się w liczniku wyrażenia, to sam kontrast zależny jest jedynie od ilorazu transmisji w przeciwnych kierunkach i wyraża się wzorem:
+\begin{equation}
+	C=\frac{Q-1}{Q+1}
+	\label{eq:contrast-Q}.
+\end{equation}
+Co oznacza, że posługując się jedynie wartością kontrastu - bez podania wartości transmisji $T1$ lub różnicy $R$, nie jest wystarczające do przedstawienia charakterystyki układu wykazującego transmisję jednokierunkową~\cite{stolarek2013broadband}. Równważnie można prowadzić optymalizację tego typu struktury wykorzystując do tego wprowadzone oznaczenia $R$ i $Q$. Dla odróżnienia od poprzednich siatek, w których otwory w obu SMG były równe $a_2$ wprowadzono oznaczenia $d_1$ i $d_2$ - dla otworów w siatkach o okresie odpowiednio $\Lambda_1$ i $\Lambda_2$. Zależność wprowadzonych w \ref{eq:rq-def} współczynników od długości fali i rozmiarów otworów przedstawiają wykresy na rysunku \ref{fig:qr-od-d}.
+
+\begin{figure}[tb]
+	\includegraphics[width=\textwidth]{images/dmg/kontrast_maps.png}
+	\caption{Zależność współczynników $R$ (a) i (c), oraz $Q$ (b) i (d) od długości fali $\lambda$ oraz od rozmiarów otworów w obu siatkach. Rozmiar otorów dla (a) i (b) $d_1=0.7$~mm, natomiast dla (c) i (d) $d_2=0.7$~mm }
+	\label{fig:qr-od-d}
+\end{figure}
+
+Optymalne parametry pracy wielowarstwy to $R=1$, oraz $Q \to \infty$ oznaczające transmisję jednokierunkową. Na podstawie wyników zaprezentowanych na \ref{fig:qr-od-d} możemy stwierdzić, że optymalnymi rozmiarami otworów są $d_1\in(0.3,0.5)$~mm, oraz $d_2\in(0.6,1)$~mm w przypadku pracy układu dla szerokiego spektrum długości fali. Dodatkowo stwierdzić można, że
+\begin{itemize}
+	\item Zwiększanie $d_1$ powyżej wskazanego zakresu powoduje znaczne zwiększenie transmisji w kierunku blokującym - co objawia się spadkiem kontrastu na wykresie \ref{fig:qr-od-d}d.
+	\item Zmiana rozmiarów $d_2$ nie ma zasadniczego wpływu na $Q$, a tym samym na kontrast (\ref{eq:contrast-Q}), może jednak prowadzić do poszerzenia spektrum i zwiększenia różnicy $R$ w transmisji w przeciwnych kierunkach (patrz rysunek \ref{fig:qr-od-d}a).
+	\item Dla wąskiego zakresu długości fali w okolicach $\lambda\approx2.6$~mm, możliwe jest uzyskanie wysokiego kontrastu $Q>100$ i różnicy $R\approx 0.7$, dla $d_1>1$~mm. Taka struktura wykazuje jednak transmisję wynoszącą ok.~10\% dla fal dłuższych od $3$~mm\cite{stolarek2013broadband}.
+\end{itemize}

@@ -4,7 +4,7 @@ from numpy import linspace,exp,real,imag,hstack
 import pylab as plt
 
 import matplotlib
-matplotlib.rcParams.update({'font.size': 30})
+matplotlib.rcParams.update({'font.size': 30,'font.width':'bold'})
 
 
 k=3
@@ -35,6 +35,7 @@ plt.plot(real(x),imag(x),lw=3)
 plt.xlabel("Re(x)")
 plt.ylabel("Im(x)")
 plt.tight_layout()
+plt.ylim(-0.1,1);
 plt.savefig("../../../images/pml/complex-x.png")
 
 plt.figure()

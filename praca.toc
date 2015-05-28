@@ -11,7 +11,7 @@
 \contentsline {subsection}{\numberline {2.1.4}Warunki brzegowe}{9}
 \contentsline {subsection}{\numberline {2.1.5}PML}{10}
 \contentsline {subsection}{\numberline {2.1.6}\IeC {\'Z}r\IeC {\'o}d\IeC {\l }a pola elektromagnetycznego}{12}
-\contentsline {subsection}{\numberline {2.1.7}BOR FDTD}{12}
+\contentsline {subsection}{\numberline {2.1.7}BOR FDTD}{13}
 \contentsline {section}{\numberline {2.2}Systemy liniowe niezmiennicze ze wzgl\IeC {\k e}du na przesuni\IeC {\k e}cia}{14}
 \contentsline {section}{\numberline {2.3}Modele dyspersji materia\IeC {\l }\IeC {\'o}w}{18}
 \contentsline {subsection}{\numberline {2.3.1}Model Lorenza-Drudego}{18}
@@ -22,13 +22,14 @@
 \contentsline {subsection}{\numberline {3.1.1}Rezonansowa transmisja przez grube siatki}{25}
 \contentsline {subsection}{\numberline {3.1.2}Antena dla promieniowania THz o dzia\IeC {\l }aniu opartym na wzbudzeniu modu falowodowego}{29}
 \contentsline {section}{\numberline {3.2}Transmisja jednokierunkowa}{32}
-\contentsline {section}{\numberline {3.3}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{38}
-\contentsline {chapter}{\numberline {4}PML}{41}
-\contentsline {section}{\numberline {4.1}Wyprowadznie UPML}{42}
-\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej~\cite {ania2015}}{46}
-\contentsline {section}{\numberline {4.3}core shell pml?}{50}
-\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{53}
-\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{55}
-\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{58}
-\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{60}
-\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{63}
+\contentsline {section}{\numberline {3.3}Soczewka dyfrakcyjna z transmisj\IeC {\k a} jedno kierunkow\IeC {\k a}}{40}
+\contentsline {chapter}{\numberline {4}PML}{43}
+\contentsline {section}{\numberline {4.1}Wyprowadznie UPML}{44}
+\contentsline {section}{\numberline {4.2}PML ze struktury warstwowej~\cite {ania2015}}{48}
+\contentsline {chapter}{\numberline {5}Bezdyfrakcyjna propagacja \IeC {\'s}wiat\IeC {\l }a w wielowarstwach metaliczno-dielektrycznych}{57}
+\contentsline {section}{\numberline {5.1}W\IeC {\l }a\IeC {\'s}ciwo\IeC {\'s}ci dyspersyjne materia\IeC {\l }\IeC {\'o}w optycznych w zakresie widzialnym}{59}
+\contentsline {section}{\numberline {5.2}Wielowarstwy z bezdyfrkacycyjn\IeC {\k a} propagacja \IeC {\'s}wiat\IeC {\l }a}{62}
+\contentsline {section}{\numberline {5.3}Nadrozdzielczy pryzmat}{64}
+\contentsline {section}{\numberline {5.4}Analiza chropowatosci}{67}
+\contentsline {chapter}{Bibliografia}{75}
+\contentsline {chapter}{Spis ilustracji}{82}
