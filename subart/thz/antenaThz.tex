@@ -8,18 +8,55 @@ Projektowana antena promieniowania THz powinna nie tylko zapewniać selektywnoś
 	\label{fig:schem-podklad-falo}
 \end{figure}
 
-Rozkład pola na rysunku \ref{fig:consrcl525} nie zapewnia transportu promieniowania E-M w kierunku tranzystora polowego. Możliwy jest jednak transport energii z wykorzystaniem falowodu tworzonego przez podkład z $GaAs$. Siatka dyfrakcyjna tworząca antenę zostanie wykorzystana do dopasowania pędu fali padającej i pędu modu falowodowego. W tym celu należy rozwiązać równanie dyspersji modów falowodowych~\cite{petykiewicz1989podstawy}:
+Rozkład pola na rysunku \ref{fig:consrcl525} nie zapewnia transportu promieniowania E-M w kierunku tranzystora polowego. Możliwy jest jednak transport energii z wykorzystaniem falowodu planarnego tworzonego przez podkład z $GaAs$. Ze względu na konieczność stosowania polaryzacji TM w stukturach opisywanych w części \ref{subart:rezo-grating} w tej części skupiamy się również jedynie na tego typu oświetleniu. Przyjmijmy obecnie, że propagacja fali wzdłóż falowodu odbywa się w kierunku $z$. Wtedy trzy składowe pola E-M opisujące propagującą falę to $E_x$,$E_z$ i $H_y$, które zgodnei z równaniami Maxwella spełniają układ równań różniczkowych:
+\begin{equation}
+\begin{gathered}
+	\frac{\partial E_x}{\partial z} - \frac{\partial E_z}{\partial x} = -i \mu \omega H_y,\\	
+	\frac{\partial H_y}{\partial x} = i \omega \varepsilon E_z, \\
+	- \frac{\partial H_y}{\partial z} = i \omega \varepsilon E_x.
+\end{gathered}
+\end{equation}
+Z powyższych równań wyprowadzić można równanie różniczkowe drugiego rzędu dla składowej $H_y$ w postaci
+\begin{equation}
+	[ \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial z^2} + \omega^2 \mu_0 \varepsilon (x) ] H_y = 0,
+	\label{eq:waveguide-tm}
+\end{equation}
+w którym $\varepsilon(x)$ jest współczynnikiem załamania ośrodków. W rozważanym przypadku równym
+\begin{equation}
+\varepsilon(x)=  
+\begin{cases} 
+	1, & \mbox{dla } x>h\mbox{ powyżej podkładu z GaAs } \\ 
+	\varepsilon_{\textrm{GaAs}}, & \mbox{dla } 0<x<h\mbox{ wewnątrz podkładu z GaAs} \\
+	\varepsilon_x,	&	\mbox{dla} x<0\mbox{ poniżej podkładu z GaAs}.\\
+\end{cases}
+\end{equation}
+W powyższym równaniu współczynnik załamania poniżej struktury został opisany jako $\varepsilon_x$, co pozwala w dalszej analize rozważać falowody w których $GaAs$ zostało umieszczone na innym materiale. Szukając rozwiązań równania (\ref{waveguide-tm}) w postaci fal płaskich, propagujących się wewnątrz rdzenia ($0<x<h$) wzdłóż osi z:
+\begin{equation}
+	H_y(x,z)=H_y(x) \textrm{exp}(-i \beta z),
+\end{equation}
+oraz w postaci fal zanikających na zewnątrz rdzenia, otrzymujemy równanie zwyczajne
+\begin{equation}
+	\frac{d H_y^2(x)}{dx^2} + [ \omega^2 \mu \varepsilon - \beta^2 ] H_y = 0.
+\end{equation}
+Dla którego stosując standardowe warunki zszycia otrzymujemy równanie dyspersyjne modów prowadzonych w postaci\cite{petykiewicz1989podstawy}:
+\begin{equation}
+tg( \kappa h)=\frac{\kappa [ \delta \frac{n_{\textrm{GaAs}}}{n_x})^2 + \gamma n_{\textrm{GaAs}}^2 ]}{\kappa^2 - \gamma \delta \frac{n_{\textrm{GaAs}}^2}{n_x }},
+\label{eq:tm-disp}
+\end{equation}
+gdzie przez $n_{\textrm{GaAs}}$ i $n_x$ oznaczono odpowiednio współczynnik załamania warstwy arsenku galu, oraz podkładu. Wprowadzono również dodatkowe ozanczenia w postaci
 \begin{equation}
 	\begin{gathered}
-	\delta [ \kappa \textrm{cos}(\kappa h) + \gamma\textrm{sin}(\kappa h) ] - \kappa [ \kappa \textrm{sin}(\kappa h) - \gamma \textrm{cos}(\kappa h) = 0,\\
-	\textrm{gdzie }\delta=\sqrt{\beta^2-\omega^2\mu_0\varepsilon_0},\textrm{ a }\kappa=\sqrt{\omega^2\mu_0 \varepsilon_0 \varepsilon_{\textrm{GaAs}}-\beta^2}.
+		\delta=\sqrt{\beta^2-\omega^2 \mu_0 \varepsilon_0 \varepsilon_x},\\
+		\gamma=\sqrt{\beta^2-\omega^2 \mu_0 \varepsilon_0},\\
+		\kappa=\sqrt{\omega^2 \mu_0 \varepsilon_0 \varepsilon_{\textrm{GaAs}} - \beta^2}.
 	\end{gathered}
 \end{equation}
-Wszystkie wartości $\beta$ spełniające powyższą równość są dopuszczalnymi wartościami składowej wektora falowego w kierunku propagacji. W ten sposób efektywne współczynniki załamania modów TM w falowodzie planarnym można obliczyć jako $n_{\textrm{eff}}=\frac{\beta}{k_0}$. Rozwiązanie powyższego równania możliwe jest jedynie na drodze numerycznej~(lub graficznie). W przypadku rozważanych podkładów z $GaAs$, $h=400$~$\mu m$, możliwe wartości efektywnego współczynnika załamania przedstawia wykres \ref{fig:gaas-effn}. Różne współczynniki $n_{\textrm{eff}}$ odpowiadające tej samej długości fali wynikają z wielomodowego charakteru falowodu tworzonego przez podkład $GaAs$. Dopasowanie pędowe między modem prowadzonym w falowodzie, a falą padającą wymaga dodania odpowiedniego pędu do fali padającej przez siatkę dyfrakcyjną, co dla składowych wektora falowego możemy zapisać jako
+
+Wszystkie wartości $\beta$ spełniające  równanie (\ref{eq:tm-disp}) są dopuszczalnymi wartościami składowej wektora falowego w kierunku propagacji. W ten sposób efektywne współczynniki załamania modów TM w falowodzie planarnym można obliczyć jako $n_{\textrm{eff}}=\frac{\beta}{k_0}$. Rozwiązanie powyższego równania możliwe jest jedynie na drodze numerycznej~(lub graficznie). W przypadku rozważanych podkładów z $GaAs$, $h=400$~$\mu m$, możliwe wartości efektywnego współczynnika załamania przedstawia wykres \ref{fig:gaas-effn}. Różne współczynniki $n_{\textrm{eff}}$ odpowiadające tej samej długości fali wynikają z wielomodowego charakteru falowodu tworzonego przez podkład $GaAs$. Dopasowanie pędowe między modem prowadzonym w falowodzie, a falą padającą wymaga dodania odpowiedniego pędu do fali padającej przez siatkę dyfrakcyjną, co dla składowych wektora falowego możemy zapisać jako
 \[
 k_{i \parallel} + l \frac{2\pi}{d} = k_0 \cdot n_{\textrm{eff,m}}, 
 \]
-gdzie przez $k_{i \parallel}$ oznaczono składową wektora falowego równoległą do kierunku propagacji w falowodzie, $l$ jest liczbą naturalną odpowiadającą rzędowi ugięcia na siatce dyfrakcyjnej, a $n_{\textrm{eff,m}}$ jest efektywnym współczynnikiem m-tego modu falowodowego. W przypadku padania normalnego pęd fali padającej w kierunku propagacji w falowodzie wynosi zero. Szczególnie interesujący jest również przypadek wzbudzenia modu przy pomocy pierwszego rzędu dyfrakcyjnego siatki, ponieważ dla niego uzyskamy największą efektywność, dlatego po uproszczeniu z powyższego równania możemy wyprowadzić
+gdzie przez $k_{i \parallel}$ oznaczono składową wektora falowego równoległą do kierunku propagacji w falowodzie, $l$ jest liczbą naturalną odpowiadającą rzędowi ugięcia na siatce dyfrakcyjnej, a $n_{\textrm{eff,m}}$ jest efektywnym współczynnikiem m-tego modu falowodowego. W przypadku padania normalnego pęd fali padającej w kierunku propagacji w falowodzie wynosi zero. Szczególnie interesujący jest również przypadek wzbudzenia modu za pomocą pierwszego rzędu dyfrakcyjnego siatki, ponieważ dla niego uzyskamy największą efektywność, dlatego po uproszczeniu z powyższego równania możemy wyprowadzić
 \begin{equation}
 d=\frac{2 \pi}{k_0 \cdot n_{\textrm{eff,m}}}.
 \label{eq:d-do-wzbudzenia}
@@ -46,7 +83,7 @@ Na podstawie przeprowadzonych obliczeń zaproponowano siatkę dla źródła o cz
 
 \begin{figure}[tb]
 	\includegraphics[width=\textwidth]{images/thz/consrc_siatka1d_300GHz_d729um.png}
-	\caption{Uzyskany przy pomocy symulacji metodą FDTD. Uśredniony rozkład gęstości energii pola elektromagnetycznego wewnątrz falowodu z $GaAs$, na którym umieszczono antenę w postaci siatki dyfrakcyjnej o $d=$729~$\mu$m oświetloną pod kątem normalnym za pomocą źródła o częstotliwości 300~GHz.  }
+	\caption{Uzyskany za pomocą symulacji metodą FDTD. Uśredniony rozkład gęstości energii pola elektromagnetycznego wewnątrz falowodu z $GaAs$, na którym umieszczono antenę w postaci siatki dyfrakcyjnej o $d=$729~$\mu$m oświetloną pod kątem normalnym za pomocą źródła o częstotliwości 300~GHz.  }
 	\label{fig:consrc_1d_f300Ghz}
 \end{figure}
 

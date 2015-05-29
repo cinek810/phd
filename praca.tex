@@ -11,7 +11,11 @@
 \usepackage{subcaption}
 \usepackage{float}
 \usepackage{amsmath}
+\usepackage{amsfonts}
 \usepackage[outercaption]{sidecap}    
+
+\usepackage{titlesec}
+\titleclass{\chapter}{top}
 
 
 \usepackage{nomencl}
@@ -90,22 +94,15 @@
 
 \mainmatter
 
-\chapter{Wstęp}
 \include{wstep}
 
-
-\chapter{Modelowanie własności podfalowych struktur fotonicznych}
 \include{rozdzial1}
 
-\chapter{Kształtowanie fali elektromagnetycznej w zakresie THz }
 \include{rozdzial2}
 
 
-\chapter{PML}
-\label{roz:pml}
 \include{rozdzial3}
 
-\chapter{Bezdyfrakcyjna propagacja światła w wielowarstwach metaliczno-dielektrycznych}
 \include{rozdzial4}
 
 
@@ -113,7 +110,8 @@
 \printnomenclature
 
 \addcontentsline{toc}{chapter}{Bibliografia}
-\bibliographystyle{abbrvnat}
+%\bibliographystyle{abbrvnat}
+\bibliographystyle{plain}
 \bibliography{bibliografia}
 
 \addcontentsline{toc}{chapter}{Spis ilustracji}

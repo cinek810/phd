@@ -6,57 +6,77 @@ A level-1 auxiliary file: rozdzial1.aux
 A level-1 auxiliary file: rozdzial2.aux
 A level-1 auxiliary file: rozdzial3.aux
 A level-1 auxiliary file: rozdzial4.aux
-The style file: abbrvnat.bst
+The style file: plain.bst
 Database file #1: bibliografia.bib
 Warning--entry type for "understanding-fdtd" isn't style-file defined
 --line 160 of file bibliografia.bib
-Repeated entry---line 494 of file bibliografia.bib
+You're missing a field name---line 370 of file bibliografia.bib
+ : 
+ : %journal={2012 19th International Conference on Microwaves, Radar and Wireless Communications, MIKON 2012},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+You're missing a field name---line 386 of file bibliografia.bib
+ : 
+ : %journal={International Conference on Transparent Optical Networks},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 496 of file bibliografia.bib
  : @article{martin2001theory
  :                          ,
 I'm skipping whatever remains of this entry
+You're missing a field name---line 582 of file bibliografia.bib
+ :   
+ :   %booktitle={Transparent Optical Networks (ICTON), 2013 15th International Conference on},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
-Warning--empty year in citeulike:2926459
 Warning--there's a number but no series in sihvola1999electromagnetic
-You've used 58 entries,
-            2773 wiz_defined-function locations,
-            1004 strings with 17903 characters,
-and the built_in function-call counts, 32597 in all, are:
-= -- 2844
-> -- 2326
-< -- 29
-+ -- 789
-- -- 729
-* -- 2994
-:= -- 5133
-add.period$ -- 212
-call.type$ -- 58
-change.case$ -- 408
-chr.to.int$ -- 56
-cite$ -- 120
-duplicate$ -- 1223
-empty$ -- 2328
-format.name$ -- 801
-if$ -- 6661
-int.to.chr$ -- 3
-int.to.str$ -- 1
-missing$ -- 63
-newline$ -- 332
-num.names$ -- 232
-pop$ -- 757
+Warning--empty journal in Stolarek2011
+Warning--empty year in Stolarek2011
+Warning--empty booktitle in stolarek2013broadband
+Warning--empty year in stolarek2013broadband
+Warning--empty journal in Szczytko2012271
+Warning--empty year in Szczytko2012271
+You've used 60 entries,
+            2118 wiz_defined-function locations,
+            874 strings with 15733 characters,
+and the built_in function-call counts, 23233 in all, are:
+= -- 2198
+> -- 1403
+< -- 5
++ -- 559
+- -- 496
+* -- 1956
+:= -- 3968
+add.period$ -- 178
+call.type$ -- 60
+change.case$ -- 418
+chr.to.int$ -- 0
+cite$ -- 69
+duplicate$ -- 689
+empty$ -- 1594
+format.name$ -- 496
+if$ -- 4616
+int.to.chr$ -- 0
+int.to.str$ -- 60
+missing$ -- 66
+newline$ -- 298
+num.names$ -- 120
+pop$ -- 395
 preamble$ -- 1
-purify$ -- 356
+purify$ -- 365
 quote$ -- 0
-skip$ -- 962
+skip$ -- 446
 stack$ -- 0
-substring$ -- 1375
-swap$ -- 105
-text.length$ -- 6
+substring$ -- 1550
+swap$ -- 84
+text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 608
-warning$ -- 4
-while$ -- 259
-width$ -- 0
-write$ -- 822
-(There was 1 error message)
+type$ -- 226
+warning$ -- 9
+while$ -- 203
+width$ -- 62
+write$ -- 638
+(There were 4 error messages)
