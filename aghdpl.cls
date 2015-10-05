@@ -90,7 +90,7 @@
 \end{minipage}
 \end{flushright}
 
-\vfill{\Large Warszawa\@date}
+\vfill{\Large Warszawa \@date}
 
 \end{center}
 

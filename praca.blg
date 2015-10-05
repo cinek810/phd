@@ -6,6 +6,7 @@ A level-1 auxiliary file: rozdzial1.aux
 A level-1 auxiliary file: rozdzial2.aux
 A level-1 auxiliary file: rozdzial3.aux
 A level-1 auxiliary file: rozdzial4.aux
+A level-1 auxiliary file: podsumowanie.aux
 The style file: plain.bst
 Database file #1: bibliografia.bib
 Warning--entry type for "understanding-fdtd" isn't style-file defined
@@ -29,6 +30,10 @@ You're missing a field name---line 582 of file bibliografia.bib
  :   %booktitle={Transparent Optical Networks (ICTON), 2013 15th International Conference on},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
+Repeated entry---line 789 of file bibliografia.bib
+ : @article{ward1996refraction
+ :                            ,
+I'm skipping whatever remains of this entry
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
 Warning--there's a number but no series in sihvola1999electromagnetic
@@ -38,45 +43,45 @@ Warning--empty booktitle in stolarek2013broadband
 Warning--empty year in stolarek2013broadband
 Warning--empty journal in Szczytko2012271
 Warning--empty year in Szczytko2012271
-You've used 60 entries,
+You've used 63 entries,
             2118 wiz_defined-function locations,
-            874 strings with 15733 characters,
-and the built_in function-call counts, 23233 in all, are:
-= -- 2198
-> -- 1403
+            893 strings with 16206 characters,
+and the built_in function-call counts, 24235 in all, are:
+= -- 2293
+> -- 1455
 < -- 5
-+ -- 559
-- -- 496
-* -- 1956
-:= -- 3968
-add.period$ -- 178
-call.type$ -- 60
-change.case$ -- 418
++ -- 580
+- -- 514
+* -- 2039
+:= -- 4143
+add.period$ -- 187
+call.type$ -- 63
+change.case$ -- 436
 chr.to.int$ -- 0
-cite$ -- 69
-duplicate$ -- 689
-empty$ -- 1594
-format.name$ -- 496
-if$ -- 4616
+cite$ -- 72
+duplicate$ -- 722
+empty$ -- 1669
+format.name$ -- 514
+if$ -- 4815
 int.to.chr$ -- 0
-int.to.str$ -- 60
-missing$ -- 66
-newline$ -- 298
-num.names$ -- 120
-pop$ -- 395
+int.to.str$ -- 63
+missing$ -- 69
+newline$ -- 313
+num.names$ -- 126
+pop$ -- 407
 preamble$ -- 1
-purify$ -- 365
+purify$ -- 380
 quote$ -- 0
-skip$ -- 446
+skip$ -- 467
 stack$ -- 0
-substring$ -- 1550
-swap$ -- 84
+substring$ -- 1614
+swap$ -- 87
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 226
+type$ -- 238
 warning$ -- 9
-while$ -- 203
-width$ -- 62
-write$ -- 638
-(There were 4 error messages)
+while$ -- 213
+width$ -- 65
+write$ -- 671
+(There were 5 error messages)

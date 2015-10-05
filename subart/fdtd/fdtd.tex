@@ -62,7 +62,7 @@ W przypadku niektórych struktur istnieje naturalne zakończenie obszaru symulac
 
 Wygodniejszym rozwiązaniem pozwalającym na skończonej siatce modelować zjawiska zachodzące w nieograniczonej przestrzeni, wprowadza się absorbcyjne warunki brzegowe (ABC od ang. absorbing boundary condition). W przypadku symulacji jednowymiarowej dla $n=1$, współczynniku Couranta $S=1$ i zastosowaniu standardowego założenia o braku źródeł poza obszarem symulacji, tego typu warunek brzegowy można łatwo zreazlizować. Wartości amplitudy pola w wierzchołku na brzegu w kroku $q+1$ musi wynosić dokładnie wartośc amplitudy tego pola w kroku $q$ w wierzchołku sąsiednim. W sytuacji wielowymiarowej, gdy w obszarze symulacji występują np. materiały stratne zagadnienie to staje się znacznie bardziej skomplikowane. Przykładowymi propozycjami rozwiązań omawianego problemu są warunki przegowe typu TFSF(ang total field scatter field).
 
-\subsection{PML}
+\subsection{Nieodbijające warunki brzegowe (PML)}
 \label{art:pml}
 Zmiane podejścia do realizacji symulacji numerycznych dotyczących zjawisk w nieograniczonej przestrzeni zaproponował Jean-Pierre B\'{e}renger. Zamiast konstruowania odpowiedniego warunku brzegowego zaproponował on wprowadzenie nieodbijającej warstwy absorbcyjnej, określanej jako PML~(ang.perfectly matched layer), przylegającej do granicy obszaru symulacji~\cite{1994JCoPh.114..185B}. Dzięki zastosowaniu takiej warstwy za nią możemy użyć np. sztywnych warunków Dirichleta, ponieważ po przejściu przez warstwę PML natężenie pola E-M będzie na tyle słabe, że fala odbita od brzegu nie będzie miała wpływu na wynik całości symulacji. Warstwa PML tworzona jest ze sztucznego materiału, którego własności zostały wyprowadzone przez podział rozwiązania równania falowego,  stąd stosowana angielska nazwia {\it split-field} PML.\footnote{Orginalne wyprowadzenie podane przez B\'{e}rengera dotyczyło rozwiązywania równań Maxwella, to samo podejście zostało jednak bezpośrednio przełożone na modelowanie innych zjawisk opisywanych równaniem falowym}.  Wyprowadzenie podane przez B\'{e}rengera  wymagało również wprowadzenia do równań Maxwella przewodnictwa magnetycznego, które było niezerowe jedynie w niefizycznym obszarze PML.
 
@@ -93,7 +93,7 @@ Niedoskonałością PML, której w żaden sposób nie można uniknąć jest zał
 
 
 
-\subsection{Źródła pola elektromagnetycznego}
+\subsection{Źródła pola elektromagnetycznego w symulacjach metodą FDTD}
 Ostatnim z omawianych podstawowych elementów metody FDTD jest wprowadzenie źródeł. Najbardziej podstawowym sposobem na realizację tego zadania jest umieszczenie tzw. źródła sztywnego. W takim przypadku w wybranym punkcie symulacji pole elektryczne nie jest obliczane zgodnie z równaniem \ref{eq:numez-1dfdtd}, zamiast tego zależność czasu stanu pola elektrycznego od czasu jest dla niego podana w sposób analityczny. Tego typu źródło, podobnie jak zadane w sposób stały warunki brzegowe wprowadza dodatkowe odbicia w obszarze symulacji.
 
 Innym sposobem wprowadzenia źródła, jest wykorzystanie prawa ampera z gęstością prądu
@@ -105,7 +105,7 @@ gdzie $\vec{J}$ może być rozumiany jako gęstość prądu elektrycznego związ
 
 
 
-\subsection{BOR FDTD}
+\subsection{Metoda FDTD dla układów o symetrii walcowej (BOR-FDTD)}
 \label{subart:borfdtd}
 W przypadku symulacji dotyczącej struktury o symetrii cylindrycznej możliwe jest zredukowanie problemu trójwymiarowego do problemu dwuwymiarowego. Po zamianie współżędnych na cylindryczne w równaniach (\ref{eq:fdtd-faraday}) i (\ref{eq:fdtd-amper}) zależność od kąta $\phi$ separuje się od zmiennych przestrzennych $r$ i $z$ dając analityczne rozwiązanie w postaci szeregów zależnych od kąta
 \begin{equation}

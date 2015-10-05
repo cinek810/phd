@@ -78,6 +78,12 @@ Dirk Jalas, Alexander Petrov, Manfred Eich, Wolfgang Freude, Shanhui Fan,
 \newblock What is—and what is not—an optical isolator.
 \newblock {\em Nat. Photonics}, 7(8):579--582, 2013.
 
+\bibitem{john1987strong}
+Sajeev John.
+\newblock Strong localization of photons in certain disordered dielectric
+  superlattices.
+\newblock {\em Physical review letters}, 58(23):2486, 1987.
+
 \bibitem{PhysRevB.6.4370}
 P.~B. Johnson and R.~W. Christy.
 \newblock Optical constants of the noble metals.
@@ -238,6 +244,12 @@ M.~Scalora, M.~J. Bloemer, A.~S. Pethel, J.~P. Dowling, C.~M. Bowden, and A.~S.
 B.~Schneider.
 \newblock Understanding the finite-difference time-domain method, 2010.
 
+\bibitem{schurig2006metamaterial}
+David Schurig, JJ~Mock, BJ~Justice, Steven~A Cummer, JB~Pendry, AF~Starr, and
+  DR~Smith.
+\newblock Metamaterial electromagnetic cloak at microwave frequencies.
+\newblock {\em Science}, 314(5801):977--980, 2006.
+
 \bibitem{shen2005mechanism}
 Jung-Tsung Shen, Peter~B Catrysse, and Shanhui Fan.
 \newblock Mechanism for designing metallic metamaterials with a high index of
@@ -339,6 +351,12 @@ Ji~Xu, Chen Cheng, Ming Kang, Jing Chen, Zhu Zheng, Ya-Xian Fan, and Hui-Tian
 \newblock Unidirectional optical transmission in dual-metal gratings in the
   absence of anisotropic and nonlinear materials.
 \newblock {\em Opt. Lett.}, 36(10):1905--1907, 2011.
+
+\bibitem{yablonovitch1987inhibited}
+Eli Yablonovitch.
+\newblock Inhibited spontaneous emission in solid-state physics and
+  electronics.
+\newblock {\em Phys. Rev. Lett.}, 58(20):2059, 1987.
 
 \bibitem{Yavorskiy:14}
 D.~Yavorskiy, M.~Stolarek, J.~{\L}usakowski, and R.~Koty\'{n}ski.
