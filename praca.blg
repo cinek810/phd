@@ -43,45 +43,45 @@ Warning--empty booktitle in stolarek2013broadband
 Warning--empty year in stolarek2013broadband
 Warning--empty journal in Szczytko2012271
 Warning--empty year in Szczytko2012271
-You've used 63 entries,
+You've used 64 entries,
             2118 wiz_defined-function locations,
-            893 strings with 16206 characters,
-and the built_in function-call counts, 24235 in all, are:
-= -- 2293
-> -- 1455
+            900 strings with 16384 characters,
+and the built_in function-call counts, 24679 in all, are:
+= -- 2336
+> -- 1483
 < -- 5
-+ -- 580
-- -- 514
-* -- 2039
-:= -- 4143
-add.period$ -- 187
-call.type$ -- 63
-change.case$ -- 436
++ -- 591
+- -- 524
+* -- 2080
+:= -- 4218
+add.period$ -- 190
+call.type$ -- 64
+change.case$ -- 444
 chr.to.int$ -- 0
-cite$ -- 72
-duplicate$ -- 722
-empty$ -- 1669
-format.name$ -- 514
-if$ -- 4815
+cite$ -- 73
+duplicate$ -- 733
+empty$ -- 1698
+format.name$ -- 524
+if$ -- 4902
 int.to.chr$ -- 0
-int.to.str$ -- 63
-missing$ -- 69
-newline$ -- 313
-num.names$ -- 126
-pop$ -- 407
+int.to.str$ -- 64
+missing$ -- 70
+newline$ -- 318
+num.names$ -- 128
+pop$ -- 413
 preamble$ -- 1
-purify$ -- 380
+purify$ -- 387
 quote$ -- 0
-skip$ -- 467
+skip$ -- 474
 stack$ -- 0
-substring$ -- 1614
-swap$ -- 87
+substring$ -- 1650
+swap$ -- 88
 text.length$ -- 5
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 238
+type$ -- 242
 warning$ -- 9
-while$ -- 213
-width$ -- 65
-write$ -- 671
+while$ -- 217
+width$ -- 66
+write$ -- 682
 (There were 5 error messages)

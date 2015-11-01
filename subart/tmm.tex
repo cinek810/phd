@@ -1,7 +1,7 @@
 \label{subart:tmm}
-Metoda macierzy przejścia, w skróce nazywana TMM (ang. transfer matrix method) jest używana w optyce i akustyce do analizy propagacji fal odpowiednio elektromagnetycznych i dzwiękowych przez ośrodki warstwowe. Metoda macierzy przejścia może być wykorzystywana do modelowania współczynników transmisji i odbicia w układach liniowych niezmienniczych ze wzlgędu na przesunięcia w kierunku prostopadłym do granicy ośrodków.
+Metoda macierzy przejścia  (ang. transfer matrix method - TMM ) jest używana w optyce do analizy propagacji fal elektromagnetycznych przez ośrodki warstwowe. Podobne metody w odniesieniu do ośrodków warstwowych wykorzystywane są w mechanice kwantowej, akustyce czy sejsmologii. Metoda macierzy przejścia może być wykorzystywana do modelowania współczynników transmisji i odbicia.
 
-W elektromagnetyzmie, macierz przejścia dowolnego układu optycznego wiąże ze sobą amplitudy pól padających i wychodzących \cite{teich1991fundamentals,markos2008wave}:
+W elektromagnetyzmie, macierz przejścia dowolnego liniowego układu optycznego wiąże ze sobą amplitudy pól padających i wychodzących \cite{teich1991fundamentals,markos2008wave}:
 \begin{equation}
 \begin{bmatrix}
 U_i \\ 
@@ -14,15 +14,15 @@ U_b
 \end{bmatrix},
 \label{eq:tmm}
 \end{equation}
-gdzie $M$ jest macierzą przejścia układu, $U$ jedt dowolną wybraną skłądową pola elektrycznego lub magnetycznego, odpowiednio $U_i$ - padającą, $U_r$ - odbitą, $U_t$ - transmitowaną przez układ, oraz $U_b$ padającą  z przeciwnej strony. Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku \ref{fig:tmm-simple}.
+gdzie $M$ jest macierzą przejścia warstwowego układu, $U$ jest dowolną wybraną skłądową pola elektrycznego lub magnetycznego, odpowiednio $U_i$ - padającą, $U_r$ - odbitą, $U_t$ - transmitowaną przez układ, oraz $U_b$ padającą  z przeciwnej strony. \footnote{Metodę macierzy przejścia można również zastosować do analizy pola padającego w postaci dwuwymiarowego rozkładu, w takim przypadku $U_x$ są wektorami a $M$ tensorem trzeciego rzędu.} Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku \ref{fig:tmm-simple}.
 
 \begin{SCfigure}
 	\includegraphics[width=0.6\textwidth]{images/tmm.png}
-	\caption{Ilustracja podstawowego elemntu w symulacjach metodą TMM, wraz z ilustracją amplitud z równanie (\ref{eq:tmm}) }
+	\caption{Ilustracja podstawowego elementu w symulacjach metodą TMM, wraz z ilustracją amplitud z równania (\ref{eq:tmm}). Opisywanym elementem może być warstwa, granica warstw lub struktura warstwowa. }
 	\label{fig:tmm-simple}
 \end{SCfigure}
 
-W przypadku analizy układu złożonego z wielu warstw, oznaczenia z wzoru (\ref{eq:tmm}), możemy poprzez indeks liczbowy przypisać osobno do każdej z macierzy $M_i$:
+W przypadku analizy układu złożonego z wielu warstw, oznaczenia ze wzoru (\ref{eq:tmm}), możemy poprzez indeks liczbowy przypisać osobno do każdej z macierzy $M_i$:
 \begin{equation}
 \begin{bmatrix}
 U_i^1 \\ 
@@ -49,7 +49,7 @@ U_b^1
 \label{eq:tmm-2l}
 \end{equation}
 
-dodając kolejne warstwy np. po lewej stronie od warstwy z rysunku \ref{fig:tmm-simple}, wtedy obliczone $U_i^1$ i $U_r^1$ według wzoru \ref{eq:tmm-1l} dla kolejnej warstwy mają znacznie odpowiednio $U_t^2$ i $U_b^2$. Podstawiając to do wzoru \ref{eq:tmm-2l} otrzymujemy 
+dodając kolejne warstwy np. po lewej stronie od warstwy z rysunku \ref{fig:tmm-simple}. Wtedy $U_i^1$ i $U_r^1$ obliczone według wzoru \ref{eq:tmm-1l} dla kolejnej warstwy mają znacznie odpowiednio $U_t^2$ i $U_b^2$. Podstawiając to do wzoru \ref{eq:tmm-2l} otrzymujemy 
 \begin{equation}
 \begin{bmatrix}
 U_i^2 \\ 
@@ -63,7 +63,7 @@ U_b^1
 \label{eq:tmm-2ls}
 \end{equation}
 
-Z czego wynika, że w układ złożony z i warstw opisywanych macierzami przejscia $M_i$ można traktować jak jeden element opisywany za pomocą macierzy przejścia będącej iloczynem macierzy opisujących wszystkie jego elementy $M= M_i \cdot M_{i-1} ... \cdot M_1$. Podstawowymi macierzami przejścia wykorzystywanymi do obliczeń w układach warstwowych są
+Z czego wynika, że układ złożony z $N$ warstw opisywanych macierzami przejscia $M_N$ można traktować jak jeden element opisywany za pomocą macierzy przejścia będącej iloczynem macierzy opisujących wszystkie jego elementy $M= M_i \cdot M_{i-1} ... \cdot M_1$. Podstawowymi macierzami przejścia wykorzystywanymi do obliczeń w układach warstwowych są:
 \begin{itemize}
 \item Macierz przejścia odpowiadająca propagacji w ośrodku jednorodnym 
 \begin{equation}

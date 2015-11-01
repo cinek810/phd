@@ -1,4 +1,4 @@
-Celem obecnego podrozdziału jest zdefiniowanie pojęcia systemów liniowych, które w niniejszej pracy znajduje zastosowanie w analizie zjawisk obrazowania. W ogólności przez systemem rozumiemy odpowiedniość pomiędzy zestawem funkcji wejściowych, a zestawem funkcji wyjściowych. W przypadku sieci elektrycznych funkcjami wejściowymi jak i wyjściowymi mogą być zależności napięcia i natężenia prądu elektrycznego od czasu. Jeżeli ograniczymy opis do systemów deterministycznych, określonemu zestawowi funkcji wejściowych musi odpowiadać dokładnie jeden układ funkcji wyjściowych. Wyjście układu nie musi jednak pozwalać na jednoznaczną identyfikację wejścia, w szczególności dla wielu stanów wejścia system może nie odpowiadać żadnym wyjściem.
+Celem ninejszego podrozdziału jest zdefiniowanie pojęcia systemów liniowych, które w niniejszej pracy znajduje zastosowanie w analizie zjawisk obrazowania. W ogólności przez systemem rozumiemy odpowiedniość pomiędzy zestawem funkcji wejściowych, a zestawem funkcji wyjściowych. W przypadku sieci elektrycznych funkcjami wejściowymi jak i wyjściowymi mogą być zależności napięcia i natężenia prądu elektrycznego od czasu. Jeżeli ograniczymy opis do systemów deterministycznych, określonemu zestawowi funkcji wejściowych musi odpowiadać dokładnie jeden układ funkcji wyjściowych. Wyjście układu nie musi jednak pozwalać na jednoznaczną identyfikację wejścia, w szczególności dla wielu stanów wejścia system może nie odpowiadać żadnym wyjściem.
 
 \label{art:lsi}
 
@@ -7,12 +7,12 @@ Matematyczną reprezentacją opisanego systemu, jest operator $S\{\}$, który dz
 f_i(\vec{x})=S\{g_i(\vec{x})\}.
 \label{eq:system}
 \end{equation} 
-Nie wprowadzając dodatkowych założeń dotyczących operatora $S\{\}$, nie można podać innych matematycznych własności systemu, niż definicja wyrażona równaniem \ref{eq:system}. Szczególne znaczenie nie tylko dla niniejszej pracy, ale również wielu zastosowań inżynierskich mają tzw. systemy liniowe. Warunkiem liniowości systemu jest spełnianie zasady superpozycji, którą wyraża poniższe równanie:
+Warunkiem liniowości systemu opisywanego operatorem $S\{\}$ jest spełnianie zasady superpozycji, którą wyraża poniższe równanie
 \begin{equation}
-S\{\alpha p(\vec{x}) + \beta q(\vec{x})\} = \alpha S\{p(\vec{x})\} + \beta S\{q(\vec{x})\}
+S\{\alpha p(\vec{x}) + \beta q(\vec{x})\} = \alpha S\{p(\vec{x})\} + \beta S\{q(\vec{x})\},
 \label{eq:lin-system}
 \end{equation}
-Zgodnie z powyższym równaniem, odpowiedź systemu możemy przedstawić jako sumę odpowiedzi na funkcje składowe na które rozłożyliśmy wejście układu. W przypadku zjawisk elektromagnetycznych zasada superpozycji spełniona jest dla amplitud pól elektromagnetycznych \footnote{Można tak? teoria skalarna...?} - w przypadku promieniowania koherentnego lub dla natężeń tych pół w przypadku światła całkowicie niespójnego.  Do rozkładu funkcji wejściowej na elementarne składowe posłużymy się własnością filtracji delty Diraca
+spełnione dla dowolnych zespolonych skalarów $\alpha$ i $\beta$, oraz dowolnych funkcji $p(\vec{x})$ i $q(\vec{x})$. Zgodnie z powyższym równaniem, odpowiedź systemu możemy przedstawić jako sumę odpowiedzi na funkcje składowe na które rozłożyliśmy wejście układu. W przypadku zjawisk elektromagnetycznych zasada superpozycji spełniona jest dla amplitud pól elektromagnetycznych w przypadku promieniowania koherentnego, oraz dla natężeń pól w przypadku promieniowania nie koherentnego. Do rozkładu funkcji wejściowej na elementarne składowe posłużymy się własnością filtracji delty Diraca
 \begin{equation}
 g(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta}) \delta(x-\eta) d \vec{\eta}.
 \label{eq:dirac-shifting}
@@ -29,38 +29,39 @@ f(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta})  S\{\delta(\vec{x}-\vec{\eta})
 \end{equation}
 dla uproszczenia zapisu powyższego równania wprowadzimy funkcję
 \begin{equation}
-h(\vec{x},\vec{eta}):=S\{\delta(\vec{x}-\vec{\eta})\}.
+h(\vec{x},\vec{\eta}):=S\{\delta(\vec{x}-\vec{\eta})\}.
 \label{eq:imp-resp}
 \end{equation}
-Powyższa funkcja nazywana jest funkcją odpowiedz impulsowej (ang. impluse response), w optyce zazwyczaj określa się ją mianem funkcji rozmycia punktu (ang. point-spreadfunction). Korzystając z wprowadzonego oznaczenia możemy do równania \ref{eq:dirac-shift3}  podstawić definicję \ref{eq:imp-resp}, otrzymując jedną z podstawowych formuł stosowanych do opisu systemów liniowych, tzw. całkę superpozycji:
+Powyższa funkcja nazywana jest funkcją odpowiedz impulsowej (ang. impluse response), w optyce zazwyczaj określa się ją mianem funkcji rozmycia punktu (ang. point-spread function). Korzystając z wprowadzonego oznaczenia możemy do równania \ref{eq:dirac-shift3}  podstawić definicję \ref{eq:imp-resp}, otrzymując jedną z podstawowych formuł stosowanych do opisu systemów liniowych, tzw. całkę superpozycji:
 \begin{equation}
 f(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta})  h(\vec{x},\vec{\eta}) d \vec{\eta} .
 \label{eq:sup-int}
 \end{equation}
-Powyższe równanie wskazuje, że dla opisania odpowiedzi systemu na dowolny zestaw funkcji wejściowych niezbędna jest jedynie znajomość funkcji odpowiedzi impulsowych układu. W obecnie rozważanym ogólnym przypadku funkcja odpowiedzi musi być zdefiniowana dla wszystkich punktowych wzbudzeń w płaszczyźnie wejściowej. Przykładem analizowanego układu może być np. soczewka oświetlana promieniowaniem niekoherentnym, dla której niezbędnym zestawem informacji potrzebnym do obliczenia natężenia światła w płaszczyźnie obrazu jest znajomość funkcji odpowiedzi dla wszystkich źródeł punktowych znajdujących się w płaszczyźnie przedmiotu. 
+Powyższe równanie wskazuje, że dla opisania odpowiedzi systemu na dowolną funkcje wejściową niezbędna jest jedynie znajomość funkcji odpowiedzi impulsowej układu. W obecnie rozważanym ogólnym przypadku funkcja odpowiedzi musi być zdefiniowana dla wszystkich punktowych wzbudzeń w płaszczyźnie wejściowej. Przykładem analizowanego układu może być np. soczewka oświetlana promieniowaniem niekoherentnym, dla której niezbędnym zestawem informacji potrzebnym do obliczenia natężenia światła w płaszczyźnie obrazu jest znajomość funkcji odpowiedzi dla wszystkich źródeł punktowych znajdujących się w płaszczyźnie przedmiotu. 
 
-Szczególne znaczenie dla niniejszej pracy ma kolejna, często spotykana w zastosowaniach własność układów liniowych określana jako niezmienniczość. W ogólności, może być to np. niezmienniczość systemu elektrycznego w czasie. Rozumiana jako zależność funkcji odpowiedzi impulsowej $h(t,\tau)$ (gdzie $t$ jest czasem, w którym poszukiwana jest odpowiedź na impuls elektryczny mający miejsce w czasie $\tau$) jedynie od różnicy $t-\tau$. Dla układów elektrycznych taka własność jest zazwyczaj spełniona, ponieważ oporniki, kondensatory i indukcyjności z których są zbudowane zazwyczaj nie zmieniają swoich własności w czasie eksperymentów.
+Szczególne znaczenie dla niniejszej pracy ma kolejna, często spotykana w zastosowaniach własność układów liniowych określana jako niezmienniczość. W ogólności, może być to np. niezmienniczość systemu elektrycznego w czasie. 
+%Rozumiana jako zależność funkcji odpowiedzi impulsowej $h(t,\tau)$ (gdzie $t$ jest czasem, w którym poszukiwana jest odpowiedź na impuls elektryczny mający miejsce w czasie $\tau$) jedynie od różnicy $t-\tau$. Dla układów elektrycznych taka własność jest zazwyczaj spełniona, ponieważ oporniki, kondensatory i indukcyjności z których są zbudowane zazwyczaj nie zmieniają swoich własności w czasie eksperymentów.
 
-Dla układu obrazującego niezmienniczość rozumiemy jako niezmienniczość ze względu na przesunięcia w wyniku której, funkcja odpowiedzi impulsowej zależy jedynie od odległości pomiędzy położeniem wzbudzenia, a położeniem obrazu
+Dla układu obrazującego istotną rolę odgrywa niezmienniczość ze względu na przesunięcia w wyniku której, funkcja odpowiedzi impulsowej zależy jedynie od odległości pomiędzy położeniem wzbudzenia, a położeniem obrazu
 \begin{equation}
 h(\vec{x},\vec{\eta})=h(\vec{x}-\vec{\eta}).
 \label{eq:shif-inv}
 \end{equation}
 Powyższa własność zastosowana do układów obrazujących jest więc równoważna stwierdzeniu, że zmiana położenia przedmiotu wpływa jedynie na zmianę położenia jego obrazu. W przypadku niemal wszystkich realnych układów optycznych własność ta nie jest spełniona w całej przestrzeni położeń, zazwyczaj można jednak obszar podzielić na "łaty" w których zastosowanie będą miały odpowiednie funkcje $h_i$, natomiast w ramach "łat" z dobrym przybliżeniem stosować można założenie o izoplanatyczności systemu. Szczególnym przypadkiem obszaru często wykorzystywanego w analizie obrazowania przez klasyczne elementy optyczne jest oś układu, w stosunku do której stosuje się omawiane przybliżenie.
 
-Stosując równanie \ref{eq:shif-inv} do wzoru \ref{eq:sup-int} otrzymujemy
+Podstawiając równanie \ref{eq:shif-inv} do wzoru \ref{eq:sup-int} otrzymujemy
 \begin{equation}
-f(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta})  h(\vec{x}-\vec{\eta}) d \vec{\eta} = g \ast h,
+f(\vec{x})=\int_{-\infty}^{+\infty} g(\vec{\eta})  h(\vec{x}-\vec{\eta}) d \vec{\eta} = g \ast h.
 \label{eq:splot}
 \end{equation}
-w powyższym równaniu $\ast$ oznacza operację splotu. Ze względu na to znaczące uproszczenie całki superpozycji dla układów liniowych niezmienniczych ze względu na przesunięcia (ang. LSI - linear shift-invariant) matematyczny opis tej klasy systemów posiada znacznie bardziej rozbudowaną strukturę matematyczną. Prostota systemów LSI, będąca źródłem rozbudowanej teorii związanej z ich analizą przejawia się gdy z twierdzenia o splocie, będącego jedną z podstawowych własności transformaty Fouriera zapiszemy powyższe równanie jako
+W powyższym równaniu $\ast$ oznacza operację splotu. Dzięki sprowadzeniu całki superpozycji dla układów liniowych niezmienniczych ze względu na przesunięcia (ang. LSI - linear shift-invariant) do tej szczególnej postaci, możemy do analizy układów LSI wykorzystać kolejne twierdzenia analizy matematycznej. Ważne znaczenie odgrywa twierdzenie o splocie, będącego jedną z podstawowych własności transformaty Fouriera zapiszemy powyższe równanie jako
 \begin{equation}
-F{f}(\vec{f}) = F{g}(\vec{f}) \cdot F{h}(\vec{f}),
+F\{f(\vec{\nu})\} = F\{g(\vec{\nu})\} \cdot F\{h(\vec{\nu})\},
 \label{eq:transfer-mult}
 \end{equation}
 gdzie przez $F$ oznaczona została transformata Fouriera, a $\cdot$ oznacza zwykłe mnożenie. W ten sposób znalezienie funkcji wyjściowych układu typu LSI z obliczania splotu\footnote{Będącego zazwyczaj skomplikowaną operacją analityczną lub wysokiej złożoności operacją numeryczną.} zastąpiliśmy obliczaniem transformaty Fouriera, mnożeniem i obliczeniem odwrotnej transformaty Fouriera. Transformata Fouriera funkcji odpowiedzi impulsowej ze względu na swoje szczególne znaczenie nazywana jest funkcją przenoszenia $H=F{h}$.
 
-W równaniu \ref{eq:transfer-mult} można zauważyć formę zagadnienia własnego opisującego układ typu LSI, w którym wartości funkcji $H$ dla różnych częstości przestrzennych $f$ można interpretować jako wartości własne układu. Funkcjami własnymi są natomiast fale płaskie, ponieważ przeprowadzenie matematycznej operacji transformacji Fouriera jest w przypadku analizy zjawisk falowych równoważne rozłożeniu funkcji w bazie fal płaskich.  Kolejnymi wnioskami jakie możemy uzyskać wprost z wzoru \ref{eq:transfer-mult} jest sposób w jaki układy LSI modyfikują funkcje wejściowe w postaci fal płaskich. W takim przypadku $G=|A|e^{\Phi}$ jest po prostu liczbą zespoloną, a układ wprowadza jedynie tłumienie $|A|$ i stałą modyfikację fazy $\Phi$ padającej nań fali płaskiej\cite{citeulike:2926459}.
+W równaniu \ref{eq:transfer-mult} można zauważyć formę zagadnienia własnego opisującego układ typu LSI, w którym wartości funkcji $H$ dla różnych częstości przestrzennych $\nu$ można interpretować jako wartości własne układu. Funkcjami własnymi są natomiast fale płaskie, ponieważ przeprowadzenie matematycznej operacji transformacji Fouriera jest w przypadku analizy zjawisk falowych równoważne rozłożeniu funkcji w bazie fal płaskich.  Kolejnymi wnioskami jakie możemy uzyskać wprost ze wzoru \ref{eq:transfer-mult} jest sposób w jaki układy LSI modyfikują funkcje wejściowe w postaci fal płaskich. W takim przypadku $G=|A|e^{i\Ph}$ jest po prostu liczbą zespoloną, a układ wprowadza jedynie tłumienie $|A|$ i stałą modyfikację fazy $\Phi$ padającej nań fali płaskiej~\cite{citeulike:2926459}.
 
-W całej pracy posługując się terminem częstości przestrzennych odnosimy się do podanej powyżej formuły w której transformacja Fouriera została zastosowana w stosunku do funkcji położenia, dlatego ze szczególną uwagę należy odróżniać częstości przestrzenne (rozkład w bazie fal płaskich), od częstotliwości odpowiadającej rozkładowi promieniowania w bazie fal monochromatycznych.
+W całej pracy posługując się terminem częstości przestrzennych odnosimy się do podanej powyżej formuły w której transformacja Fouriera została zastosowana w stosunku do funkcji położenia, dlatego ze szczególną uwagą należy odróżniać częstości przestrzenne (rozkład w bazie fal płaskich), od częstotliwości odpowiadającej rozkładowi promieniowania w bazie fal monochromatycznych.
 
