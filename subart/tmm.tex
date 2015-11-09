@@ -1,7 +1,7 @@
 \label{subart:tmm}
 Metoda macierzy przejścia  (ang. transfer matrix method - TMM ) jest używana w optyce do analizy propagacji fal elektromagnetycznych przez ośrodki warstwowe. Podobne metody w odniesieniu do ośrodków warstwowych wykorzystywane są w mechanice kwantowej, akustyce czy sejsmologii. Metoda macierzy przejścia może być wykorzystywana do modelowania współczynników transmisji i odbicia.
 
-W elektromagnetyzmie, macierz przejścia dowolnego liniowego układu optycznego wiąże ze sobą amplitudy pól padających i wychodzących \cite{teich1991fundamentals,markos2008wave}:
+W elektromagnetyzmie, macierz przejścia dowolnego liniowego układu optycznego wiąże ze sobą amplitudy pól padających i wychodzących \cite{markos2008wave,teich1991fundamentalsTMM}:
 \begin{equation}
 \begin{bmatrix}
 U_i \\ 
@@ -14,7 +14,7 @@ U_b
 \end{bmatrix},
 \label{eq:tmm}
 \end{equation}
-gdzie $M$ jest macierzą przejścia warstwowego układu, $U$ jest dowolną wybraną skłądową pola elektrycznego lub magnetycznego, odpowiednio $U_i$ - padającą, $U_r$ - odbitą, $U_t$ - transmitowaną przez układ, oraz $U_b$ padającą  z przeciwnej strony. \footnote{Metodę macierzy przejścia można również zastosować do analizy pola padającego w postaci dwuwymiarowego rozkładu, w takim przypadku $U_x$ są wektorami a $M$ tensorem trzeciego rzędu.} Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku \ref{fig:tmm-simple}.
+gdzie $M$ jest macierzą przejścia warstwowego układu, $U$ jest dowolną wybraną skłądową pola elektrycznego lub magnetycznego, odpowiednio $U_2^{(+)}$ - padającą, $U_2^{-}$ - odbitą, $U_1^{(+)}$ - transmitowaną przez układ, oraz $U_1^{-}$ padającą  z przeciwnej strony. \footnote{Metodę macierzy przejścia można również zastosować do analizy pola padającego w postaci dwuwymiarowego rozkładu, w takim przypadku $U_x^{(\pm)}$ są wektorami a $M$ tensorem trzeciego rzędu.} Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku \ref{fig:tmm-simple}.
 
 \begin{SCfigure}
 	\includegraphics[width=0.6\textwidth]{images/tmm.png}
@@ -70,7 +70,7 @@ Z czego wynika, że układ złożony z $N$ warstw opisywanych macierzami przejsc
 	M_p=
 	\begin{bmatrix}
 	\textrm{exp}(-2i\pi k z_0) & 0 \\
-	0	&\textrm{exp}(-2i\pi k z_0)\\
+	0	&\textrm{exp}(2i\pi k z_0)\\
 	\end{bmatrix},gdzie
 \end{equation}
 $k$ jest długością wektora falowego w ośrodku w którym zachodzi propagacja w kierunku równoległym do grubości warstwy, a $z_0$ jest grubością warstwy.
@@ -78,8 +78,8 @@ $k$ jest długością wektora falowego w ośrodku w którym zachodzi propagacja 
 \begin{equation}
 	M_i=\frac{1}{1+r}
 	\begin{bmatrix}
-	1 & r \\
-	r & 1\\
+	1 & i \cdot r \\
+	-i \cdot r & 1\\
 	\end{bmatrix},
 \end{equation}
 gdzie $r$ jest amplitudowym współczynnikiem odbicia fali na opisywanej granicy ośrodków wynikającym z równań Fresnela i zależnym od kąta padania. 

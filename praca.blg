@@ -11,26 +11,26 @@ The style file: plain.bst
 Database file #1: bibliografia.bib
 Warning--entry type for "understanding-fdtd" isn't style-file defined
 --line 160 of file bibliografia.bib
-You're missing a field name---line 370 of file bibliografia.bib
+You're missing a field name---line 383 of file bibliografia.bib
  : 
  : %journal={2012 19th International Conference on Microwaves, Radar and Wireless Communications, MIKON 2012},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-You're missing a field name---line 386 of file bibliografia.bib
+You're missing a field name---line 399 of file bibliografia.bib
  : 
  : %journal={International Conference on Transparent Optical Networks},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 496 of file bibliografia.bib
+Repeated entry---line 509 of file bibliografia.bib
  : @article{martin2001theory
  :                          ,
 I'm skipping whatever remains of this entry
-You're missing a field name---line 582 of file bibliografia.bib
+You're missing a field name---line 595 of file bibliografia.bib
  :   
  :   %booktitle={Transparent Optical Networks (ICTON), 2013 15th International Conference on},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 789 of file bibliografia.bib
+Repeated entry---line 802 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
@@ -43,45 +43,45 @@ Warning--empty booktitle in stolarek2013broadband
 Warning--empty year in stolarek2013broadband
 Warning--empty journal in Szczytko2012271
 Warning--empty year in Szczytko2012271
-You've used 64 entries,
+You've used 65 entries,
             2118 wiz_defined-function locations,
-            900 strings with 16384 characters,
-and the built_in function-call counts, 24679 in all, are:
-= -- 2336
-> -- 1483
-< -- 5
-+ -- 591
-- -- 524
-* -- 2080
-:= -- 4218
-add.period$ -- 190
-call.type$ -- 64
-change.case$ -- 444
+            907 strings with 16639 characters,
+and the built_in function-call counts, 25186 in all, are:
+= -- 2384
+> -- 1511
+< -- 6
++ -- 602
+- -- 534
+* -- 2111
+:= -- 4290
+add.period$ -- 193
+call.type$ -- 65
+change.case$ -- 452
 chr.to.int$ -- 0
-cite$ -- 73
-duplicate$ -- 733
-empty$ -- 1698
-format.name$ -- 524
-if$ -- 4902
+cite$ -- 74
+duplicate$ -- 760
+empty$ -- 1733
+format.name$ -- 534
+if$ -- 5018
 int.to.chr$ -- 0
-int.to.str$ -- 64
-missing$ -- 70
-newline$ -- 318
-num.names$ -- 128
-pop$ -- 413
+int.to.str$ -- 65
+missing$ -- 71
+newline$ -- 323
+num.names$ -- 130
+pop$ -- 425
 preamble$ -- 1
-purify$ -- 387
+purify$ -- 394
 quote$ -- 0
-skip$ -- 474
+skip$ -- 499
 stack$ -- 0
-substring$ -- 1650
-swap$ -- 88
-text.length$ -- 5
+substring$ -- 1667
+swap$ -- 103
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 242
+type$ -- 246
 warning$ -- 9
-while$ -- 217
-width$ -- 66
-write$ -- 682
+while$ -- 220
+width$ -- 67
+write$ -- 693
 (There were 5 error messages)

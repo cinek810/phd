@@ -48,6 +48,12 @@ J.~R. Devore.
 \newblock Refractive indices of rutile and sphalerite.
 \newblock {\em J. Opt. Soc. Am.}, 41(6):416--417, Jun 1951.
 
+\bibitem{1998APS..MAR.S1511E}
+T.~W. {Ebbesen}, H.~F. {Ghaemi}, T.~{Thio}, D.~E. {Grupp}, and H.~J. {Lezec}.
+\newblock {Extraordinary Optical Transmission through Sub-wavelength Hole
+  Arrays.}
+\newblock In {\em APS March Meeting Abstracts}, page 1511, March 1998.
+
 \bibitem{ebbesen1998extraordinary}
 Thomas~W Ebbesen, HJ~Lezec, HF~Ghaemi, Tineke Thio, and PA~Wolff.
 \newblock Extraordinary optical transmission through sub-wavelength hole
@@ -322,10 +328,10 @@ J.~Szczytko, M.~Stolarek, B.~Pietka, J.~Łusakowski, A.~Wawro, A.~Barańska,
   E.~Papis, R.~Adomavisius, A.~Krotkus, N.~Pałka, and P.~Zagrajek.
 \newblock Terahertz properties of metallic layers and grids.
 
-\bibitem{teich1991fundamentals}
-Malvin~Carl Teich and BEA Saleh.
+\bibitem{teich1991fundamentalsTMM}
+M.~C. Teich and B.~E.~A. Saleh.
 \newblock Fundamentals of photonics.
-\newblock {\em Canada, Wiley Interscience}, page~3, 1991.
+\newblock {\em Canada, Wiley Interscience}, page 246, 2007.
 
 \bibitem{teixeira1998general}
 Fernando~L Teixeira and Weng~C Chew.

@@ -3,9 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: wstep.aux
 I found no \bibdata command---while reading file wstep.aux
 I found no \bibstyle command---while reading file wstep.aux
-You've used 7 entries,
+You've used 9 entries,
             0 wiz_defined-function locations,
-            91 strings with 639 characters,
+            94 strings with 701 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0
