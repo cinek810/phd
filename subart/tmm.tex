@@ -1,7 +1,7 @@
 \label{subart:tmm}
-Metoda macierzy przejścia  (ang. transfer matrix method - TMM ) jest używana w optyce do analizy propagacji fal elektromagnetycznych przez ośrodki warstwowe. Podobne metody w odniesieniu do ośrodków warstwowych wykorzystywane są w mechanice kwantowej, akustyce czy sejsmologii. Metoda macierzy przejścia może być wykorzystywana do modelowania współczynników transmisji i odbicia.
+Metoda macierzy przejścia  (ang. transfer matrix method - TMM ) jest używana w~optyce do analizy propagacji fal elektromagnetycznych przez ośrodki warstwowe. Podobne metody w~odniesieniu do ośrodków warstwowych wykorzystywane są w~mechanice kwantowej, akustyce czy sejsmologii. Metoda macierzy przejścia może być wykorzystywana do modelowania współczynników transmisji i~odbicia.
 
-W elektromagnetyzmie, macierz przejścia dowolnego liniowego układu optycznego wiąże ze sobą amplitudy pól padających i wychodzących \cite{markos2008wave,teich1991fundamentalsTMM}:
+W elektromagnetyzmie, macierz przejścia dowolnego liniowego układu optycznego wiąże ze sobą amplitudy pól padających i~wychodzących \cite{markos2008wave,teich1991fundamentalsTMM}:
 \begin{equation}
 \begin{bmatrix}
 U_i \\ 
@@ -14,15 +14,15 @@ U_b
 \end{bmatrix},
 \label{eq:tmm}
 \end{equation}
-gdzie $M$ jest macierzą przejścia warstwowego układu, $U$ jest dowolną wybraną skłądową pola elektrycznego lub magnetycznego, odpowiednio $U_2^{(+)}$ - padającą, $U_2^{-}$ - odbitą, $U_1^{(+)}$ - transmitowaną przez układ, oraz $U_1^{-}$ padającą  z przeciwnej strony. \footnote{Metodę macierzy przejścia można również zastosować do analizy pola padającego w postaci dwuwymiarowego rozkładu, w takim przypadku $U_x^{(\pm)}$ są wektorami a $M$ tensorem trzeciego rzędu.} Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku \ref{fig:tmm-simple}.
+gdzie $M$ jest macierzą przejścia warstwowego układu, $U$ jest dowolną wybraną skłądową pola elektrycznego lub magnetycznego, odpowiednio $U_2^{(+)}$ - padającą, $U_2^{-}$ - odbitą, $U_1^{(+)}$ - transmitowaną przez układ, oraz $U_1^{-}$ padającą  z~przeciwnej strony. \footnote{Metodę macierzy przejścia można również zastosować do analizy pola padającego w~postaci dwuwymiarowego rozkładu, w~takim przypadku $U_x^{(\pm)}$ są wektorami a $M$ tensorem trzeciego rzędu.} Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku \ref{fig:tmm-simple}.
 
 \begin{SCfigure}
 	\includegraphics[width=0.6\textwidth]{images/tmm.png}
-	\caption{Ilustracja podstawowego elementu w symulacjach metodą TMM, wraz z ilustracją amplitud z równania (\ref{eq:tmm}). Opisywanym elementem może być warstwa, granica warstw lub struktura warstwowa. }
+	\caption{Ilustracja podstawowego elementu w~symulacjach metodą TMM, wraz z~ilustracją amplitud z~równania (\ref{eq:tmm}). Opisywanym elementem może być warstwa, granica warstw lub struktura warstwowa. }
 	\label{fig:tmm-simple}
 \end{SCfigure}
 
-W przypadku analizy układu złożonego z wielu warstw, oznaczenia ze wzoru (\ref{eq:tmm}), możemy poprzez indeks liczbowy przypisać osobno do każdej z macierzy $M_i$:
+W przypadku analizy układu złożonego z~wielu warstw, oznaczenia ze wzoru (\ref{eq:tmm}), możemy poprzez indeks liczbowy przypisać osobno do każdej z~macierzy $M_i$:
 \begin{equation}
 \begin{bmatrix}
 U_i^1 \\ 
@@ -49,7 +49,7 @@ U_b^1
 \label{eq:tmm-2l}
 \end{equation}
 
-dodając kolejne warstwy np. po lewej stronie od warstwy z rysunku \ref{fig:tmm-simple}. Wtedy $U_i^1$ i $U_r^1$ obliczone według wzoru \ref{eq:tmm-1l} dla kolejnej warstwy mają znacznie odpowiednio $U_t^2$ i $U_b^2$. Podstawiając to do wzoru \ref{eq:tmm-2l} otrzymujemy 
+dodając kolejne warstwy np. po lewej stronie od warstwy z~rysunku \ref{fig:tmm-simple}. Wtedy $U_i^1$ i~$U_r^1$ obliczone według wzoru \ref{eq:tmm-1l} dla kolejnej warstwy mają znacznie odpowiednio $U_t^2$ i~$U_b^2$. Podstawiając to do wzoru \ref{eq:tmm-2l} otrzymujemy 
 \begin{equation}
 \begin{bmatrix}
 U_i^2 \\ 
@@ -63,9 +63,9 @@ U_b^1
 \label{eq:tmm-2ls}
 \end{equation}
 
-Z czego wynika, że układ złożony z $N$ warstw opisywanych macierzami przejscia $M_N$ można traktować jak jeden element opisywany za pomocą macierzy przejścia będącej iloczynem macierzy opisujących wszystkie jego elementy $M= M_i \cdot M_{i-1} ... \cdot M_1$. Podstawowymi macierzami przejścia wykorzystywanymi do obliczeń w układach warstwowych są:
+Z czego wynika, że układ złożony z~$N$ warstw opisywanych macierzami przejscia $M_N$ można traktować jak jeden element opisywany za pomocą macierzy przejścia będącej iloczynem macierzy opisujących wszystkie jego elementy $M= M_i \cdot M_{i-1} ... \cdot M_1$. Podstawowymi macierzami przejścia wykorzystywanymi do obliczeń w~układach warstwowych są:
 \begin{itemize}
-\item Macierz przejścia odpowiadająca propagacji w ośrodku jednorodnym 
+\item Macierz przejścia odpowiadająca propagacji w~ośrodku jednorodnym 
 \begin{equation}
 	M_p=
 	\begin{bmatrix}
@@ -73,19 +73,19 @@ Z czego wynika, że układ złożony z $N$ warstw opisywanych macierzami przejsc
 	0	&\textrm{exp}(2i\pi k z_0)\\
 	\end{bmatrix},gdzie
 \end{equation}
-$k$ jest długością wektora falowego w ośrodku w którym zachodzi propagacja w kierunku równoległym do grubości warstwy, a $z_0$ jest grubością warstwy.
+$k$ jest długością wektora falowego w~ośrodku w~którym zachodzi propagacja w~kierunku równoległym do grubości warstwy, a $z_0$ jest grubością warstwy.
 \item Macierz opisująca przejście fali E-M przez granicę ośrodków
 \begin{equation}
 	M_i=\frac{1}{1+r}
 	\begin{bmatrix}
-	1 & i \cdot r \\
+	1 & i~\cdot r \\
 	-i \cdot r & 1\\
 	\end{bmatrix},
 \end{equation}
-gdzie $r$ jest amplitudowym współczynnikiem odbicia fali na opisywanej granicy ośrodków wynikającym z równań Fresnela i zależnym od kąta padania. 
+gdzie $r$ jest amplitudowym współczynnikiem odbicia fali na opisywanej granicy ośrodków wynikającym z~równań Fresnela i~zależnym od kąta padania. 
 \end{itemize}
 
-Obliczenie współczynnika transmisji płytki płasko-równoległej wymaga więc skonstruowania macierzy opisującej taką płytkę z trzech macierzy: 
+Obliczenie współczynnika transmisji płytki płasko-równoległej wymaga więc skonstruowania macierzy opisującej taką płytkę z~trzech macierzy: 
 \[
 M=M_i \cdot M_p \cdot  M_i.
 \]
