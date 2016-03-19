@@ -30,15 +30,15 @@ w którym $\varepsilon(x)$ jest współczynnikiem załamania ośrodków. W rozwa
 	\varepsilon_x,	&	\mbox{dla } x<0\mbox{ poniżej podkładu z~GaAs}.\\
 \end{cases}
 \end{equation}
-W powyższym równaniu współczynnik załamania poniżej struktury został opisany jako $\varepsilon_x$, co pozwala w~dalszej analize rozważać falowody w~których $GaAs$ zostało umieszczone na innym materiale. Szukając rozwiązań równania (\ref{eq:waveguide-tm}) w~postaci fal płaskich, propagujących się wewnątrz rdzenia ($0<x<h$) wzdłóż osi z:
+W powyższym równaniu współczynnik załamania poniżej struktury został opisany jako $\varepsilon_x$, co pozwala w~dalszej analize rozważać falowody w~których $GaAs$ zostało umieszczone na innym materiale. Szukając rozwiązań równania (\ref{eq:waveguide-tm}) w~postaci fal płaskich, propagujących się wewnątrz rdzenia ($0<x<h$) wzdłuż osi z:
 \begin{equation}
 	H_y(x,z)=H_y(x) \textrm{exp}(-i \beta z),
 \end{equation}
 oraz w~postaci fal zanikających na zewnątrz rdzenia, otrzymujemy równanie zwyczajne
 \begin{equation}
-	\frac{d H_y^2(x)}{dx^2} + [ \omega^2 \mu \varepsilon - \beta^2 ] H_y = 0.
+	\frac{d H_y^2(x)}{dx^2} + [ \omega^2 \mu \varepsilon - \beta^2 ] H_y = 0,
 \end{equation}
-Dla którego stosując standardowe warunki zszycia otrzymujemy równanie dyspersyjne modów prowadzonych w~postaci~\cite{petykiewicz1989podstawy}:
+dla którego stosując standardowe warunki zszycia otrzymujemy równanie dyspersyjne modów prowadzonych w~postaci~\cite{petykiewicz1989podstawy}:
 \begin{equation}
 tg( \kappa h)=\frac{\kappa [ \delta (\frac{n_{\textrm{GaAs}}}{n_x})^2 + \gamma n_{\textrm{GaAs}}^2 ]}{\kappa^2 - \gamma \delta (\frac{n_{\textrm{GaAs}}}{n_x })^2},
 \label{eq:tm-disp}
@@ -74,12 +74,12 @@ Na podstawie powyższego wzoru przygotowano wykres zależności okresu siatki $d
 	\caption{}
 	\label{fig:d-lusok}
 \end{subfigure}
-\caption{Wyniki rozwiązania problemu falowodu planarnego o~grubości $h=$400~$\mu$m z~GaAs.  (a) Zależność $n_{\textrm{eff}}$ od długości fali, (b)wykres łączący okres siatki dyfrakcyjnej z~długością fali dla której pracuje antena. }
+\caption{Wyniki rozwiązania problemu falowodu planarnego o~grubości $h=$400~$\mu$m z~GaAs.  (a) Zależność $n_{\textrm{eff}}$ od długości fali, (b)~wykres łączący okres siatki dyfrakcyjnej z~długością fali dla której pracuje antena. }
 \end{figure}
 
 
 
-Na podstawie przeprowadzonych obliczeń zaproponowano siatkę dla źródła o~częstotliwości $f=300$~GHz ($\lambda\approx 1$~mm) o~grubości $H=1$~$\mu$m i~okresie $d=729$~$\mu$m. W strukturach wytwarzanych eksperymentalnie pod podkładem $GaAs$ znajduje się warstwa $Au$ o~grubości 1~$\mu$m, którą w~symulacji metodą FDTD traktujemy jako doskonały przewodnik. Na rysunku \ref{fig:consrc_1d_f300Ghz} przedstawiono rozkład gęstości energii wewnątrz zaproponowanej struktury. Wyniki symulacji komputerowych potwierdzają  możliwość propagacji promieniowania E-M z~zakresu subterahercowego w~kierunku detektora w~zaprojektowanym układzie. Niemal bezstratna propagacja promieniowania z~tego zakresu w~półprzewodnikach została również potwierdzona w~pracach eksperymentalnych~\cite{roux2002grating}.
+Na podstawie przeprowadzonych obliczeń zaproponowano siatkę dla źródła o~częstotliwości $f=300$~GHz ($\lambda\approx 1$~mm) o~grubości $H=1$~$\mu$m i~okresie $d=729$~$\mu$m. W strukturach wytwarzanych eksperymentalnie pod podkładem $GaAs$ znajduje się warstwa $Au$ o~grubości 1~$\mu$m, którą w~symulacji metodą FDTD traktujemy jako doskonały przewodnik. Na rysunku \ref{fig:consrc_1d_f300Ghz} przedstawiono rozkład gęstości energii wewnątrz zaproponowanej struktury. Wyniki symulacji komputerowych potwierdzają  możliwość propagacji promieniowania E-M z~zakresu subterahercowego w~kierunku detektora w~zaprojektowanym układzie. Niemal bezstratna propagacja promieniowania z~tego zakresu w~półprzewodnikach została potwierdzona w~pracach eksperymentalnych~\cite{roux2002grating}.
 
 \begin{figure}[tb]
 	\includegraphics[width=\textwidth]{images/thz/consrc_siatka1d_300GHz_d729um.png}
