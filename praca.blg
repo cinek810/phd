@@ -7,58 +7,64 @@ A level-1 auxiliary file: rozdzial2.aux
 A level-1 auxiliary file: rozdzial3.aux
 A level-1 auxiliary file: rozdzial4.aux
 A level-1 auxiliary file: podsumowanie.aux
-The style file: plain.bst
+The style file: osa.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliografia.bib
-Repeated entry---line 497 of file bibliografia.bib
+Repeated entry---line 499 of file bibliografia.bib
  : @article{martin2001theory
  :                          ,
 I'm skipping whatever remains of this entry
-Repeated entry---line 789 of file bibliografia.bib
+I was expecting a `,' or a `}'---line 589 of file bibliografia.bib
+ :   
+ :   year={2013},
+(Error may have been on previous line)
+I'm skipping whatever remains of this entry
+Repeated entry---line 795 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
-Warning--empty journal in citeulike:2926459
-Warning--empty year in citeulike:2926459
-Warning--there's a number but no series in sihvola1999electromagnetic
-You've used 65 entries,
-            2118 wiz_defined-function locations,
-            907 strings with 16837 characters,
-and the built_in function-call counts, 25402 in all, are:
-= -- 2428
-> -- 1511
-< -- 7
-+ -- 602
-- -- 534
-* -- 2097
-:= -- 4332
-add.period$ -- 200
-call.type$ -- 65
-change.case$ -- 452
+You've used 64 entries,
+            2048 wiz_defined-function locations,
+            903 strings with 15891 characters,
+and the built_in function-call counts, 15438 in all, are:
+= -- 707
+> -- 891
+< -- 0
++ -- 286
+- -- 218
+* -- 1721
+:= -- 1934
+add.period$ -- 64
+call.type$ -- 64
+change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 770
-empty$ -- 1746
-format.name$ -- 534
-if$ -- 5082
+cite$ -- 64
+duplicate$ -- 626
+empty$ -- 1598
+format.name$ -- 282
+if$ -- 3286
 int.to.chr$ -- 0
-int.to.str$ -- 65
-missing$ -- 72
-newline$ -- 329
-num.names$ -- 130
-pop$ -- 404
+int.to.str$ -- 64
+missing$ -- 0
+newline$ -- 195
+num.names$ -- 64
+pop$ -- 322
 preamble$ -- 1
-purify$ -- 394
+purify$ -- 0
 quote$ -- 0
-skip$ -- 506
+skip$ -- 794
 stack$ -- 0
-substring$ -- 1704
-swap$ -- 111
-text.length$ -- 7
+substring$ -- 1304
+swap$ -- 355
+text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 246
-warning$ -- 3
-while$ -- 224
-width$ -- 67
-write$ -- 711
-(There were 2 error messages)
+type$ -- 58
+warning$ -- 0
+while$ -- 149
+width$ -- 66
+write$ -- 322
+(There were 3 error messages)
