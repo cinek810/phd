@@ -34,7 +34,6 @@ Repeated entry---line 802 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "ludwig2012impactv"
 Warning--empty journal in citeulike:2926459
 Warning--empty year in citeulike:2926459
 Warning--there's a number but no series in sihvola1999electromagnetic
@@ -46,7 +45,7 @@ Warning--empty journal in Szczytko2012271
 Warning--empty year in Szczytko2012271
 You've used 65 entries,
             2118 wiz_defined-function locations,
-            908 strings with 16656 characters,
+            907 strings with 16639 characters,
 and the built_in function-call counts, 25186 in all, are:
 = -- 2384
 > -- 1511

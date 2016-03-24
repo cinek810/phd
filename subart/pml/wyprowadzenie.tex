@@ -26,7 +26,7 @@ dla liniowego operatora $\hat{D}$ i~$\vec{w}=(u;\vec{v})$ ( dla $\vec{v}$ należ
 Załóżmy, że $w(x,t)$ jest rozwiązaniem równania falowego w~nieograniczonej przestrzeni. Interesujące nas zjawiska zachodzą w~okolicy początku układu współrzędnych $x=0$, a obszar symulacji chcemy zakończyć tak, aby absorbował fale propagujące się. W szczególności skupimy się na zakończeniu obszaru symulacji dla dodatniej części osi $+x$ (rozważanie dla pozostałych kierunków jest analogiczne). Zakończenie obszaru symulacji przeprowadzimy w~czterech krokach:
 \begin{enumerate}
 	\item W nieskończonej przestrzeni wykonamy analityczne przedłużenie równania falowego i~rozwiązania do zespolonego konturu $x$.
-	\item Dla konturu $x$ nie będącego czysto rzeczywistym fale propagujące się poza interesującym nas obszarem zmieniane są na fale zanikające bez wprowadzenia odbicia.
+	\item Dla konturu $x$ nie będącego konturem czysto rzeczywistym, fale propagujące się poza interesującym nas obszarem zmieniane są na fale zanikające bez wprowadzenia odbicia.
 	\item W nieograniczonej przestrzeni dokonamy zamiany współrzędnych za pomocą przekształcenia ciągłego, tak aby wyrazić zespolony $x$ przez rzeczywiste położenie. W nowych współrzędnych otrzymamy rzeczywiste położenia i~materiały których własności są opisywane za pomocą liczb zespolonych.
 	\item Zakończymy obszar symulacji w~obliczonym na podstawie zamiany zmiennych materiale w~miejscu w~którym pole będzie na tyle stłumione, aby zastosowany warunek brzegowy nie miał znaczenia.
 \end{enumerate}
@@ -34,8 +34,9 @@ Załóżmy, że $w(x,t)$ jest rozwiązaniem równania falowego w~nieograniczonej
 Zakładamy dalej, że przestrzeń znajdująca się daleko od interesującego nas obszaru w~okolicach $x=0$, jest jednorodna, liniowa i~nie zmienia się w~zależności od czasu. Dzięki tym założeniom, fala propagująca się musi przyjmować formę superpozycji fal płaskich:
 \begin{equation}
 	w(\vec{x},t)= \sum_{\vec{k},\omega} W_{\vec{k},\omega} e^{i (k_x x-\omega t)},
+	\label{eq:pml-cos}
 \end{equation}
-gdzie $W_{\vec{k},\omega}$ są stałymi amplitudami, $\omega$ częstością kołową, a $\vec{k}$ wektorem falowym dla fali w~ośrodku izotropowym z~zależnością dyspersyjną $\omega=c k_0$, gdzie $c$ oznacza prędkość fazową. Dla fal propagujących się w~kierunku $+x$ prędkość grupowa $\frac{d \omega}{d k}$ jest dodatnia. Kierunek prędkości fazowej i~grupowej w~ośrodkach jednorodnych są zgodne z~wyjątkiem kilku szczególnych przypadków~\cite{teixeira1998general}. Dlatego dalej założymy, że $k_x$ jest dodatnie. 
+gdzie $W_{\vec{k},\omega}$ są jedynie funkcjami położenia, $\omega$ częstością kołową, a $\vec{k}$ wektorem falowym dla fali w~ośrodku izotropowym z~zależnością dyspersyjną $\omega=c k_0$, gdzie $c$ oznacza prędkość fazową. Dla fal propagujących się w~kierunku $+x$ prędkość grupowa $\frac{d \omega}{d k}$ jest dodatnia. Kierunek prędkości fazowej i~grupowej w~ośrodkach jednorodnych są zgodne z~wyjątkiem kilku szczególnych przypadków~\cite{teixeira1998general}. Dlatego dalej założymy, że $k_x$ jest dodatnie. 
 
 \begin{figure}[tb]
 	\begin{subfigure}{0.45\textwidth}
@@ -59,16 +60,16 @@ gdzie $W_{\vec{k},\omega}$ są stałymi amplitudami, $\omega$ częstością koł
 		\label{fig:absorbing-region}
 	\end{subfigure}
 
-	\caption{Na rysunkach (a) i~(b) odpowiednio przedstawiono rzeczywiste wartości położenia na zespolonej płaszczyźnie $x$ i~odpowiadające im rozwiązanie równania falowego. Na rysunku (c) dla wartości $x>5$ przedstawiono zmieniony kontur wykorzystujący zespolone wartości dla $\tilde{x}$. Odpowiednie dla zmodyfikowanego konturu (c)  rozwiązanie równania falowego przedstawia wykres na rysunku (d).}
+	\caption{Na rysunkach (a) i~(b) przedstawiono odpowiednio rzeczywiste wartości położenia na zespolonej płaszczyźnie $x$ i~odpowiadające im rozwiązanie równania falowego. Na rysunku (c) dla wartości $x>5$ przedstawiono zmieniony kontur wykorzystujący zespolone wartości dla $\tilde{x}$. Odpowiednie dla zmodyfikowanego konturu (c)  rozwiązanie równania falowego przedstawia wykres na rysunku (d).}
 	\label{fig:var-transform}
 \end{figure}
 
 
-Kluczowym jest, że rozwiązania mogą zostać rozłożone w~bazie funkcji postaci
+Kluczowym jest, składniki sumy z wzoru (\ref{eq:pml-cos}) mogą zostać zapisane w~postaci
 \begin{equation}
-\vec{W}(y,z)e^{i(kx-\omega t)},
+\vec{W}(y,z)e^{i(k\tilde{x}-\omega t)},
 \end{equation}
-która to jest funkcją analityczną w~$x\in \mathbb{C}$. Oznacza to, że możemy dokonać jej analitycznego przedłużenia dla zespolonych wartości $x$. Falę propagującą, wraz z~czysto rzeczywistym konturem opisującym położenia w~kierunku $x$ przedstawiają wykresy na rysunku \ref{fig:var-transform}a i~\ref{fig:var-transform}b. Jeżeli jednak zamiast rozważać propagację wzdłuż rzeczywistego $x$, rozwiążemy problem propagacji po zespolonym konturze przedstawionym na wykresie \ref{fig:complex-contour} zauważymy że dla obszaru w~którym do rzeczywistej części dodaliśmy liniowo rosnącą część urojoną
+która to jest funkcją analityczną w~$\tilde{x}\in \mathbb{C}$. Oznacza to, że możemy dokonać jej analitycznego przedłużenia dla zespolonych wartości $x$. Falę propagującą, wraz z~czysto rzeczywistym konturem opisującym położenia w~kierunku $x$ przedstawiają wykresy na rysunku \ref{fig:var-transform}a i~\ref{fig:var-transform}b. Jeżeli jednak zamiast rozważać propagację wzdłuż rzeczywistego $x$, rozwiążemy problem propagacji po zespolonym konturze przedstawionym na wykresie \ref{fig:complex-contour} zauważymy, że dla obszaru w~którym do rzeczywistej części dodaliśmy liniowo rosnącą część urojoną
 \begin{equation}
 \tilde{x}=  
 \begin{cases} 
@@ -78,7 +79,7 @@ która to jest funkcją analityczną w~$x\in \mathbb{C}$. Oznacza to, że możem
 \end{equation}
  uzyskujemy falę zanikającą. Ponieważ na wykresie \ref{fig:absorbing-region} rozwiązanie dla $x<5$ nie uległo zmianie, a w~obszarze $x>5$ obserwujemy fale zanikającą to przestrzeń dla $x>5$ wykazuje działanie nieodbijającej warstwy absorpcyjnej.
 
-Dla wygody obliczeniowej przy stosowaniu tak powstałej warstwy zamiast stosować rozwinięcie analityczne możemy dokonać zamiany współrzędnych w~omawianym równaniu różniczkowym. Oznaczmy zespolony $\tilde{x}(x)=x+if(x)$, traktując od tej pory $x$ zawsze jako rzeczywiste położenie. Taka zamiana współrzędnych wymaga od nas zamiany każdego różniczkowania po zdeformowanym konturze $\partial \tilde{x} = (1+i\frac{df}{dx}) \partial x$. Ponieważ założyliśmy, że nasze równanie różniczkowe jest niezależne od x (przynajmniej dla dużych x, gdzie $f(x)\ne0$; wynika to bezpośrednio z~założenia jednorodności liniowości i~niezależności od czasu) nie musimy uwzględniać żadnych dodatkowych wyrazów. Jak wykażemy w~kolejnych akapitach wygodnie jest wybrać $\frac{df}{dx}=\frac{\sigma_x}{\omega}$ i~ostatecznie zapisać wymaganą zamianę zmiennych jako:
+Zgodnie z przedstawionym przykładem rozwinięcie analityczne możemy dla wygody obliczeniowej traktować równoważnie z~zamianą współrzędnych w~omawianym równaniu różniczkowym. Oznaczmy zespolony $\tilde{x}(x)=x+if(x)$, traktując od tej pory $x$ zawsze jako rzeczywiste położenie. Taka zamiana współrzędnych wymaga od nas zamiany każdego różniczkowania po zdeformowanym konturze $\partial \tilde{x} = (1+i\frac{df}{dx}) \partial x$. Ponieważ założyliśmy, że nasze równanie różniczkowe jest niezależne od x (przynajmniej dla dużych x, gdzie $f(x)\ne0$; wynika to bezpośrednio z~założenia jednorodności liniowości i~niezależności od czasu) nie musimy uwzględniać żadnych dodatkowych wyrazów. Jak wykażemy w~kolejnych akapitach wygodnie jest wybrać $\frac{df}{dx}=\frac{\sigma_x}{\omega}$ i~ostatecznie zapisać wymaganą zamianę zmiennych jako:
 \begin{equation}
 	\frac{\partial}{\partial \tilde{x}} \to \frac{1} {1+i \frac{\sigma_x(x)}{\omega}} \frac{\partial}{\partial x}.
 	\label{eq:pml-variable-change}
@@ -113,13 +114,13 @@ W przypadku trójwymiarowych równań Maxwella dla ośrodka opisywanego za pomoc
 \end{equation}
 warstwą PML może być materiał charakteryzujący się przenikalnością elektryczną i~magentyczną opisywaną ternsorami:
 \begin{equation}
-\hat{\varepsilon_{\textrm{PML}}}=
+\hat{\varepsilon}_{\textrm{PML}}=
 \begin{bmatrix}
 s \cdot \varepsilon_x & 0 & 0 \\
 0 &s \cdot \varepsilon_y & 0 \\
 0 & 0  & \frac{ \varepsilon_z}{s}  \\
 \end{bmatrix}
-, \hat{\mu_{\textrm{PML}}}=
+, \hat{\mu}_{\textrm{PML}}=
 \begin{bmatrix}
 s \cdot \mu_x & 0 & 0 \\
 0 & s \cdot \mu_y & 0 \\
