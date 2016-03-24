@@ -8,7 +8,7 @@ Projektowana antena promieniowania THz powinna nie tylko zapewniać selektywnoś
 	\label{fig:schem-podklad-falo}
 \end{figure}
 
-Rozkład pola na rysunku \ref{fig:consrcl525} nie zapewnia transportu promieniowania E-M w~kierunku tranzystora polowego. Możliwy jest jednak transport energii z~wykorzystaniem falowodu planarnego tworzonego przez podkład z~$GaAs$. Ze względu na konieczność stosowania polaryzacji TM w~stukturach opisywanych w~części \ref{subart:rezo-grating} w~tej części skupiamy się również jedynie na tego typu oświetleniu. Przyjmijmy obecnie, że propagacja fali wzdłuż falowodu odbywa się w~kierunku $z$. Wtedy trzy składowe pola E-M opisujące propagującą falę to $E_x$,$E_z$ i~$H_y$, które zgodnie z~równaniami Maxwella spełniają układ równań różniczkowych:
+Rozkład pola na rysunku \ref{fig:consrcl525} nie zapewnia transportu promieniowania E-M w~kierunku tranzystora polowego. Możliwy jest jednak transport energii z~wykorzystaniem falowodu planarnego tworzonego przez podkład z~$GaAs$. Ze względu na konieczność stosowania polaryzacji TM w~strukturach opisywanych w~części \ref{subart:rezo-grating} w~tej części skupiamy się również jedynie na tego typu oświetleniu. Przyjmijmy obecnie, że propagacja fali wzdłuż falowodu odbywa się w~kierunku $z$. Wtedy trzy składowe pola E-M opisujące propagującą falę to $E_x$,$E_z$ i~$H_y$, które zgodnie z~równaniami Maxwella spełniają układ równań różniczkowych:
 \begin{equation}
 \begin{gathered}
 	\frac{\partial E_x}{\partial z} - \frac{\partial E_z}{\partial x} = -i \mu \omega H_y,\\	
@@ -16,7 +16,7 @@ Rozkład pola na rysunku \ref{fig:consrcl525} nie zapewnia transportu promieniow
 	- \frac{\partial H_y}{\partial z} = i~\omega \varepsilon E_x.
 \end{gathered}
 \end{equation}
-Z powyższych równań wyprowadzić można równanie różniczkowe drugiego rzędu, będące jedną z~postaci równania Hemlhotza, dla składowej $H_y$ w~postaci
+Z powyższych równań wyprowadzić można równanie różniczkowe drugiego rzędu, będące jedną z~postaci równania Helmholtza, dla składowej $H_y$ w~postaci
 \begin{equation}
 	[ \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial z^2} + \omega^2 \mu_0 \varepsilon (x) ] H_y = 0,
 	\label{eq:waveguide-tm}
@@ -30,7 +30,7 @@ w którym $\varepsilon(x)$ jest współczynnikiem załamania ośrodków. W rozwa
 	\varepsilon_x,	&	\mbox{dla } x<0\mbox{ poniżej podkładu z~GaAs}.\\
 \end{cases}
 \end{equation}
-W powyższym równaniu współczynnik załamania poniżej struktury został opisany jako $\varepsilon_x$, co pozwala w~dalszej analize rozważać falowody w~których $GaAs$ zostało umieszczone na innym materiale. Szukając rozwiązań równania (\ref{eq:waveguide-tm}) w~postaci fal płaskich, propagujących się wewnątrz rdzenia ($0<x<h$) wzdłuż osi z:
+W powyższym równaniu współczynnik załamania poniżej struktury został opisany jako $\varepsilon_x$, co pozwala w~dalszej analizie rozważać falowody w~których $GaAs$ zostało umieszczone na innym materiale. Szukając rozwiązań równania (\ref{eq:waveguide-tm}) w~postaci fal płaskich, propagujących się wewnątrz rdzenia ($0<x<h$) wzdłuż osi z:
 \begin{equation}
 	H_y(x,z)=H_y(x) \textrm{exp}(-i \beta z),
 \end{equation}
@@ -43,7 +43,7 @@ dla którego stosując standardowe warunki zszycia otrzymujemy równanie dyspers
 tg( \kappa h)=\frac{\kappa [ \delta (\frac{n_{\textrm{GaAs}}}{n_x})^2 + \gamma n_{\textrm{GaAs}}^2 ]}{\kappa^2 - \gamma \delta (\frac{n_{\textrm{GaAs}}}{n_x })^2},
 \label{eq:tm-disp}
 \end{equation}
-gdzie przez $n_{\textrm{GaAs}}$ i~$n_x$ oznaczono odpowiednio współczynnik załamania warstwy arsenku galu, oraz podkładu. Wprowadzono również dodatkowe ozanczenia w~postaci
+gdzie przez $n_{\textrm{GaAs}}$ i~$n_x$ oznaczono odpowiednio współczynnik załamania warstwy arsenku galu, oraz podkładu. Wprowadzono również dodatkowe oznaczenia w~postaci
 \begin{equation}
 	\begin{gathered}
 		\delta=\sqrt{\beta^2-\omega^2 \mu_0 \varepsilon_0 \varepsilon_x},\\

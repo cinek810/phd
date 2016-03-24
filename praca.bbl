@@ -4,7 +4,7 @@
 Tomasz~J Antosiewicz.
 \newblock {\em Wp{\l}yw nanostruktury sondy metalizowanej na
   rozdzielczo{\'s}{\'c} optycznego mikroskopu skaningowego bliskiego pola}.
-\newblock Uniwersytet Warszawski. Wydzia{\l} Fizyki, 2009.
+\newblock Uniwersytet Warszawski. Rozprawa doktorska. Wydzia{\l} Fizyki, 2009.
 
 \bibitem{pastuszczak2013engineering}
 A.Pastuszczak, M.Stolarek, and R.~Koty{\'n}ski.
@@ -20,7 +20,7 @@ Gabriel Barton.
 J.P. {Berenger}.
 \newblock {A Perfectly Matched Layer for the Absorption of Electromagnetic
   Waves}.
-\newblock {\em J. Comput. Phys.}, 114:185--200, October 1994.
+\newblock {\em J. Comput. Phys.}, 114:185--200, 1994.
 
 \bibitem{chan2006optical}
 HB~Chan, Z~Marcet, Kwangje Woo, DB~Tanner, DW~Carr, JE~Bower, RA~Cirelli,
@@ -46,13 +46,13 @@ Chen Cheng, Jing Chen, Qi-Yang Wu, Fang-Fang Ren, Ji~Xu, Ya-Xian Fan, and
 \bibitem{DEVORE:51}
 J.~R. Devore.
 \newblock Refractive indices of rutile and sphalerite.
-\newblock {\em J. Opt. Soc. Am.}, 41(6):416--417, Jun 1951.
+\newblock {\em J. Opt. Soc. Am.}, 41(6):416--417, 1951.
 
 \bibitem{1998APS..MAR.S1511E}
 T.~W. {Ebbesen}, H.~F. {Ghaemi}, T.~{Thio}, D.~E. {Grupp}, and H.~J. {Lezec}.
 \newblock {Extraordinary Optical Transmission through Sub-wavelength Hole
   Arrays.}
-\newblock In {\em APS March Meeting Abstracts}, page 1511, March 1998.
+\newblock In {\em APS March Meeting Abstracts}, page 1511, 1998.
 
 \bibitem{ebbesen1998extraordinary}
 Thomas~W Ebbesen, HJ~Lezec, HF~Ghaemi, Tineke Thio, and PA~Wolff.
@@ -93,7 +93,7 @@ Sajeev John.
 \bibitem{PhysRevB.6.4370}
 P.~B. Johnson and R.~W. Christy.
 \newblock Optical constants of the noble metals.
-\newblock {\em Phys. Rev. B}, 6:4370--4379, Dec 1972.
+\newblock {\em Phys. Rev. B}, 6:4370--4379, 1972.
 
 \bibitem{johnson2007notes}
 Steven~G Johnson.
@@ -110,7 +110,7 @@ Steven~G Johnson.
 Zhao Junming, Feng Yijun, Zhu Bo, and Jiang Tian.
 \newblock Sub-wavelength image manipulating throughcompensated anisotropic
   metamaterial prisms.
-\newblock {\em Opt. Express}, 16(22):18057--18066, Oct 2008.
+\newblock {\em Opt. Express}, 16(22):18057--18066, 2008.
 
 \bibitem{Kischkat:12}
 Jan Kischkat, Sven Peters, Bernd Gruska, Mykhaylo Semtsiv, Mikaela Chashnikova,
@@ -118,7 +118,7 @@ Jan Kischkat, Sven Peters, Bernd Gruska, Mykhaylo Semtsiv, Mikaela Chashnikova,
   Aleksandrova, Gregorii Monastyrskyi, Yuri Flores, and W.~Ted Masselink.
 \newblock Mid-infrared optical properties of thin films of aluminum oxide,
   titanium dioxide, silicon dioxide, aluminum nitride, and silicon nitride.
-\newblock {\em Appl. Opt.}, 51(28):6789--6798, Oct 2012.
+\newblock {\em Appl. Opt.}, 51(28):6789--6798, 2012.
 
 \bibitem{koerkamp2004strong}
 KJ~Klein Koerkamp, Stefan Enoch, FB~Segerink, NF~Van~Hulst, and L~Kuipers.
@@ -161,7 +161,7 @@ Alon Ludwig and Kevin~J Webb.
 \bibitem{MALITSON:65}
 I.~H. Malitson.
 \newblock Interspecimen comparison of the refractive index of fused silica.
-\newblock {\em J. Opt. Soc. Am.}, 55(10):1205--1208, Oct 1965.
+\newblock {\em J. Opt. Soc. Am.}, 55(10):1205--1208, 1965.
 
 \bibitem{markos2008wave}
 Peter Markos and Costas~M Soukoulis.
@@ -187,7 +187,7 @@ Ardavan~F. Oskooi, David Roundy, Mihai Ibanescu, Peter Bermel, J.~D.
   Joannopoulos, and Steven~G. Johnson.
 \newblock {MEEP}: A flexible free-software package for electromagnetic
   simulations by the {FDTD} method.
-\newblock {\em Comput. Phys. Commun.}, 181:687--702, January 2010.
+\newblock {\em Comput. Phys. Commun.}, 181:687--702, 2010.
 
 \bibitem{oskooi2008failure}
 Ardavan~F Oskooi, Lei Zhang, Yehuda Avniel, and Steven~G Johnson.
@@ -209,7 +209,7 @@ Anna Pastuszczak, Marcin Stolarek, and R~Kotynski.
 \bibitem{PhysRevLett.85.3966}
 J.~B. Pendry.
 \newblock Negative refraction makes a perfect lens.
-\newblock {\em Phys. Rev. Lett.}, 85:3966--3969, Oct 2000.
+\newblock {\em Phys. Rev. Lett.}, 85:3966--3969, 2000.
 
 \bibitem{pendry2012transformation}
 JB~Pendry, A~Aubry, DR~Smith, and SA~Maier.
@@ -253,8 +253,11 @@ M.~Scalora, M.~J. Bloemer, A.~S. Pethel, J.~P. Dowling, C.~M. Bowden, and A.~S.
 \newblock {\em J. Appl. Phys.}, 83(5):2377--2383, 1998.
 
 \bibitem{understanding-fdtd}
-B.~Schneider.
-\newblock Understanding the finite-difference time-domain method, 2010.
+John~B Schneider.
+\newblock Understanding the finite-difference time-domain method.
+\newblock {\em School of electrical engineering and computer science Washington
+  State University.--URL: http://www. Eecs. Wsu. Edu/\~{}
+  schneidj/ufdtd/(request data: 29.11. 2012)}, 2010.
 
 \bibitem{schurig2006metamaterial}
 David Schurig, JJ~Mock, BJ~Justice, Steven~A Cummer, JB~Pendry, AF~Starr, and
@@ -284,7 +287,7 @@ T~Skauli, PS~Kuo, KL~Vodopyanov, TJ~Pinguet, O~Levi, LA~Eyres, JS~Harris,
 D.~R. Smith, Willie~J. Padilla, D.~C. Vier, S.~C. Nemat-Nasser, and S.~Schultz.
 \newblock Composite medium with simultaneously negative permeability and
   permittivity.
-\newblock {\em Phys. Rev. Lett.}, 84:4184--4187, May 2000.
+\newblock {\em Phys. Rev. Lett.}, 84:4184--4187, 2000.
 
 \bibitem{stefaniuk2011effect}
 T~Stefaniuk, Grzegorz Nowak, and R~Kotynski.
@@ -297,6 +300,8 @@ T~Stefaniuk, Grzegorz Nowak, and R~Kotynski.
 M.~Stolarek, A.~Pastuszczak, and R.~Kotyński.
 \newblock Numerical analysis of transmission through a sub-wavelength metallic
   aperture or grating at visible and terahertz wavelengths.
+\newblock {\em ICTON}, 2011.
+\newblock cited By 0.
 
 \bibitem{prism2010}
 M.~Stolarek, A.~Pastuszczak, J.~Pniewski, and R.~Kotyński.
@@ -315,18 +320,21 @@ Marcin Stolarek, Dmitriy Yavorskiy, R~Kotynski, CJ~Zapata~Rodriguez,
   J~Lusakowski, and Tomasz Szoplik.
 \newblock Broadband asymmetric transmission of thz radiation through double
   metallic gratings.
+\newblock In {\em ICTON}, pages 1--4. IEEE, 2013.
 
 \bibitem{Stolarek:13}
 Marcin Stolarek, Dmitryj Yavorskiy, Rafał Koty\'{n}ski, Carlos
   Zapata-Rodr\'{i}guez, J.~{\L}usakowski, and Tomasz Szoplik.
 \newblock Asymmetric transmission of terahertz radiation through a double
   grating.
-\newblock {\em Opt. Lett.}, 38(6):839--841, Mar 2013.
+\newblock {\em Opt. Lett.}, 38(6):839--841, 2013.
 
 \bibitem{Szczytko2012271}
 J.~Szczytko, M.~Stolarek, B.~Pietka, J.~Łusakowski, A.~Wawro, A.~Barańska,
   E.~Papis, R.~Adomavisius, A.~Krotkus, N.~Pałka, and P.~Zagrajek.
 \newblock Terahertz properties of metallic layers and grids.
+\newblock {\em MIKON}, 1:271--275, 2012.
+\newblock cited By 0.
 
 \bibitem{teich1991fundamentalsTMM}
 M.~C. Teich and B.~E.~A. Saleh.
@@ -374,13 +382,13 @@ Eli Yablonovitch.
 D.~Yavorskiy, M.~Stolarek, J.~{\L}usakowski, and R.~Koty\'{n}ski.
 \newblock Asymmetric transmission of radially polarized thz radiation through a
   double circular grating.
-\newblock {\em Opt. Express}, 22(25):30547--30552, Dec 2014.
+\newblock {\em Opt. Express}, 22(25):30547--30552, 2014.
 
 \bibitem{1966ITAP14302Y}
 K.~{Yee}.
 \newblock {Numerical solution of inital boundary value problems involving
   maxwell's equations in isotropic media}.
-\newblock {\em IEEE Antennas Propag. Mag.}, 14:302--307, May 1966.
+\newblock {\em IEEE Antennas Propag. Mag.}, 14:302--307, 1966.
 
 \bibitem{zhang2009annealing}
 Yijun Zhang, Benkang Chang, Zhi Yang, Jun Niu, Yajuan Xiong, Feng Shi, Hui Guo,
