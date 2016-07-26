@@ -30,13 +30,13 @@ Wykorzystywane metody obliczeniowe można również podzielić na rozwiązujące
 \begin{equation}
  ( \nabla ^2 + k_0^2 n_0^2) \Psi = 0,
 \end{equation}
-w którym $\Psi$ jest jedynie funkcją położenia powstałą w~wyniku założenia rozwiązań pola E-M w~postaci skalarnej $E(\vec{x},t)=\Psi(\vec{x})\cdot exp(-j\omega t)$. W dalszej części wyprowadzenia zakładamy, że zależność przestrzenna rozwiązania ma również postać funkcji harmonicznej:
+w którym $\Psi$ jest jedynie funkcją położenia powstałą w~wyniku założenia rozwiązań pola E-M w~postaci skalarnej $E(\vec{x},t)=\Psi(\vec{x})\cdot exp(-i\omega t)$. W dalszej części wyprowadzenia zakładamy, że zależność przestrzenna rozwiązania ma również postać funkcji harmonicznej:
 \begin{equation}
-\Psi(\vec{x})=A(x_1,x_2) exp\{jk_0\nu x_2\}, 
+\Psi(\vec{x})=A(x_1,x_2) exp\{ik_0\nu x_2\}, 
 \end{equation}
 gdzie funkcja $A$ jest słabo zmienna względem $x_2$. Podane założenie, o~wolno zmiennej obwiedni amplitudy, prowadzi do ostatecznego równania rozwiązywanego numerycznie w~metodzie BPM:
 \begin{equation}
- \{  \frac{\partial^2 }{\partial x_1^2 } + (n^2 - \nu^2) \} A(\vec{x}) = \pm  2jk_0\nu \frac{\partial A (\vec{x})}{\partial x_1}.
+ \{  \frac{\partial^2 }{\partial x_1^2 } + (n^2 - \nu^2) \} A(\vec{x}) = \pm  2ik_0\nu \frac{\partial A (\vec{x})}{\partial x_1}.
 \end{equation}
 
 W metodzie BPM możliwe jest rozwiązanie powyższego równania zarówno w~dziedzinie przestrzennej - w~kolejnych iteracjach obliczana jest sąsiednia warstwa rozkładu pola w~kierunku propagacji lub w~dziedzinie częstotliwości - za pomocą dyskretnej transformaty Fouriera. Wprowadzone przybliżenia, w~stosunku do bezpośredniego rozwiązywania równań Maxwella, zmniejszają złożoność obliczeniową metody BPM w~porównaniu z~bardziej rygorystycznymi algorytmami, prowadzą jednocześnie do ograniczeń takich jak brak możliwości symulacji struktur z~dużą zmiennością geometryczną w kierunku propagacji, konieczność iteracyjnej implementacji odbić, czy trudności z~symulacjami w~których fala E-M propaguje się pod dużymi kątami względem osi układu optycznego.

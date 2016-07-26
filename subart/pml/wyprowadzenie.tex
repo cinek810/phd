@@ -21,13 +21,13 @@ Powyższe dwa równania, możemy zapisać  w~postaci równania wektorowego
 {u \choose \vec{v}} = \hat{D}\vec{w},
 \label{eq:gen-wave-eq}
 \end{equation}
-dla liniowego operatora $\hat{D}$ i~$\vec{w}=(u;\vec{v})$ ( dla $\vec{v}$ należącego do przestrzeni trójwymiarowej $\vec{w}$ jest czterowektorem). Kluczową własnością, która decyduje o~tym, że równanie~(\ref{eq:gen-wave-eq}) jest ,,równaniem falowym''  okazuje się być antyhermitowskość operatora $\hat{D}$\footnote{Macierz nazywamy antyhermitowską wtedy gdy spełnia warunek $A$=-$A^\dag$, gdzie przez $^\dag$ rozumiemy sprzężenie hermitowskie macierzy, równoważne dokonaniu transpozycji i~sprzężenia zespolonego wszystkich elementów macierzy.}. To właśnie z~tej własności wynikają oscylujące rozwiązania równania, oraz spełnienie prawa zachowania energii mające kluczowe znaczenie dla fizyki fal. Każde równanie falowe, zaczynając od równań skalarnych, przez równania Maxwella,  po równanie Schr\"{o}dinger'a i~równania Lam\'{e}-Navier'a~(opisującego fale sprężyste w~ciałach stałych) może zostać przedstawione w~formie $ \frac{\partial  \vec{w}}{\partial t}=\hat{D}\vec{w}$, dla pewnej funkcji falowej $\vec{w}$ i~antyhermitowskiego operatora $\hat{D}$~\cite{johnson2007notes}. W niniejszej pracy skupiamy się na zastosowaniu PML w~elektromagnetyzmie, te same koncepcje mogą być jednak zastosowane do wszystkich wymienianych przypadków.
+dla liniowego operatora $\hat{D}$ i~$\vec{w}=(u;\vec{v})$ ( dla $\vec{v}$ należącego do przestrzeni trójwymiarowej $\vec{w}$ jest czterowektorem). Kluczową własnością, która decyduje o~tym, że równanie~(\ref{eq:gen-wave-eq}) jest ,,równaniem falowym''  okazuje się być antyhermitowskość operatora $\hat{D}$\footnote{Macierz nazywamy antyhermitowską wtedy gdy spełnia warunek $A$=-$A^\dag$, gdzie przez $^\dag$ rozumiemy sprzężenie hermitowskie macierzy, równoważne dokonaniu transpozycji i~sprzężenia zespolonego wszystkich elementów macierzy.}. To właśnie z~tej własności wynikają oscylujące rozwiązania równania, oraz spełnienie prawa zachowania energii mające kluczowe znaczenie dla fizyki fal. Każde równanie falowe, zaczynając od równań skalarnych, przez równania Maxwella,  po równanie Schr\"{o}dingera i~równania Lam\'{e}-Navier'a~(opisującego fale sprężyste w~ciałach stałych) może zostać przedstawione w~formie $ \frac{\partial  \vec{w}}{\partial t}=\hat{D}\vec{w}$, dla pewnej funkcji falowej $\vec{w}$ i~antyhermitowskiego operatora $\hat{D}$~\cite{johnson2007notes}. W niniejszej pracy skupiamy się na zastosowaniu PML w~elektromagnetyzmie, te same koncepcje mogą być jednak zastosowane do wszystkich wymienianych przypadków.
 
 Załóżmy, że $w(x,t)$ jest rozwiązaniem równania falowego w~nieograniczonej przestrzeni. Interesujące nas zjawiska zachodzą w~okolicy początku układu współrzędnych $x=0$, a obszar symulacji chcemy zakończyć tak, aby absorbował fale propagujące się. W szczególności skupimy się na zakończeniu obszaru symulacji dla dodatniej części osi $+x$ (rozważanie dla pozostałych kierunków jest analogiczne). Zakończenie obszaru symulacji przeprowadzimy w~czterech krokach:
 \begin{enumerate}
-	\item W nieskończonej przestrzeni wykonamy analityczne przedłużenie równania falowego i~rozwiązania do zespolonego konturu $x$.
-	\item Dla konturu $x$ nie będącego konturem czysto rzeczywistym, fale propagujące się poza interesującym nas obszarem zmieniane są na fale zanikające bez wprowadzenia odbicia.
-	\item W nieograniczonej przestrzeni dokonamy zamiany współrzędnych za pomocą przekształcenia ciągłego, tak aby wyrazić zespolony $x$ przez rzeczywiste położenie. W nowych współrzędnych otrzymamy rzeczywiste położenia i~materiały których własności są opisywane za pomocą liczb zespolonych.
+	\item W nieskończonej przestrzeni wykonamy analityczne przedłużenie równania falowego i~rozwiązania do zespolonego konturu $\tilde{x}$.
+	\item Dla konturu $\tilde{x}$ nie będącego konturem czysto rzeczywistym, fale propagujące się poza interesującym nas obszarem zmieniane są na fale zanikające bez wprowadzenia odbicia.
+	\item W nieograniczonej przestrzeni wykorzystamy optykę transformacyjną,  tak aby wyrazić zespolony $\tilde{x}$ przez rzeczywiste położenie. W nowych współrzędnych otrzymamy rzeczywiste położenia i~materiały których własności są opisywane za pomocą liczb zespolonych.
 	\item Zakończymy obszar symulacji w~obliczonym na podstawie zamiany zmiennych materiale w~miejscu w~którym pole będzie na tyle stłumione, aby zastosowany warunek brzegowy nie miał znaczenia.
 \end{enumerate}
 
@@ -60,26 +60,28 @@ gdzie $W_{\vec{k},\omega}$ są jedynie funkcjami położenia, $\omega$ częstoś
 		\label{fig:absorbing-region}
 	\end{subfigure}
 
-	\caption{Na rysunkach (a) i~(b) przedstawiono odpowiednio rzeczywiste wartości położenia na zespolonej płaszczyźnie $x$ i~odpowiadające im rozwiązanie równania falowego. Na rysunku (c) dla wartości $x>5$ przedstawiono zmieniony kontur wykorzystujący zespolone wartości dla $\tilde{x}$. Odpowiednie dla zmodyfikowanego konturu (c)  rozwiązanie równania falowego przedstawia wykres na rysunku (d).}
+	\caption{Na rysunkach (a) i~(b) przedstawiono odpowiednio rzeczywiste wartości położenia na zespolonej płaszczyźnie $\tilde{x}$ i~odpowiadające im rozwiązanie równania falowego. Na rysunku (c) dla arbitralnej  wartości $\textrm{Re}(x)>5$ przedstawiono zmieniony kontur wykorzystujący zespolone wartości dla $\tilde{x}$. Odpowiednie dla zmodyfikowanego konturu (c)  rozwiązanie równania falowego przedstawia wykres na rysunku (d).}
 	\label{fig:var-transform}
 \end{figure}
 
 
-Kluczowym jest, składniki sumy z wzoru (\ref{eq:pml-cos}) mogą zostać zapisane w~postaci
+Kluczowym jest zauważenie, że składniki sumy z wzoru (\ref{eq:pml-cos}) mogą zostać zapisane w~postaci
 \begin{equation}
 \vec{W}(y,z)e^{i(k\tilde{x}-\omega t)},
 \end{equation}
-która to jest funkcją analityczną w~$\tilde{x}\in \mathbb{C}$. Oznacza to, że możemy dokonać jej analitycznego przedłużenia dla zespolonych wartości $x$. Falę propagującą, wraz z~czysto rzeczywistym konturem opisującym położenia w~kierunku $x$ przedstawiają wykresy na rysunku \ref{fig:var-transform}a i~\ref{fig:var-transform}b. Jeżeli jednak zamiast rozważać propagację wzdłuż rzeczywistego $x$, rozwiążemy problem propagacji po zespolonym konturze przedstawionym na wykresie \ref{fig:complex-contour} zauważymy, że dla obszaru w~którym do rzeczywistej części dodaliśmy liniowo rosnącą część urojoną
+która to jest funkcją analityczną w~$\tilde{x}\in \mathbb{C}$. Oznacza to, że możemy dokonać jej analitycznego przedłużenia dla zespolonych wartości $x$. Falę propagującą, wraz z~czysto rzeczywistym konturem opisującym położenia w~kierunku $x$ przedstawiają wykresy na rysunku \ref{fig:var-transform}a i~\ref{fig:var-transform}b. 
+
+Dla lepszego zrozumienia koncepcji rozważmy teraz zamianę zmiennych dla obszaru $x>x_0$, w taki sposób, że: 
 \begin{equation}
 \tilde{x}=  
 \begin{cases} 
-        x, & \mbox{dla } x< 5 \\ 
-        x+0.2x\mbox{ }i, & \mbox{dla } x>5 \\
-\end{cases},
+        x, & \mbox{dla } x< x_0 \\ 
+        x+0.2x\mbox{ }i, & \mbox{dla } x>x_0 \\
+\end{cases}.
 \end{equation}
- uzyskujemy falę zanikającą. Ponieważ na wykresie \ref{fig:absorbing-region} rozwiązanie dla $x<5$ nie uległo zmianie, a w~obszarze $x>5$ obserwujemy fale zanikającą to przestrzeń dla $x>5$ wykazuje działanie nieodbijającej warstwy absorpcyjnej.
+Rozwiązanie zagadnienia propagacji po takim zespolonym konturze dla $x_0=5$ przedstawia wykres na rysunku \ref{fig:complex-contour}. Zauważymy, że dla obszaru w~którym do rzeczywistej części dodaliśmy liniowo rosnącą część urojoną uzyskujemy falę zanikającą. Ponieważ na wykresie \ref{fig:absorbing-region} rozwiązanie dla $x<x_0$ nie uległo zmianie, a w~obszarze $x>x_0$ obserwujemy fale zanikającą to przestrzeń dla $x>x_0$ wykazuje działanie nieodbijającej warstwy absorpcyjnej.
 
-Zgodnie z przedstawionym przykładem rozwinięcie analityczne możemy dla wygody obliczeniowej traktować równoważnie z~zamianą współrzędnych w~omawianym równaniu różniczkowym. Oznaczmy zespolony $\tilde{x}(x)=x+if(x)$, traktując od tej pory $x$ zawsze jako rzeczywiste położenie. Taka zamiana współrzędnych wymaga od nas zamiany każdego różniczkowania po zdeformowanym konturze $\partial \tilde{x} = (1+i\frac{df}{dx}) \partial x$. Ponieważ założyliśmy, że nasze równanie różniczkowe jest niezależne od x (przynajmniej dla dużych x, gdzie $f(x)\ne0$; wynika to bezpośrednio z~założenia jednorodności liniowości i~niezależności od czasu) nie musimy uwzględniać żadnych dodatkowych wyrazów. Jak wykażemy w~kolejnych akapitach wygodnie jest wybrać $\frac{df}{dx}=\frac{\sigma_x}{\omega}$ i~ostatecznie zapisać wymaganą zamianę zmiennych jako:
+Zgodnie z przedstawionym przykładem rozwinięcie analityczne możemy dla wygody obliczeniowej traktować równoważnie z~zamianą współrzędnych w~omawianym równaniu różniczkowym. Oznaczmy zespoloną zmienną $\tilde{x}(x)=x+if(x)$, traktując od tej pory $x$ zawsze jako rzeczywiste położenie. Taka zamiana współrzędnych wymaga od nas zamiany każdego różniczkowania po zdeformowanym konturze $\partial \tilde{x} = (1+i\frac{df}{dx}) \partial x$. Ponieważ założyliśmy, że nasze równanie różniczkowe jest niezależne od x (przynajmniej dla dużych x, gdzie $f(x)\ne0$; wynika to bezpośrednio z~założenia jednorodności liniowości i~niezależności od czasu) nie musimy uwzględniać żadnych dodatkowych wyrazów. Jak wykażemy w~kolejnych akapitach wygodnie jest wybrać $\frac{df}{dx}=\frac{\sigma_x}{\omega}$ i~ostatecznie zapisać wymaganą zamianę zmiennych jako:
 \begin{equation}
 	\frac{\partial}{\partial \tilde{x}} \to \frac{1} {1+i \frac{\sigma_x(x)}{\omega}} \frac{\partial}{\partial x}.
 	\label{eq:pml-variable-change}
@@ -89,7 +91,7 @@ W obszarach PML, gdzie $\sigma_x\ne0$, oscylujące rozwiązania równania falowe
 
 Po wykonaniu podstawienia (\ref{eq:pml-variable-change}), rozwiązania równania falowego w~obszarze PML przyjmują postać:
 \begin{equation}
-e^{ikx}e^{-\frac{k}{\omega}\int^x \sigma_x(x')dx'}.
+e^{ikx}\textrm{exp}\Big(-\frac{k}{\omega}\int^x \sigma_x(x')dx'\Big).
 \end{equation}
 Warto zauważyć, że pojawiający się wykładnik potęgi $\frac{k}{\omega}$ dla materiałów bezdyspersyjnych jest stały i~równy odwrotności prędkości fazowej. W ten sposób uzasadniliśmy zaproponowany wybór $\frac{df}{dx}=\frac{\sigma_x}{\omega}$, dzięki któremu otrzymujemy niezależność współczynnika tłumienia od częstotliwości promieniowania E-M. 
 
