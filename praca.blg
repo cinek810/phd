@@ -26,45 +26,45 @@ Repeated entry---line 795 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
-You've used 67 entries,
+You've used 68 entries,
             2048 wiz_defined-function locations,
-            922 strings with 16523 characters,
-and the built_in function-call counts, 16102 in all, are:
-= -- 735
-> -- 936
+            929 strings with 16840 characters,
+and the built_in function-call counts, 16428 in all, are:
+= -- 750
+> -- 964
 < -- 0
-+ -- 300
-- -- 229
-* -- 1799
-:= -- 2021
-add.period$ -- 67
-call.type$ -- 67
++ -- 309
+- -- 237
+* -- 1840
+:= -- 2068
+add.period$ -- 68
+call.type$ -- 68
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 67
-duplicate$ -- 654
-empty$ -- 1660
-format.name$ -- 296
-if$ -- 3421
+cite$ -- 68
+duplicate$ -- 664
+empty$ -- 1686
+format.name$ -- 305
+if$ -- 3485
 int.to.chr$ -- 0
-int.to.str$ -- 67
+int.to.str$ -- 68
 missing$ -- 0
-newline$ -- 204
-num.names$ -- 67
-pop$ -- 334
+newline$ -- 207
+num.names$ -- 68
+pop$ -- 338
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 828
+skip$ -- 839
 stack$ -- 0
-substring$ -- 1354
-swap$ -- 372
+substring$ -- 1385
+swap$ -- 378
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 58
 warning$ -- 0
-while$ -- 156
-width$ -- 69
-write$ -- 337
+while$ -- 159
+width$ -- 70
+write$ -- 342
 (There were 3 error messages)
