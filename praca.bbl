@@ -13,6 +13,16 @@ E. Yablonovitch, ``Inhibited spontaneous emission in solid-state physics and
 S. John, ``Strong localization of photons in certain disordered dielectric
   superlattices,'' Phys. Rev. Lett. {\bf 58,} 2486 [1987].
 
+\bibitem{yablonovitch1991photonic}
+E. Yablonovitch, T. Gmitter, and K. Leung, ``Photonic band structure: The
+  face-centered-cubic case employing nonspherical atoms,'' Phys. Rev. Lett.
+  {\bf 67,} 2295 [1991].
+
+\bibitem{krauss1996two}
+T.~F. Krauss, M. Richard, and S. Brand, ``Two-dimensional photonic-bandgap
+  structures operating at near-infrared wavelengths,'' Nature {\bf 383,}
+  699--702 [1996].
+
 \bibitem{ward1996refraction}
 A. Ward and J. Pendry, ``Refraction and geometry in Maxwell's equations,'' J.
   Mod. Opt. {\bf 43,} 773--793 [1996].
@@ -223,6 +233,18 @@ K. Mizuno, J. Ishii, H. Kishida, Y. Hayamizu, S. Yasuda, D.~N. Futaba, M.
   single-walled carbon nanotubes,'' Proceedings of the National Academy of
   Sciences {\bf 106,} 6044--6047 [2009].
 
+\bibitem{guo2014impact}
+S.-h. Guo, A.~B. Sushkov, D.~H. Park, H.~D. Drew, P.~W. Kolb, W.~N. Herman, and
+  R.~J. Phaneuf, ``Impact of interface roughness on the performance of
+  broadband blackbody absorber based on dielectric-metal film multilayers,''
+  Opt. Express {\bf 22,} 1952--1962 [2014].
+
+\bibitem{corrigan2012broadband}
+T.~D. Corrigan, D.~H. Park, H.~D. Drew, S.-H. Guo, P.~W. Kolb, W.~N. Herman,
+  and R.~J. Phaneuf, ``Broadband and mid-infrared absorber based on
+  dielectric-thin metal film multilayers,'' Appl. Opt. {\bf 51,} 1109--1114
+  [2012].
+
 \bibitem{barton1989elements}
 G. Barton, {\em Elements of Green's functions and propagation} (Clarendon
   Press, 1989).
@@ -253,6 +275,12 @@ H. Li, ``Refractive index of alkali halides and its wavelength and temperature
 J. Kischkat {\it et~al.}, ``Mid-infrared optical properties of thin films of
   aluminum oxide, titanium dioxide, silicon dioxide, aluminum nitride, and
   silicon nitride,'' Appl. Opt. {\bf 51,} 6789--6798 [2012].
+
+\bibitem{stefaniuk2015perfectly}
+T. Stefaniuk, M. Stolarek, A. Pastuszczak, P. Wr{\'o}bel, B. Wieciech, T.~J.
+  Antosiewicz, and R. Koty{\'n}ski, ``Perfectly matched layer based multilayer
+  absorbers,'' In {\em SPIE Optics+ Optoelectronics}, \ pp.\ 95020F--95020F
+  (2015).
 
 \bibitem{PhysRevLett.84.4184}
 D.~R. Smith, W.~J. Padilla, D.~C. Vier, S.~C. Nemat-Nasser, and S. Schultz,

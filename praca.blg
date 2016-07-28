@@ -8,6 +8,7 @@ A level-1 auxiliary file: rozdzial3.aux
 A level-1 auxiliary file: rozdzial4.aux
 A level-1 auxiliary file: podsumowanie.aux
 The style file: osa.bst
+A level-1 auxiliary file: skorowidz.aux
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -26,45 +27,46 @@ Repeated entry---line 795 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
-You've used 68 entries,
+Warning--Warning: series missing in entry stefaniuk2015perfectly.
+You've used 73 entries,
             2048 wiz_defined-function locations,
-            929 strings with 16840 characters,
-and the built_in function-call counts, 16428 in all, are:
-= -- 750
-> -- 964
+            956 strings with 17978 characters,
+and the built_in function-call counts, 18028 in all, are:
+= -- 839
+> -- 1065
 < -- 0
-+ -- 309
-- -- 237
-* -- 1840
-:= -- 2068
-add.period$ -- 68
-call.type$ -- 68
++ -- 341
+- -- 264
+* -- 2019
+:= -- 2272
+add.period$ -- 73
+call.type$ -- 73
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 68
-duplicate$ -- 664
-empty$ -- 1686
-format.name$ -- 305
-if$ -- 3485
+cite$ -- 74
+duplicate$ -- 730
+empty$ -- 1830
+format.name$ -- 337
+if$ -- 3826
 int.to.chr$ -- 0
-int.to.str$ -- 68
+int.to.str$ -- 73
 missing$ -- 0
-newline$ -- 207
-num.names$ -- 68
-pop$ -- 338
+newline$ -- 222
+num.names$ -- 73
+pop$ -- 361
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 839
+skip$ -- 917
 stack$ -- 0
-substring$ -- 1385
-swap$ -- 378
+substring$ -- 1540
+swap$ -- 420
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 58
-warning$ -- 0
-while$ -- 159
-width$ -- 70
-write$ -- 342
+warning$ -- 1
+while$ -- 174
+width$ -- 75
+write$ -- 367
 (There were 3 error messages)
