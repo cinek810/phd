@@ -4,6 +4,7 @@
 	\label{fig:pml-multilay-schem}
 \end{figure}
 
+\subsection{Analityczne sformuowanie problemu}
 Porównując ogólną postać PML podaną w~równaniu (\ref{eq:general-pml-form}) z~modelem ośrodka efektywnego przedstawionym w~podrozdziale \ref{subart:effmedium} można zaproponować przybliżenie ośrodka typu PML za pomocą struktury warstwowej o~odpowiednich właściwościach efektywnych. Schematycznie taką wielowarstwę przedstawia rysunek \ref{fig:pml-multilay-schem}. W szczególności, dla uproszczenia analizy, skupimy się na polaryzacji TM, dla której istotnymi składowymi tensorów opisujących własności materiałowe są:~$\varepsilon_x$~,$\mu_y$~i $\varepsilon_z$. Ze względu na ograniczenia używanego modelu ośrodka efektywnego, zgodnie ze schematem na rysunku \ref{fig:pml-multilay-schem} otrzymujemy $\varepsilon_x=\varepsilon_y$, oraz $\mu_x=\mu_y$. Ponownie odwołując się do granicy między ośrodkami na rysunku \ref{fig:pml-multilay-schem}a, otrzymujemy warunki dla których wielowarstwa złożona z~materiałów $w1$ i~$w2$ schematycznie przedstawiona na rysunku \ref{fig:pml-multilay-schem}b będzie efektywnie spełniać rolę PML pod warunkiem spełnienia następujących równości:
 \begin{equation}
 	f\cdot \varepsilon_{w1} + (1-f)\cdot \varepsilon_{w2} = s \cdot \varepsilon_1,
@@ -63,6 +64,7 @@ W przypadku oświetlenia wielowarstwy za pomocą polaryzacji TM jeden ze współ
 	\label{fig:im-mu1}
 \end{SCfigure}
 
+\subsection{Wykorzystanie materiałów występujących w przyrodzie}
 
 W przypadku przygotowania eksperymentu, a nie np. wykorzystania do konstrukcji PML w~symulacjach  numerycznych, należy zaniedbać własności magnetyczne materiałów $\mu=1$, oraz zysk optyczny $\textrm{Im}(\varepsilon)<0$. Wyniki dla obu polaryzacji po zastosowaniu się do wymienionych przybliżeń przedstawiają wykresy na rysunku \ref{fig:pml-real-ref}. Zaproponowany absorber składa się z~materiału stratnego, oraz warstw charakteryzujących się przenikalnością elektryczną mniejszą od 1. Przedstawione wyniki obliczeń wskazują, że w~wyniku poczynionych założeń efektywność pracy wielowarstwy jako struktury PML znacznie różni się w~zależności od polaryzacji. W przeciwieństwie do obliczeń dla wielowarstw odpowiadających PML, narzucone warunki prowadzą do mniejszej wartości współczynnika odbicia dla polaryzacji TE. Wysokie współczynniki odbicia, uniemożliwiające zastosowanie wielowarstwy,  pojawiają się jednak jedynie dla kątów padania bliskich $90^{\circ}$, co jest charakterystyczne dla UPML.
 
@@ -115,6 +117,7 @@ Opierając się na zaprojektowanej wielowarstwie można zaproponować jej modyfi
 	\label{fig:oqecoreshell}
 \end{figure}
 
+\subsection{Podsumowanie wyników}
 
 Odnosząc uzyskane wyniki do warstw absorbujących otrzymywanych innymi metodami, należy dosyć krytycznie ocenić możliwość wykorzystania tego typu struktur w zastosowaniach eksperymentalnych. Wprowadzone uproszczenia, umożliwiły zaproponowanie fizycznej realizacji absorbera w oparciu o realne materiały, jednak wyniki współczynnika odbicia, w szczególności dla dużych kątów padania, nie są satysfakcjonujące. Należy również zwrócić uwagę, że uzyskanie wysokiego współczynnika absorpcji jest możliwe przy zastosowaniu znaczącej liczby par warstw, w wyniku czego metamateriał tworzący warstwę absorpcyjną staje się znacznie grubszy od długości fali. 
 
