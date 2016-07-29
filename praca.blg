@@ -18,36 +18,36 @@ Repeated entry---line 499 of file bibliografia.bib
  : @article{martin2001theory
  :                          ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 589 of file bibliografia.bib
+I was expecting a `,' or a `}'---line 588 of file bibliografia.bib
  :   
  :   year={2013},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 795 of file bibliografia.bib
+Repeated entry---line 793 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--Warning: series missing in entry stefaniuk2015perfectly.
 You've used 73 entries,
             2048 wiz_defined-function locations,
-            956 strings with 17978 characters,
-and the built_in function-call counts, 18028 in all, are:
-= -- 839
+            954 strings with 17914 characters,
+and the built_in function-call counts, 17754 in all, are:
+= -- 808
 > -- 1065
 < -- 0
 + -- 341
 - -- 264
-* -- 2019
-:= -- 2272
+* -- 1985
+:= -- 2241
 add.period$ -- 73
 call.type$ -- 73
 change.case$ -- 3
 chr.to.int$ -- 0
 cite$ -- 74
-duplicate$ -- 730
-empty$ -- 1830
+duplicate$ -- 729
+empty$ -- 1798
 format.name$ -- 337
-if$ -- 3826
+if$ -- 3765
 int.to.chr$ -- 0
 int.to.str$ -- 73
 missing$ -- 0
@@ -57,16 +57,16 @@ pop$ -- 361
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 917
+skip$ -- 920
 stack$ -- 0
-substring$ -- 1540
-swap$ -- 420
+substring$ -- 1457
+swap$ -- 421
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 58
 warning$ -- 1
-while$ -- 174
+while$ -- 169
 width$ -- 75
 write$ -- 367
 (There were 3 error messages)

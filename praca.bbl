@@ -1,10 +1,5 @@
 \begin{thebibliography}{10}
 
-\bibitem{ania2015}
-A. Pastuszczak, M. Stolarek, T. Antosiewicz, and R. Kotyński, ``Multilayer
-  metamaterial absorbers inspired by perfectly matched layers,'' Opt. Quant.
-  Electron. {\bf 47,} 89--97 [2015].
-
 \bibitem{yablonovitch1987inhibited}
 E. Yablonovitch, ``Inhibited spontaneous emission in solid-state physics and
   electronics,'' Phys. Rev. Lett. {\bf 58,} 2059 [1987].
@@ -58,18 +53,18 @@ P. Markos and C.~M. Soukoulis, {\em Wave propagation: from electrons to
 
 \bibitem{teich1991fundamentalsTMM}
 B.~E.~A. Saleh and M.~C. Teich, ``Fundamentals of photonics,'' Wiley
-  Interscience \ p.\ 246 [2007].
+  Interscience  [2007].
 
 \bibitem{1966ITAP14302Y}
 K. {Yee}, ``{Numerical solution of inital boundary value problems involving
-  maxwell's equations in isotropic media},'' IEEE Antennas Propag. Mag. {\bf
+  maxwell's equations in isotropic media},'' IEEE Antennas Propagat. Mag. {\bf
   14,} 302--307 [1966].
 
 \bibitem{understanding-fdtd}
 J.~B. Schneider, ``Understanding the finite-difference time-domain method,''
   School of electrical engineering and computer science Washington State
-  University.--URL: http://www. Eecs. Wsu. Edu/\~{} schneidj/ufdtd/(request
-  data: 29.11. 2012)  [2010].
+  University \url{http://www. Eecs. Wsu. Edu/~schneidj/ufdtd/}(request data:
+  29.11. 2012)  [2010].
 
 \bibitem{1994JCoPh.114..185B}
 J. {Berenger}, ``{A Perfectly Matched Layer for the Absorption of
@@ -78,12 +73,12 @@ J. {Berenger}, ``{A Perfectly Matched Layer for the Absorption of
 \bibitem{sacks1995perfectly}
 Z.~S. Sacks, D.~M. Kingsland, R. Lee, and J.-F. Lee, ``A perfectly matched
   anisotropic absorber for use as an absorbing boundary condition,'' IEEE
-  Trans. Antennas Propag. {\bf 43,} 1460--1463 [1995].
+  Trans. Antennas Propagat. Mag. {\bf 43,} 1460--1463 [1995].
 
 \bibitem{rappaport1995perfectly}
 C.~M. Rappaport, ``Perfectly matched absorbing boundary conditions based on
-  anisotropic lossy mapping of space,'' IEEE Microw. Wirel. Compon. Lett. {\bf
-  5,} 90--92 [1995].
+  anisotropic lossy mapping of space,'' IEEE Microw. Compon. Lett. {\bf 5,}
+  90--92 [1995].
 
 \bibitem{oskooi2008failure}
 A.~F. Oskooi, L. Zhang, Y. Avniel, and S.~G. Johnson, ``The failure of
@@ -93,7 +88,7 @@ A.~F. Oskooi, L. Zhang, Y. Avniel, and S.~G. Johnson, ``The failure of
 \bibitem{antosiewicz2009wplyw}
 T.~J. Antosiewicz, {\em Wp{\l}yw nanostruktury sondy metalizowanej na
   rozdzielczo{\'s}{\'c} optycznego mikroskopu skaningowego bliskiego pola}
-  (Uniwersytet Warszawski. Rozprawa doktorska. Wydzia{\l} Fizyki, 2009).
+  (Rozprawa doktorska. Wydzia{\l} Fizyki, Uniwersytet Warszawski., 2009).
 
 \bibitem{OskooiRo10}
 A.~F. Oskooi, D. Roundy, M. Ibanescu, P. Bermel, J.~D. Joannopoulos, and S.~G.
@@ -126,8 +121,8 @@ T. Skauli {\it et~al.}, ``Improved dispersion relations for GaAs and
   [2003].
 
 \bibitem{lide2009crc}
-D. Lide and W. Haynes, {\em CRC handbook of chemistry and physics} (Boca Raton,
-  Fla: CRC, 2009).
+D. Lide and W. Haynes, {\em CRC Handbook of chemistry and physics} (Boca Raton,
+  CRC, 2009).
 
 \bibitem{zhang2009annealing}
 Y. Zhang, B. Chang, Z. Yang, J. Niu, Y. Xiong, F. Shi, H. Guo, and Y. Zeng,
@@ -147,7 +142,8 @@ K.~K. Koerkamp, S. Enoch, F. Segerink, N. Van~Hulst, and L. Kuipers, ``Strong
 
 \bibitem{Szczytko2012271}
 J. Szczytko, M. Stolarek, B. Pietka, and e.~a. Łusakowski, J., ``Terahertz
-  properties of metallic layers and grids,'' MIKON {\bf 1,} 271--275 [2012].
+  properties of metallic layers and grids,'' Proc. of MIKON {\bf 1,} 271--275
+  [2012].
 
 \bibitem{roux2002grating}
 J.-F. Roux, F. Aquistapace, F. Garet, L. Duvillaret, and J.-L. Coutaz,
@@ -161,13 +157,13 @@ J. Petykiewicz, {\em Podstawy fizyczne optyki scalonej} (PWN, 1989).
 \bibitem{Stolarek2011}
 M. Stolarek, A. Pastuszczak, and R. Kotyński, ``Numerical analysis of
   transmission through a sub-wavelength metallic aperture or grating at visible
-  and Terahertz wavelengths,'' ICTON  [2011], doi: 10.1109/ICTON.2011.5971166.
+  and Terahertz wavelengths,'' Proc. of ICTON  [2011], doi:
+  10.1109/ICTON.2011.5971166.
 
 \bibitem{cheng2007controllable}
 C. Cheng, J. Chen, Q.-Y. Wu, F.-F. Ren, J. Xu, Y.-X. Fan, and H.-T. Wang,
   ``Controllable electromagnetic transmission based on dual-metallic grating
-  structures composed of subwavelength slits,'' Appl. Phys. Lett. {\bf 91,}
-  111111--111111 [2007].
+  structures composed of subwavelength slits,'' Appl. Phys. Lett. 91 [2007].
 
 \bibitem{cheng2008physical}
 C. Cheng, J. Chen, D.-J. Shi, Q.-Y. Wu, F.-F. Ren, J. Xu, Y.-X. Fan, J. Ding,
@@ -202,7 +198,8 @@ M. Stolarek, D. Yavorskiy, R. Koty\'{n}ski, C. Zapata-Rodr\'{i}guez, J.
 \bibitem{stolarek2013broadband}
 M. Stolarek, D. Yavorskiy, R. Kotynski, C. Zapata~Rodriguez, J. Lusakowski, and
   T. Szoplik, ``Broadband asymmetric transmission of THz radiation through
-  double metallic gratings,'' ICTON  [2013], doi: 10.1109/ICTON.2013.6603070.
+  double metallic gratings,'' Proc. of ICTON  [2013], doi:
+  10.1109/ICTON.2013.6603070.
 
 \bibitem{Yavorskiy:14}
 D. Yavorskiy, M. Stolarek, J. {\L}usakowski, and R. Koty\'{n}ski, ``Asymmetric
@@ -213,10 +210,15 @@ D. Yavorskiy, M. Stolarek, J. {\L}usakowski, and R. Koty\'{n}ski, ``Asymmetric
 J. Pendry, A. Aubry, D. Smith, and S. Maier, ``Transformation optics and
   subwavelength control of light,'' Science {\bf 337,} 549--552 [2012].
 
+\bibitem{ania2015}
+A. Pastuszczak, M. Stolarek, T. Antosiewicz, and R. Kotyński, ``Multilayer
+  metamaterial absorbers inspired by perfectly matched layers,'' Opt. Quant.
+  Electron. {\bf 47,} 89--97 [2015].
+
 \bibitem{monacelli2005infrared}
 B. Monacelli, J.~B. Pryor, B.~A. Munk, D. Kotter, and G.~D. Boreman, ``Infrared
   frequency selective surface based on circuit-analog square loop design,''
-  IEEE Trans. on Antennas and Propag. {\bf 53,} 745--752 [2005].
+  IEEE Trans. Antennas Propag. {\bf 53,} 745--752 [2005].
 
 \bibitem{ramprecht2008scattering}
 J. Ramprecht, M. Norgren, and D. Sjoberg, ``Scattering from a thin magnetic
@@ -225,13 +227,12 @@ J. Ramprecht, M. Norgren, and D. Sjoberg, ``Scattering from a thin magnetic
 
 \bibitem{watts2012metamaterial}
 C.~M. Watts, X. Liu, and W.~J. Padilla, ``Metamaterial electromagnetic wave
-  absorbers,'' Adv. Mat. 24 [2012].
+  absorbers,'' Adv. Mater. 24 [2012].
 
 \bibitem{mizuno2009black}
 K. Mizuno, J. Ishii, H. Kishida, Y. Hayamizu, S. Yasuda, D.~N. Futaba, M.
   Yumura, and K. Hata, ``A black body absorber from vertically aligned
-  single-walled carbon nanotubes,'' Proceedings of the National Academy of
-  Sciences {\bf 106,} 6044--6047 [2009].
+  single-walled carbon nanotubes,'' PNAS {\bf 106,} 6044--6047 [2009].
 
 \bibitem{guo2014impact}
 S.-h. Guo, A.~B. Sushkov, D.~H. Park, H.~D. Drew, P.~W. Kolb, W.~N. Herman, and
@@ -251,12 +252,12 @@ G. Barton, {\em Elements of Green's functions and propagation} (Clarendon
 
 \bibitem{johnson2007notes}
 S.~G. Johnson, ``Notes on the algebraic structure of wave equations,'' Online
-  at http://math. mit. edu/\~{} stevenj/18.369/wave-equations. pdf  [2007].
+  at \url{http://math.mit.edu/~stevenj/18.369/wave-equations.pdf}  [2007].
 
 \bibitem{teixeira1998general}
 F.~L. Teixeira and W.~C. Chew, ``General closed-form PML constitutive tensors
   to match arbitrary bianisotropic and dispersive linear media,'' IEEE Microw.
-  Wirel. Compon. Lett. {\bf 8,} 223--225 [1998].
+  Compon. Lett. {\bf 8,} 223--225 [1998].
 
 \bibitem{johnson2008notes}
 S.~G. Johnson, ``Notes on perfectly matched layers (PMLs),'' Lecture notes, MIT
@@ -279,7 +280,7 @@ J. Kischkat {\it et~al.}, ``Mid-infrared optical properties of thin films of
 \bibitem{stefaniuk2015perfectly}
 T. Stefaniuk, M. Stolarek, A. Pastuszczak, P. Wr{\'o}bel, B. Wieciech, T.~J.
   Antosiewicz, and R. Koty{\'n}ski, ``Perfectly matched layer based multilayer
-  absorbers,'' In {\em SPIE Optics+ Optoelectronics}, \ pp.\ 95020F--95020F
+  absorbers,'' In {\em SPIE Optics+ Optoelectronics}, \ p.\ vol. 95020F
   (2015).
 
 \bibitem{PhysRevLett.84.4184}
@@ -315,12 +316,12 @@ M. Stolarek, A. Pastuszczak, J. Pniewski, and R. Kotyński, ``Sub-wavelength
 
 \bibitem{Zhao:08}
 Z. Junming, F. Yijun, Z. Bo, and J. Tian, ``Sub-wavelength image manipulating
-  throughcompensated anisotropic metamaterial prisms,'' Opt. Express {\bf 16,}
+  through compensated anisotropic metamaterial prisms,'' Opt. Express {\bf 16,}
   18057--18066 [2008].
 
 \bibitem{pastuszczak2011slanted}
 A. Pastuszczak, M. Stolarek, and R. Kotynski, ``Slanted layered superlenses for
-  subwavelength light manipulation,'' ICTON  [2011],
+  subwavelength light manipulation,'' Proc. of ICTON  [2011],
   doi:10.1109/ICTON.2011.5971070.
 
 \bibitem{stefaniuk2011effect}
@@ -336,7 +337,7 @@ A. Ludwig and K.~J. Webb, ``Impact of surface roughness on the effective
 \bibitem{Stolarek_2013}
 M. Stolarek, P. Wróbel, T. Stefaniuk, M. Wlazło, A. Pastuszczak, and R.
   Kotyński, ``Spatial filtering with rough metal-dielectric layered
-  metamaterials,'' Photonics Letters of Poland {\bf 5,} 60–62 [2013].
+  metamaterials,'' Photonics Lett. Pol. {\bf 5,} 60–62 [2013].
 
 \bibitem{huang2012subwavelength}
 S. Huang, H. Wang, K.-H. Ding, and L. Tsang, ``Subwavelength imaging
