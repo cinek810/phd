@@ -28,45 +28,45 @@ Repeated entry---line 793 of file bibliografia.bib
  :                            ,
 I'm skipping whatever remains of this entry
 Warning--Warning: series missing in entry stefaniuk2015perfectly.
-You've used 73 entries,
+You've used 74 entries,
             2048 wiz_defined-function locations,
-            954 strings with 17911 characters,
-and the built_in function-call counts, 17754 in all, are:
-= -- 808
-> -- 1065
+            962 strings with 18086 characters,
+and the built_in function-call counts, 17997 in all, are:
+= -- 821
+> -- 1078
 < -- 0
-+ -- 341
-- -- 264
-* -- 1985
-:= -- 2241
-add.period$ -- 73
-call.type$ -- 73
++ -- 345
+- -- 267
+* -- 2014
+:= -- 2271
+add.period$ -- 74
+call.type$ -- 74
 change.case$ -- 3
 chr.to.int$ -- 0
-cite$ -- 74
-duplicate$ -- 729
-empty$ -- 1798
-format.name$ -- 337
-if$ -- 3765
+cite$ -- 75
+duplicate$ -- 739
+empty$ -- 1822
+format.name$ -- 341
+if$ -- 3815
 int.to.chr$ -- 0
-int.to.str$ -- 73
+int.to.str$ -- 74
 missing$ -- 0
-newline$ -- 222
-num.names$ -- 73
-pop$ -- 361
+newline$ -- 225
+num.names$ -- 74
+pop$ -- 365
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 920
+skip$ -- 931
 stack$ -- 0
-substring$ -- 1457
-swap$ -- 421
+substring$ -- 1482
+swap$ -- 427
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 58
 warning$ -- 1
-while$ -- 169
-width$ -- 75
-write$ -- 367
+while$ -- 172
+width$ -- 76
+write$ -- 372
 (There were 3 error messages)

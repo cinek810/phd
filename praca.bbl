@@ -109,16 +109,21 @@ Y.-S. Lee, {\em Principles of Terahertz Science and Technology: Proceedings of
   the International Conference, Held in Mainz, Germany, June 5-9, 1979}
   (Springer Science \& Business Media, 2009), Vol.~170.
 
-\bibitem{ordal1983optical}
-M. Ordal, L. Long, R. Bell, S. Bell, R. Bell, R. Alexander, and C. Ward,
-  ``Optical properties of the metals Al, Co, Cu, Au, Fe, Pb, Ni, Pd, Pt, Ag,
-  Ti, and W in the infrared and far infrared,'' Appl. Opt. {\bf 22,} 1099--1119
-  [1983].
+\bibitem{Hagemann:75}
+H.-J. Hagemann, W. Gudat, and C. Kunz, ``Optical constants from the far
+  infrared to the x-ray region: Mg, Al, Cu, Ag, Au, Bi, C, and Al2O3,'' J. Opt.
+  Soc. Am. {\bf 65,} 742--744 [1975].
 
 \bibitem{skauli2003improved}
 T. Skauli {\it et~al.}, ``Improved dispersion relations for GaAs and
   applications to nonlinear optics,'' J. Appl. Phys. {\bf 94,} 6447--6455
   [2003].
+
+\bibitem{ordal1983optical}
+M. Ordal, L. Long, R. Bell, S. Bell, R. Bell, R. Alexander, and C. Ward,
+  ``Optical properties of the metals Al, Co, Cu, Au, Fe, Pb, Ni, Pd, Pt, Ag,
+  Ti, and W in the infrared and far infrared,'' Appl. Opt. {\bf 22,} 1099--1119
+  [1983].
 
 \bibitem{lide2009crc}
 D. Lide and W. Haynes, {\em CRC Handbook of chemistry and physics} (Boca Raton,
