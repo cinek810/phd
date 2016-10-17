@@ -1,72 +1,86 @@
-This is BibTeX, Version 0.99d (TeX Live 2013/Debian)
+This is BibTeX, Version 0.99d (TeX Live 2013/MacPorts 2013_5)
 Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: praca.aux
-A level-1 auxiliary file: wstep.aux
-A level-1 auxiliary file: rozdzial1.aux
-A level-1 auxiliary file: rozdzial2.aux
-A level-1 auxiliary file: rozdzial3.aux
-A level-1 auxiliary file: rozdzial4.aux
-A level-1 auxiliary file: podsumowanie.aux
-The style file: osa.bst
-A level-1 auxiliary file: skorowidz.aux
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Reallocated singl_function (elt_size=4) to 100 items from 50.
-Database file #1: bibliografia.bib
-Repeated entry---line 499 of file bibliografia.bib
- : @article{martin2001theory
- :                          ,
-I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 588 of file bibliografia.bib
- :   
- :   year={2013},
-(Error may have been on previous line)
-I'm skipping whatever remains of this entry
-Repeated entry---line 793 of file bibliografia.bib
- : @article{ward1996refraction
- :                            ,
-I'm skipping whatever remains of this entry
-Warning--Warning: series missing in entry stefaniuk2015perfectly.
-You've used 74 entries,
-            2048 wiz_defined-function locations,
-            962 strings with 18086 characters,
-and the built_in function-call counts, 17997 in all, are:
-= -- 821
-> -- 1078
+I couldn't open auxiliary file wstep.aux
+---line 7 of file praca.aux
+ : \@input{wstep.aux
+ :                  }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file rozdzial1.aux
+---line 8 of file praca.aux
+ : \@input{rozdzial1.aux
+ :                      }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file rozdzial2.aux
+---line 9 of file praca.aux
+ : \@input{rozdzial2.aux
+ :                      }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file rozdzial3.aux
+---line 10 of file praca.aux
+ : \@input{rozdzial3.aux
+ :                      }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file rozdzial4.aux
+---line 11 of file praca.aux
+ : \@input{rozdzial4.aux
+ :                      }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file podsumowanie.aux
+---line 12 of file praca.aux
+ : \@input{podsumowanie.aux
+ :                         }
+I'm skipping whatever remains of this command
+I couldn't open style file osa.bst
+---line 13 of file praca.aux
+ : \bibstyle{osa
+ :              }
+I'm skipping whatever remains of this command
+I couldn't open auxiliary file skorowidz.aux
+---line 115 of file praca.aux
+ : \@input{skorowidz.aux
+ :                      }
+I'm skipping whatever remains of this command
+I found no style file---while reading file praca.aux
+You've used 15 entries,
+            0 wiz_defined-function locations,
+            115 strings with 907 characters,
+and the built_in function-call counts, 0 in all, are:
+= -- 0
+> -- 0
 < -- 0
-+ -- 345
-- -- 267
-* -- 2014
-:= -- 2271
-add.period$ -- 74
-call.type$ -- 74
-change.case$ -- 3
++ -- 0
+- -- 0
+* -- 0
+:= -- 0
+add.period$ -- 0
+call.type$ -- 0
+change.case$ -- 0
 chr.to.int$ -- 0
-cite$ -- 75
-duplicate$ -- 739
-empty$ -- 1822
-format.name$ -- 341
-if$ -- 3815
+cite$ -- 0
+duplicate$ -- 0
+empty$ -- 0
+format.name$ -- 0
+if$ -- 0
 int.to.chr$ -- 0
-int.to.str$ -- 74
+int.to.str$ -- 0
 missing$ -- 0
-newline$ -- 225
-num.names$ -- 74
-pop$ -- 365
-preamble$ -- 1
+newline$ -- 0
+num.names$ -- 0
+pop$ -- 0
+preamble$ -- 0
 purify$ -- 0
 quote$ -- 0
-skip$ -- 931
+skip$ -- 0
 stack$ -- 0
-substring$ -- 1482
-swap$ -- 427
+substring$ -- 0
+swap$ -- 0
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 58
-warning$ -- 1
-while$ -- 172
-width$ -- 76
-write$ -- 372
-(There were 3 error messages)
+type$ -- 0
+warning$ -- 0
+while$ -- 0
+width$ -- 0
+write$ -- 0
+(There were 9 error messages)
