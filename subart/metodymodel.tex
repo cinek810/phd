@@ -37,7 +37,7 @@ Stosując metody obliczeniowe w dziedzinie czasu, wprost poszukujemy wartości s
 
 Metoda propagacji wiązki~(ang. beam propagation method - BPM)~\cite{scarmozzino2000numerical,van1981beam} jest przykładem metody w której rozwiązaniu numerycznemu poddawany jest problem wcześniej uproszczony na drodze analitycznej. W przypadku BPM, rozwiązaniu numerycznemu podlega równanie Helmholtza w~postaci:
 \begin{equation}
- ( \nabla ^2 + k_0^2 n_^2) \Psi = 0,
+ ( \nabla ^2 + k_0^2 n^2 ) \Psi = 0,
 \end{equation}
 w którym $\Psi$ jest jedynie funkcją położenia powstałą w~wyniku założenia rozwiązań pola E-M w~postaci skalarnej $E(\vec{x},t)=\Psi(\vec{x})\cdot exp(-i\omega t)$. W dalszej części wyprowadzenia zakładamy, że pole można wyrazić przez iloczyn wyrażenia harmonicznego odpowiedzialnego za propagację w wyróżnionym kierunku $x_2$ i amplitudy pola $A(x1,x2)$:
 \begin{equation}
@@ -45,7 +45,7 @@ w którym $\Psi$ jest jedynie funkcją położenia powstałą w~wyniku założen
 \end{equation}
 gdzie gdzie $\nu$ jest parametrem dobranym w taki sposób, aby amplituda $A$ była słabo zmienna względem $x_2$. Podane założenie, o~wolnozmiennej obwiedni amplitudy, prowadzi do ostatecznego równania rozwiązywanego numerycznie w~metodzie BPM:
 \begin{equation}
- \Big{  \frac{\partial^2 }{\partial x_1^2 } + (n^2 - \nu^2) \Big} A(\vec{x}) = \pm  2ik_0\nu \frac{\partial A (\vec{x})}{\partial x_1}.
+ \Big\{  \frac{\partial^2 }{\partial x_1^2 } + (n^2 - \nu^2) \Big\} A(\vec{x}) = \pm  2ik_0\nu \frac{\partial A (\vec{x})}{\partial x_1}.
 \end{equation}
 
 Metoda BPM polega na rozwiązaniu powyższego równania poprzez wyznaczenie rozkładu amplitudy A w kolejnych warstwach otrzymanych poprzez dyskretyzację w kierunku x2. Można to uzyskać stosując bezpośrednio metodę różnic skończonych i~schemat Crancka-Nicholsona, bądź poprzez przekształcenie powyższego równania przy użyciu dyskretnej transformaty Fouriera do reprezentacji widmowej we współrzędnej $x_1$. Wprowadzone przybliżenia, w~stosunku do bezpośredniego rozwiązywania równań Maxwella, zmniejszają złożoność obliczeniową metody BPM w~porównaniu z~bardziej rygorystycznymi algorytmami, prowadzą jednocześnie do ograniczeń takich jak brak możliwości symulacji struktur z~dużą zmiennością geometryczną w kierunku propagacji, konieczność iteracyjnej implementacji odbić, czy trudności z~symulacjami, w~których fala E-M propaguje się pod dużymi kątami względem osi układu optycznego.
