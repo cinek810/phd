@@ -1,5 +1,5 @@
 \label{subart:tmm}
-Metoda macierzy przejścia  (ang. transfer matrix method - TMM ) jest używana w~optyce do analizy propagacji fal elektromagnetycznych przez ośrodki warstwowe. Podobne metody w~odniesieniu do ośrodków warstwowych wykorzystywane są w~mechanice kwantowej, akustyce czy sejsmologii. Metoda macierzy przejścia może być wykorzystywana do wyznaczania współczynników transmisji i~odbicia.
+Metoda macierzy przejścia  (ang. transfer matrix method - TMM )~\cite{teich1991fundamentalsTMM} jest używana w~optyce do analizy propagacji fal elektromagnetycznych przez ośrodki warstwowe. Podobne metody w~odniesieniu do ośrodków warstwowych wykorzystywane są w~mechanice kwantowej, akustyce czy sejsmologii. Metoda macierzy przejścia może służyć do wyznaczania współczynników transmisji i~odbicia.
 
 Macierz przejścia dowolnego liniowego układu optycznego wiąże ze sobą amplitudy pól padających i~wychodzących z układu lub jego fragmentu \cite{markos2008wave,teich1991fundamentalsTMM}:
 \begin{equation}
@@ -14,7 +14,7 @@ U_b
 \end{bmatrix},
 \label{eq:tmm}
 \end{equation}
-gdzie $M$ jest macierzą przejścia warstwowego układu, $U$ jest dowolną wybraną składową pola elektrycznego lub magnetycznego, odpowiednio $U_i$ - padającą, $U_r$ - odbitą, $U_t$ - przechodzącą przez układ, oraz $U_b$ padającą  z~przeciwnej strony. \footnote{Metodę macierzy przejścia można również zastosować do analizy pola padającego w~postaci dwuwymiarowego rozkładu. W~takim przypadku $U_x$ są wektorami a $M$ tensorem trzeciego rzędu.} Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku \ref{fig:tmm-simple}.
+gdzie $M$ jest macierzą przejścia warstwowego układu, $U$ jest dowolną wybraną składową pola elektrycznego lub magnetycznego, odpowiednio $U_i$ - padającą, $U_r$ - odbitą, $U_t$ - przechodzącą przez układ, oraz $U_b$ padającą  z~przeciwnej strony. \footnote{Metodę macierzy przejścia można również zastosować do analizy pola padającego w~postaci dwuwymiarowego rozkładu. W~takim przypadku $U_x$ są wektorami a $M$ tensorem trzeciego rzędu.} Graficznie sytuację opisywaną powyższym równaniem przedstawia schemat na rysunku~\ref{fig:tmm-simple}.
 
 \begin{SCfigure}
 	\includegraphics[width=0.6\textwidth]{images/tmm.png}
@@ -70,9 +70,9 @@ z czego wynika, że układ złożony z~$N$ warstw opisywanych macierzami przejś
 	\begin{bmatrix}
 	\textrm{exp}(-i k z_0) & 0 \\
 	0	&\textrm{exp}(i k z_0)\\
-	\end{bmatrix},gdzie
+	\end{bmatrix},
 \end{equation}
-$k$ jest długością wektora falowego w~ośrodku w~którym zachodzi propagacja w~kierunku równoległym do grubości warstwy, a $z_0$ jest grubością warstwy.
+gdzie $k$ jest długością wektora falowego, w~ośrodku w~którym zachodzi propagacja w~kierunku prostopadłym do granic warstw, a $z_0$ jest grubością warstwy.
 \item Macierz opisująca przejście fali E-M przez granicę ośrodków
 \begin{equation}
 	M_i=\frac{1}{1+r}
@@ -81,10 +81,11 @@ $k$ jest długością wektora falowego w~ośrodku w~którym zachodzi propagacja 
 	 r & 1\\
 	\end{bmatrix},
 \end{equation}
-gdzie $r$ jest amplitudowym współczynnikiem odbicia fali na opisywanej granicy ośrodków wynikającym z~równań Fresnela i~zależnym od kąta padania. 
+gdzie $r$ jest amplitudowym współczynnikiem odbicia fali na opisywanej granicy ośrodków wynikającym z~równań Fresnela i~zależnym od kąta padania. Współczynnik r~może być w ogólności zespolony. Jest tak, gdy któraś z warstw ma zespoloną przenikalność elektryczną wynikającą z przewodnictwa, lub własności absorpcyjnych, a~także w~przypadku, gdy na granicy warstw zachodzi całkowite wewnętrzne odbicie i~propagacja światła przez wartwę polega na tunelowaniu optycznym.
 \end{itemize}
 
 Obliczenie współczynnika transmisji płytki płasko-równoległej wymaga więc skonstruowania macierzy opisującej taką płytkę z~trzech macierzy: 
 \[
-M=M_i \cdot M_p \cdot  M_i.
+M=M_i_1 \cdot M_p \cdot  M_i_2.
 \]
+Postępując w podobny sposób, otrzymać można macierz przejścia dla dowolnie złożonego układu warstwowego. 
