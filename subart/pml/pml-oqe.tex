@@ -79,7 +79,7 @@ Na podstawie przeprowadzonej dyskusji, można zaproponować prostą regułę jak
 
 W ogólności w~szerokich zakresach spektralnych większość materiałów charakteryzuje się $\textrm{Re}(\varepsilon) > 1$. Wyjątkami są zakresy długości fali w~okolicach rezonansów dyspersyjnych (patrz. \ref{subart:lorenz-drude}). Możliwe jest również uzyskanie zaprojektowanych własności $\varepsilon$ w~metamateriałach np. w~strukturach funkcjonujących w~literaturze angielskojęzycznej pod nazwą \textit{fishnet}~\cite{valentine2008three}. 
 
-Przykładem pary materiałów, które możemy zastosować w~realizacji UPML za pomocą wielowarstwy są $SiO_2$ i~$NaCl$ dla długości fali w~okolicach 8~$\mu$m. Przenikalności elektryczne zaproponowanych materiałów przedstawiają wykresy na rysunku \ref{fig:nacl-sio2-mat}. Rolę materiału o~przenikalności elektrycznej $\varepsilon \in (0,1)$, spełnia w~tym obszarze $SiO_2$, ponieważ dla długości fali $9.5$~$\mu$m występuje dla tego materiału rezonans. Również wartość efektywna części urojonej $\varepsilon$ wielowarstwy wynika głównie z~własności $SiO_2$. 
+Przykładem pary materiałów, które możemy zastosować w~realizacji UPML za pomocą wielowarstwy są $SiO_2$ i~$NaCl$ dla długości fali w~okolicach 8~µm. Przenikalności elektryczne zaproponowanych materiałów przedstawiają wykresy na rysunku \ref{fig:nacl-sio2-mat}. Rolę materiału o~przenikalności elektrycznej $\varepsilon \in (0,1)$, spełnia w~tym obszarze $SiO_2$, ponieważ dla długości fali $9.5$~µm występuje dla tego materiału rezonans. Również wartość efektywna części urojonej $\varepsilon$ wielowarstwy wynika głównie z~własności $SiO_2$. 
 
 \begin{figure}[tb]
 	\begin{subfigure}{0.45\textwidth}
@@ -90,11 +90,11 @@ Przykładem pary materiałów, które możemy zastosować w~realizacji UPML za p
 		\includegraphics[width=\textwidth]{images/pml/sio2.png}	
 		\caption{}
 	\end{subfigure}
-	\caption{Wartości przenikalności elektrycznej w~zakresie długości fali od 7 do 10~$\mu$m dla (a) $NaCl$~\cite{li1976refractive}, (b) $SiO_2$~\cite{Kischkat:12}}
+	\caption{Wartości przenikalności elektrycznej w~zakresie długości fali od 7 do 10~µm dla (a) $NaCl$~\cite{li1976refractive}, (b) $SiO_2$~\cite{Kischkat:12}}
 	\label{fig:nacl-sio2-mat}
 \end{figure}
 
-Efektywne własności stosu złożonego z~naprzemiennych warstw $NaCl$ i~$SiO_2$ o~współczynniku wypełnienia drugim materiałem $f=0.56$, dla których przyjęto zmierzone eksperymentalnie wartości $\varepsilon$ przedstawia wykres na rysunku \ref{fig:eff-pml-real}. Zgodnie z~(\ref{eq:general-pml-form}) struktura warstwowa przypominająca PML powinna spełniać związek $\frac{1}{\varepsilon_x}=\varepsilon_z$, dlatego na wykresie zaznaczono również wartość $\frac{1}{\varepsilon_x}$. Na podstawie wykresu \ref{fig:eff-pml-real}, wielowarstwa powinna więc charakteryzować się najniższym współczynnikiem odbicia dla długości fali z~zakresu 8.0-8.2~$\mu$m. Wartości natężeniowych współczynników transmisji i~odbicia w~zależności od liczby par warstw $N$ oraz długości fali przedstawia wykres na rysunku \ref{fig:oqe-trans-refl}.
+Efektywne własności stosu złożonego z~naprzemiennych warstw $NaCl$ i~$SiO_2$ o~współczynniku wypełnienia drugim materiałem $f=0.56$, dla których przyjęto zmierzone eksperymentalnie wartości $\varepsilon$ przedstawia wykres na rysunku \ref{fig:eff-pml-real}. Zgodnie z~(\ref{eq:general-pml-form}) struktura warstwowa przypominająca PML powinna spełniać związek $\frac{1}{\varepsilon_x}=\varepsilon_z$, dlatego na wykresie zaznaczono również wartość $\frac{1}{\varepsilon_x}$. Na podstawie wykresu \ref{fig:eff-pml-real}, wielowarstwa powinna więc charakteryzować się najniższym współczynnikiem odbicia dla długości fali z~zakresu 8.0-8.2~µm. Wartości natężeniowych współczynników transmisji i~odbicia w~zależności od liczby par warstw $N$ oraz długości fali przedstawia wykres na rysunku \ref{fig:oqe-trans-refl}.
 
 \begin{SCfigure}
 	\includegraphics[width=0.6\textwidth]{images/pml/effepsilon-nacl-sio2.png}
@@ -107,7 +107,7 @@ Opierając się na zaprojektowanej wielowarstwie można zaproponować jej modyfi
 \begin{figure}[tb]
 	\centering
 	\includegraphics[width=0.6\textwidth]{images/pml/oqe_trans_refl.png}
-	\caption{Współczynnik transmisji (linia ciągła) i~odbicia (linia przerywana) dla wielowarstwy złożonej z~$SiO_2$/$NaCl$ zaprojektowanej dla oświetlenia falą o długości 8~$\mu$m, dla której współczynniki załamania $n_{\textrm{SiO}_2}=0.41+0.32i$, $n_{\textrm{NaCl}}=$~1.51. Współczynnik wypełnienia struktury przez $SiO_2$ wynosi $f=0.56$, $a=200nm$. Rozważone zostały stosy o~liczbie par warstw $N=$~10,~100 i~400.}
+	\caption{Współczynnik transmisji (linia ciągła) i~odbicia (linia przerywana) dla wielowarstwy złożonej z~$SiO_2$/$NaCl$ zaprojektowanej dla oświetlenia falą o długości 8~µm, dla której współczynniki załamania $n_{\textrm{SiO}_2}=0.41+0.32i$, $n_{\textrm{NaCl}}=$~1.51. Współczynnik wypełnienia struktury przez $SiO_2$ wynosi $f=0.56$, $a=200nm$. Rozważone zostały stosy o~liczbie par warstw $N=$~10,~100 i~400.}
 	\label{fig:oqe-trans-refl}
 \end{figure}
 

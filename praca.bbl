@@ -1,4 +1,4 @@
-\begin{thebibliography}{10}
+\begin{thebibliography}{100}
 
 \bibitem{yablonovitch1987inhibited}
 E. Yablonovitch, ``Inhibited spontaneous emission in solid-state physics and
@@ -182,10 +182,44 @@ A.~F. Oskooi, D. Roundy, M. Ibanescu, P. Bermel, J.~D. Joannopoulos, and S.~G.
 \bibitem{citeulike:2926459}
 J. Goodman, ``Introduction to Fourier optics,'' McGraw-Hill  [2004].
 
+\bibitem{griffiths1999introduction}
+D.~J. Griffiths and R. College, {\em Introduction to electrodynamics} (prentice
+  Hall Upper Saddle River, NJ, 1999), Vol.~3.
+
 \bibitem{sihvola1999electromagnetic}
 A. Sihvola, {\em Electromagnetic Mixing Formulas and Applications}, {\em
   Electromagnetics and Radar Series} (Institution of Electrical Engineers,
   1999).
+
+\bibitem{pastuszczak2011optimized}
+A. Pastuszczak and R. Koty{\'n}ski, ``Optimized low-loss multilayers for
+  imaging with sub-wavelength resolution in the visible wavelength range,'' J.
+  Appl. Phys. {\bf 109,} 084302 [2011].
+
+\bibitem{elser2007nonlocal}
+J. Elser, V.~A. Podolskiy, I. Salakhutdinov, and I. Avrutsky, ``Nonlocal
+  effects in effective-medium response of nanolayered metamaterials,'' Appl.
+  Phys. Lett. {\bf 90,} 191109 [2007].
+
+\bibitem{chebykin2011nonlocal}
+A. Chebykin, A. Orlov, A. Vozianova, S.~I. Maslovski, Y.~S. Kivshar, and P.~A.
+  Belov, ``Nonlocal effective medium model for multilayered metal-dielectric
+  metamaterials,'' Phys. Rev. B {\bf 84,} 115438 [2011].
+
+\bibitem{netti2001optical}
+M. Netti, A. Harris, J. Baumberg, D. Whittaker, M. Charlton, M. Zoorob, and G.
+  Parker, ``Optical trirefringence in photonic crystal waveguides,'' Phys. Rev.
+  Lett. {\bf 86,} 1526 [2001].
+
+\bibitem{diaz2016some}
+C. D{\'\i}az-Avi{\~n}{\'o}, D. Pastor, C.~J. Zapata-Rodr{\'\i}guez, M.
+  Naserpour, R. Koty{\'n}ski, and J.~J. Miret, ``Some considerations on the
+  transmissivity of trirefringent metamaterials,'' J. Opt. Soc. Am. B {\bf 33,}
+  116--125 [2016].
+
+\bibitem{zhang2010introduction}
+X.-C. Zhang and J. Xu, {\em Introduction to THz wave photonics} (Springer,
+  2010), Vol.~29.
 
 \bibitem{lee2009principles}
 Y.-S. Lee, {\em Principles of Terahertz Science and Technology: Proceedings of
@@ -218,6 +252,19 @@ Y. Zhang, B. Chang, Z. Yang, J. Niu, Y. Xiong, F. Shi, H. Guo, and Y. Zeng,
   epilayers grown by molecular beam epitaxy,'' Appl. Opt. {\bf 48,} 1715--1720
   [2009].
 
+\bibitem{sizov2010thz}
+F. Sizov and A. Rogalski, ``THz detectors,'' Prog. Quant. Electron. {\bf 34,}
+  278--347 [2010].
+
+\bibitem{knap2002nonresonant}
+W. Knap {\it et~al.}, ``Nonresonant detection of terahertz radiation in field
+  effect transistors,'' J. Appl. Phys. {\bf 91,} 9346--9353 [2002].
+
+\bibitem{kopyt2015parasitic}
+P. Kopyt, B. Salski, J. Marczewski, P. Zagrajek, and J. Lusakowski, ``Parasitic
+  Effects Affecting Responsivity of Sub-THz Radiation Detector Built of a
+  MOSFET,'' J. Infrared Millim. Terahertz Waves {\bf 36,} 1059--1075 [2015].
+
 \bibitem{martin2001theory}
 L. Martin-Moreno, F. Garcia-Vidal, H. Lezec, K. Pellerin, T. Thio, J. Pendry,
   and T. Ebbesen, ``Theory of extraordinary optical transmission through
@@ -245,8 +292,11 @@ J. Petykiewicz, {\em Podstawy fizyczne optyki scalonej} (PWN, 1989).
 \bibitem{Stolarek2011}
 M. Stolarek, A. Pastuszczak, and R. Kotyński, ``Numerical analysis of
   transmission through a sub-wavelength metallic aperture or grating at visible
-  and Terahertz wavelengths,'' Proc. of ICTON  [2011], doi:
-  10.1109/ICTON.2011.5971166.
+  and Terahertz wavelengths,'' Proc. of ICTON  [2011].
+
+\bibitem{4171512}
+D. Jalas {\it et~al.}, ``What is and what is not an optical isolator,''  {\bf
+  7,} 579--582 [2013].
 
 \bibitem{cheng2007controllable}
 C. Cheng, J. Chen, Q.-Y. Wu, F.-F. Ren, J. Xu, Y.-X. Fan, and H.-T. Wang,

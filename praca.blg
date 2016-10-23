@@ -14,60 +14,62 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Database file #1: bibliografia.bib
-Repeated entry---line 499 of file bibliografia.bib
+Repeated entry---line 498 of file bibliografia.bib
  : @article{martin2001theory
  :                          ,
 I'm skipping whatever remains of this entry
-I was expecting a `,' or a `}'---line 588 of file bibliografia.bib
+I was expecting a `,' or a `}'---line 587 of file bibliografia.bib
  :   
  :   year={2013},
 (Error may have been on previous line)
 I'm skipping whatever remains of this entry
-Repeated entry---line 793 of file bibliografia.bib
+Repeated entry---line 792 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
+Warning--I didn't find a database entry for "lockyear2006one"
 Warning--Warning: journal missing in entry yeh2006.
+Warning--Warning: journal missing in entry 4171512.
 Warning--Warning: series missing in entry stefaniuk2015perfectly.
-You've used 93 entries,
+You've used 104 entries,
             2048 wiz_defined-function locations,
-            1052 strings with 21033 characters,
-and the built_in function-call counts, 22526 in all, are:
-= -- 1023
-> -- 1360
+            1100 strings with 23032 characters,
+and the built_in function-call counts, 25276 in all, are:
+= -- 1142
+> -- 1524
 < -- 0
-+ -- 434
-- -- 336
-* -- 2521
-:= -- 2841
-add.period$ -- 93
-call.type$ -- 93
-change.case$ -- 3
++ -- 487
+- -- 376
+* -- 2817
+:= -- 3177
+add.period$ -- 104
+call.type$ -- 104
+change.case$ -- 2
 chr.to.int$ -- 0
-cite$ -- 95
-duplicate$ -- 921
-empty$ -- 2281
-format.name$ -- 429
-if$ -- 4776
+cite$ -- 107
+duplicate$ -- 1029
+empty$ -- 2581
+format.name$ -- 480
+if$ -- 5383
 int.to.chr$ -- 0
-int.to.str$ -- 93
+int.to.str$ -- 104
 missing$ -- 0
-newline$ -- 282
-num.names$ -- 93
-pop$ -- 452
+newline$ -- 315
+num.names$ -- 104
+pop$ -- 505
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1181
+skip$ -- 1348
 stack$ -- 0
-substring$ -- 1833
-swap$ -- 530
+substring$ -- 2034
+swap$ -- 588
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 74
-warning$ -- 2
-while$ -- 217
-width$ -- 95
-write$ -- 467
+type$ -- 90
+warning$ -- 3
+while$ -- 242
+width$ -- 107
+write$ -- 522
 (There were 3 error messages)
