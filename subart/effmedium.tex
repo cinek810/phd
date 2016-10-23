@@ -1,7 +1,8 @@
 \label{subart:effmedium}
-Przybliżenie ośrodka efektywnego (ang.~EMA effective medium approximations lub ang.~EMT effective medium theory) to określenie używane w~odniesieniu do analitycznych modeli opisujących makroskopowe własności elektromagnetyczne przestrzeni złożonej z~różnych materiałów. EMA pozwala opisywać niejednorodny obszar w~przestrzeni złożony z~wielu materiałów jako jeden homogeniczny obszar o~innych właściwościach. Kluczowym w~wyprowadzeniu przybliżenia EMT jest zdefiniowanie geometrii w~jakiej układane są materiały składowe. Na jej podstawie w~zależności od rozmiarów wyprowadzane są ostateczne formuły na składowe tensorów przenikalności elektrycznej $\varepsilon$ i~magnetycznej $\mu$.
+Przybliżenie ośrodka efektywnego (ang.~EMA effective medium approximations lub ang.~EMT effective medium theory) to określenie używane w~odniesieniu do analitycznych modeli opisujących makroskopowe własności elektromagnetyczne podfalowej struktury złożonej z~różnych materiałów. EMA pozwala opisywać niejednorodny obszar w~przestrzeni złożony z~wielu materiałów jako jeden homogeniczny obszar o~innych właściwościach. Kluczowym w~wyprowadzeniu przybliżenia EMT jest zdefiniowanie geometrii w~jakiej układane są materiały składowe. Na jej podstawie w~zależności od rozmiarów wyprowadzane są ostateczne formuły na składowe tensorów przenikalności elektrycznej $\varepsilon$ i~magnetycznej $\mu$.
 
-Dla niniejszej pracy szczególne znaczenia mają układy jednowymiarowe, w~których periodycznie umieszczone są kolejne warstwy ośrodków materialnych. W sytuacji gdy możemy zakładać, że pojedyncza warstwa jest tak cienka w~porównaniu z~długością fali, że wartości pól $E$ i~$D$ wewnątrz warstwy w~określonej chwili czasu są stałe. Możemy wyprowadzić przybliżone wartości tensora przenikalności elektrycznej:
+Dla niniejszej pracy szczególne znaczenie mają układy jednowymiarowe, w~których periodycznie umieszczone są kolejne warstwy ośrodków materialnych, gdy możemy zakładać, że pojedyncza warstwa jest tak cienka w~porównaniu z~długością fali, że wartości pól $E$ i~$D$ wewnątrz warstwy w~określonej chwili czasu są stałe. Możemy wyprowadzić przybliżone wartości tensora przenikalności elektrycznej:
+
 \[ \varepsilon= \left[ \begin{array}{ccc}
 	\varepsilon_{\parallel} & 0 & 0 \\
 	0 & \varepsilon_{\parallel} & 0 \\
@@ -36,8 +37,19 @@ W powyższych wzorach przez $\varepsilon_{\parallel}$ i~$\varepsilon_{\perp}$ oz
 
 Oznacza to, że w~ośrodku wypełnionym naprzemiennie dwoma materiałami, fala elektromagnetyczna propaguje się tak jak w~jednoosiowym materiale dwójłomnym. Osią takiego metamateriału jest dowolna prosta prostopadła do granic warstw dwu tworzących go materiałów~\cite{sihvola1999electromagnetic}.
 
+Efektywny tensor przenikalności elektrycznej o~postaci (\ref{eq:effmedium}) nie zależy od okresu struktury periodycznej. Co więcej, wyrażenie (\ref{eq:effmedium}) stosuje się  także do warstwowych struktur nieperiodycznych wypełnionych dwoma materiałami z~tym samym współczynnikiem wypełnienia $f$. Z~drugiej strony, dla struktur periodycznych składających się z~dwóch naprzemiennie ułożonych rodzajów warstw, znana jest postać analityczna związku dyspersyjnego~\cite{pastuszczak2011optimized}, z~której można skorzystać, gdy opis (\ref{eq:effmedium}) jest niewystarczający. Poniższe równanie odnosi się do polaryzacji TM
 
+\begin{equation}
+cos(k_{B} \,a) = cos(k_{1} d_1) cos(k_{2} d_2) \\
+- \frac{1}{2} \left(\frac{k_{1} \varepsilon_2}{k_{2} \varepsilon_1} + \frac{k_{2} \varepsilon_1}{k_{1} \varepsilon_2}\right)
+sin(k_{1} d_1) sin(k_{2} d_2),
+\label{eq_dispersion}
+\end{equation}
+gdzie $d_i$ i $\varepsilon_i$ (dla $i=1,2$) oznaczają grubość i przenikalność elektryczną warstw, $a=d_1+d_2$ jest okresem struktury, $k_B$ jest liczbą falową fali Blocha, $k_i = \sqrt{k_0^2 \varepsilon_i-k_{x}^2}$ jest składową wektora falowego wzdłuż osi z w i-tym ośrodku, a $k_0=2\pi/\lambda$ jest liczbą falową w próżni. 
+ (2.4)
 
+Należy dodać, że znane są dokładniejsze sposoby wprowadzenia własności efektywnych wielowarstwy niż (2.3), określane często jako nielokalne \cite{elser2007nonlocal,chebykin2011nonlocal}. Modele te nie będą wykorzystane w niniejszej rozprawie, jako że podobnie jak (2.3) pozwalają jedynie na przybliżony opis propagacji w strukturze warstwowej, mniej dokładny niż kwasianalityczna metoda TMM oraz metoda różnic skończonych FDTD z odpowiednio gęstym próbkowaniem. 
+Warto na koniec wspomnieć, że także w zakresie swojej stosowalności, model efektywny (2.3) nie pozwala prawidłowo opisać niektórych zjawisk. Przykładem takiego zjawiska jest tzw. potrójne załamanie światła (ang. trirefringence) \cite{netti2001optical,diaz2016some}.
 
 
 
