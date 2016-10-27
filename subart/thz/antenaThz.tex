@@ -18,7 +18,7 @@ Rozkład pola na rysunku \ref{fig:consrcl525} nie zapewnia transportu promieniow
 \end{equation}
 Z powyższych równań wyprowadzić można równanie różniczkowe drugiego rzędu, będące jedną z~postaci równania Helmholtza, dla składowej $H_y$ w~postaci
 \begin{equation}
-	\Bigg[ \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial z^2} + \omega^2 \mu_0 \varepsilon_0 \varepsilon (x) \Bigg] H_y = 0,
+	\Bigg[ \frac{\partial^2}{\partial x^2} + \frac{\partial^2}{\partial z^2} + \omega^2 \mu \varepsilon (x) \Bigg] H_y = 0,
 	\label{eq:waveguide-tm}
 \end{equation}
 w którym $\varepsilon(x)$ jest kwadratem współczynnika załamania ośrodków. W rozważanym przypadku
@@ -91,5 +91,6 @@ Na podstawie powyższego wzoru przygotowano wykres zależności okresu siatki $d
 
 
 Na podstawie przeprowadzonych obliczeń zaprojektowano siatkę ze złota dla źródła o~częstotliwości $f=300$~GHz ($\lambda\approx 1$~mm) o~grubości $H=1$~µm i~okresie $d=729$~µm. W strukturach wytwarzanych eksperymentalnie pod podkładem $GaAs$ znajduje się warstwa $Au$ o~grubości 1~µm, którą w~symulacji metodą FDTD traktujemy jako doskonały przewodnik. Na rysunku \ref{fig:consrc_1d_f300Ghz} przedstawiono rozkład gęstości energii wewnątrz zaproponowanej struktury. Wyniki symulacji komputerowych potwierdzają  możliwość propagacji promieniowania E-M z~zakresu subterahercowego w~kierunku detektora w~zaprojektowanym układzie.
+
 Bazując na pracach numerycznych dotyczących  jednowymiarowych siatek dyfrakcyjnych pozwalających na wzbudzenie modów falowodowych w~podkładach z~$GaAs$, przeanalizowane zostało działanie analogicznych falowodów opartych na cylindrycznych siatkach dyfrakcyjnych. Ze względu na wzbudzenie modów falowodowych o~kierunku propagacji prostopadłym do pasków siatki dyfrakcyjnej uzyskujemy częściową koncentrację promieniowania w~obszarze detektora. Odpowiedni eksperyment numeryczny został przeprowadzony przy użyciu metody BOR-FDTD we współrzędnych cylindrycznych, szerzej opisanej w~podrozdziale \ref{subart:borfdtd}. Wyniki symulacji przedstawione na rysunku \ref{fig:concent_modfalo} odpowiadają strukturze z~$GaAs$ o~rozmiarach 10x10mm pokrytej siatką dyfrakcyjną o~okresie $d=538$~µm i~otworach o~szerokości $250$~µm (współczynnik wypełnienia $f=0.53$), która została oświetlona promieniowaniem o~długości fali $\lambda=2.52$~mm. W ten sposób potwierdzono możliwość wykorzystania tego typu struktur do konstrukcji anten dla detektorów promieniowania THz umieszczonych wewnątrz podkładu z~$GaAs$~\cite{Stolarek2011}.
 

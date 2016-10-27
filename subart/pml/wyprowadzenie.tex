@@ -1,7 +1,7 @@
 \subsection{Definicja problemu}
 Rozważania dotyczące PML zacznijmy od przytoczenia ogólnej postaci równania falowego~\cite{barton1989elements}
 \begin{equation}
-\nabla \cdot ( a \nabla U) = \frac{1}{b} \frac{\partial^2 u}{\partial t^2} = \frac{\ddot{u}}{b},
+\nabla \cdot ( a \nabla u) = \frac{1}{b} \frac{\partial^2 u}{\partial t^2} = \frac{\ddot{u}}{b},
 \label{eq:wave}
 \end{equation}
 gdzie przez $u(\vec{x},t)$ oznaczono skalarną amplitudę fali, $a=a(\vec{x})$ i~$b=b(\vec{x})$ są parametrami, które opisują ośrodek w~którym propaguje się fala. Dla tak sformułowanego równania, możemy zdefiniować wielkość $c=\sqrt{ab}$ mającą interpretację prędkości fazowej fali opisywanej powyższym równaniem. Równanie (\ref{eq:wave}) jest równaniem różniczkowym drugiego rzędu, które możemy zapisać w~postaci układu dwóch równań z~pierwszą pochodną poprzez wprowadzenie pola $\vec{v}(x,t)$:
@@ -22,14 +22,14 @@ Powyższe dwa równania, możemy zapisać  w~postaci równania wektorowego
 {u \choose \vec{v}} = \hat{D}\vec{w},
 \label{eq:gen-wave-eq}
 \end{equation}
-dla liniowego operatora $\hat{D}$ i~$\vec{w}=(u;\vec{v})$ ( dla $\vec{v}$ należącego do przestrzeni trójwymiarowej $\vec{w}$ jest czterowektorem). Kluczową własnością, która decyduje o~tym, że równanie~(\ref{eq:gen-wave-eq}) jest ,,równaniem falowym''  okazuje się być antyhermitowskość operatora $\hat{D}$\footnote{Macierz nazywamy antyhermitowską wtedy gdy spełnia warunek $A$=-$A^\dag$, gdzie przez $^\dag$ rozumiemy sprzężenie hermitowskie macierzy, równoważne dokonaniu transpozycji i~sprzężenia zespolonego wszystkich elementów macierzy.}. To właśnie z~tej własności wynikają oscylujące rozwiązania równania, oraz spełnienie prawa zachowania energii mające kluczowe znaczenie dla fizyki fal. Każde równanie falowe, zaczynając od równań skalarnych, przez równania Maxwella,  po równanie Schr\"{o}dingera i~równania Lam\'{e}-Naviera~(opisującego fale sprężyste w~ciałach stałych) może zostać przedstawione w~formie $ \frac{\partial  \vec{w}}{\partial t}=\hat{D}\vec{w}$, dla pewnej funkcji falowej $\vec{w}$ i~antyhermitowskiego operatora $\hat{D}$~\cite{johnson2007notes}. W niniejszej pracy skupiamy się na zastosowaniu PML w~elektromagnetyzmie, te same koncepcje mogą być jednak zastosowane do wszystkich wymienianych przypadków.
+dla liniowego operatora $\hat{D}$ i~$\vec{w}=(u;\vec{v})$ ( dla $\vec{v}$ należącego do przestrzeni trójwymiarowej $\vec{w}$ jest czterowektorem). Kluczową własnością, która decyduje o~tym, że równanie~(\ref{eq:gen-wave-eq}) jest równaniem falowym okazuje się być antyhermitowskość operatora $\hat{D}$\footnote{Macierz nazywamy antyhermitowską wtedy gdy spełnia warunek $A$=-$A^\dag$, gdzie przez $^\dag$ rozumiemy sprzężenie hermitowskie macierzy, równoważne dokonaniu transpozycji i~sprzężenia zespolonego wszystkich elementów macierzy.}. To właśnie z~tej własności wynikają oscylujące rozwiązania równania, oraz spełnienie prawa zachowania energii mające kluczowe znaczenie dla fizyki fal. Każde równanie falowe, zaczynając od równań skalarnych, przez równania Maxwella,  po równanie Schr\"{o}dingera i~równania Lam\'{e}-Naviera~(opisującego fale sprężyste w~ciałach stałych) może zostać przedstawione w~formie $ \frac{\partial  \vec{w}}{\partial t}=\hat{D}\vec{w}$, dla pewnej funkcji falowej $\vec{w}$ i~antyhermitowskiego operatora $\hat{D}$~\cite{johnson2007notes}. W niniejszej pracy skupiamy się na zastosowaniu PML w~elektromagnetyzmie, te same koncepcje mogą być jednak zastosowane do wszystkich wymienianych przypadków.
 
-Załóżmy, że $w(x,t)$ jest rozwiązaniem równania falowego w~nieograniczonej przestrzeni. Interesujące nas zjawiska zachodzą w~okolicy początku układu współrzędnych $x=0$, a obszar symulacji chcemy zakończyć tak, aby absorbował fale propagujące się. W szczególności skupimy się na zakończeniu obszaru symulacji dla dodatniej części osi $+x$ (rozważanie dla pozostałych kierunków jest analogiczne). Zakończenie obszaru symulacji przeprowadzimy w~czterech krokach:
+Załóżmy, że $w(x,t)$ jest rozwiązaniem równania falowego w~nieograniczonej przestrzeni. Interesujące nas zjawiska zachodzą w~okolicy początku układu współrzędnych $x=0$, a obszar symulacji chcemy zakończyć tak, aby absorbował fale propagujące się. W szczególności skupimy się na zakończeniu obszaru symulacji dla dodatniej części osi $x$ (rozważanie dla pozostałych kierunków jest analogiczne). Zakończenie obszaru symulacji przeprowadzimy w~czterech krokach:
 \begin{enumerate}
 	\item W nieskończonej przestrzeni wykonamy analityczne przedłużenie równania falowego i~rozwiązania do zespolonego konturu $\tilde{x}$.
 	\item Dla konturu $\tilde{x}$ nie będącego konturem czysto rzeczywistym, fale propagujące się poza interesującym nas obszarem zmieniane są na fale zanikające bez wprowadzenia odbicia.
 	\item W nieograniczonej przestrzeni wykorzystamy optykę transformacyjną,  tak aby wyrazić zespolony $\tilde{x}$ przez rzeczywiste położenie. W nowych współrzędnych otrzymamy rzeczywiste położenia i~materiały których własności są opisywane za pomocą liczb zespolonych.
-	\item Zakończymy obszar symulacji w~obliczonym na podstawie zamiany zmiennych materiale w~miejscu w~którym pole będzie na tyle stłumione, aby zastosowany warunek brzegowy nie miał znaczenia.
+	\item Zakończymy obszar symulacji w~obliczonym na podstawie zamiany zmiennych materiale w~miejscu, w~którym pole będzie na tyle stłumione, aby zastosowany warunek brzegowy nie miał znaczenia.
 \end{enumerate}
 
 Zakładamy dalej, że przestrzeń znajdująca się daleko od interesującego nas obszaru w~okolicach $x=0$, jest jednorodna, liniowa i~nie zmienia się w~zależności od czasu. Dzięki tym założeniom, fala propagująca się musi przyjmować formę superpozycji fal płaskich:
@@ -80,9 +80,9 @@ Dla lepszego zrozumienia koncepcji rozważmy teraz zamianę zmiennych dla obszar
         x+0.2x\mbox{ }i, & \mbox{dla } x>x_0 \\
 \end{cases}.
 \end{equation}
-Rozwiązanie zagadnienia propagacji po takim zespolonym konturze dla $x_0=5$ przedstawia wykres na rysunku \ref{fig:complex-contour}. Zauważymy, że dla obszaru w~którym do rzeczywistej części dodaliśmy liniowo rosnącą część urojoną uzyskujemy falę zanikającą. Ponieważ na wykresie \ref{fig:absorbing-region} rozwiązanie dla $x<x_0$ nie uległo zmianie, a w~obszarze $x>x_0$ obserwujemy fale zanikającą to przestrzeń dla $x>x_0$ wykazuje działanie nieodbijającej warstwy absorpcyjnej.
+Rozwiązanie zagadnienia propagacji po takim zespolonym konturze dla $x_0=5$ przedstawia wykres na rysunku \ref{fig:complex-contour}. Zauważymy, że dla obszaru, w~którym do rzeczywistej części dodaliśmy liniowo rosnącą część urojoną uzyskujemy falę zanikającą. Ponieważ na wykresie \ref{fig:absorbing-region} rozwiązanie dla $x<x_0$ nie uległo zmianie, a w~obszarze $x>x_0$ obserwujemy falę zanikającą to przestrzeń dla $x>x_0$ wykazuje działanie nieodbijającej warstwy absorpcyjnej.
 
-\subsection{Wykorzystanie zamiany zmienny}
+\subsection{Rozwiązanie problemu za pomocy zamiany zmiennych}
 
 Zgodnie z przedstawionym przykładem rozwinięcie analityczne możemy dla wygody obliczeniowej traktować równoważnie z~zamianą współrzędnych w~omawianym równaniu różniczkowym. Oznaczmy zespoloną zmienną $\tilde{x}(x)=x+if(x)$, traktując od tej pory $x$ zawsze jako rzeczywiste położenie. Taka zamiana współrzędnych wymaga od nas zamiany każdego różniczkowania po zdeformowanym konturze $\partial \tilde{x} = (1+i\frac{df}{dx}) \partial x$. Ponieważ założyliśmy, że nasze równanie różniczkowe jest niezależne od x (przynajmniej dla dużych x, gdzie $f(x)\ne0$; wynika to bezpośrednio z~założenia jednorodności liniowości i~niezależności od czasu) nie musimy uwzględniać żadnych dodatkowych wyrazów. Jak wykażemy w~kolejnych akapitach wygodnie jest wybrać $\frac{df}{dx}=\frac{\sigma_x}{\omega}$ i~ostatecznie zapisać wymaganą zamianę zmiennych jako:
 \begin{equation}
@@ -101,7 +101,7 @@ Warto zauważyć, że pojawiający się wykładnik potęgi $\frac{k}{\omega}$ dl
 \subsection{Wynik przeprowadzonej analizy}
 Zgodnie z~przedstawionym wyprowadzeniem możemy zastosować dowolnie mały obszar PML, ponieważ nie ma żadnego ograniczenia na wartości $\sigma_x$. W praktyce numerycznej, ze względu na zastosowaną dyskretyzację gwałtowne zmiany $\sigma_x$ prowadzą do powstania ,,odbić numerycznych''. Z tego powodu $\sigma_x$ zazwyczaj ma postać funkcji kwadratowej lub sześciennej narastającej od zera do wartości maksymalnej na obszarze większym od połowy długości fali promieniowania występującego w~symulacji~\cite{johnson2008notes}.
 
-W przypadku równań Maxwella każda zamiana współrzędnych może zostać wyrażona przez równania Maxwella we współrzędnych kartezjańskich ze zmienionymi materiałami~\cite{ward1996refraction}. Zamiana współrzędnych jest równoważna zmianie przenikalności elektrycznej $\varepsilon$ i~magnetycznej µ, w~ogólności na absorbujące ośrodki anizotropowe. 
+W przypadku równań Maxwella każda zamiana współrzędnych może zostać wyrażona przez równania Maxwella we współrzędnych kartezjańskich ze zmienionymi materiałami~\cite{ward1996refraction}. Zamiana współrzędnych jest równoważna zmianie przenikalności elektrycznej $\varepsilon$ i~magnetycznej µ, w~ogólności na absorbujące ośrodki anizotropowe. W dalszej części rozdziału zakładać będziemy, że warstwa PML jest usytuowana tak, że jej powierzchnia zewnętrzna jest prostopadła do osi $z$.
 
 W przypadku trójwymiarowych równań Maxwella dla ośrodka opisywanego za pomocą tensorów $\hat{\varepsilon}$ i~$\hat{\mu}$ 
 \begin{equation}

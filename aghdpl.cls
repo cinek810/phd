@@ -90,6 +90,9 @@
 \end{minipage}
 \end{flushright}
 
+
+
+
 \vfill{\Large Warszawa \@date}
 
 \end{center}
