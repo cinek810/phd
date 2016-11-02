@@ -324,14 +324,14 @@ J. Xu, C. Cheng, M. Kang, J. Chen, Z. Zheng, Y.-X. Fan, and H.-T. Wang,
   of anisotropic and nonlinear materials,'' Opt. Lett. {\bf 36,} 1905--1907
   [2011].
 
-\bibitem{jalas2013and}
-D. Jalas {\it et~al.}, ``What is and what is not an optical isolator,'' Nature
-  Photon. {\bf 7,} 579--582 [2013].
-
 \bibitem{Stolarek:13}
 M. Stolarek, D. Yavorskiy, R. Koty\'{n}ski, C. Zapata-Rodr\'{i}guez, J.
   {\L}usakowski, and T. Szoplik, ``Asymmetric transmission of terahertz
   radiation through a double grating,'' Opt. Lett. {\bf 38,} 839--841 [2013].
+
+\bibitem{jalas2013and}
+D. Jalas {\it et~al.}, ``What is and what is not an optical isolator,'' Nature
+  Photon. {\bf 7,} 579--582 [2013].
 
 \bibitem{stolarek2013broadband}
 M. Stolarek, D. Yavorskiy, R. Kotynski, C. Zapata~Rodriguez, J. Lusakowski, and
@@ -353,10 +353,21 @@ A. Pastuszczak, M. Stolarek, T. Antosiewicz, and R. Kotyński, ``Multilayer
   metamaterial absorbers inspired by perfectly matched layers,'' Opt. Quant.
   Electron. {\bf 47,} 89--97 [2015].
 
+\bibitem{poitras2004toward}
+D. Poitras and J. Dobrowolski, ``Toward perfect antireflection coatings. 2.
+  Theory,'' Appl. opt. {\bf 43,} 1286--1295 [2004].
+
+\bibitem{pochi1988optical}
+Y. Pochi, ``Optical waves in layered media,'' J. Wiley \& Sons  [1988].
+
 \bibitem{monacelli2005infrared}
 B. Monacelli, J.~B. Pryor, B.~A. Munk, D. Kotter, and G.~D. Boreman, ``Infrared
   frequency selective surface based on circuit-analog square loop design,''
   IEEE Trans. Antennas Propag. {\bf 53,} 745--752 [2005].
+
+\bibitem{us1952absorbent}
+and others, ``Absorbent body for electromagnetic waves,'', 1952, uS Patent
+  2,599,944.
 
 \bibitem{ramprecht2008scattering}
 J. Ramprecht, M. Norgren, and D. Sjoberg, ``Scattering from a thin magnetic
@@ -447,6 +458,20 @@ S.~A. Ramakrishna, J. Pendry, M. Wiltshire, and W. Stewart, ``Imaging the near
 J.~R. Devore, ``Refractive Indices of Rutile and Sphalerite,'' J. Opt. Soc. Am.
   {\bf 41,} 416--417 [1951].
 
+\bibitem{wood2006directed}
+B. Wood, J. Pendry, and D. Tsai, ``Directed subwavelength imaging using a
+  layered metal-dielectric system,'' Phys. Rev. B {\bf 74,} 115116 [2006].
+
+\bibitem{quan2006refraction}
+Q.~M. Quan, S.~L. Zhu, and R.~P. Wang, ``Refraction in the fixed direction at
+  the surface of dielectric/silver superlattice,'' Phys. Lett. A {\bf 359,}
+  547--549 [2006].
+
+\bibitem{kotynski2011sub}
+R. Koty{\'n}ski, T. Stefaniuk, and A. Pastuszczak, ``Sub-wavelength
+  diffraction-free imaging with low-loss metal-dielectric multilayers,'' Appl.
+  Phys. A {\bf 103,} 905--909 [2011].
+
 \bibitem{prism2010}
 M. Stolarek, A. Pastuszczak, J. Pniewski, and R. Kotyński, ``Sub-wavelength
   imaging using silver-dielectric metamaterial layered prism,'' Proc. SPIE {\bf
@@ -456,6 +481,11 @@ M. Stolarek, A. Pastuszczak, J. Pniewski, and R. Kotyński, ``Sub-wavelength
 Z. Junming, F. Yijun, Z. Bo, and J. Tian, ``Sub-wavelength image manipulating
   through compensated anisotropic metamaterial prisms,'' Opt. Express {\bf 16,}
   18057--18066 [2008].
+
+\bibitem{barros2016two}
+D. Barros and T. Dumelow, ``Two-prism crystal structures for far-field imaging
+  of subwavelength features at terahertz frequencies,'' J. Optics {\bf 18,}
+  085103 [2016].
 
 \bibitem{pastuszczak2011slanted}
 A. Pastuszczak, M. Stolarek, and R. Kotynski, ``Slanted layered superlenses for
