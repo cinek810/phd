@@ -31,45 +31,45 @@ Warning--I didn't find a database entry for "lockyear2006one"
 Warning--Warning: journal missing in entry yeh2006.
 Warning--Warning: journal missing in entry 4171512.
 Warning--Warning: series missing in entry stefaniuk2015perfectly.
-You've used 112 entries,
+You've used 113 entries,
             2048 wiz_defined-function locations,
-            1143 strings with 24217 characters,
-and the built_in function-call counts, 27071 in all, are:
-= -- 1218
-> -- 1629
+            1147 strings with 24320 characters,
+and the built_in function-call counts, 27215 in all, are:
+= -- 1219
+> -- 1635
 < -- 0
-+ -- 520
-- -- 401
-* -- 3022
-:= -- 3405
-add.period$ -- 112
-call.type$ -- 112
-change.case$ -- 3
++ -- 522
+- -- 402
+* -- 3032
+:= -- 3421
+add.period$ -- 113
+call.type$ -- 113
+change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 115
-duplicate$ -- 1102
-empty$ -- 2771
-format.name$ -- 513
-if$ -- 5757
+cite$ -- 116
+duplicate$ -- 1107
+empty$ -- 2799
+format.name$ -- 515
+if$ -- 5794
 int.to.chr$ -- 0
-int.to.str$ -- 112
+int.to.str$ -- 113
 missing$ -- 0
-newline$ -- 339
-num.names$ -- 112
-pop$ -- 551
+newline$ -- 342
+num.names$ -- 113
+pop$ -- 566
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1428
+skip$ -- 1432
 stack$ -- 0
-substring$ -- 2190
+substring$ -- 2192
 swap$ -- 629
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 90
 warning$ -- 3
-while$ -- 260
-width$ -- 115
-write$ -- 561
+while$ -- 261
+width$ -- 116
+write$ -- 565
 (There were 3 error messages)
