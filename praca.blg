@@ -27,49 +27,48 @@ Repeated entry---line 792 of file bibliografia.bib
  : @article{ward1996refraction
  :                            ,
 I'm skipping whatever remains of this entry
-Warning--I didn't find a database entry for "lockyear2006one"
 Warning--Warning: journal missing in entry yeh2006.
 Warning--Warning: journal missing in entry 4171512.
 Warning--Warning: series missing in entry stefaniuk2015perfectly.
-You've used 113 entries,
+You've used 114 entries,
             2048 wiz_defined-function locations,
-            1147 strings with 24320 characters,
-and the built_in function-call counts, 27215 in all, are:
-= -- 1219
-> -- 1635
+            1150 strings with 24434 characters,
+and the built_in function-call counts, 27449 in all, are:
+= -- 1227
+> -- 1651
 < -- 0
-+ -- 522
-- -- 402
-* -- 3032
-:= -- 3421
-add.period$ -- 113
-call.type$ -- 113
++ -- 527
+- -- 406
+* -- 3061
+:= -- 3452
+add.period$ -- 114
+call.type$ -- 114
 change.case$ -- 4
 chr.to.int$ -- 0
-cite$ -- 116
-duplicate$ -- 1107
-empty$ -- 2799
-format.name$ -- 515
-if$ -- 5794
+cite$ -- 117
+duplicate$ -- 1117
+empty$ -- 2822
+format.name$ -- 520
+if$ -- 5842
 int.to.chr$ -- 0
-int.to.str$ -- 113
+int.to.str$ -- 114
 missing$ -- 0
-newline$ -- 342
-num.names$ -- 113
-pop$ -- 566
+newline$ -- 345
+num.names$ -- 114
+pop$ -- 570
 preamble$ -- 1
 purify$ -- 0
 quote$ -- 0
-skip$ -- 1432
+skip$ -- 1443
 stack$ -- 0
-substring$ -- 2192
-swap$ -- 629
+substring$ -- 2210
+swap$ -- 635
 text.length$ -- 0
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 90
 warning$ -- 3
-while$ -- 261
-width$ -- 116
-write$ -- 565
+while$ -- 263
+width$ -- 117
+write$ -- 570
 (There were 3 error messages)
