@@ -56,6 +56,23 @@ z którego wynika, że omawiany układ może wykazywać jednie -1,~0~i~+1 rząd 
 
  W innym ujęciu, strukturę typu DMG można analizować jako układ falowodów metal-dielektryk-metal, o~rozmiarach podfalowych ( $a_1,a_2,a_3 < \lambda$), dlatego wzbudzany może być w~nich jedynie mod podstawowy w~polaryzacji TM. Promieniowanie o~polaryzacji TE jest w~pełni odbijane przez omawiany układ. Dla $h_1=h_0$ i $a_3 \to 0$ struktura przypomina siatkę omawianą w~podrozdziale \ref{subart:rezo-grating} przedstawioną na rysunku \ref{fig:rezo-siat-H}. W przypadku $a_3 \ne 0$ możliwe jest dodatkowe sprzęganie pomiędzy falowodami poprzez falowód powstający pomiędzy siatkami dyfrakcyjnymi. Różnica w~fazie składowych pola E-M dochodzącego do otworów w~siatce o~okresie $\Lambda_1$ w~przypadku oświetlenia prostopadłego od strony siatki o~okresie $\Lambda_2$ w~omawianym przypadku wynosi $\pi$, w~wyniku czego współczynnik transmisji dla takiej sytuacji jest bliski~0. Rozkład gęstości energii odpowiadający oświetleniu układu od strony siatki o~okresie $\Lambda_2$ przedstawia rysunek \ref{fig:trans_dol}.
 
+
+\begin{figure}
+	\begin{subfigure}{0.5\textwidth}
+		\includegraphics[width=\textwidth]{images/thz/exp-schem.png}
+		\caption{}
+	\end{subfigure}
+	\begin{subfigure}{0.5\textwidth}
+		\centering
+		\includegraphics[width=\textwidth]{images/thz/opt-lett-exp.png}
+		\caption{}
+	\end{subfigure}
+	\caption{(a)~Schemat układu eksperymentalnego: S - dioda Gunna, Ch - chopper, L1/L2 - soczewki z PTFE, D - detektor, F- struktura DMG. (b)~Wyniki pomiaru natężenia transmitowanego przez strukturę DMG w funkcji kąta transmitowanego przez strukturę DMG w obu kierunkach \cite{Stolarek:13}.}
+	\label{fig:thz-eksp}
+\end{figure}
+
+Rysunek \ref{fig:thz-eksp}a przedstawia schemat układu eksperymentalnego skonstruowanego dla weryfikacj przewidywań numerycznych. Pomiary wykonano w zakresie częstotliwości 0.095-0.110 THz w temperaturze pokojowej, wyniki eksperymentalne dla częstotliwości 0.1THz przedstawia wykres na rysunku \ref{fig:thz-eksp}b. Wykorzystano siatkę DMG ma o rozmiarze 42x42mm, oraz wiązkę promieniowania o szerokości połówkowej 2cm. Rezultaty eksperymentu są zgodne z wynikami symulacji FDTD, transmisja obserwowana jest jedynie w $\pm$1 rzędzie ugięcia~\cite{Stolarek:13}. 
+
 W wyniku optymalizacji numerycznej parametrów struktury, prowadzonej za pomocą serii symulacji metodą FDTD, w~których parametry struktury podlegały ewolucji na bazie algorytmu genetycznego, uzyskano dla szerokiego zakresu długości fali znaczącą różnicę współczynników transmisji dla oświetlenia z~różnych stron DMG~\cite{Stolarek:13}. Zależność współczynnika transmisji przez DMG w~przeciwnych kierunkach od długości fali przedstawia wykres na rysunku \ref{fig:trans_freq}. Dalsze symulacje numeryczne wykazały, że możliwa jest niezależna zmiana otworów w~obu siatkach bez utraty transmisji jednokierunkowej w~celu poprawy kontrastu standardowo wyrażanego wzorem
 \begin{equation}
 C=\frac{|T_1 - T_2|}{T_1+T_2},
