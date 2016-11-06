@@ -4,7 +4,7 @@
 	\label{fig:pml-multilay-schem}
 \end{figure}
 
-\subsection{Analityczne sformuowanie problemu}
+\subsection{Analityczne sformułowanie problemu}
 Porównując ogólną postać PML podaną w~równaniu (\ref{eq:general-pml-form}) z~modelem ośrodka efektywnego przedstawionym w~podrozdziale \ref{subart:effmedium}, można zaproponować przybliżenie ośrodka typu PML za pomocą struktury warstwowej o~odpowiednich właściwościach efektywnych~\cite{ania2015}. Schematycznie taką wielowarstwę przedstawia rysunek \ref{fig:pml-multilay-schem}. W~szczególności, dla uproszczenia analizy, skupimy się na polaryzacji TM, dla której istotnymi składowymi tensorów opisujących własności materiałowe są:~$\varepsilon_x$~,$\mu_y$~i $\varepsilon_z$. Ze względu na ograniczenia używanego modelu ośrodka efektywnego, zgodnie ze schematem na rysunku \ref{fig:pml-multilay-schem} otrzymujemy $\varepsilon_x=\varepsilon_y$ oraz $\mu_x=\mu_y$. Ponownie odwołując się do granicy między ośrodkami na rysunku \ref{fig:pml-multilay-schem}a, otrzymujemy warunki, dla których wielowarstwa złożona z~materiałów $w1$ i~$w2$ schematycznie przedstawiona na rysunku \ref{fig:pml-multilay-schem}b, będzie efektywnie spełniać rolę PML pod warunkiem spełnienia następujących równości:
 \begin{equation}
 	f\cdot \varepsilon_{w1} + (1-f)\cdot \varepsilon_{w2} = s \cdot \varepsilon_1,
