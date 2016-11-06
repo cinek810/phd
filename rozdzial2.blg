@@ -3,9 +3,9 @@ Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
 The top-level auxiliary file: rozdzial2.aux
 I found no \bibdata command---while reading file rozdzial2.aux
 I found no \bibstyle command---while reading file rozdzial2.aux
-You've used 29 entries,
+You've used 28 entries,
             0 wiz_defined-function locations,
-            117 strings with 1023 characters,
+            116 strings with 1016 characters,
 and the built_in function-call counts, 0 in all, are:
 = -- 0
 > -- 0

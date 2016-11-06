@@ -146,7 +146,7 @@ K. {Yee}, ``{Numerical solution of inital boundary value problems involving
 \bibitem{understanding-fdtd}
 J.~B. Schneider, ``Understanding the finite-difference time-domain method,''
   School of electrical engineering and computer science Washington State
-  University \url{http://www.eecs.wsu.edu/~schneidj/ufdtd/}(request data:
+  University \url{http://www.eecs.wsu.edu/~schneidj/ufdtd/}(data pobrania:
   29.11. 2012)  [2010].
 
 \bibitem{1994JCoPh.114..185B}
@@ -183,7 +183,7 @@ A.~F. Oskooi, D. Roundy, M. Ibanescu, P. Bermel, J.~D. Joannopoulos, and S.~G.
 J. Goodman, ``Introduction to Fourier optics,'' McGraw-Hill  [2004].
 
 \bibitem{griffiths1999introduction}
-D.~J. Griffiths and R. College, {\em Introduction to electrodynamics} (prentice
+D.~J. Griffiths and R. College, {\em Introduction to electrodynamics} (Prentice
   Hall Upper Saddle River, NJ, 1999), Vol.~3.
 
 \bibitem{sihvola1999electromagnetic}
@@ -219,16 +219,15 @@ C. D{\'\i}az-Avi{\~n}{\'o}, D. Pastor, C.~J. Zapata-Rodr{\'\i}guez, M.
 
 \bibitem{wiki:amdhal}
 Wikipedia, ``Prawo Amdahla --- {W}ikipedia{,} The Free Encyclopedia,'', 2004,
-  [Online; accessed 05-11-2016].
+  [data pobrania 05-11-2016].
 
 \bibitem{zhang2010introduction}
 X.-C. Zhang and J. Xu, {\em Introduction to THz wave photonics} (Springer,
   2010), Vol.~29.
 
 \bibitem{lee2009principles}
-Y.-S. Lee, {\em Principles of Terahertz Science and Technology: Proceedings of
-  the International Conference, Held in Mainz, Germany, June 5-9, 1979}
-  (Springer Science \& Business Media, 2009), Vol.~170.
+Y.-S. Lee, {\em Principles of Terahertz Science and Technology} (Springer
+  Science \& Business Media, 2009).
 
 \bibitem{Hagemann:75}
 H.-J. Hagemann, W. Gudat, and C. Kunz, ``Optical constants from the far
@@ -280,9 +279,8 @@ K.~K. Koerkamp, S. Enoch, F. Segerink, N. Van~Hulst, and L. Kuipers, ``Strong
   of subwavelength holes,'' Phys. Rev. Lett. {\bf 92,} 183901 [2004].
 
 \bibitem{Szczytko2012271}
-J. Szczytko, M. Stolarek, B. Pietka, and e.~a. Łusakowski, J., ``Terahertz
-  properties of metallic layers and grids,'' Proc. of MIKON {\bf 1,} 271--275
-  [2012].
+J. Szczytko, M. Stolarek, B. Pietka, and J. Łusakowski, ``Terahertz properties
+  of metallic layers and grids,'' Proc. of MIKON {\bf 1,} 271--275 [2012].
 
 \bibitem{roux2002grating}
 J.-F. Roux, F. Aquistapace, F. Garet, L. Duvillaret, and J.-L. Coutaz,
@@ -298,9 +296,9 @@ M. Stolarek, A. Pastuszczak, and R. Kotyński, ``Numerical analysis of
   transmission through a sub-wavelength metallic aperture or grating at visible
   and Terahertz wavelengths,'' Proc. of ICTON  [2011].
 
-\bibitem{4171512}
-D. Jalas {\it et~al.}, ``What is and what is not an optical isolator,''  {\bf
-  7,} 579--582 [2013].
+\bibitem{jalas2013and}
+D. Jalas {\it et~al.}, ``What is and what is not an optical isolator,'' Nature
+  Photon. {\bf 7,} 579--582 [2013].
 
 \bibitem{lockyear2006one}
 M.~J. Lockyear, A.~P. Hibbins, K.~R. White, and J.~R. Sambles, ``One-way
@@ -336,10 +334,6 @@ J. Xu, C. Cheng, M. Kang, J. Chen, Z. Zheng, Y.-X. Fan, and H.-T. Wang,
 M. Stolarek, D. Yavorskiy, R. Koty\'{n}ski, C. Zapata-Rodr\'{i}guez, J.
   {\L}usakowski, and T. Szoplik, ``Asymmetric transmission of terahertz
   radiation through a double grating,'' Opt. Lett. {\bf 38,} 839--841 [2013].
-
-\bibitem{jalas2013and}
-D. Jalas {\it et~al.}, ``What is and what is not an optical isolator,'' Nature
-  Photon. {\bf 7,} 579--582 [2013].
 
 \bibitem{stolarek2013broadband}
 M. Stolarek, D. Yavorskiy, R. Kotynski, C. Zapata~Rodriguez, J. Lusakowski, and
@@ -380,8 +374,8 @@ B. Monacelli, J.~B. Pryor, B.~A. Munk, D. Kotter, and G.~D. Boreman, ``Infrared
   IEEE Trans. Antennas Propag. {\bf 53,} 745--752 [2005].
 
 \bibitem{us1952absorbent}
-and others, ``Absorbent body for electromagnetic waves,'', 1952, uS Patent
-  2,599,944.
+W.~W. Salisbury, ``Absorbent body for electromagnetic waves,'', 1952, {US}
+  Patent 2,599,944.
 
 \bibitem{ramprecht2008scattering}
 J. Ramprecht, M. Norgren, and D. Sjoberg, ``Scattering from a thin magnetic
@@ -398,7 +392,7 @@ K. Mizuno, J. Ishii, H. Kishida, Y. Hayamizu, S. Yasuda, D.~N. Futaba, M.
   single-walled carbon nanotubes,'' PNAS {\bf 106,} 6044--6047 [2009].
 
 \bibitem{guo2014impact}
-S.-h. Guo, A.~B. Sushkov, D.~H. Park, H.~D. Drew, P.~W. Kolb, W.~N. Herman, and
+S. Guo, A.~B. Sushkov, D.~H. Park, H.~D. Drew, P.~W. Kolb, W.~N. Herman, and
   R.~J. Phaneuf, ``Impact of interface roughness on the performance of
   broadband blackbody absorber based on dielectric-metal film multilayers,''
   Opt. Express {\bf 22,} 1952--1962 [2014].
