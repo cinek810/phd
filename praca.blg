@@ -33,7 +33,7 @@ while executing--line 1018 of file osa.bst
 Warning--Warning: series missing in entry stefaniuk2015perfectly.
 You've used 114 entries,
             2048 wiz_defined-function locations,
-            1150 strings with 24296 characters,
+            1151 strings with 24302 characters,
 and the built_in function-call counts, 27447 in all, are:
 = -- 1227
 > -- 1657
