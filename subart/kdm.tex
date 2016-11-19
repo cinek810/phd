@@ -6,7 +6,7 @@ Większość symulacji numerycznych wykonanych przez autora pracy, w szczególno
 \end{equation}
 gdzie przez $S$ oznaczono całkowite przyspieszenie obliczeń, $P$ to część obliczeń która może zostać zrównoleglona, a $s$ to możliwe przyspieszenie części $P$ w wyniku zrównoleglenia. Przykładowe wartości przyspieszenia symulacji przy wykorzystaniu większej liczby rdzeni obliczeniowych prezentuje wykres na rysunku~\ref{fig:amdhal}.
 
-\begin{figure}[h]
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/amdahl.png}
 	\caption{Możliwe przyspieszenie symulacji zgodnie z (\ref{eq:amdahl}), przy zerowym koszcie zrównoleglenia ($s$ równe liczbie używanych rdzeni) dla różnych wartości $P$~\cite{wiki:amdhal}. Liczbę wykorzystywanych rdzeni przy której następuje wypłaszczenie prezentowanych krzywych określa się zwykle mianem granicy skalowalności.}
 	\label{fig:amdhal}

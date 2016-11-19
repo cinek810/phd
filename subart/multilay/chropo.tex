@@ -6,12 +6,12 @@ Podstawowym parametrem wykorzystywanym do opisu chropowatości jest średnia kwa
 \end{equation}
 gdzie $x_i$ są kolejnymi zmierzonymi grubościami, $x_0$ grubością średnią, a $n$ odpowiada liczbie punktów, w~których wykonano pomiar. Różnice uzyskanej w~stosunku do projektowanej grubości warstwy w~blisko położonych punktach nie są zmiennymi losowymi niezależnymi, dlatego do pełnego opisu topologii powierzchni niezbędne jest wykorzystanie funkcji autokorelacji~\cite{stefaniuk2011effect}. Na podstawie pomiarów mikroskopem sił atomowych (ang.~AFM - atomic force microscope) można stwierdzić, że RMS chropowatości powierzchni podlega statystyce gaussowskiej. Histogram wyników uzyskanych za pomocą pomiarów AFM przedstawia wykres~\ref{fig:ag30nm-afmhist}. Dwuwymiarowy skan uzyskany w~pomiarach przedstawia rysunek~\ref{fig:ag30nm-afmmeasure}.
 
-\begin{figure}[bt]
+\begin{figure}[htb]
 		\includegraphics[width=\textwidth]{images/multilayer/ag30nm-afm-measure-histA.png}
 		\caption{Histogram odchyleń od średniej grubości dla warstwy $30$~nm napylonej przy pomocy PVD zmierzonych za pomocą AFM} 		\label{fig:ag30nm-afmhist}
 \end{figure}
 
-\begin{figure}[bt]
+\begin{figure}[htb]
 		\includegraphics[width=\textwidth]{images/multilayer/ag30nm-afm-measure.png}
 		\caption{Pomiary grubości na powierzchni napylonej warstwy $30$~nm srebra za pomocą AFM. Pomiary wykonał dr~Tomasz~Stefaniuk.} 
 		\label{fig:ag30nm-afmmeasure}
@@ -30,7 +30,7 @@ Efektywne współczynniki przenikalności elektrycznej uzyskiwane za pomocą wzo
 
 Nierówność warstw może mieć pozytywny wpływ na niektóre parametry opisujące zdolności obrazujące wielowarstwy. Uwzględnienie chropowatości może zwiększyć współczynnik transmisji przez granicę dwóch ośrodków poprzez skrócenie zasięgu propagacji plazmonów powierzchniowych w~przypadku przypadkowej chropowatości oraz dodatkowe wzmocnienie fal ewanescentnych za pomocą sinusoidalnej chropowatości o~okresie podfalowym~\cite{huang2012subwavelength}. Przykład układu dla którego wprowadzenie chropowatości zwiększa współczynnik transmisji dla wąskiego zakresu długości fal, przedstawia rozkład pola elektromagnetycznego na rysunku \ref{fig:plp-chropo-fdtd}~a~-~b. W ogólności jednak wzrost chropowatości powierzchni zmniejsza współczynnik transmisji przez strukturę warstwową, co możemy zaobserwować po zmianie długości fali oświetlającej soczewkę na rozkładach pola na rysunkach \ref{fig:plp-chropo-fdtd}~c~i~d. 
 
-\begin{figure}[bt]
+\begin{figure}[htb]
 		\includegraphics[width=\textwidth]{images/multilayer/ag30nm-afm-generated.png}
 		\caption{Wizualizacja powierzchni chropowatej wygenerowanej na podstawie pomiarów AFM. Generowana dwuwymiarowa macierz losowa podlegające rozkładowi normalnemu o~widmowej gęstości mocy odpowiadającej wynikom pomiarów za pomocą AFM.} 
 		\label{fig:ag30nm-afmgene}
@@ -43,7 +43,7 @@ Zmiana właściwości materiałów, z~których zbudowana jest wielowarstwa, na c
 
 Należy zwrócić uwagę, że na skutek chropowatości współczynnik $\varepsilon_z$ zostaje zmniejszony w~okolicach rezonansu~\cite{guo2014negative} (dla idealnej supersoczewki $\varepsilon_{z} \to - \infty$), co powoduje, że możliwa jest efektywna transmisja wyższych częstości przestrzennych, a co za tym idzie zwiększenie zdolności rozdzielczej układu. Własności obrazujące, które są optymalne przy płaskim kształcie OTF zostają jednocześnie zaburzone, a ich zachowanie możliwe jest poprzez użycie materiałów o~większym współczynniku absorpcji. Na podstawie takiego rozważania Zhen Guo i~in.~\cite{guo2014negative} wnioskują, że chropowatość w~zasadniczy sposób pogarsza zdolności obrazujące supersoczewki. Zdolność rozdzielcza jest natomiast determinowana poprzez stratność użytych materiałów.
 
-\begin{figure}
+\begin{figure}[htb]
 	\centering
 	\begin{subfigure}[b]{.45\textwidth}
 		\includegraphics[width=\textwidth]{images/multilayer/oer-rms01.png}
@@ -66,11 +66,11 @@ Niezależnie od zastosowanej metodyki symulacji pola elektromagnetycznego i~gene
 
 
 %%%%%%%%Obrazki z~publikacji w~PLP - wyniki pomoarow afm w~1d i~2d
-%%%%%%%%\begin{figure}
+%%%%%%%%\begin{figure}[htb]
 %%%%%%%%		\includegraphics[width=\textwidth]{images/multilayer/plp-afm-chropo-1d.png}\\
 %%%%%%%%\end{figure}
 
-%%%%%%%%\begin{figure}
+%%%%%%%%\begin{figure}[htb]
 %%%%%%%%		\includegraphics[width=\textwidth]{images/multilayer/plp-afm-chropo.png}\\
 %%%%%%%%\end{figure}
 

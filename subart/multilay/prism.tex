@@ -2,14 +2,14 @@ Możliwość konstruowania układów warstwowych charakteryzujących się propag
 
 Można oczekiwać, że taki element pozwoli uzyskać~ obraz obiektów o~rozmiarze podfalowym powiększony do rozmiarów umożliwiających obserwację za pomocą tradycyjnych mikroskopów. Możliwe jest również wykorzystanie pryzmatu do zmniejszenia obrazu, dzięki czemu maska o~rozmiarach większych od długości fali może potencjalnie posłużyć do wykonania litografii o~rozmiarach podfalowych.
 
-			\begin{figure}[tbH]
+			\begin{figure}[htb]
 				\includegraphics[width=0.8\textwidth]{images/multilayer/prism.png}
 				\caption{Schemat pryzmatu zbudowanego z~metamateriału mogącego charakteryzować się kierunkową (prostopadłą do granicy warstw) propagacją fali elektromagnetycznej. Strzałkami schematycznie przedstawiono kierunek propagacji fali E-M.}
 				\label{fig:prism-schema}
 			\end{figure}
 
 
-\begin{figure}[btH]
+\begin{figure}[htb]
 	\centering
 			\begin{subfigure}{0.45\textwidth}
 				\includegraphics[width=\textwidth]{images/multilayer/prism04.png} \\
@@ -30,7 +30,7 @@ Wykorzystując dwa pryzmaty charakteryzujące się kierunkową propagacją świa
 
 Ze względu na propagację światła wewnątrz MDM w~określonym kierunku, do projektowania układów, których elementy złożone są z~omawianych ściętych wielowarstw metaliczno dielektrycznych wykorzystać można algorytm przypominający śledzenie promieni~(ang. ray tracing). Kierunek promieni w~wiązce wewnątrz wielowarstwy jest wymuszony  przez silnie anizotropową efektywną przenikalność elektryczną wielowarstwy, natomiast w~przestrzeni swobodnej możemy o~nim wnioskować na podstawie klasycznych praw dyfrakcji~\cite{pastuszczak2011slanted}. Przykład wykorzystania śledzenia promieni do wstępnego określenia zachowania światła w strukturze złożonej kawałkami z metamateriałów warstwowych przedstawia rys. \ref{fig:raytrace}.
 
-\begin{figure}
+\begin{figure}[htb]
 	\centering
 	\begin{subfigure}{.45\textwidth}
 		\includegraphics[width=\textwidth]{images/multilayer/prism-ray-tracing1.png}

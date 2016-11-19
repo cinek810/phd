@@ -25,7 +25,7 @@ Z powyższych równań możemy wyznaczyć skalarny układ równań różniczkowy
 \varepsilon \frac{\partial E_z}{\partial t}=\frac{\partial H_y}{\partial x},
 \end{equation} w~którym zmiana w~czasie amplitudy jednego z~pól wyrażona jest przez pochodną względem $x$ drugiego pola. Równanie wyprowadzone z~(\ref{eq:fdtd-faraday}) posłuży nam do wyznaczenia zmiany w~czasie natężenia pola magnetycznego, natomiast równanie~(\ref{eq:fdtd-amper}) do obliczenia przyszłych (w czasie $t_0 + \Delta_t$) wartości pola $E$.
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 \includegraphics[width=.9\textwidth]{subart/fdtd/leapfrog.png}
 \caption{Graficzna prezentacja dyskretyzacji w~jednowymiarowej metodzie FDTD. Pozioma przerywana linia wskazuje przykładową granicę pomiędzy wartościami już obliczonymi i~szukanymi w~kolejnym kroku symulacji. }
 \label{pic:leapfrog}
@@ -64,7 +64,7 @@ Wygodniejszym rozwiązaniem pozwalającym na skończonej siatce modelować zjawi
 Zmianę podejścia do realizacji symulacji numerycznych dotyczących zjawisk w~nieograniczonej przestrzeni zaproponował Jean-Pierre B\'{e}renger~\cite{1994JCoPh.114..185B}. Zamiast konstruowania odpowiedniego warunku brzegowego zaproponował on wprowadzenie nieodbijającej warstwy absorpcyjnej, określanej jako PML~(ang.~perfectly matched layer), przylegającej do granicy obszaru symulacji. Dzięki zastosowaniu takiej warstwy, za nią możemy użyć np.~warunków Dirichleta, ponieważ po przejściu przez warstwę PML natężenie pola E-M będzie na tyle słabe, że fala odbita od brzegu nie będzie miała wpływu na wynik symulacji. Warstwa PML tworzona jest ze sztucznego materiału, którego własności zostały wyprowadzone przez podział rozwiązania równania falowego,  stąd stosowana angielska nazwa {\it split-field} PML.\footnote{Orginalne wyprowadzenie podane przez B\'{e}rengera dotyczyło rozwiązywania równań Maxwella. To samo podejście zostało jednak bezpośrednio przełożone na modelowanie innych zjawisk opisywanych równaniem falowym.}.  Wyprowadzenie podane przez B\'{e}rengera  wymagało również wprowadzenia do równań Maxwella przewodnictwa magnetycznego, które było niezerowe jedynie w~niefizycznym obszarze PML.
 
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\centering
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{images/wstep/SUM-nopml-energy.png}
@@ -112,7 +112,7 @@ W przypadku symulacji dotyczącej struktury o~symetrii cylindrycznej możliwe je
 
 W powyższym wzorze $m$ jest liczbą numerującą azymutalne mody pola E-M. Dla określonego modu prowadzenie symulacji wymaga jedynie aktualizowania wartości $e_u$,$e_v$,$h_u$~i~$h_v$, które są funkcjami jedynie dwóch zmiennych przestrzennych. Jeżeli rozkład pola na początku symulacji oraz pól generowanych przez źródła znajdujące się w~obszarze symulacji można rozłożyć na skończoną liczbę elementów sum ze wzorów (\ref{eq:bor-fields}), to rozwiązując kilka problemów dwuwymiarowych, a następnie stosując zasadę superpozycji, możemy znaleźć rozwiązanie problemu trójwymiarowego. Otrzymujemy zatem metodę o~dużo mniejszej złożoności obliczeniowej i~mniejszych wymaganiach pamięciowych\footnote{Liczba punktów w~symulacji dwuwymiarowej jest kwadratową funkcją rozdzielczości, a w~przypadku obliczeń w~trzech wymiarach sześcienną.}.
 
-\begin{figure}
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{subart/fdtd/R5_TFSF.png}
 	\caption{Przykład dyskretyzacji wykorzystywanej do rozwiązywania równań różniczkowych metodą BOR-FDTD \cite{antosiewicz2009wplyw}}
 	\label{fig:bor-dysk}

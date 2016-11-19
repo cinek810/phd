@@ -27,6 +27,14 @@
 \usepackage{nomencl}
 \makenomenclature
 
+
+\usepackage{titlesec}
+\newcommand*{\justifyheading}{\raggedleft}
+\titleformat{\chapter}[display]
+  {\normalfont\huge\bfseries\justifyheading}{\chaptertitlename\ \thechapter}
+  {20pt}{\Huge}
+
+
 % dodatkowe pakiety
 \usepackage{enumerate}
 \usepackage{listings}

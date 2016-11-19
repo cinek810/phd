@@ -1,4 +1,4 @@
-\begin{figure}
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/dmg/express_siatki.png}
 	\caption{Schemat DMG w~konfiguracji cylindrycznej uzyskiwanej przez złożenie wielu przesłon o~grubości $\frac{\lambda}{30}$ \cite{Yavorskiy:14}}
 	\label{fig:schem-cyl}
@@ -10,7 +10,7 @@ W omawianej wcześniej geometrii planarnej za siatką obserwowaliśmy obszary ko
 
 
 W celu eksperymentalnej realizacji jednokierunkowej soczewki dyfrakcyjnej dla promieniowania THz, zaprojektowane zostały przesłony o~grubości $\frac{\lambda}{30}=0.1$~mm, układane w~stos jak na rysunku \ref{fig:schem-cyl}. Zostały one wykorzystane do budowy cylindrycznej wersji struktury typu DMG~\cite{Yavorskiy:14}. 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\begin{subfigure}{\textwidth}
 		\includegraphics[width=\textwidth]{images/dmg/express-high-kontrast-trans.png}
 		\caption{}
@@ -28,7 +28,7 @@ Układ poddany później weryfikacji doświadczalnej i~obliczeniowej składał s
 
 Taka struktura oświetlona została falą o~polaryzacji radialnej o~profilu amplitudy opisanym za pomocą funkcji supergaussowskiej $A \propto \textrm{exp}\{\frac{-(r-R_0)}{2\sigma^2}\}^{10}$, będącej numerycznym odpowiednikiem fali płaskiej we współrzędnych cylindrycznych\footnote{Rozumiemy przez to, że wiązka supergaussowska we współrzędnej radialnej $r$~zawiera znacznej szerokości płaski front falowy o~jednorodnym natężeniu.}. Rozkład gęstości energii odpowiadający opisanej symulacji przedstawia rysunek \ref{fig:cyl-gest-ene}. Na podstawie symulacji FDTD z~impulsem gaussowskim wyznaczono współczynnik kontrastu struktury (\ref{eq:contrast}) równy $C=99.8\%$~\cite{Yavorskiy:14}. Ponieważ metal tworzący podwójną siatkę metalową opisywany jest w~symulacji jako doskonały przewodnik, wykonane obliczenia są, w~granicach stosowalności tego przybliżenia, skalowalne z~długością fali.
 
-\begin{figure}
+\begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.5\textwidth]{images/thz/exp-express-schem.png}
 	\caption{Schemat wykorzystywanego układu eksperymentalnego. S – dioda Gunna emitująca promieniowanie E-M o częstotliwości 0.1 THz, C – przerywacz~(chopper), PM – zwierciadło paraboliczne, ITO – zwierciadło z ITO, DPE– stopień przesuwający fazę w połowie przekroju wiązki wykonany z PTFE, TW- falowód o stożkowych zakończeniach, F- soczewka dyfrakcyjna oparta na strukturze DMG, GC – detektor (komórka Golay'a) na stoliku przesuwnym xyz~\cite{Yavorskiy:14}.}
@@ -39,7 +39,7 @@ Schemat układu eksperymentalnego wykorzystywanego do eksperymentalnej weryfikac
 
 Porównanie wyników eksperymentalnych z przewidywaniami numerycznymi prezentują rozkłady natężenia pola E-M przedstawione na rysunku \ref{fig:eksp-por}. Bardzo wysokie straty natężenia promieniowania THz w układzie zamieniającym polaryzację liniową na radialną skutkowały uzyskaniem niskiego stosunku sygnału do szumu w pomiarze profilu natężenia wiązki. Tym niemniej, wyniki doświadczalne są jakościowo zgodne z teoretycznymi i~stanowią potwierdzenie jednokierunkowego działania soczewki dyfrakcyjnej.
 
-\begin{figure}
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/thz/exp-express.png}
 	\caption{Przekroje natężenia wiązki w odległości (a) 80 mm i (b) 110 mm od soczewki uzyskane dla kierunku przepuszczającego (z lewej strony) oraz blokującego (z prawej strony). Rysunki w górnym rzędzie prezentują wyniki symulacji uzyskanych metodą BOR-FDTD, dolne zostały uzyskane eksperymentalnie. Odległości na rysnukach oznaczono w mm. Natężenie przedstawiono w jednostkach umownych~\cite{Yavorskiy:14}.}
 	\label{fig:eksp-por}

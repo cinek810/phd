@@ -1,4 +1,4 @@
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/pml/oqe_schemat.png}
 	\caption{Schematyczne przedstawienie analizowanej struktury warstwowej i~przybliżanego za pomocą modelu ośrodka efektywnego ośrodka PML}
 	\label{fig:pml-multilay-schem}
@@ -36,7 +36,7 @@ gdzie
 	\label{eq:te-rho}
 \end{equation}
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/pml/oqe_materials.png}
 	\caption{Zależność przenikalności elektrycznej materiałów tworzących UPML (w lewej kolumnie $\varepsilon_{w1}$, w~prawej $\varepsilon_{w2}$) w~funkcji współczynnika wypełnienia i~urojonej części parametru $s$ (założono, że $\textrm{Re}(s)$=1. Górny wiersz na wykresach (a) i~(b) prezentuje zależności części rzeczywistych, dolny na wykresach (c) i~(d) części urojonych przenikalności elektrycznych. Ujemne wartości $\varepsilon$ na wykresach (c) i~(d) odpowiadają materiałom ze wzmocnieniem optycznym~\cite{ania2015}. }
 	\label{fig:upml-eps-s-f}
@@ -48,7 +48,7 @@ W kolejnym kroku możemy obliczyć natężeniowy współczynnik odbicia od struk
 
 Wynika to ze zwiększania grubości warstwy pochłaniającej, więc jest przede wszystkim związane ze zmniejszeniem transmisji przez wielowarstwę, a nie zmianą odbicia od pierwszej granicy warstw. W przypadku fal ewanescentnych $\frac{k_x}{k_0}>1$ obserwujemy wzrost współczynnika odbicia. Można to interpretować jako zwiększenie odbicia od pierwszej warstwy wynikające z~niespełnienia warunków homogenizacji (przybliżenie ośrodka efektywnego zakłada $\frac{a}{\lambda} <<$ 1) przez strukturę. Dlatego wzrost jest większy dla większej części urojonej współczynnika $s$, skutkującej większą różnicą współczynników załamania na granicy pierwszej warstwy i~powietrza.
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/pml/fig3.png}
 	\caption{Zależność natężeniowego współczynnika odbicia od kąta padania i~okresu wielowarstwy dla struktury zgodniej ze schematem na rysunku \ref{fig:pml-multilay-schem}, dla $N=5$ par warstw, przy współczynniku wypełnienia $f=0.6$. Rysunek po lewej (a) przedstawia wyniki dla $s=1+0.5i$, wykres po prawej(b) przedstawia wyniki dla $s=1+5i$. Przez $a$ oznaczono rozmiar komórki elementarnej wielowarstwy~\cite{ania2015}.}
 	\label{fig:oqe3}
@@ -68,7 +68,7 @@ W przypadku oświetlenia wielowarstwy za pomocą fali o~polaryzacji TM, jeden ze
 
 W przypadku przygotowania eksperymentu, a nie np. wykorzystania do konstrukcji PML w~symulacjach  numerycznych, należy zaniedbać nie tylko własności magnetyczne materiałów $\mu=1$, ale również zysk optyczny $\textrm{Im}(\varepsilon)<0$~\footnote{Istniejące w przyrodzie materiały dla zakresu optycznego i podczerwieni charakteryzują się $\mu \approx 1$ i nie posiadają wzmocnienia}. Wyniki dla obu polaryzacji po zastosowaniu się do wymienionych ograniczeń przedstawiają wykresy na rysunku \ref{fig:pml-real-ref}. Zaproponowany absorber składa się z~materiału stratnego oraz warstw charakteryzujących się przenikalnością elektryczną mniejszą od 1. Przedstawione wyniki obliczeń wskazują, że w~wyniku poczynionych założeń efektywność pracy wielowarstwy jako struktury PML znacznie różni się w~zależności od polaryzacji. W przeciwieństwie do obliczeń dla wielowarstw odpowiadających PML, narzucone warunki prowadzą do mniejszej wartości współczynnika odbicia dla polaryzacji TE. Wysokie współczynniki odbicia, uniemożliwiające zastosowanie wielowarstwy,  pojawiają się jednak jedynie dla kątów padania bliskich $90^{\circ}$, co jest charakterystyczne dla UPML.
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/pml/fig5.png}
 	\caption{Zależność natężeniowego współczynnika odbicia $R$, od kąta padania i~grubości warstw dla wielowarstwy składającej się z~$N=5$ okresów, dla $s=1+5i$ i~$f=0.6$. Spełniając założenie, że $\mu_{w2}=1$ (a,c) oraz $\mu_{w1}=\mu_{w2}=1$, $\textrm{Im}(\varepsilon_1)\ge 0 $ i~$\textrm{Im}(\varepsilon_2)\ge 0 $ (b,d). Wyniki dla polaryzacji TM (a,b) oraz TE (c,d). Przenikalność elektryczna $\varepsilon_{w1}=1.474+1.017i$~\cite{ania2015}.}
 	\label{fig:pml-real-ref}
@@ -81,7 +81,7 @@ W ogólności w~szerokich zakresach spektralnych większość materiałów chara
 
 Przykładem pary materiałów, które możemy zastosować w~realizacji UPML za pomocą wielowarstwy są $SiO_2$ i~$NaCl$ dla długości fali w~okolicach 8~µm. Przenikalności elektryczne zaproponowanych materiałów przedstawiają wykresy na rysunku \ref{fig:nacl-sio2-mat}. Rolę materiału o~przenikalności elektrycznej $\varepsilon \in (0,1)$, spełnia w~tym obszarze $SiO_2$, ponieważ dla długości fali $9.5$~µm występuje dla tego materiału rezonans. Również wartość efektywna części urojonej $\varepsilon$ wielowarstwy wynika głównie z~własności $SiO_2$. 
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\begin{subfigure}{0.45\textwidth}
 		\includegraphics[width=\textwidth]{images/pml/nacl.png}
 		\caption{}
@@ -104,14 +104,14 @@ Efektywne własności stosu złożonego z~naprzemiennych warstw $NaCl$ i~$SiO_2$
 
 Opierając się na zaprojektowanej wielowarstwie można zaproponować jej modyfikację w~geometrii cylindrycznej. W tym przypadku jakość nieodbijającej warstwy absorpcyjnej możemy ocenić na podstawie symulacji, w~których wewnątrz struktury typu \textit{core-shell} zamknięty zostanie walec z~idealnego przewodnika. Rozkład gęstości energii pola E-M dla struktury typu \textit{core-shell} odpowiadającej rozważanej wielowarstwie, oświetlonej falą monochromatyczną dla polaryzacji TM~i~TE przedstawia rysunek \ref{fig:oqecoreshell}.
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\centering
 	\includegraphics[width=0.6\textwidth]{images/pml/oqe_trans_refl.png}
 	\caption{Współczynnik transmisji (linia ciągła) i~odbicia (linia przerywana) dla wielowarstwy złożonej z~$SiO_2$/$NaCl$ zaprojektowanej dla oświetlenia falą o długości 8~µm, dla której współczynniki załamania $n_{\textrm{SiO}_2}=0.41+0.32i$, $n_{\textrm{NaCl}}=$~1.51. Współczynnik wypełnienia struktury przez $SiO_2$ wynosi $f=0.56$, $a=200nm$. Rozważone zostały stosy o~liczbie par warstw $N=$~10,~100 i~400~\cite{ania2015}.}
 	\label{fig:oqe-trans-refl}
 \end{figure}
 
-\begin{figure}[tb]
+\begin{figure}[htb]
 	\includegraphics[width=\textwidth]{images/pml/oqe_coreshell.png}
 	\caption{Wyniki symulacji w geometrii cylindrycznej dla polaryzacji (a) TE i~(b) TM. Struktura typu core-shell oświetlona jest z~dołu. Na rysunku (a) zamieszczono wzorzec długości fali.}
 	\label{fig:oqecoreshell}
@@ -121,8 +121,8 @@ Opierając się na zaprojektowanej wielowarstwie można zaproponować jej modyfi
 
 Porównując uzyskane wyniki do warstw absorbujących otrzymywanych innymi metodami, należy dosyć krytycznie ocenić możliwość wykorzystania tego typu struktur w zastosowaniach eksperymentalnych. Wprowadzone uproszczenia umożliwiły zaproponowanie fizycznej realizacji absorbera w oparciu o realne materiały, jednak wartości współczynnika odbicia, w szczególności dla dużych kątów padania, nie są satysfakcjonujące. Należy również zwrócić uwagę, że uzyskanie wysokiego współczynnika absorpcji jest możliwe przy zastosowaniu znaczącej liczby par warstw, w wyniku czego metamateriał tworzący warstwę absorpcyjną staje się znacznie grubszy od długości fali. 
 
-\begin{figure}[tb]
-	\includegraphics[width=\textwidth]{images/pml/optiabsorb.png}
+\begin{figure}[htb]
+	\includegraphics[width=0.8\textwidth]{images/pml/optiabsorb.png}
 	\caption{Zależność współczynnika absorpcji od długości fali dla padania normalnego oraz uśrednionego po cosinusach kątów dla polaryzacji TM i TE dla zoptymalizowanej wielowarstwy $NiCr$-$BrF_2$~\cite{stefaniuk2015perfectly}}
 	\label{fig:optimulti}
 \end{figure}
