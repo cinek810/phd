@@ -97,22 +97,23 @@
 
 \end{center}
 
-\clearpage \titlepage \vspace*{15cm} \vfill
+%\clearpage \titlepage \vspace*{15cm} \vfill
 
-\begin{flushright}
-\begin{minipage}[!h]{12cm}
-\mbox{\large{\scshape \textbf{O\'SWIADCZENIE AUTORA PRACY}}}\\[3mm] 
-{\scshape O\'swiadczam, \'swiadomy odpowiedzialno\'sci karnej za po\'swiadczenie nieprawdy, \.ze niniejsz\k{a} prac\k{e} dyplomow\k{a} wykona\l{}em osobi\'scie i samodzielnie, i nie korzysta\l{}em ze \'zr\'ode\l{} innych ni\.z wymienione w pracy.}\\
-\end{minipage}
+%\begin{flushright}
+%\begin{minipage}[!h]{12cm}
+%\mbox{\large{\scshape \textbf{O\'SWIADCZENIE AUTORA PRACY}}}\\[3mm] 
+%{\scshape O\'swiadczam, \'swiadomy odpowiedzialno\'sci karnej za po\'swiadczenie nieprawdy, \.ze niniejsz\k{a} prac\k{e} dyplomow\k{a} wykona\l{}em osobi\'scie i samodzielnie, i nie korzysta\l{}em ze \'zr\'ode\l{} innych ni\.z wymienione w pracy.}\\
+%\end{minipage}
+%
+%\vspace{2cm}
+%
+%\makebox[6cm][s]{\dotfill}\par
+%\makebox[6cm][c]{\small PODPIS}
+%
+%\end{flushright}
 
-\vspace{2cm}
-
-\makebox[6cm][s]{\dotfill}\par
-\makebox[6cm][c]{\small PODPIS}
-
-\end{flushright}
-
-\clearpage \titlepage
+%\clearpage 
+\titlepage
 
 \begin{center}
 
