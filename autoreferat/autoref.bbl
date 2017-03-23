@@ -16,36 +16,42 @@
   {}
 \endgroup
 
-\entry{pastuszczak2013engineering}{article}{}
-  \name{author}{3}{}{%
+\entry{huang2012subwavelength}{article}{}
+  \name{author}{4}{}{%
     {{}%
-     {A.Pastuszczak}{A.}%
-     {}{}%
+     {Huang}{H.}%
+     {Shaowu}{S.}%
      {}{}%
      {}{}}%
     {{}%
-     {M.Stolarek}{M.}%
-     {}{}%
+     {Wang}{W.}%
+     {Haogang}{H.}%
      {}{}%
      {}{}}%
     {{}%
-     {Koty{\'n}ski}{K.}%
-     {R.}{R.}%
+     {Ding}{D.}%
+     {Kung-Hau}{K.-H.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Tsang}{T.}%
+     {Leung}{L.}%
      {}{}%
      {}{}}%
   }
   \list{publisher}{1}{%
-    {Springer}%
+    {Optical Society of America}%
   }
-  \strng{namehash}{AMKR1}
-  \strng{fullhash}{AMKR1}
-  \field{sortinit}{A}
-  \field{number}{4}
-  \field{pages}{355\bibrangedash 366}
-  \field{title}{Engineering the point spread function of layered metamaterials}
-  \field{volume}{21}
-  \field{journaltitle}{Opto-Electronics Review}
-  \field{year}{2013}
+  \strng{namehash}{HSWHDKHTL1}
+  \strng{fullhash}{HSWHDKHTL1}
+  \field{sortinit}{H}
+  \field{number}{8}
+  \field{pages}{1295\bibrangedash 1297}
+  \field{title}{Subwavelength imaging enhancement through a three-dimensional
+  plasmon superlens with rough surface}
+  \field{volume}{37}
+  \field{journaltitle}{Opt. Lett.}
+  \field{year}{2012}
 \endentry
 
 \entry{4171512}{article}{}
@@ -129,7 +135,7 @@
   \field{number}{8}
   \field{pages}{579\bibrangedash 582}
   \field{series}{NATURE PHOTONICS}
-  \field{title}{What is: and what is not: an optical isolator}
+  \field{title}{What is and what is not an optical isolator}
   \verb{url}
   \verb http://dx.doi.org/10.1038/nphoton.2013.185
   \endverb
@@ -186,7 +192,7 @@
   \field{title}{Theory of extraordinary optical transmission through
   subwavelength hole arrays}
   \field{volume}{86}
-  \field{journaltitle}{Physical review letters}
+  \field{journaltitle}{Phys. Rev. Lett.}
   \field{year}{2001}
 \endentry
 
@@ -233,8 +239,40 @@
   \verb http://dx.doi.org/10.1007/s11082-014-9986-z
   \endverb
   \field{volume}{47}
-  \field{journaltitle}{Optical and Quantum Electronics}
+  \field{journaltitle}{Opt. Quant. Electron.}
   \field{year}{2015}
+\endentry
+
+\entry{pastuszczak2013engineering}{article}{}
+  \name{author}{3}{}{%
+    {{}%
+     {Pastuszczak}{P.}%
+     {A.}{A.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Stolarek}{S.}%
+     {M.}{M.}%
+     {}{}%
+     {}{}}%
+    {{}%
+     {Koty{\'n}ski}{K.}%
+     {R.}{R.}%
+     {}{}%
+     {}{}}%
+  }
+  \list{publisher}{1}{%
+    {Springer}%
+  }
+  \strng{namehash}{PASMKR1}
+  \strng{fullhash}{PASMKR1}
+  \field{sortinit}{P}
+  \field{number}{4}
+  \field{pages}{355\bibrangedash 366}
+  \field{title}{Engineering the point spread function of layered metamaterials}
+  \field{volume}{21}
+  \field{journaltitle}{Opto-Electron. Rev.}
+  \field{year}{2013}
 \endentry
 
 \entry{PhysRevLett.85.3966}{article}{}
@@ -263,7 +301,6 @@
   \field{volume}{85}
   \field{journaltitle}{Phys. Rev. Lett.}
   \field{year}{2000}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{scalora-transparentmetal}{article}{}
@@ -313,7 +350,7 @@
   \verb http://scitation.aip.org/content/aip/journal/jap/83/5/10.1063/1.366996
   \endverb
   \field{volume}{83}
-  \field{journaltitle}{Journal of Applied Physics}
+  \field{journaltitle}{J. Appl. Phys.}
   \field{year}{1998}
 \endentry
 
@@ -338,18 +375,13 @@
   \strng{namehash}{SMPAKR1}
   \strng{fullhash}{SMPAKR1}
   \field{sortinit}{S}
-  \verb{doi}
-  \verb 10.1109/ICTON.2011.5971166
-  \endverb
-  \field{note}{cited By 0}
   \field{title}{Numerical analysis of transmission through a sub-wavelength
   metallic aperture or grating at visible and Terahertz wavelengths}
   \verb{url}
   \verb http://www.scopus.com/inward/record.url?eid=2-s2.0-80155146333&partnerI
   \verb D=40&md5=d1e264a029afe87b9ca131e0fc9d34fa
   \endverb
-  \field{journaltitle}{International Conference on Transparent Optical
-  Networks}
+  \field{journaltitle}{Proc. of ICTON}
   \field{year}{2011}
 \endentry
 
@@ -412,32 +444,32 @@
   \name{author}{6}{}{%
     {{}%
      {Stolarek}{S.}%
-     {M.}{M.}%
+     {Marcin}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Wr√≥bel}{W.}%
-     {P.}{P.}%
+     {Piotr}{P.}%
      {}{}%
      {}{}}%
     {{}%
      {Stefaniuk}{S.}%
-     {T.}{T.}%
+     {Tomasz}{T.}%
      {}{}%
      {}{}}%
     {{}%
      {Wlaz≈Ço}{W.}%
-     {M.}{M.}%
+     {Mateusz}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Pastuszczak}{P.}%
-     {A.}{A.}%
+     {Anna}{A.}%
      {}{}%
      {}{}}%
     {{}%
      {Koty≈Ñski}{K.}%
-     {R.}{R.}%
+     {Rafa≈Ç}{R.}%
      {}{}%
      {}{}}%
   }
@@ -452,7 +484,7 @@
   \field{title}{Spatial filtering with rough metal-dielectric layered
   metamaterials}
   \field{volume}{5}
-  \field{journaltitle}{Photonics Letters of Poland}
+  \field{journaltitle}{Photonics Lett. Pol.}
   \field{year}{2013}
 \endentry
 
@@ -460,22 +492,22 @@
   \name{author}{6}{}{%
     {{}%
      {Stolarek}{S.}%
-     {M.}{M.}%
+     {Marcin}{M.}%
      {}{}%
      {}{}}%
     {{}%
      {Yavorskiy}{Y.}%
-     {D.}{D.}%
+     {Dmitryj}{D.}%
      {}{}%
      {}{}}%
     {{}%
      {Koty\'{n}ski}{K.}%
-     {R.}{R.}%
+     {Rafa≈Ç}{R.}%
      {}{}%
      {}{}}%
     {{}%
      {Zapata-Rodr\'{i}guez}{Z.-R.}%
-     {C.~J.}{C.~J.}%
+     {Carlos}{C.}%
      {}{}%
      {}{}}%
     {{}%
@@ -485,7 +517,7 @@
      {}{}}%
     {{}%
      {Szoplik}{S.}%
-     {T.}{T.}%
+     {Tomasz}{T.}%
      {}{}%
      {}{}}%
   }
@@ -493,8 +525,8 @@
     {OSA}%
   }
   \keyw{Diffraction gratings; Subwavelength structures}
-  \strng{namehash}{SMYDKRZRCJLJST1}
-  \strng{fullhash}{SMYDKRZRCJLJST1}
+  \strng{namehash}{SMYDKRZRCLJST1}
+  \strng{fullhash}{SMYDKRZRCLJST1}
   \field{sortinit}{S}
   \field{abstract}{%
   We report on experimental evidence of unidirectional transmission of
@@ -518,11 +550,10 @@
   \field{volume}{38}
   \field{journaltitle}{Opt. Lett.}
   \field{year}{2013}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \entry{Szczytko2012271}{article}{}
-  \name{author}{11}{}{%
+  \name{author}{4}{}{%
     {{}%
      {Szczytko}{S.}%
      {J.}{J.}%
@@ -543,49 +574,13 @@
      {J.}{J.}%
      {}{}%
      {}{}}%
-    {{}%
-     {Wawro}{W.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Bara≈Ñska}{B.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Papis}{P.}%
-     {E.}{E.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Adomavisius}{A.}%
-     {R.}{R.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Krotkus}{K.}%
-     {A.}{A.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Pa≈Çka}{P.}%
-     {N.}{N.}%
-     {}{}%
-     {}{}}%
-    {{}%
-     {Zagrajek}{Z.}%
-     {P.}{P.}%
-     {}{}%
-     {}{}}%
   }
-  \strng{namehash}{SJSMPB≈JWABAPEARKAPNZP1}
-  \strng{fullhash}{SJSMPB≈JWABAPEARKAPNZP1}
+  \strng{namehash}{SJSMPB≈J1}
+  \strng{fullhash}{SJSMPB≈J1}
   \field{sortinit}{S}
   \verb{doi}
   \verb 10.1109/MIKON.2012.6233514
   \endverb
-  \field{note}{cited By 0}
   \field{pages}{271\bibrangedash 275}
   \field{title}{Terahertz properties of metallic layers and grids}
   \verb{url}
@@ -593,8 +588,7 @@
   \verb D=40&md5=f55c490b2fb9d5a5c186a4c6ff27ef4a
   \endverb
   \field{volume}{1}
-  \field{journaltitle}{2012 19th International Conference on Microwaves, Radar
-  and Wireless Communications, MIKON 2012}
+  \field{journaltitle}{Proc. of MIKON}
   \field{year}{2012}
 \endentry
 
@@ -652,7 +646,6 @@
   \field{volume}{22}
   \field{journaltitle}{Opt. Express}
   \field{year}{2014}
-  \warn{\item Invalid format of field 'month'}
 \endentry
 
 \lossort
