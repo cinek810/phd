@@ -1,0 +1,4 @@
+transmisja 56, 19, 0 
+mierzona 1um od struktury na calej szerokosci symulacji
+przy pomocy meep flux'a
+odnoszona do symulacji bez struktury z pomiarem na meep flux 10 nm od zrodla bez struktury
