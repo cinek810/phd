@@ -6,7 +6,8 @@
 \addbibresource{bibliografia.bib}
 \renewcommand{\footnotesize}{\tiny}
 
-\title{Molding the flow of light with subwavelength elements}
+%\title{Molding the flow of light with subwavelength elements}
+\title{Diffractive , refractive and absorptivei optical elements based on periodic sub - wavelength metallic structures}
 \subtitle{Summary of PhD studies}
 \author{Marcin Stolarek}
 \institute{Information Optics Division, Faculty of Physics}
@@ -47,10 +48,11 @@
 							0 & 0 &  \mu_{\perp} \end{array} \right]
 			\] 		
 
-			$\varepsilon_{\parallel}=f\cdot{\varepsilon_1}+{1-f}\cdot \varepsilon_2$\\
+			$\varepsilon_{\parallel}=f\cdot{\varepsilon_1}+(1-f)\cdot \varepsilon_2$\\
 			$\varepsilon_{\perp}=\left(f\cdot{\varepsilon_1^{-1}}+(1-f)\cdot \varepsilon_2^{-1}\right)^{-1}$\\
 			$\mu_{\parallel}=f\cdot{\mu_1}+{1-f}\cdot \mu_2$\\
 			$\mu_{\perp}=\left(f\cdot{\mu_1^{-1}}+(1-f)\cdot \mu_2^{-1}\right)^{-1}$
+		$f=\frac{d_1}{d_1+d2}$
 		\end{column}
 	\end{columns}
 	{\tiny {\tiny  \cite{PhysRevLett.85.3966}}}
@@ -217,10 +219,11 @@ Subwawelength beam concentrator based on metal-dielectric multilayers
 	\begin{columns}
 		\begin{column}{0.5\textwidth}
 			%	W symulacjach struktury w~pelni gladkiej widoczna byla stojaca fala powierzchniowa na granicy metal-dielektryk, która zanika przy wprowadzeniu nawet minimalnej chropowatości -poprawa współczynnika transmisji.\\
-				The surface mode is no longer excited in the presence of surface roughness.\\
+				The surface mode is no longer excited in the presence of arbitrary surface roughness.\\
 			%	Chropowatość może poprawiać PSF.\\
-				Additionally roughness can improve the PSF.
+				Additionally roughness (sinusoidal) can improve the PSF.
 
+				{\tiny \cite{huang2012subwavelength}}
 		\end{column}
 		\begin{column}{0.5\textwidth}
 			\begin{figure}[htb]
@@ -247,7 +250,7 @@ Subwawelength beam concentrator based on metal-dielectric multilayers
 		\begin{column}{0.5\textwidth}
 				\includegraphics[width=\textwidth]{../images/multilayer/oer-rms05.png}\\
 			%	Generalnie: nawet chropowatości na poziomie RMS ~ 1nm mogą znacząco zmniejszyć współczynnik transmisji przez wielowarstwę. \\
-				Surface roughness of $RMS=1$~nm can significantly decrease transmission through mulitlayer structure. Especially when the number of layers is large.
+				Surface roughness of $RMS=1$~nm can significantly decrease transmission through mulitlayer structure. Especially when the number of layers is large. RMS on the pictures equal to 0, 1 and 5~nm.
 			
 		%		 Szczególnie w~przypadku dużej liczby warstw.
 		\end{column}
@@ -270,7 +273,7 @@ Subwawelength beam concentrator based on metal-dielectric multilayers
 			{\tiny Theoretical maximum of transmission:}\\
 			\centerline{$\frac{\lambda}{n_{eff}}=2\frac{h}{m}$}
 			\begin{figure}[htb]
-				\includegraphics[width=.9\textwidth]{../images/antenaThz/schemat.png}\\
+				\includegraphics[width=.9\textwidth]{./schemat.png}\\
 				\includegraphics[width=.9\textwidth]{../images/antenaThz/rezonant_trans_f001.png}\\
 			\end{figure}
 		
@@ -282,6 +285,7 @@ Subwawelength beam concentrator based on metal-dielectric multilayers
 			\end{figure}
 		\end{column}
 	\end{columns}
+	Plots for $f=\frac{d}{L}=$0.01, 0.1 and 0.5\\
 	{\tiny \cite{martin2001theory}	}
 	
 \end{frame}
@@ -297,7 +301,7 @@ Subwawelength beam concentrator based on metal-dielectric multilayers
 			\end{figure}
 		\end{column}
 		\begin{column}{0.5\textwidth}
-				\includegraphics[width=\textwidth]{../images/antenaThz/rez_trans_L.png}\\
+				\includegraphics[width=\textwidth]{rez_trans_L.png}\\
 		%	Symulacje prowadzone byly z~roznymi modelami materialowymi, zostalo potwierdzone, że w~prowadzonych pracach metale mogą być przybliżane za pomocą PEC.
 		\begin{itemize}
 			\item Material properties for THz and visible light are different
@@ -504,7 +508,7 @@ Asymmetric transmission doesn't mean the device is an optical isolator.
 			\end{figure}
 				
 %		{\tiny	Dzięki oddzielnemu rozważaniu polaryzacji możemy wykluczyć zależność od części parametrów materiałowych. Nie możemy jednak wykluczyć zespolonego charakteru µ.}
-		{\tiny Thaks to equation seperations for for two polarizations we can exclude the dependence from a few of material parameters, but the complex character of µ is still difficult to deal with}	
+		{\tiny Thaks to equation seperations for for two polarizations we can exclude the dependence from a few of material parameters, but the complex character of $\mu$ is still difficult to deal with}	
 
 			\begin{figure}[htb]
 						\includegraphics[width=0.9\textwidth]{../images/pml/oqe_reflection_kat_simp.png}

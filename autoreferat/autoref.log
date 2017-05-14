@@ -1,11 +1,11 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.2.28)  30 APR 2015 08:12
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.9.24)  23 MAR 2017 08:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **autoref.tex
 (./autoref.tex
 LaTeX2e <2011/06/27>
-Babel <3.9f> and hyphenation patterns for 3 languages loaded.
+Babel <3.9h> and hyphenation patterns for 3 languages loaded.
 (/usr/share/texmf/tex/latex/beamer/base/beamer.cls
 (/usr/share/texmf/tex/latex/beamer/base/beamerbasercs.sty
 Package: beamerbasercs 2012/11/13 (rcs-revision cb16a617839f)
@@ -398,7 +398,7 @@ Package hyperref Info: Bookmarks ON on input line 4688.
 
 (/usr/share/texlive/texmf-dist/tex/latex/url/url.sty
 \Urlmuskip=\muskip10
-Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
 LaTeX Info: Redefining \url on input line 5041.
 \XeTeXLinkMargin=\dimen162
@@ -679,23 +679,23 @@ Package: beamercolorthemeorchid 2010/06/17  (rcs-revision d02a7cf4d8ae)
 Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )) (/usr/share/texlive/texmf-dist/tex/generic/babel/english.sty
 
-! Package babel Error: You have used an old interface to call babel
-(babel)                You may expect compatibility problems wit other packages
-.
+! Package babel Error: You are loading directly a language style.
+(babel)                This syntax is deprecated and you must use
+(babel)                \usepackage[language]{babel}.
 
 See the babel package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.74     \bblstyerror
+l.75     \bblstyerror
                      
 ? 
 (/usr/share/texlive/texmf-dist/tex/generic/babel-english/english.ldf
 Language: english 2012/08/20 v3.3p English support from the babel system
 
 (/usr/share/texlive/texmf-dist/tex/generic/babel/babel.def
-File: babel.def 2013/05/16 v3.9f Babel common definitions
-LaTeX Info: Redefining \textlatin on input line 130.
+File: babel.def 2013/12/03 3.9h Babel common definitions
+LaTeX Info: Redefining \textlatin on input line 137.
 \babel@savecnt=\count153
 \U@D=\dimen185
 )
@@ -705,6 +705,12 @@ LaTeX Info: Redefining \textlatin on input line 130.
 \l@australian = a dialect from \language\l@british 
 \l@newzealand = a dialect from \language\l@british 
 ))
+! Undefined control sequence.
+<argument> \bbl@language@opts 
+                              
+l.4 \usepackage
+               [utf8]{inputenc}
+? 
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2008/03/30 v1.1d Input encoding file
 \inpenc@prehook=\toks40
@@ -1137,20 +1143,20 @@ Package biblatex Warning: Patching footnotes failed.
 (./autoref.aux)
 \openout1 = `autoref.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 17.
-LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 18.
+LaTeX Font Info:    ... okay on input line 18.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1216,7 +1222,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box54
-Package hyperref Info: Link coloring OFF on input line 17.
+Package hyperref Info: Link coloring OFF on input line 18.
 
 (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1226,56 +1232,56 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count321
 )
-LaTeX Info: Redefining \ref on input line 17.
-LaTeX Info: Redefining \pageref on input line 17.
-LaTeX Info: Redefining \nameref on input line 17.
+LaTeX Info: Redefining \ref on input line 18.
+LaTeX Info: Redefining \pageref on input line 18.
+LaTeX Info: Redefining \nameref on input line 18.
 
 (./autoref.out) (./autoref.out)
 \@outlinefile=\write6
 \openout6 = `autoref.out'.
 
 LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
-(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 17.
+(Font)                  OT1/cmr/m/n --> OT1/cmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 17.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 18.
 \symnumbers=\mathgroup6
 \sympureletters=\mathgroup7
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 17.
-LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 17.
+(Font)                  OT1/cmss/m/n --> OT1/cmr/m/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 17.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 17.
-LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 17.
+(Font)                  OT1/cmr/bx/n --> OT1/cmss/bx/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathsf on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 17.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 17.
-LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 17.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/m/n on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathit on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
-(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 17.
+(Font)                  OT1/cmr/m/it --> OT1/cmss/m/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 17.
-LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 17.
+(Font)                  OT1/cmr/bx/it --> OT1/cmss/m/it on input line 18.
+LaTeX Font Info:    Redeclaring math alphabet \mathtt on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/m/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `numbers' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 17.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting symbol font `pureletters' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 17.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathrm' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 17.
+(Font)                  OT1/cmss/bx/n --> OT1/cmr/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
-(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 17.
+(Font)                  OT1/cmss/bx/n --> OT1/cmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
-(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 17.
+(Font)                  OT1/cmss/m/n --> OT1/cmss/bx/n on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
-(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 17.
+(Font)                  OT1/cmss/m/it --> OT1/cmss/bx/it on input line 18.
 LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
-(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 17.
+(Font)                  OT1/cmtt/m/n --> OT1/cmtt/bx/n on input line 18.
 
 (/usr/share/texmf/tex/latex/beamer/base/translator/dicts/translator-basic-dicti
 onary/translator-basic-dictionary-English.dict
@@ -1301,7 +1307,7 @@ Dictionary: translator-numbers-dictionary, Language: English
 tionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 17.
+LaTeX Info: Redefining \includegraphics on input line 18.
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
@@ -1314,53 +1320,55 @@ Package biblatex Warning: Data encoding is 'utf8'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'autoref.bbl' found.
-(./autoref.bbl
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'PhysRevLett.85.3966':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Stolarek:13':
-(biblatex)                - Invalid format of field 'month'.
-
-
-Package biblatex Warning: BibTeX reported the following issues
-(biblatex)                with 'Yavorskiy:14':
-(biblatex)                - Invalid format of field 'month'.
-
-)
-Package biblatex Info: Reference section=0 on input line 17.
-Package biblatex Info: Reference segment=0 on input line 17.
+(./autoref.bbl)
+Package biblatex Info: Reference section=0 on input line 18.
+Package biblatex Info: Reference segment=0 on input line 18.
  (./autoref.nav)
+Overfull \hbox (127.26505pt too wide) in paragraph at lines 18--18
+ [][][][]  
+ []
+
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 20.
+(Font)              size <5> substituted on input line 21.
+
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
 
-] (./autoref.toc) [2
+] (./autoref.toc)
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
-]
-<../images/multilayer/multilayer-3d.png, id=139, 539.01375pt x 562.1pt>
+[2
+
+] <../images/multilayer/multilayer-3d.png, id=139, 539.01375pt x 562.1pt>
 File: ../images/multilayer/multilayer-3d.png Graphic file (type png)
 
 <use ../images/multilayer/multilayer-3d.png>
 Package pdftex.def Info: ../images/multilayer/multilayer-3d.png used on input l
-ine 57.
+ine 59.
 (pdftex.def)             Requested size: 153.64493pt x 160.22589pt.
-LaTeX Font Info:    Try loading font information for U+msa on input line 57.
+LaTeX Font Info:    Try loading font information for U+msa on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 57.
+LaTeX Font Info:    Try loading font information for U+msb on input line 59.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-Overfull \vbox (2.21246pt too high) detected at line 57
+Overfull \vbox (2.21246pt too high) detected at line 59
+ []
+
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [3
@@ -1371,42 +1379,52 @@ File: ../images/multilayer/nondiffAMR.png Graphic file (type png)
 
 <use ../images/multilayer/nondiffAMR.png>
 Package pdftex.def Info: ../images/multilayer/nondiffAMR.png used on input line
- 79.
+ 81.
 (pdftex.def)             Requested size: 153.64493pt x 121.11716pt.
- [4
 
- <../images/multilayer/nondiffAMR.png>] <images/MTF-example.png, id=214, 513.92
-pt x 403.5075pt>
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[4
+
+ <../images/multilayer/nondiffAMR.png>]
+<images/MTF-example.png, id=214, 513.92pt x 403.5075pt>
 File: images/MTF-example.png Graphic file (type png)
 
 <use images/MTF-example.png>
-Package pdftex.def Info: images/MTF-example.png used on input line 106.
+Package pdftex.def Info: images/MTF-example.png used on input line 108.
 (pdftex.def)             Requested size: 76.82246pt x 60.31416pt.
 
 <images/MTF-perfect.png, id=216, 197.73875pt x 148.555pt>
 File: images/MTF-perfect.png Graphic file (type png)
 
 <use images/MTF-perfect.png>
-Package pdftex.def Info: images/MTF-perfect.png used on input line 106.
+Package pdftex.def Info: images/MTF-perfect.png used on input line 108.
 (pdftex.def)             Requested size: 92.18788pt x 69.2587pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 106--106
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 108--108
  [][] 
  []
 
 <images/Spoke.png, id=217, 513.92pt x 513.92pt>
 File: images/Spoke.png Graphic file (type png)
  <use images/Spoke.png>
-Package pdftex.def Info: images/Spoke.png used on input line 106.
+Package pdftex.def Info: images/Spoke.png used on input line 108.
 (pdftex.def)             Requested size: 76.82246pt x 76.81804pt.
 
 <images/Spoke-perfect.png, id=218, 513.92pt x 513.92pt>
 File: images/Spoke-perfect.png Graphic file (type png)
 
 <use images/Spoke-perfect.png>
-Package pdftex.def Info: images/Spoke-perfect.png used on input line 106.
+Package pdftex.def Info: images/Spoke-perfect.png used on input line 108.
 (pdftex.def)             Requested size: 76.82246pt x 76.81804pt.
- [5
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[5
 
  <./images/MTF-example.png> <./images/MTF-perfect.png> <./images/Spoke.png> <./
 images/Spoke-perfect.png>]
@@ -1414,377 +1432,470 @@ images/Spoke-perfect.png>]
 File: ../images/multilayer/prism.png Graphic file (type png)
 
 <use ../images/multilayer/prism.png>
-Package pdftex.def Info: ../images/multilayer/prism.png used on input line 127.
+Package pdftex.def Info: ../images/multilayer/prism.png used on input line 129.
 
 (pdftex.def)             Requested size: 153.64493pt x 115.69865pt.
- [6
 
- <../images/multilayer/prism.png (PNG copy)>] <../images/multilayer/prism04.png
-, id=287, 840.13875pt x 466.74374pt>
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[6
+
+ <../images/multilayer/prism.png>]
+<../images/multilayer/prism04.png, id=288, 840.13875pt x 466.74374pt>
 File: ../images/multilayer/prism04.png Graphic file (type png)
 
 <use ../images/multilayer/prism04.png>
 Package pdftex.def Info: ../images/multilayer/prism04.png used on input line 14
-6.
+8.
 (pdftex.def)             Requested size: 153.64493pt x 85.3563pt.
 
-<../images/multilayer/prism08.png, id=288, 842.14626pt x 471.7625pt>
+<../images/multilayer/prism08.png, id=289, 842.14626pt x 471.7625pt>
 File: ../images/multilayer/prism08.png Graphic file (type png)
 
 <use ../images/multilayer/prism08.png>
 Package pdftex.def Info: ../images/multilayer/prism08.png used on input line 14
-6.
+8.
 (pdftex.def)             Requested size: 153.64493pt x 86.06534pt.
 
-<../images/multilayer/prism12.png, id=289, 843.15pt x 472.76625pt>
+<../images/multilayer/prism12.png, id=290, 843.15pt x 472.76625pt>
 File: ../images/multilayer/prism12.png Graphic file (type png)
 
 <use ../images/multilayer/prism12.png>
 Package pdftex.def Info: ../images/multilayer/prism12.png used on input line 14
-6.
+8.
 (pdftex.def)             Requested size: 153.64493pt x 86.14746pt.
- [7
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[7
 
  <../images/multilayer/prism04.png> <../images/multilayer/prism08.png> <../imag
 es/multilayer/prism12.png>]
-<../images/multilayer/konc_eps_mgr.png, id=323, 147.55125pt x 364.36125pt>
+<../images/multilayer/konc_eps_mgr.png, id=324, 147.55125pt x 364.36125pt>
 File: ../images/multilayer/konc_eps_mgr.png Graphic file (type png)
 
 <use ../images/multilayer/konc_eps_mgr.png>
 Package pdftex.def Info: ../images/multilayer/konc_eps_mgr.png used on input li
-ne 173.
+ne 175.
 (pdftex.def)             Requested size: 147.55087pt x 364.36035pt.
 
-<../images/multilayer/konc_ene_mgr.png, id=324, 251.94125pt x 347.2975pt>
+<../images/multilayer/konc_ene_mgr.png, id=325, 251.94125pt x 347.2975pt>
 File: ../images/multilayer/konc_ene_mgr.png Graphic file (type png)
 
 <use ../images/multilayer/konc_ene_mgr.png>
 Package pdftex.def Info: ../images/multilayer/konc_ene_mgr.png used on input li
-ne 173.
+ne 175.
 (pdftex.def)             Requested size: 251.94063pt x 347.29665pt.
- [8
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[8
 
  <../images/multilayer/konc_eps_mgr.png (PNG copy)> <../images/multilayer/konc_
 ene_mgr.png (PNG copy)>]
-<../images/multilayer/konc_polk_poynt.png, id=357, 274.02374pt x 276.03125pt>
+<../images/multilayer/konc_polk_poynt.png, id=358, 274.02374pt x 276.03125pt>
 File: ../images/multilayer/konc_polk_poynt.png Graphic file (type png)
 
 <use ../images/multilayer/konc_polk_poynt.png>
 Package pdftex.def Info: ../images/multilayer/konc_polk_poynt.png used on input
- line 189.
+ line 191.
 (pdftex.def)             Requested size: 153.64493pt x 154.7744pt.
 
-<../images/multilayer/konc_coreshell_energy.png, id=358, 284.06125pt x 279.0425
+<../images/multilayer/konc_coreshell_energy.png, id=359, 284.06125pt x 279.0425
 pt>
 File: ../images/multilayer/konc_coreshell_energy.png Graphic file (type png)
  <use ../images/multilayer/konc_coreshell_energy.png>
 Package pdftex.def Info: ../images/multilayer/konc_coreshell_energy.png used on
- input line 189.
+ input line 191.
 (pdftex.def)             Requested size: 153.64493pt x 150.93617pt.
- [9
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[9
 
  <../images/multilayer/konc_polk_poynt.png> <../images/multilayer/konc_coreshel
 l_energy.png>]
-<../images/multilayer/plp-afm-chropo-1d.png, id=391, 509.905pt x 249.93375pt>
+<../images/multilayer/plp-afm-chropo-1d.png, id=392, 509.905pt x 249.93375pt>
 File: ../images/multilayer/plp-afm-chropo-1d.png Graphic file (type png)
 
 <use ../images/multilayer/plp-afm-chropo-1d.png>
 Package pdftex.def Info: ../images/multilayer/plp-afm-chropo-1d.png used on inp
-ut line 214.
+ut line 216.
 (pdftex.def)             Requested size: 153.64493pt x 75.30867pt.
 
-<../images/multilayer/plp-afm-chropo.png, id=392, 364.36125pt x 295.1025pt>
+<../images/multilayer/plp-afm-chropo.png, id=393, 364.36125pt x 295.1025pt>
 File: ../images/multilayer/plp-afm-chropo.png Graphic file (type png)
 
 <use ../images/multilayer/plp-afm-chropo.png>
 Package pdftex.def Info: ../images/multilayer/plp-afm-chropo.png used on input 
-line 214.
+line 216.
 (pdftex.def)             Requested size: 153.64493pt x 124.43752pt.
 
-Overfull \vbox (1.6994pt too high) detected at line 214
+Overfull \vbox (1.6994pt too high) detected at line 216
+ []
+
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [10
 
  <../images/multilayer/plp-afm-chropo-1d.png> <../images/multilayer/plp-afm-chr
 opo.png>]
-<../images/multilayer/plp-chropo.png, id=426, 555.07375pt x 608.2725pt>
+<../images/multilayer/plp-chropo.png, id=427, 555.07375pt x 608.2725pt>
 File: ../images/multilayer/plp-chropo.png Graphic file (type png)
 
 <use ../images/multilayer/plp-chropo.png>
 Package pdftex.def Info: ../images/multilayer/plp-chropo.png used on input line
- 233.
+ 236.
 (pdftex.def)             Requested size: 153.64493pt x 168.36603pt.
- [11
 
- <../images/multilayer/plp-chropo.png>] <../images/multilayer/oer-rms0.png, id=
-458, 1343.0175pt x 800.9925pt>
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[11
+
+ <../images/multilayer/plp-chropo.png>]
+<../images/multilayer/oer-rms0.png, id=461, 1343.0175pt x 800.9925pt>
 File: ../images/multilayer/oer-rms0.png Graphic file (type png)
 
 <use ../images/multilayer/oer-rms0.png>
 Package pdftex.def Info: ../images/multilayer/oer-rms0.png used on input line 2
-59.
+62.
 (pdftex.def)             Requested size: 153.64493pt x 91.62943pt.
 
-<../images/multilayer/oer-rms01.png, id=459, 1343.0175pt x 800.9925pt>
+<../images/multilayer/oer-rms01.png, id=462, 1343.0175pt x 800.9925pt>
 File: ../images/multilayer/oer-rms01.png Graphic file (type png)
 
 <use ../images/multilayer/oer-rms01.png>
 Package pdftex.def Info: ../images/multilayer/oer-rms01.png used on input line 
-259.
+262.
 (pdftex.def)             Requested size: 153.64493pt x 91.62943pt.
 
-<../images/multilayer/oer-rms05.png, id=460, 1343.0175pt x 800.9925pt>
+<../images/multilayer/oer-rms05.png, id=463, 1343.0175pt x 800.9925pt>
 File: ../images/multilayer/oer-rms05.png Graphic file (type png)
 
 <use ../images/multilayer/oer-rms05.png>
 Package pdftex.def Info: ../images/multilayer/oer-rms05.png used on input line 
-259.
+262.
 (pdftex.def)             Requested size: 153.64493pt x 91.62943pt.
- [12
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[12
 
  <../images/multilayer/oer-rms0.png (PNG copy)> <../images/multilayer/oer-rms01
 .png (PNG copy)> <../images/multilayer/oer-rms05.png (PNG copy)>]
-<../images/antenaThz/schemat.png, id=494, 795.97375pt x 315.1775pt>
-File: ../images/antenaThz/schemat.png Graphic file (type png)
-
-<use ../images/antenaThz/schemat.png>
-Package pdftex.def Info: ../images/antenaThz/schemat.png used on input line 287
-.
+<./schemat.png, id=497, 795.97375pt x 315.1775pt>
+File: ./schemat.png Graphic file (type png)
+ <use ./schemat.png>
+Package pdftex.def Info: ./schemat.png used on input line 291.
 (pdftex.def)             Requested size: 138.2795pt x 54.75291pt.
 
-<../images/antenaThz/rezonant_trans_f001.png, id=495, 728.7225pt x 499.8675pt>
+<../images/antenaThz/rezonant_trans_f001.png, id=498, 728.7225pt x 499.8675pt>
 File: ../images/antenaThz/rezonant_trans_f001.png Graphic file (type png)
 
 <use ../images/antenaThz/rezonant_trans_f001.png>
 Package pdftex.def Info: ../images/antenaThz/rezonant_trans_f001.png used on in
-put line 287.
+put line 291.
 (pdftex.def)             Requested size: 138.2795pt x 94.84615pt.
 
-<../images/antenaThz/rezonant_trans_f01.png, id=496, 737.75626pt x 491.8375pt>
+<../images/antenaThz/rezonant_trans_f01.png, id=499, 737.75626pt x 491.8375pt>
 File: ../images/antenaThz/rezonant_trans_f01.png Graphic file (type png)
 
 <use ../images/antenaThz/rezonant_trans_f01.png>
 Package pdftex.def Info: ../images/antenaThz/rezonant_trans_f01.png used on inp
-ut line 287.
+ut line 291.
 (pdftex.def)             Requested size: 138.2795pt x 92.18178pt.
 
-<../images/antenaThz/rezonant_trans_f05.png, id=497, 717.68124pt x 483.8075pt>
+<../images/antenaThz/rezonant_trans_f05.png, id=500, 717.68124pt x 483.8075pt>
 File: ../images/antenaThz/rezonant_trans_f05.png Graphic file (type png)
 
 <use ../images/antenaThz/rezonant_trans_f05.png>
 Package pdftex.def Info: ../images/antenaThz/rezonant_trans_f05.png used on inp
-ut line 287.
+ut line 291.
 (pdftex.def)             Requested size: 138.2795pt x 93.21628pt.
- [13
 
- <../images/antenaThz/schemat.png> <../images/antenaThz/rezonant_trans_f001.png
-> <../images/antenaThz/rezonant_trans_f01.png> <../images/antenaThz/rezonant_tr
-ans_f05.png>]
-<../images/antenaThz/con_src_l500.png, id=534, 796.9775pt x 363.3575pt>
+Overfull \vbox (6.65154pt too high) detected at line 291
+ []
+
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[13
+
+ <./schemat.png> <../images/antenaThz/rezonant_trans_f001.png> <../images/anten
+aThz/rezonant_trans_f01.png> <../images/antenaThz/rezonant_trans_f05.png>]
+<../images/antenaThz/con_src_l500.png, id=541, 796.9775pt x 363.3575pt>
 File: ../images/antenaThz/con_src_l500.png Graphic file (type png)
 
 <use ../images/antenaThz/con_src_l500.png>
 Package pdftex.def Info: ../images/antenaThz/con_src_l500.png used on input lin
-e 309.
+e 313.
 (pdftex.def)             Requested size: 153.64493pt x 70.04771pt.
 
-<../images/antenaThz/con_src_l525.png, id=535, 788.9475pt x 371.3875pt>
+<../images/antenaThz/con_src_l525.png, id=542, 788.9475pt x 371.3875pt>
 File: ../images/antenaThz/con_src_l525.png Graphic file (type png)
 
 <use ../images/antenaThz/con_src_l525.png>
 Package pdftex.def Info: ../images/antenaThz/con_src_l525.png used on input lin
-e 309.
+e 313.
 (pdftex.def)             Requested size: 153.64493pt x 72.32675pt.
 
-<../images/antenaThz/con_src_l550.png, id=536, 804.00375pt x 380.42125pt>
+<../images/antenaThz/con_src_l550.png, id=543, 804.00375pt x 380.42125pt>
 File: ../images/antenaThz/con_src_l550.png Graphic file (type png)
 
 <use ../images/antenaThz/con_src_l550.png>
 Package pdftex.def Info: ../images/antenaThz/con_src_l550.png used on input lin
-e 309.
+e 313.
 (pdftex.def)             Requested size: 153.64493pt x 72.69292pt.
 
-<../images/antenaThz/rez_trans_L.png, id=537, 736.7525pt x 472.76625pt>
-File: ../images/antenaThz/rez_trans_L.png Graphic file (type png)
-
-<use ../images/antenaThz/rez_trans_L.png>
-Package pdftex.def Info: ../images/antenaThz/rez_trans_L.png used on input line
- 309.
+<rez_trans_L.png, id=544, 736.7525pt x 472.76625pt>
+File: rez_trans_L.png Graphic file (type png)
+ <use rez_trans_L.png>
+Package pdftex.def Info: rez_trans_L.png used on input line 313.
 (pdftex.def)             Requested size: 153.64493pt x 98.59131pt.
- [14
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[14
 
  <../images/antenaThz/con_src_l500.png> <../images/antenaThz/con_src_l525.png> 
-<../images/antenaThz/con_src_l550.png> <../images/antenaThz/rez_trans_L.png>]
-<../images/antenaThz/gaas_mod_structure.png, id=568, 692.5875pt x 551.05875pt>
+<../images/antenaThz/con_src_l550.png> <./rez_trans_L.png>]
+<../images/antenaThz/gaas_mod_structure.png, id=576, 692.5875pt x 551.05875pt>
 File: ../images/antenaThz/gaas_mod_structure.png Graphic file (type png)
 
 <use ../images/antenaThz/gaas_mod_structure.png>
 Package pdftex.def Info: ../images/antenaThz/gaas_mod_structure.png used on inp
-ut line 332.
+ut line 336.
 (pdftex.def)             Requested size: 153.64493pt x 122.24231pt.
 
-<../images/antenaThz/final_stru.png, id=569, 864.22874pt x 96.36pt>
+<../images/antenaThz/final_stru.png, id=577, 864.22874pt x 96.36pt>
 File: ../images/antenaThz/final_stru.png Graphic file (type png)
 
 <use ../images/antenaThz/final_stru.png>
 Package pdftex.def Info: ../images/antenaThz/final_stru.png used on input line 
-332.
+336.
 (pdftex.def)             Requested size: 307.28987pt x 34.26169pt.
- [15
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[15
 
  <../images/antenaThz/gaas_mod_structure.png> <../images/antenaThz/final_stru.p
-ng>]
-<./images/simplest_isolator.png, id=603, 352.31625pt x 164.615pt>
+ng>] <./images/simplest_isolator.png, id=611, 352.31625pt x 164.615pt>
 File: ./images/simplest_isolator.png Graphic file (type png)
 
 <use ./images/simplest_isolator.png>
-Package pdftex.def Info: ./images/simplest_isolator.png used on input line 357.
+Package pdftex.def Info: ./images/simplest_isolator.png used on input line 361.
 
 (pdftex.def)             Requested size: 153.64493pt x 71.7878pt.
 
 
 LaTeX Font Warning: Font shape `OT1/cmss/m/sc' in size <6> not available
-(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 357.
+(Font)              Font shape `OT1/cmr/m/sc' tried instead on input line 361.
+
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
 
 [16
 
  <./images/simplest_isolator.png>]
-<../images/dmg/letters_eneden.png, id=637, 508.90125pt x 542.025pt>
+<../images/dmg/letters_eneden.png, id=645, 508.90125pt x 542.025pt>
 File: ../images/dmg/letters_eneden.png Graphic file (type png)
 
 <use ../images/dmg/letters_eneden.png>
-Package pdftex.def Info: ../images/dmg/letters_eneden.png used on input line 37
-7.
+Package pdftex.def Info: ../images/dmg/letters_eneden.png used on input line 38
+1.
 (pdftex.def)             Requested size: 153.64493pt x 163.64258pt.
 
-<../images/dmg/letters_schemat.png, id=638, 557.08125pt x 201.75375pt>
+<../images/dmg/letters_schemat.png, id=646, 557.08125pt x 201.75375pt>
 File: ../images/dmg/letters_schemat.png Graphic file (type png)
 
 <use ../images/dmg/letters_schemat.png>
 Package pdftex.def Info: ../images/dmg/letters_schemat.png used on input line 3
-77.
+81.
 (pdftex.def)             Requested size: 153.64493pt x 55.64406pt.
- [17
 
- <../images/dmg/letters_eneden.png> <../images/dmg/letters_schemat.png>]
-<../images/dmg/letters_exp_setup.png, id=671, 567.11874pt x 261.97874pt>
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[17
+
+ <../images/dmg/letters_eneden.png> <../images/dmg/letters_schemat.png (PNG cop
+y)>]
+<../images/dmg/letters_exp_setup.png, id=679, 567.11874pt x 261.97874pt>
 File: ../images/dmg/letters_exp_setup.png Graphic file (type png)
 
 <use ../images/dmg/letters_exp_setup.png>
 Package pdftex.def Info: ../images/dmg/letters_exp_setup.png used on input line
- 399.
+ 403.
 (pdftex.def)             Requested size: 153.64493pt x 70.97505pt.
 
-<../images/dmg/letters_spect.png, id=672, 518.93875pt x 395.4775pt>
+<../images/dmg/letters_spect.png, id=680, 518.93875pt x 395.4775pt>
 File: ../images/dmg/letters_spect.png Graphic file (type png)
 
 <use ../images/dmg/letters_spect.png>
-Package pdftex.def Info: ../images/dmg/letters_spect.png used on input line 399
+Package pdftex.def Info: ../images/dmg/letters_spect.png used on input line 403
 .
 (pdftex.def)             Requested size: 153.64493pt x 117.09329pt.
 
-<../images/dmg/letters_exp.png, id=673, 521.95pt x 396.48125pt>
+<../images/dmg/letters_exp.png, id=681, 521.95pt x 396.48125pt>
 File: ../images/dmg/letters_exp.png Graphic file (type png)
 
 <use ../images/dmg/letters_exp.png>
-Package pdftex.def Info: ../images/dmg/letters_exp.png used on input line 399.
+Package pdftex.def Info: ../images/dmg/letters_exp.png used on input line 403.
 (pdftex.def)             Requested size: 153.64493pt x 116.7129pt.
- [18
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[18
 
  <../images/dmg/letters_exp_setup.png> <../images/dmg/letters_spect.png> <../im
 ages/dmg/letters_exp.png>]
-<../images/dmg/kontrast_schemat.png, id=705, 677.53125pt x 282.05376pt>
+<../images/dmg/kontrast_schemat.png, id=713, 677.53125pt x 282.05376pt>
 File: ../images/dmg/kontrast_schemat.png Graphic file (type png)
 
 <use ../images/dmg/kontrast_schemat.png>
 Package pdftex.def Info: ../images/dmg/kontrast_schemat.png used on input line 
-421.
+425.
 (pdftex.def)             Requested size: 153.64493pt x 63.96289pt.
 
-<../images/dmg/kontrast_maps.png, id=706, 1131.22626pt x 765.86125pt>
+<../images/dmg/kontrast_maps.png, id=714, 1131.22626pt x 765.86125pt>
 File: ../images/dmg/kontrast_maps.png Graphic file (type png)
 
 <use ../images/dmg/kontrast_maps.png>
-Package pdftex.def Info: ../images/dmg/kontrast_maps.png used on input line 421
+Package pdftex.def Info: ../images/dmg/kontrast_maps.png used on input line 425
 .
 (pdftex.def)             Requested size: 153.64493pt x 104.01785pt.
 
-<../images/dmg/kontrast_energy.png, id=707, 1048.91875pt x 500.87125pt>
+<../images/dmg/kontrast_energy.png, id=715, 1048.91875pt x 500.87125pt>
 File: ../images/dmg/kontrast_energy.png Graphic file (type png)
 
 <use ../images/dmg/kontrast_energy.png>
 Package pdftex.def Info: ../images/dmg/kontrast_energy.png used on input line 4
-21.
+25.
 (pdftex.def)             Requested size: 153.64493pt x 73.36198pt.
- [19
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[19
 
  <../images/dmg/kontrast_schemat.png> <../images/dmg/kontrast_maps.png> <../ima
 ges/dmg/kontrast_energy.png>]
-<../images/dmg/express_exp_setu.png, id=743, 420.57124pt x 278.03876pt>
+<../images/dmg/express_exp_setu.png, id=752, 420.57124pt x 278.03876pt>
 File: ../images/dmg/express_exp_setu.png Graphic file (type png)
 
 <use ../images/dmg/express_exp_setu.png>
 Package pdftex.def Info: ../images/dmg/express_exp_setu.png used on input line 
-440.
+444.
 (pdftex.def)             Requested size: 153.64493pt x 101.57451pt.
 
-<../images/dmg/express_siatki.png, id=744, 418.56375pt x 270.00874pt>
+<../images/dmg/express_siatki.png, id=753, 418.56375pt x 270.00874pt>
 File: ../images/dmg/express_siatki.png Graphic file (type png)
 
 <use ../images/dmg/express_siatki.png>
 Package pdftex.def Info: ../images/dmg/express_siatki.png used on input line 44
-0.
+4.
 (pdftex.def)             Requested size: 153.64493pt x 99.11063pt.
- [20
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[20
 
  <../images/dmg/express_exp_setu.png> <../images/dmg/express_siatki.png>]
-<../images/dmg/express_high_contrast.png, id=777, 952.55875pt x 166.6225pt>
+<../images/dmg/express_high_contrast.png, id=786, 952.55875pt x 166.6225pt>
 File: ../images/dmg/express_high_contrast.png Graphic file (type png)
 
 <use ../images/dmg/express_high_contrast.png>
 Package pdftex.def Info: ../images/dmg/express_high_contrast.png used on input 
-line 454.
+line 458.
 (pdftex.def)             Requested size: 307.28987pt x 53.7525pt.
 
-<../images/dmg/express_zarmata.png, id=778, 956.57375pt x 158.5925pt>
+<../images/dmg/express_zarmata.png, id=787, 956.57375pt x 158.5925pt>
 File: ../images/dmg/express_zarmata.png Graphic file (type png)
 
 <use ../images/dmg/express_zarmata.png>
 Package pdftex.def Info: ../images/dmg/express_zarmata.png used on input line 4
-54.
+58.
 (pdftex.def)             Requested size: 307.28987pt x 50.94664pt.
- [21
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[21
 
  <../images/dmg/express_high_contrast.png> <../images/dmg/express_zarmata.png>]
-
-<../images/dmg/express_exp.png, id=809, 932.48375pt x 362.35374pt>
+ <../images/dmg/express_exp.png, id=818, 932.48375pt x 362.35374pt>
 File: ../images/dmg/express_exp.png Graphic file (type png)
 
 <use ../images/dmg/express_exp.png>
-Package pdftex.def Info: ../images/dmg/express_exp.png used on input line 463.
+Package pdftex.def Info: ../images/dmg/express_exp.png used on input line 467.
 (pdftex.def)             Requested size: 307.28987pt x 119.41122pt.
- [22
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[22
 
  <../images/dmg/express_exp.png>]
-<../images/pml/oqe_schemat.png, id=841, 1069.9975pt x 461.725pt>
+<../images/pml/oqe_schemat.png, id=850, 1069.9975pt x 461.725pt>
 File: ../images/pml/oqe_schemat.png Graphic file (type png)
 
 <use ../images/pml/oqe_schemat.png>
-Package pdftex.def Info: ../images/pml/oqe_schemat.png used on input line 482.
+Package pdftex.def Info: ../images/pml/oqe_schemat.png used on input line 486.
 (pdftex.def)             Requested size: 307.28987pt x 132.60048pt.
- [23
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[23
 
  <../images/pml/oqe_schemat.png>]
-<../images/pml/oqe_materials.png, id=872, 1210.5225pt x 882.29625pt>
+<../images/pml/oqe_materials.png, id=881, 1210.5225pt x 882.29625pt>
 File: ../images/pml/oqe_materials.png Graphic file (type png)
 
 <use ../images/pml/oqe_materials.png>
-Package pdftex.def Info: ../images/pml/oqe_materials.png used on input line 489
+Package pdftex.def Info: ../images/pml/oqe_materials.png used on input line 493
 .
 (pdftex.def)             Requested size: 307.28987pt x 223.96613pt.
 
-Overfull \vbox (3.65268pt too high) detected at line 489
+Overfull \vbox (3.65268pt too high) detected at line 493
+ []
+
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [24
@@ -1792,52 +1903,65 @@ Overfull \vbox (3.65268pt too high) detected at line 489
  <../images/pml/oqe_materials.png>]
 File: ../images/pml/oqe_materials.png Graphic file (type png)
  <use ../images/pml/oqe_materials.png>
-Package pdftex.def Info: ../images/pml/oqe_materials.png used on input line 517
+Package pdftex.def Info: ../images/pml/oqe_materials.png used on input line 521
 .
 (pdftex.def)             Requested size: 153.64493pt x 111.98306pt.
 
-<../images/pml/oqe_reflection_kat.png, id=902, 1200.485pt x 455.7025pt>
+<../images/pml/oqe_reflection_kat.png, id=911, 1200.485pt x 455.7025pt>
 File: ../images/pml/oqe_reflection_kat.png Graphic file (type png)
 
 <use ../images/pml/oqe_reflection_kat.png>
 Package pdftex.def Info: ../images/pml/oqe_reflection_kat.png used on input lin
-e 517.
+e 521.
 (pdftex.def)             Requested size: 165.93709pt x 62.98436pt.
 
-<../images/pml/oqe_reflection_kat_simp.png, id=903, 1184.425pt x 448.67625pt>
+<../images/pml/oqe_reflection_kat_simp.png, id=912, 1184.425pt x 448.67625pt>
 File: ../images/pml/oqe_reflection_kat_simp.png Graphic file (type png)
 
 <use ../images/pml/oqe_reflection_kat_simp.png>
 Package pdftex.def Info: ../images/pml/oqe_reflection_kat_simp.png used on inpu
-t line 517.
+t line 521.
 (pdftex.def)             Requested size: 165.93709pt x 62.85532pt.
- [25
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
+[25
 
  <../images/pml/oqe_reflection_kat.png> <../images/pml/oqe_reflection_kat_simp.
-png>]
-<../images/pml/oqe_trans_refl.png, id=936, 727.71875pt x 515.9275pt>
+png>] <../images/pml/oqe_trans_refl.png, id=945, 727.71875pt x 515.9275pt>
 File: ../images/pml/oqe_trans_refl.png Graphic file (type png)
 
 <use ../images/pml/oqe_trans_refl.png>
 Package pdftex.def Info: ../images/pml/oqe_trans_refl.png used on input line 53
-5.
+9.
 (pdftex.def)             Requested size: 153.64493pt x 108.93053pt.
 
-<../images/pml/oqe_coreshell.png, id=937, 1023.825pt x 697.60625pt>
+<../images/pml/oqe_coreshell.png, id=946, 1023.825pt x 697.60625pt>
 File: ../images/pml/oqe_coreshell.png Graphic file (type png)
 
 <use ../images/pml/oqe_coreshell.png>
-Package pdftex.def Info: ../images/pml/oqe_coreshell.png used on input line 535
+Package pdftex.def Info: ../images/pml/oqe_coreshell.png used on input line 539
 .
 (pdftex.def)             Requested size: 169.01035pt x 115.15327pt.
 
-Overfull \hbox (15.36542pt too wide) in paragraph at lines 535--535
+Overfull \hbox (15.36542pt too wide) in paragraph at lines 539--539
  [] 
+ []
+
+
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
  []
 
 [26
 
  <../images/pml/oqe_trans_refl.png> <../images/pml/oqe_coreshell.png>]
+Overfull \hbox (127.26505pt too wide) has occurred while \output is active
+ [][][][]  
+ []
+
 [27
 
 ]
@@ -1850,11 +1974,11 @@ Overfull \hbox (15.36542pt too wide) in paragraph at lines 535--535
 \tf@snm=\write9
 \openout9 = `autoref.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 571.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 571.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 575.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 575.
  (./autoref.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 571.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 571.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 575.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 575.
 Package rerunfilecheck Info: File `autoref.out' has not changed.
 (rerunfilecheck)             Checksum: EAA3620A4604D24C10CC88EDF836EC66;579.
 
@@ -1865,16 +1989,16 @@ LaTeX Font Warning: Size substitutions with differences
 Package logreq Info: Writing requests to 'autoref.run.xml'.
 \openout1 = `autoref.run.xml'.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 571.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 575.
  ) 
 Here is how much of TeX's memory you used:
- 21543 strings out of 494996
- 395127 string characters out of 6180655
- 568643 words of memory out of 5000000
- 24155 multiletter control sequences out of 15000+600000
+ 21554 strings out of 494993
+ 395193 string characters out of 6180621
+ 569237 words of memory out of 5000000
+ 24168 multiletter control sequences out of 15000+600000
  11860 words of font info for 44 fonts, out of 8000000 for 9000
  34 hyphenation exceptions out of 8191
- 49i,19n,62p,946b,1974s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 49i,19n,62p,946b,1976s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmcsc10.pfb></u
 sr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/sha
 re/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/tex
@@ -1887,10 +2011,10 @@ c/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/ams
 fonts/cm/cmssi8.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/
 cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cms
 y8.pfb>
-Output written on autoref.pdf (27 pages, 7961252 bytes).
+Output written on autoref.pdf (27 pages, 7952394 bytes).
 PDF statistics:
- 1054 PDF objects out of 1200 (max. 8388607)
- 934 compressed objects within 10 object streams
- 76 named destinations out of 1000 (max. 500000)
+ 1063 PDF objects out of 1200 (max. 8388607)
+ 935 compressed objects within 10 object streams
+ 77 named destinations out of 1000 (max. 500000)
  399 words of extra memory for PDF output out of 10000 (max. 10000000)
 
